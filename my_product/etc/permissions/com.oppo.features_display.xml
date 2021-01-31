@@ -1,0 +1,32 @@
+
+<permissions>
+    <feature name="oppo.feature.20682" />
+    <!-- feature name="oppo.eyeprotect.support" / -->
+    <feature name="oppo.multibits.dimming.support" />
+    <!-- feature name="oppo.aod.support" / -->
+    <!-- feature name="oppo.aod.prevent.burn.support" / -->
+    <feature name="oppo.display.screen.gloablehbm.support" />
+    <feature name="oppo.autobrightctl.animation.support" />
+    <feature name="oppo.brightness.mode.automatic" />
+    <!-- feature name="oppo.display.dcbacklight.support" / -->
+    <!-- feature name="oppo.resolutionswitch.feature.support" / -->
+    <!-- feature name="oppo.dynamicfpsswitch.feature.support" / -->
+    <!-- feature name="oppo.display.colormode.support" / -->
+    <feature name="oppo.side.touch.fingerprint.sensor" />
+    <!-- feature name="oppo.hardware.fingerprint.optical.support" / -->
+    <!-- feature name="oppo.fingerprint.disable.dimlayer" / -->
+    <!-- feature name="oppo.autolight.psensor.notsupport" / -->
+    <feature name="com.oppo.feature.screen.heteromorphism" />
+    <feature name="oppo.roundcorner.support" />
+    <!-- feature name="oppo.display.cinema.mode.support" / -->
+    <!-- feature name="oppo.display.screen.underlightsensor.support" / -->
+    <!-- feature name="oppo.aod.transparent" / -->
+    <!-- feature name="oppo.multiuser.wfd.notsupport" / -->
+    <!-- Zeke.Shi@RM.MM.Display.Feature, 2019/11/18, Add for cabc dynamic level support -->
+    <feature name="cabc.level.dynamic.enable" />
+    <!-- Qing.Wu@PSW.AD.Wms.0000, 2019/09/26, Add for 90Hz screeb support on max -->
+    <feature name="oppo.display.screen.90hz.support"/>
+    <feature name="oppo.display.screen.defaultsmartmode"/>
+    <!-- Binqiang.Luo@RM.AD.Wms.0000, 2020/07/28, Add for benchmark support -->
+    <feature name="oppo.benchmark.support"/>
+</permissions>

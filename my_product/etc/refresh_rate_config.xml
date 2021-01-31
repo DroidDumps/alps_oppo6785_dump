@@ -1,0 +1,2241 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<!-- format: mode_auto-mode_90-mode_60-mode_120
+     value: 0(unspecified), 1(90Hz), 2(60Hz), 3(120Hz)
+     rateId="1-1-2-0" the preferred refresh rate id per setting mode
+     setting mode: auto  ,90hz     ,60hz  ,120hz
+     refresh rate: 90hz ,90hz,  60hz  ,default
+-->
+<refresh_rate_config version="20201110">
+<!-- cts activity -->
+  <item package="android.view.cts" activity="android.view.cts/.DisplayRefreshRateCtsActivity" rateId="2-2-2-2" />  <!--CTS测试fail-->
+  <item package="android.view.cts" activity="android.view.cts/.surfacevalidator.CapturedActivity" rateId="2-2-2-2" />  <!--CTS测试fail-->
+<!-- other activity -->
+  <item package="com.orange.live" activity="com.orange.live/com.tg.live.ui.activity.RoomActivity" rateId="2-2-2-2" />  <!--桔色直播中直播场景-->
+  <item package="com.fosung.lighthouse" activity="com.fosung.lighthouse/.master.amodule.main.activity.NewsDetailActivity" rateId="2-2-2-2" />  <!--灯塔党建中视频-->
+  <item package="com.quanmincai.caipiao" activity="com.quanmincai.caipiao/com.quanmincai.activity.information.ActionDetailActivity" rateId="2-2-2-2" />  <!--全民彩票中视频-->
+  <item package="io.dcloud.UNI098B211" activity="io.dcloud.UNI098B211/io.dcloud.PandoraEntryActivity" rateId="2-2-2-2" />  <!--短视频去水印中视频-->
+  <item package="com.ctdsbwz.kct" activity="com.ctdsbwz.kct/.ui.activity.NewsDetailActivity" rateId="2-2-2-2" />  <!--看楚天中视频-->
+  <item package="com.cjtec.fmradio" activity="com.cjtec.fmradio/com.yidian.newssdk.core.detail.article.video.YdVideoActivity" rateId="2-2-2-2" />  <!--FM手机调频收音机中视频-->
+  <item package="com.coloros.video" activity="com.coloros.video/com.oppo.video.mycenter.MoviePlayerActivity" rateId="2-2-2-2" />  <!--内置视频-->
+  <item package="com.tencent.android.qqdownloader" activity="com.tencent.android.qqdownloader/com.tencent.cloud.activity.VideoActivityV2" rateId="2-2-2-2" />  <!--应用宝中视频-->
+  <item package="com.qqgame.hlddz" activity="com.qqgame.hlddz/com.tencent.msdk.webview.WebViewActivity" rateId="2-2-2-2" />  <!--欢乐斗地主中视频-->
+  <item package="com.suning.mobile.epa" activity="com.suning.mobile.epa/com.suning.webview.H5UCBaseActivity" rateId="2-2-2-2" />  <!--苏宁金融中视频-->
+  <item package="com.kwai.videoeditor" activity="com.kwai.videoeditor/.activity.WebActivity" rateId="2-2-2-2" />  <!--快影中视频-->
+  <item package="com.chinamobile.mcloud" activity="com.chinamobile.mcloud/cn.hotview.tv.PlayerActivity" rateId="2-2-2-2" />  <!--和彩云中视频-->
+  <item package="com.uroad.carclub" activity="com.uroad.carclub/.FM.activity.ArticleDetailActivity" rateId="2-2-2-2" />  <!--ETC车宝中视频-->
+  <item package="com.dalongtech.cloud" activity="com.dalongtech.cloud/.app.home.HomePageActivity" rateId="2-2-2-2" />  <!--云电脑中视频-->
+  <item package="com.superstar.fantuan" activity="com.superstar.fantuan/com.asiainno.starfan.imagereview.ImagePagerActivity" rateId="2-2-2-2" />  <!--超级星饭团中视频播放-->
+  <item package="com.superstar.fantuan" activity="com.superstar.fantuan/com.asiainno.starfan.media.VideoDetailActivity" rateId="2-2-2-2" />  <!--超级星饭团中视频播放-->
+  <item package="com.xm.csee" activity="com.xm.csee/com.xworld.MainActivity" rateId="2-2-2-2" />  <!--超级看看中视频-->
+  <item package="info.red.virtual" activity="info.red.virtual/com.yidian.newssdk.core.detail.article.video.YdVideoActivity" rateId="2-2-2-2" />  <!--微信多开悟空分身中视频-->
+  <item package="com.hisunflytone.android" activity="com.hisunflytone.android/com.migu.browser.mvp.ui.activity.BrowserActivity" rateId="2-2-2-2" />  <!--咪咕圈圈中视频-->
+  <item package="com.fiberhome.exmobi.client.gaeaclientandroidedn7262" activity="com.fiberhome.exmobi.client.gaeaclientandroidedn7262/com.wdtrgf.homepage.ui.activity.ProductDetailActivity" rateId="2-2-2-2" />  <!--天然工坊中视频-->
+  <item package="com.cloudwallet" activity="com.cloudwallet/.ui.activity.VideoWebActivity" rateId="2-2-2-2" />  <!--云钱包中视频-->
+  <item package="kaixin4.xiaoshuo3" activity="kaixin4.xiaoshuo3/.MainActivity" rateId="2-2-2-2" />  <!--小公主苏菲亚全集中视频-->
+  <item package="com.sicent.app.baba" activity="com.sicent.app.baba/.ui.setting.BabaWebActivity" rateId="2-2-2-2" />  <!--网喵中视频-->
+  <item package="com.tencent.qqgame.xq" activity="com.tencent.qqgame.xq/com.tencent.msdk.webview.WebViewActivity" rateId="2-2-2-2" />  <!--天天象棋中视频-->
+  <item package="com.husor.beibei" activity="com.husor.beibei/.pdtdetail.PdtDetailActivity" rateId="2-2-2-2" />  <!--贝贝中视频-->
+  <item package="com.truckhome.bbs" activity="com.truckhome.bbs/.news.activity.VideoDetailsActivity" rateId="2-2-2-2" />  <!--卡车之家中视频-->
+  <item package="com.yirendai" activity="com.yirendai/.ui.more.WebActivity" rateId="2-2-2-2" />  <!--宜人贷借款中视频-->
+  <item package="com.gdhbgh.activity" activity="com.gdhbgh.activity/com.telecom.vhealth.ui.activities.movement.MovementWebActivity" rateId="2-2-2-2" />  <!--翼健康中视频-->
+  <item package="com.gdhbgh.activity" activity="com.gdhbgh.activity/com.telecom.vhealth.ui.activities.main.MainActivity5" rateId="2-2-2-2" />  <!--翼健康中视频-->
+  <item package="com.greenline.guahao" activity="com.greenline.guahao/.webkit.MainProcessCommonWebActivity" rateId="2-2-2-2" />  <!--微医中视频-->
+  <item package="com.youliao.topic" activity="com.youliao.topic/.MainActivity" rateId="2-2-2-2" />  <!--有料看看中视频-->
+  <item package="com.jx.privatebrowser" activity="com.jx.privatebrowser/com.cy.browser.BrowserActivity" rateId="2-2-2-2" />  <!--私密浏览器中视频-->
+  <item package="com.tencent.mobileqq" activity="com.tencent.mobileqq/dov.com.qq.im.QIMCameraCaptureActivity" rateId="2-2-2-2" />  <!--QQ中拍摄场景-->
+  <item package="com.tencent.mobileqq" activity="com.tencent.mobileqq/.activity.aio.photo.AIOGalleryActivity" rateId="2-2-2-2" />  <!--QQ聊天界面播放小视频-->
+  <item package="com.tencent.mobileqq" activity="com.tencent.mobileqq/.gallery.view.AIOGalleryActivity" rateId="2-2-2-2" />  <!--QQ聊天界面播放小视频,新版本-->
+  <item package="com.tencent.mobileqq" activity="com.tencent.mobileqq/.minigame.ui.GameActivity3" rateId="2-2-2-2" />  <!--QQ小游戏-->
+  <item package="com.tencent.mobileqq" activity="com.tencent.mobileqq/com.tencent.av.ui.AVActivity" rateId="2-2-2-2" />  <!-- bug 627267 -->
+  <item package="com.tencent.mobileqq" activity="com.tencent.mobileqq/com.tencent.av.ui.VideoInviteActivity" rateId="2-2-2-2" />  <!-- bug 627267 -->
+  <item package="com.youloft.calendar" activity="com.youloft.calendar/.WebActivity" rateId="2-2-2-2" />  <!--万年历中播放视频-->
+  <item package="com.taobao.mobile.dipei" activity="com.taobao.mobile.dipei/com.alipay.mobile.nebulacore.ui.H5Activity" rateId="2-2-2-2" />  <!--口碑中视频播放-->
+  <item package="com.Qunar" activity="com.Qunar/com.mqunar.hy.browser.activity.HyWebActivity01" rateId="2-2-2-2" />  <!--去哪旅行中视频播放-->
+  <item package="com.yiban.app" activity="com.yiban.app/.activity.LightAppActivity" rateId="2-2-2-2" />  <!--易班中视频播放-->
+  <item package="com.dotamax.app" activity="com.dotamax.app/com.max.app.module.live.WebViewActivity" rateId="2-2-2-2" />  <!--max+中视频播放-->
+  <item package="video.vue.android" activity="video.vue.android/.footage.ui.timeline.fullscreen.FullScreenVideoActivity" rateId="2-2-2-2" />  <!--vue中视频播放-->
+  <item package="com.xinhang.mobileclient" activity="com.xinhang.mobileclient/.ui.activity.HomeActivity" rateId="2-2-2-2" />  <!--河南移动中小视频播放-->
+  <item package="com.taobao.taobao" activity="com.taobao.taobao/com.taobao.taolive.room.TaoLiveVideoActivity" rateId="2-2-2-2" />  <!--淘宝中直播界面-->
+  <item package="com.sina.weibo" activity="com.sina.weibo/.video.recommend.RecommendVideoFeedActivity" rateId="2-2-2-2" />  <!--微博中视频播放-->
+  <item package="com.sina.weibo" activity="com.sina.weibo/.video.detail.VideoDetailActivity" rateId="2-2-2-2" />  <!--微博中视频播放-->
+  <item package="com.sina.weibo" activity="com.sina.weibo/.story.gallery.activity.VVSActivity" rateId="2-2-2-2" />  <!--微博中视频播放-->
+  <item package="com.ss.android.article.news" activity="com.ss.android.article.news/com.ss.android.video.impl.feed.immersion.ImmerseDetailActivity" rateId="2-2-2-2" />  <!--今日头条中视频播放-->
+  <item package="com.ss.android.article.news" activity="com.ss.android.article.news/com.ss.android.live.host.livehostimpl.LivePlayerActivity" rateId="2-2-2-2" />  <!--今日头条中视频播放-->
+  <item package="com.ss.android.article.news" activity="com.ss.android.article.news/com.ss.android.live.host.livehostimpl.LivePlayerTransActivity" rateId="2-2-2-2" />  <!--今日头条中视频播放-->
+  <item package="com.ss.android.article.news" activity="com.ss.android.article.news/com.ss.android.ugc.detail.detail.ui.v2.view.TikTokDetailActivity" rateId="2-2-2-2" />  <!--今日头条中视频播放-->
+  <item package="com.xingin.xhs" activity="com.xingin.xhs/com.xingin.matrix.videofeed.ui.VideoFeedActivityV2" rateId="2-2-2-2" />  <!--小红书中视频播放-->
+  <item package="com.ss.android.article.news" activity="com.ss.android.article.news/com.ss.android.publisher.PublisherActivity" rateId="2-2-2-2" />  <!--今日头条中相机拍摄-->
+  <item package="com.hipu.yidian" activity="com.hipu.yidian/com.yidian.news.ui.newsmain.NewsActivity" rateId="2-2-2-2" />  <!--一点资讯中视频播放-->
+  <item package="com.hipu.yidian" activity="com.hipu.yidian/com.yidian.news.ui.content.video.vine.VineActivity" rateId="2-2-2-2" />  <!--一点资讯中视频播放-->
+  <item package="com.tencent.reading" activity="com.tencent.reading/.video.immersive.activity.ImmersiveVideoActivity" rateId="2-2-2-2" />  <!--天天快报中视频播放-->
+  <item package="com.tencent.reading" activity="com.tencent.reading/.bixin.video.detail.BixinVideoDetailActivity" rateId="2-2-2-2" />  <!--天天快报中视频播放-->
+  <item package="com.tencent.news" activity="com.tencent.news/.kkvideo.shortvideo.VerticalVideoVideoActivity" rateId="2-2-2-2" />  <!--腾讯新闻中视频播放-->
+  <item package="com.tencent.news" activity="com.tencent.news/.rose.RoseLiveDetailActivity" rateId="2-2-2-2" />  <!--腾讯新闻中视频播放-->
+  <item package="com.tencent.news" activity="com.tencent.news/.kkvideo.detail.KkAlbumDarkModeActivity" rateId="2-2-2-2" />  <!--腾讯新闻中视频播放-->
+  <item package="com.oppo.camera" activity="com.oppo.camera/.ui.menu.setting.CameraSettingActivity" rateId="1-1-2-0" />  <!--相机的设置界面-->
+  <item package="com.heytap.browser" activity="com.heytap.browser/.video.news.VideoDetailActivity" rateId="2-2-2-2" />  <!--OPPO浏览器播放视频-->
+  <item package="com.antutu.ABenchMark" activity="com.antutu.ABenchMark/com.antutu.benchmark.ui.testscreen.activity.TouchAreaActivity" rateId="1-1-2-0" />  <!--安兔兔-->
+<!-- system app -->
+  <item package="com.heytap.pictorial" rateId="1-1-2-0" />  <!--锁屏杂志,OS7-->
+  <item package="com.coloros.filemanager" rateId="1-1-2-0" />  <!--文件管理器-->
+  <item package="com.coloros.alarmclock" rateId="1-1-2-0" />  <!--时钟-->
+  <item package="com.coloros.flashlight" rateId="1-1-2-0" />  <!--手电-->
+  <item package="com.coloros.feedback" rateId="1-1-2-0" />  <!--帮助与反馈-->
+  <item package="com.coloros.weather2" rateId="1-1-2-0" />  <!--天气-->
+  <item package="com.coloros.smartdrive" rateId="1-1-2-0" />  <!--智能驾驶-->
+  <item package="com.coloros.compass2" rateId="1-1-2-0" />  <!--指南针-->
+  <item package="com.coloros.wallpapers" rateId="1-1-2-0" />  <!--壁纸-->
+  <item package="com.coloros.oshare" rateId="1-1-2-0" />  <!--互传-->
+  <item package="com.coloros.directui" rateId="1-1-2-0" />  <!--智慧识屏-->
+  <item package="com.coloros.phonemanager" rateId="1-1-2-0" />  <!--手机管家-->
+  <item package="com.coloros.favorite" rateId="1-1-2-0" />  <!--自由收藏-->
+  <item package="com.coloros.safe.service.framework" rateId="1-1-2-0" />  <!--OPPO安全服务框架-->
+  <item package="com.coloros.colorfilestand" rateId="1-1-2-0" />  <!--文件台-->
+  <item package="com.coloros.smartlock" rateId="1-1-2-0" />  <!--智能解锁-->
+  <item package="com.coloros.onekeylockscreen" rateId="1-1-2-0" />  <!--一键锁屏-->
+  <item package="com.coloros.lives" rateId="1-1-2-0" />  <!--黄页-->
+  <item package="com.coloros.oppopods" rateId="1-1-2-0" />  <!--OPPO O-Free-->
+  <item package="com.coloros.flowmarket" rateId="1-1-2-0" />  <!--流量超市-->
+  <item package="com.coloros.personalassistant" rateId="1-1-2-0" />  <!--Breeno 空间-->
+  <item package="com.coloros.sceneservice" rateId="1-1-2-0" />  <!--数据服务平台-->
+  <item package="com.coloros.digitalwellbeing" rateId="1-1-2-0" />  <!--应用使用时间-->
+  <item package="com.finshell.wallet" rateId="1-1-2-0" />  <!--OPPO 钱包,OS7-->
+  <item package="com.coloros.familyguard" rateId="1-1-2-0" />  <!--远程守护-->
+  <item package="com.coloros.phoneclonedownloader" rateId="2-2-2-2" />  <!--手机搬家下载器-->
+  <item package="com.coloros.aruler" rateId="1-1-2-0" />  <!--AR测量-->
+  <item package="com.baidu.input_oppo" rateId="1-1-2-0" />  <!--百度输入法OPPO版-->
+  <item package="com.oppo.news" rateId="1-1-2-0" />  <!--一点资讯-->
+  <item package="com.oppo.ohome" rateId="1-1-2-0" />  <!--智能家居-->
+  <item package="com.heytap.smarthome" rateId="1-1-2-0" />  <!--智能家居,OS7-->
+  <item package="com.heytap.themestore" rateId="1-1-2-0" />  <!--主题商店-->
+  <item package="com.nearme.gamecenter" rateId="1-1-2-0" />  <!--游戏中心-->
+  <item package="com.heytap.cloud" rateId="1-1-2-0" />  <!--云服务,OS7-->
+  <item package="com.coloros.backuprestore" rateId="2-2-2-2" />  <!--手机搬家-->
+  <item package="com.android.settings" rateId="1-1-2-0" />  <!--设置-->
+  <item package="com.oppo.launcher" rateId="1-1-2-0" />  <!--桌面-->
+  <item package="com.heytap.browser" rateId="2-2-2-2" />  <!-- 467206 OPPO浏览器,OS7-->
+  <item package="com.oppo.usercenter" rateId="1-1-2-0" />  <!--用户中心-->
+  <item package="com.heytap.usercenter" rateId="1-1-2-0" />  <!--用户中心,OS7-->
+  <item package="com.coloros.simsettings" rateId="1-1-2-0" />  <!--sim卡设置-->
+  <item package="com.coloros.wirelesssettings" rateId="1-1-2-0" />  <!--无线设置-->
+  <item package="com.android.wallpaper.livepicker" rateId="1-1-2-0" />  <!--壁纸设置-->
+  <item package="com.coloros.safecenter" rateId="1-1-2-0" />  <!--安全中心-->
+  <item package="com.coloros.oppoguardelf" rateId="1-1-2-0" />  <!--电池设置-->
+  <item package="com.oppo.otaui" rateId="1-1-2-0" />  <!--软件更新-->
+  <item package="com.coloros.oppomultiapp" rateId="1-1-2-0" />  <!--应用分身-->
+  <item package="com.coloros.gamespace" rateId="1-1-2-0" />  <!--游戏空间-->
+  <item package="com.coloros.securepay" rateId="1-1-2-0" />  <!--安全支付-->
+  <item package="com.coloros.healthcheck" rateId="1-1-2-0" />  <!--健康检查-->
+  <item package="com.coloros.securityguard" rateId="1-1-2-0" />  <!--安全守护-->
+  <item package="com.android.contacts" rateId="1-1-2-0" />  <!--联系人-->
+  <item package="com.android.mms" rateId="1-1-2-0" />  <!--短信-->
+  <item package="com.android.systemui" rateId="1-1-2-0" />  <!--系统UI-->
+  <item package="com.oppo.quicksearchbox" rateId="1-1-2-0" />  <!--设置中搜索-->
+  <item package="com.android.settings.intelligence" rateId="1-1-2-0" />  <!--设置中搜索,OS7-->
+  <item package="com.heytap.quicksearchbox" rateId="1-1-2-0" />  <!--设置中搜索,OS7-->
+  <item package="com.coloros.providers.downloads.ui" rateId="1-1-2-0" />  <!--下载管理-->
+  <item package="com.coloros.operationManual" rateId="1-1-2-0" />  <!--使用说明-->
+  <item package="com.android.documentsui" rateId="1-1-2-0" />  <!--从存储设备安装证书-->
+  <item package="com.coloros.apprecover" rateId="1-1-2-0" />  <!--可卸载应用找回-->
+  <item package="com.coloros.notificationmanager" rateId="1-1-2-0" />  <!--通知管理-->
+  <item package="com.coloros.floatassistant" rateId="1-1-2-0" />  <!--悬浮求-->
+  <item package="com.coloros.findmyphone" rateId="1-1-2-0" />  <!--查找手机-->
+  <item package="com.coloros.securitypermission" rateId="1-1-2-0" />  <!--应用权限-->
+  <item package="com.coloros.colordirectservice" rateId="1-1-2-0" />  <!--breeno识屏-->
+  <item package="com.coloros.gesture" rateId="1-1-2-0" />  <!--手势体感-->
+  <item package="com.android.calendar" rateId="1-1-2-0" />  <!--日历-->
+  <item package="com.coloros.calendar" rateId="1-1-2-0" />  <!--日历，OS7-->
+  <item package="com.android.phone" rateId="1-1-2-0" />  <!--设置中电话-->
+  <item package="com.coloros.gamespaceui" rateId="1-1-2-0" />  <!--游戏空间-->
+  <item package="com.heytap.market" rateId="1-1-2-0" />  <!--应用商店,OS7-->
+  <item package="com.android.stk" rateId="1-1-2-0" />  <!--sim卡应用-->
+  <item package="com.coloros.encryption" rateId="1-1-2-0" />  <!--私密保险箱-->
+  <item package="com.coloros.childrenspace" rateId="1-1-2-0" />  <!--儿童空间-->
+  <item package="com.coloros.blacklistapp" rateId="1-1-2-0" />  <!--伪基站拦截-->
+  <item package="com.oppo.sos" rateId="1-1-2-0" />  <!--SOS紧急呼叫-->
+  <item package="com.redteamobile.roaming" rateId="1-1-2-0" />  <!--国际上网-->
+  <item package="com.coloros.operationtips" rateId="1-1-2-0" />  <!--使用技巧-->
+  <item package="com.coloros.screenrecorder" rateId="1-1-2-0" />  <!--屏幕录制-->
+  <item package="com.android.permissioncontroller" rateId="1-1-2-0" />  <!--设置中权限管理-->
+  <item package="com.coloros8.support.demo" rateId="1-1-2-0" />  <!--bud 175617 ColorOS Design-->
+<!-- thirdpart app -->
+  <item package="com.sankuai.meituan" rateId="1-1-2-0" />  <!-- 美团 bugID 2850265  -->
+  <item package="com.ss.android.ugc.aweme" rateId="2-2-2-2" />  <!--抖音-->
+  <item package="com.sina.weibo" rateId="1-1-2-0" />  <!--微博-->
+  <item package="com.ss.android.article.news" rateId="1-1-2-0" />  <!--今日头条-->
+  <item package="com.xingin.xhs" rateId="1-1-2-0" />  <!--小红书-->
+  <item package="com.hipu.yidian" rateId="1-1-2-0" />  <!--一点资讯-->
+  <item package="com.tencent.reading" rateId="2-2-2-2" />  <!--天天快报-->
+  <item package="com.tencent.news" rateId="1-1-2-0" />  <!--腾讯新闻-->
+  <item package="com.ss.android.article.lite" rateId="1-1-2-0" />  <!--今日头条极速版-->
+  <item package="com.jifen.qukan" rateId="2-2-2-2" />  <!--趣头条-->
+  <item package="com.immomo.momo" rateId="2-2-2-2" />  <!--MOMO陌陌-->
+  <item package="com.p1.mobile.putong" rateId="2-2-2-2" />  <!--探探-->
+  <item package="com.shuqi.controller" rateId="1-1-2-0" />  <!--书旗免费小说-->
+  <item package="com.lechuan.midunovel" rateId="2-2-2-2" />  <!--米读小说-->
+  <item package="my.maya.android" rateId="2-2-2-2" />  <!--多闪-->
+  <item package="com.kmxs.reader" rateId="2-2-2-2" />  <!--七猫免费小说-->
+  <item package="com.gotokeep.keep" rateId="1-1-2-0" />  <!--Keep-->
+  <item package="com.ushaqi.zhuishushenqi.adfree" rateId="2-2-2-2" />  <!--追书神器免费版-->
+  <item package="com.zhihu.android" rateId="1-1-2-0" />  <!--知乎-->
+  <item package="com.chinasofti.rcs" rateId="2-2-2-2" />  <!--和飞信-->
+  <item package="com.qzone" rateId="1-1-2-0" />  <!--QQ空间-->
+  <item package="com.ss.android.auto" rateId="1-1-2-0" />  <!--懂车帝-->
+  <item package="com.zenmen.palmchat" rateId="2-2-2-2" />  <!--连信-->
+  <item package="com.tencent.gamehelper.smoba" rateId="2-2-2-2" />  <!--王者营地-->
+  <item package="com.qiyi.video.reader" rateId="2-2-2-2" />  <!--爱奇艺免费阅读-->
+  <item package="com.wifi.reader.free" rateId="2-2-2-2" />  <!--连尚免费读书-->
+  <item package="com.aikan" rateId="2-2-2-2" />  <!--免费小说大全-->
+  <item package="com.cootek.smartdialer" rateId="1-1-2-0" />  <!--触宝电话-->
+  <item package="com.yuewen.cooperate.reader.free" rateId="2-2-2-2" />  <!--飞读免费小说-->
+  <item package="me.yidui" rateId="2-2-2-2" />  <!--伊对相亲交友-->
+  <item package="org.xianliao" rateId="1-1-2-0" />  <!--闲聊-->
+  <item package="com.ophone.reader.ui" rateId="1-1-2-0" />  <!--咪咕阅读-->
+  <item package="cn.weli.story" rateId="1-1-2-0" />  <!--微鲤-->
+  <item package="com.sina.news" rateId="1-1-2-0" />  <!--新浪新闻-->
+  <item package="com.tencent.news.lite" rateId="1-1-2-0" />  <!--腾讯新闻极速版-->
+  <item package="com.baidu.searchbox.mission" rateId="2-2-2-2" />  <!--看多多-->
+  <item package="com.yiyou.ga" rateId="1-1-2-0" />  <!--TT语音-->
+  <item package="com.mianfeizs.book" rateId="2-2-2-2" />  <!--免费追书-->
+  <item package="com.ushaqi.zhuishushenqi" rateId="2-2-2-2" />  <!--追书神器-->
+  <item package="com.baidu.iknow" rateId="1-1-2-0" />  <!--百度知道-->
+  <item package="com.chaozh.iReaderFree" rateId="1-1-2-0" />  <!--掌阅-->
+  <item package="io.liuliu.music" rateId="1-1-2-0" />  <!--音遇-->
+  <item package="com.zhenai.android" rateId="1-1-2-0" />  <!--珍爱网-->
+  <item package="com.ifreetalk.ftalk" rateId="1-1-2-0" />  <!--派派-->
+  <item package="com.qq.ac.android" rateId="2-2-2-2" />  <!--腾讯动漫-->
+  <item package="cn.neoclub.uki" rateId="1-1-2-0" />  <!--Uki-->
+  <item package="com.kwai.sogame" rateId="2-2-2-2" />  <!--快手小游戏-->
+  <item package="com.zsqbmfxs.novel" rateId="2-2-2-2" />  <!--追书全本免费小说-->
+  <item package="com.tongzhuo.tongzhuogame" rateId="2-2-2-2" />  <!--同桌游戏-->
+  <item package="com.douban.frodo" rateId="1-1-2-0" />  <!--豆瓣-->
+  <item package="com.chaozh.iReader.dj" rateId="2-2-2-2" />  <!--得间免费小说-->
+  <item package="me.ddkj.cp" rateId="2-2-2-2" />  <!--处CP-->
+  <item package="com.netease.newsreader.activity" rateId="1-1-2-0" />  <!--网易新闻-->
+  <item package="cn.zepeto.main" rateId="2-2-2-2" />  <!--崽崽ZEPETO-->
+  <item package="cc.quanben.novel" rateId="2-2-2-2" />  <!--全本免费阅读书城-->
+  <item package="com.skyplatanus.crucio" rateId="1-1-2-0" />  <!--快点-->
+  <item package="com.yr.huajian" rateId="1-1-2-0" />  <!--花间-->
+  <item package="com.planet.light2345" rateId="1-1-2-0" />  <!--星球联盟-->
+  <item package="cn.youth.news" rateId="2-2-2-2" />  <!--中青看点-->
+  <item package="com.coohua.xinwenzhuan" rateId="1-1-2-0" />  <!--淘新闻-->
+  <item package="com.huluxia.gametools" rateId="2-2-2-2" />  <!--葫芦侠修改器-->
+  <item package="com.wodi.who" rateId="1-1-2-0" />  <!--玩吧-->
+  <item package="com.nd.android.pandareader" rateId="2-2-2-2" />  <!--熊猫看书-->
+  <item package="com.cashtoutiao" rateId="1-1-2-0" />  <!--惠头条-->
+  <item package="com.sina.weibolite" rateId="1-1-2-0" />  <!--微博极速版-->
+  <item package="com.qingshu520.chat" rateId="1-1-2-0" />  <!--聊客-->
+  <item package="com.wifi.reader" rateId="2-2-2-2" />  <!--连尚读书-->
+  <item package="com.qidian.QDReader" rateId="1-1-2-0" />  <!--起点读书-->
+  <item package="com.tomato.reading" rateId="2-2-2-2" />  <!--番茄小说-->
+  <item package="com.aides.brother.brotheraides" rateId="1-1-2-0" />  <!--吹牛-->
+  <item package="com.xiaoenai.app" rateId="1-1-2-0" />  <!--小恩爱-->
+  <item package="com.weibo.comic" rateId="1-1-2-0" />  <!--微博动漫-->
+  <item package="com.tencent.gamehelper.pg" rateId="1-1-2-0" />  <!--掌上和平精英-->
+  <item package="com.tadu.read" rateId="2-2-2-2" />  <!--免费小说阅读-->
+  <item package="com.hzsj.dsjy" rateId="1-1-2-0" />  <!--单身交友-->
+  <item package="com.kuihua.wxsk" rateId="1-1-2-0" />  <!--微信双开-->
+  <item package="com.welove520.qqsweet" rateId="1-1-2-0" />  <!--情侣空间-->
+  <item package="com.yunzhan.liaobei" rateId="1-1-2-0" />  <!--聊呗极速版-->
+  <item package="com.kuihua.wxfs1" rateId="1-1-2-0" />  <!--微信分身-->
+  <item package="com.wzf.fan" rateId="1-1-2-0" />  <!--我是谜-->
+  <item package="com.tencent.qqlite" rateId="1-1-2-0" />  <!--QQ轻聊版-->
+  <item package="com.lofter.android" rateId="1-1-2-0" />  <!--LOFTER-->
+  <item package="com.mosheng" rateId="1-1-2-0" />  <!--陌声交友聊天-->
+  <item package="im.chaoxin" rateId="1-1-2-0" />  <!--潮信-->
+  <item package="com.luojilab.player" rateId="1-1-2-0" />  <!--得到-->
+  <item package="com.liao.love" rateId="1-1-2-0" />  <!--爱情银行-->
+  <item package="com.mianfeia.book" rateId="2-2-2-2" />  <!--免费电子书-->
+  <item package="com.taobao.taobao" rateId="1-1-2-0" />  <!--手机淘宝-->
+  <item package="com.xunmeng.pinduoduo" rateId="2-2-2-2" />  <!--拼多多-->
+  <item package="cn.wps.moffice_eng" rateId="1-1-2-0" />  <!--WPS Office-->
+  <item package="com.jingdong.app.mall" rateId="1-1-2-0" />  <!--京东-->
+  <item package="com.netease.mail" rateId="1-1-2-0" />  <!--网易邮箱大师-->
+  <item package="com.oppo.store" rateId="1-1-2-0" />  <!--OPPO 商城-->
+  <item package="com.tencent.android.qqdownloader" rateId="1-1-2-0" />  <!--么么哒购-->
+  <item package="com.tencent.androidqqmail" rateId="1-1-2-0" />  <!--QQ邮箱-->
+  <item package="com.suning.mobile.ebuy" rateId="1-1-2-0" />  <!--苏宁易购-->
+  <item package="com.alibaba.android.rimet" rateId="1-1-2-0" />  <!--钉钉-->
+  <item package="com.tmall.wireless" rateId="1-1-2-0" />  <!--手机天猫-->
+  <item package="cn.cj.pe" rateId="1-1-2-0" />  <!--139邮箱-->
+  <item package="com.chinamobile.mcloud" rateId="1-1-2-0" />  <!--和彩云-->
+  <item package="com.alibaba.wireless" rateId="1-1-2-0" />  <!--阿里巴巴-->
+  <item package="com.fanli.android.apps" rateId="2-2-2-2" />  <!--返利-->
+  <item package="com.wuba.zhuanzhuan" rateId="1-1-2-0" />  <!--转转-->
+  <item package="com.cainiao.wireless" rateId="1-1-2-0" />  <!--菜鸟裹裹-->
+  <item package="com.tencent.wework" rateId="1-1-2-0" />  <!--企业微信-->
+  <item package="com.taobao.etao" rateId="1-1-2-0" />  <!--一淘-->
+  <item package="com.shizhuang.duapp" rateId="1-1-2-0" />  <!--毒-->
+  <item package="com.husor.beidian" rateId="1-1-2-0" />  <!--贝店-->
+  <item package="com.dongqiudi.news" rateId="2-2-2-2" />  <!--懂球帝-->
+  <item package="com.xw.art.aquarium3d" rateId="2-2-2-2" />  <!--3d水族馆-->
+  <item package="com.UCMobile" rateId="1-1-2-0" disableViewOverride="true" />  <!--UC浏览器-->
+  <item package="com.tencent.mtt" rateId="1-1-2-0" />  <!--QQ浏览器-->
+  <item package="org.xbmc.kodi" rateId="2-2-2-2" />  <!--kodi-->
+  <item package="com.xunlei.downloadprovider" rateId="2-2-2-2" />  <!--迅雷-->
+  <item package="com.lingan.seeyou" rateId="2-2-2-2" />  <!--美柚-->
+  <item package="com.all.video" rateId="2-2-2-2" />  <!--聚视影视大全-->
+  <item package="com.le123.ysdq" rateId="2-2-2-2" />  <!--影视大全-->
+  <item package="com.cmcc.cmvideo" rateId="2-2-2-2" />  <!--咪咕视频-->
+  <item package="com.bokecc.dance" rateId="2-2-2-2" />  <!--糖豆-->
+  <item package="com.duoduo.child.story" rateId="2-2-2-2" />  <!--儿歌多多-->
+  <item package="com.jm.video" rateId="2-2-2-2" />  <!--刷宝短视频-->
+  <item package="tv.pps.mobile" rateId="2-2-2-2" />  <!--爱奇艺极速版-->
+  <item package="com.babycloud.hanju" rateId="2-2-2-2" />  <!--韩剧tv-->
+  <item package="com.nearme.play" rateId="2-2-2-2" />  <!--小游戏-->
+  <item package="com.korean.tv" rateId="2-2-2-2" />  <!--韩剧大全-->
+  <item package="com.meelive.ingkee" rateId="2-2-2-2" />  <!--映客-->
+  <item package="com.diyidan" rateId="2-2-2-2" />  <!--第一弹-->
+  <item package="com.iqiyi.acg" rateId="2-2-2-2" />  <!--叭哒动漫-->
+  <item package="com.qiyi.video.child" rateId="2-2-2-2" />  <!--爱奇艺奇巴布-->
+  <item package="com.netease.cc" rateId="2-2-2-2" />  <!--CC直播-->
+  <item package="com.baidu.minivideo" rateId="2-2-2-2" />  <!--全民小视频-->
+  <item package="dopool.player" rateId="2-2-2-2" />  <!--手机电视-->
+  <item package="com.jjwxc.reader" rateId="2-2-2-2" />  <!--晋江小说阅读-->
+  <item package="com.huanshou.taojj" rateId="2-2-2-2" />  <!--淘集集-->
+  <item package="com.songheng.eastnews" rateId="2-2-2-2" />  <!--东方头条-->
+  <item package="cn.soulapp.android" rateId="2-2-2-2" />  <!--soul-->
+  <item package="com.qq.reader" rateId="2-2-2-2" />  <!--QQ阅读-->
+  <item package="com.kuaikan.comic" rateId="2-2-2-2" />  <!--快看漫画-->
+  <item package="com.qiyi.video.pad" rateId="2-2-2-2" />  <!--爱奇艺HD-->
+  <item package="com.chinatelecom.bestpayclient" rateId="2-2-2-2" />  <!--翼支付-->
+  <item package="com.c2vl.kgamebox" rateId="2-2-2-2" />  <!--狼人杀-->
+  <item package="com.antutu.ABenchMark" rateId="2-2-2-2" />  <!--安兔兔-->
+  <item package="com.happyelements.AndroidAnimal" rateId="2-2-2-2" />  <!--开心消消乐-->
+  <item package="com.qqgame.hlddz" rateId="2-2-2-2" />  <!--欢乐斗地主-->
+  <item package="com.minitech.miniworld.nearme.gamecenter" rateId="2-2-2-2" />  <!--迷你世界-->
+  <item package="com.qqgame.happymj" rateId="2-2-2-2" />  <!--腾讯欢乐麻将-->
+  <item package="com.nearme.gamecenter.ddz.nearme.gamecenter" rateId="2-2-2-2" />  <!--欢喜斗地主-->
+  <item package="com.outfit7.talkingtomgoldrun.nearme.gamecenter" rateId="2-2-2-2" />  <!--汤姆猫跑酷-->
+  <item package="com.zengame.zrttddz.nearme.gamecenter" rateId="2-2-2-2" />  <!--天天斗地主（真人版）-->
+  <item package="com.netease.tom.nearme.gamecenter" rateId="2-2-2-2" />  <!--猫和老鼠-->
+  <item package="com.mfp.jelly.oppo" rateId="2-2-2-2" />  <!--宾果消消消?-->
+  <item package="com.netease.dwrg.nearme.gamecenter" rateId="2-2-2-2" />  <!--第五人格-->
+  <item package="com.tencent.tmgp.pubgm" rateId="2-2-2-2" />  <!--绝地求生全军出击-->
+  <item package="com.netease.mrzh.nearme.gamecenter" rateId="2-2-2-2" />  <!--明日之后-->
+  <item package="com.imangi.templerun2" rateId="2-2-2-2" />  <!--神庙逃亡2-->
+  <item package="com.cmplay.tiles2_cn" rateId="2-2-2-2" />  <!--钢琴块2-->
+  <item package="com.popcap.pvz2cthdop" rateId="2-2-2-2" />  <!--植物大战僵尸2-->
+  <item package="com.outfit7.mytalkingtomfree.nearme.gamecenter" rateId="2-2-2-2" />  <!--我的汤姆猫-->
+  <item package="com.outfit7.mytalkingtom2.nearme.gamecenter" rateId="2-2-2-2" />  <!--我的汤姆猫2-->
+  <item package="com.outfit7.mytalkingangelafree.nearme.gamecenter" rateId="2-2-2-2" />  <!--我的安吉拉-->
+  <item package="com.netease.hyxd.nearme.gamecenter" rateId="2-2-2-2" />  <!--荒野行动-->
+  <item package="com.turbochilli.rollingsky_cn.nearme.gamecenter" rateId="2-2-2-2" />  <!--滚动的天空-->
+  <item package="com.tencent.peng" rateId="2-2-2-2" />  <!--天天爱消除-->
+  <item package="cn.jj" rateId="2-2-2-2" />  <!--JJ斗地主-->
+  <item package="com.tencent.gwgo" rateId="2-2-2-2" />  <!--一起来捉妖-->
+  <item package="com.tencent.pao" rateId="2-2-2-2" />  <!--天天酷跑-->
+  <item package="com.tencent.game.rhythmmaster" rateId="0-0-0-0" disableViewOverride="true"/>  <!--腾讯节奏大师-->
+  <item package="com.jsdw.Kbunainai.nearme.gamecenter" rateId="2-2-2-2" />  <!--溜出去-->
+  <item package="com.ChillyRoom.nearme.gamecenter" rateId="2-2-2-2" />  <!--元气骑士-->
+  <item package="com.mingya.realdriving.nearme.gamecenter" rateId="2-2-2-2" />  <!--真实公路汽车-->
+  <item package="com.supercell.clashofclans.nearme.gamecenter" rateId="2-2-2-2" />  <!--部落冲突-->
+  <item package="com.tencent.tmgp.qqx5" rateId="2-2-2-2" />  <!--QQ炫舞-->
+  <item package="com.ledou.mhhy.nearme.gamecenter" rateId="2-2-2-2" />  <!--梦幻花园-->
+  <item package="com.joym.legendhero.nearme.gamecenter" rateId="2-2-2-2" />  <!--奥特曼传奇英雄-->
+  <item package="com.hlddz.nearme.gamecenter" rateId="2-2-2-2" />  <!--欢乐斗地主四人玩法-->
+  <item package="com.tencent.qqgame.xq" rateId="2-2-2-2" />  <!--天天象棋-->
+  <item package="com.zsfz.hcgtr3d.nearme.gamecenter" rateId="2-2-2-2" />  <!--火柴钢铁人3D-->
+  <item package="com.sy.ydcs.nearme.gamecenter" rateId="2-2-2-2" />  <!--一刀传世-->
+  <item package="com.fingersoft.hillclimb.noncmcc" rateId="2-2-2-2" />  <!--登山赛车-->
+  <item package="com.fgol.hsw.nearme.gamecenter" rateId="2-2-2-2" />  <!--饥饿鲨：世界-->
+  <item package="com.cmcm.arrowio_cn.nearme.gamecenter" rateId="2-2-2-2" />  <!--弓箭手大作战-->
+  <item package="com.cmplay.dancingline.nearme.gamecenter" rateId="2-2-2-2" />  <!--跳舞的线-->
+  <item package="com.tomato.joy.fkkpcq.nearme.gamecenter" rateId="2-2-2-2" />  <!--疯狂酷跑传奇-->
+  <item package="com.pandadastudio.ninjamustdie3.nearme.gamecenter" rateId="2-2-2-2" />  <!--忍者必须死3-->
+  <item package="com.yodo1.rodeo.nearme.gamecenter" rateId="2-2-2-2" />  <!--疯狂动物园-->
+  <item package="com.tencent.wmsj" rateId="2-2-2-2" />  <!--完美世界-->
+  <item package="com.bairimeng.dmmdzz.nearme.gamecenter" rateId="2-2-2-2" />  <!--逃跑吧！少年-->
+  <item package="com.jsdw.huochaizzx2.nearme.gamecenter" rateId="2-2-2-2" />  <!--汤米快跑-->
+  <item package="com.wedobest.xiangqi.nearme.gamecenter" rateId="2-2-2-2" />  <!--象棋-->
+  <item package="com.pokercity.bydrqp.nearme.gamecenter" rateId="2-2-2-2" />  <!--波克捕鱼-->
+  <item package="com.supercell.clashroyale.nearme.gamecenter" rateId="2-2-2-2" />  <!--皇室战争-->
+  <item package="com.yingxiong.heroo.nearme.gamecenter" rateId="2-2-2-2" />  <!--王牌战争-->
+  <item package="com.outfit7.talkingtomcandyrun.nearme.gamecenter" rateId="2-2-2-2" />  <!--汤姆猫快跑-->
+  <item package="com.tencent.shootgame" rateId="2-2-2-2" />  <!--魂斗罗:归来-->
+  <item package="com.sleeeeepfly.knife.io.jrtt" rateId="2-2-2-2" />  <!--我飞刀玩得贼6-->
+  <item package="com.tcyhx.game.nearme.gamecenter" rateId="2-2-2-2" />  <!--逃出银河系-->
+  <item package="com.outfit7.mytalkinghank.nearme.gamecenter" rateId="2-2-2-2" />  <!--我的汉克狗-->
+  <item package="com.brianbaek.popstar" rateId="2-2-2-2" />  <!--消灭星星全新版-->
+  <item package="com.moli.minigame.hole.nearme.gamecenter" rateId="2-2-2-2" />  <!--黑洞大作战-->
+  <item package="com.fingersoft.hrc2.cn.noncmcc.nearme.gamecenter" rateId="2-2-2-2" />  <!--登山赛车2-->
+  <item package="jjzccj.csfkjy.nearme.gamecenter" rateId="2-2-2-2" />  <!--狙击战场求生-->
+  <item package="com.tencent.tmgp.hjol" rateId="2-2-2-2" />  <!--红警OL-->
+  <item package="com.outfit7.talkingtompool.nearme.gamecenter" rateId="2-2-2-2" />  <!--汤姆猫水上乐园-->
+  <item package="com.jshcr.nearme.gamecenter" rateId="2-2-2-2" />  <!--极速火柴人-->
+  <item package="com.popcap.pvz2op" rateId="2-2-2-2" />  <!--植物大战僵尸2-->
+  <item package="com.mf.xxyzgame.wpp.game.hlqsgdzz.nearme.gamecenter" rateId="2-2-2-2" />  <!--欢乐切水果大作战-->
+  <item package="com.joygame.atm.nearme.gamecenter" rateId="2-2-2-2" />  <!--奥特曼热血英雄-->
+  <item package="com.joyfort.merge.car.jrtt" rateId="2-2-2-2" />  <!--全民漂移-->
+  <item package="com.joym.combatman.nearme.gamecenter" rateId="2-2-2-2" />  <!--奥特曼之格斗超人-->
+  <item package="com.sgshd.nearme.gamecenter" rateId="2-2-2-2" />  <!--三国杀-->
+  <item package="com.e8game.lgsfq.nearme.gamecenter" rateId="2-2-2-2" />  <!--找到老公的私房钱-->
+  <item package="org.cocos2dx.VirusVsVirus2.nearme.gamecenter" rateId="2-2-2-2" />  <!--红蓝大作战2-->
+  <item package="com.zengame.ttddzzrb.nearme.gamecenter" rateId="2-2-2-2" />  <!--单机斗地主（欢乐版）-->
+  <item package="com.gamedo.hlw.nearme.gamecenter" rateId="2-2-2-2" />  <!--葫芦娃-->
+  <item package="com.hegu.dnl.oppo.nearme.gamecenter" rateId="2-2-2-2" />  <!--阿拉德之怒-->
+  <item package="com.yunbu.cookingchef.nearme.gamecenter" rateId="2-2-2-2" />  <!--美食烹饪家-->
+  <item package="com.gameloft.android.ANMP.GloftDMCN" rateId="2-2-2-2" />  <!--神偷奶爸：小黄人快跑-->
+  <item package="com.cbxd.sy.nearme.gamecenter" rateId="2-2-2-2" />  <!--屠龙破晓-->
+  <item package="com.hero.sm.nearme.gamecenter" rateId="2-2-2-2" />  <!--创造与魔法-->
+  <item package="com.soulgame.bear.nearme.gamecenter" rateId="2-2-2-2" />  <!--我的熊大熊二-->
+  <item package="com.outfit7.talkingtomjetski.nearme.gamecenter" rateId="2-2-2-2" />  <!--汤姆猫的摩托艇-->
+  <item package="com.netease.onmyoji.nearme.gamecenter" rateId="2-2-2-2" />  <!--阴阳师-->
+  <item package="com.outfit7.talkingtom.nearme.gamecenter" rateId="2-2-2-2" />  <!--会说话的汤姆猫-->
+  <item package="com.netease.my.nearme.gamecenter" rateId="2-2-2-2" />  <!--梦幻西游-->
+  <item package="com.ledou.mhjy.nearme.gamecenter" rateId="2-2-2-2" />  <!--梦幻家园-->
+  <item package="com.netease.l10.nearme.gamecenter" rateId="2-2-2-2" />  <!--倩女幽魂-->
+  <item package="com.matman.city.nearme.gamecenter" rateId="2-2-2-2" />  <!--城市忍者联盟-->
+  <item package="com.tomato.joy.hcrnh.nearme.gamecenter" rateId="2-2-2-2" />  <!--火柴人你好-->
+  <item package="com.csdj.hcrYC.nearme.gamecenter" rateId="2-2-2-2" />  <!--战警联萌-->
+  <item package="com.fgol.oppo" rateId="2-2-2-2" />  <!--饥饿鲨：进化-->
+  <item package="com.outfit7.talkingtom2free.nearme.gamecenter" rateId="2-2-2-2" />  <!--会说话的汤姆猫2-->
+  <item package="com.liuguan.mnjxyy.nearme.gamecenter" rateId="2-2-2-2" />  <!--模拟极限越野-->
+  <item package="com.yodo1.sniper3dv2.nearme.gamecenter" rateId="2-2-2-2" />  <!--狙击行动：代号猎鹰-->
+  <item package="com.koodroid.chicken" rateId="2-2-2-2" />  <!--快乐小鸡-->
+  <item package="com.anzhuojpzmg.ckhd.nearme.gamecenter" rateId="2-2-2-2" />  <!--极品芝麻官-->
+  <item package="com.tencent.pocket" rateId="2-2-2-2" />  <!--腾讯桌球-->
+  <item package="com.wooduan.ssjj.nearme.gamecenter" rateId="2-2-2-2" />  <!--生死狙击-->
+  <item package="com.tq.he.nearme.gamecenter" rateId="2-2-2-2" />  <!--英魂之刃-->
+  <item package="com.kendall.humflatfall.xc" rateId="2-2-2-2" />  <!--人类一败涂地-->
+  <item package="com.yodo1.ctr2.OPPO_01" rateId="2-2-2-2" />  <!--割绳子2-->
+  <item package="com.wedobest.szhrd.nearme.gamecenter" rateId="2-2-2-2" />  <!--数字华容道-->
+  <item package="com.leqi.buyu.nearme.gamecenter" rateId="2-2-2-2" />  <!--小玛丽捕鱼-->
+  <item package="com.tencent.tmgp.sgamece" rateId="0-0-0-0" disableViewOverride="true"/>  <!--王者荣耀体验服-->
+  <item package="com.tencent.tmgp.qjnn" rateId="2-2-2-2" />  <!--奇迹暖暖-->
+  <item package="com.byzft.nearme.gamecenter" rateId="2-2-2-2" />  <!--捕鱼炸翻天-->
+  <item package="com.rovio.angrybirds.op" rateId="2-2-2-2" />  <!--愤怒的小鸟-->
+  <item package="com.ue.jylh.nearme.gamecenter" rateId="2-2-2-2" />  <!--剑与轮回-->
+  <item package="com.wb.yqrd.nearme.gamecenter" rateId="2-2-2-2" />  <!--一球入洞-->
+  <item package="com.example.gcloudu3ddemo.nearme.gamecenter" rateId="2-2-2-2" />  <!--激斗火柴人-->
+  <item package="com.outfit7.talkingangelafree.nearme.gamecenter" rateId="2-2-2-2" />  <!--会说话的安吉拉-->
+  <item package="com.tongcn.qmkljj.nearme.gamecenter" rateId="2-2-2-2" />  <!--全民恐龙狙击-->
+  <item package="com.bolibei.nearme.gamecenter" rateId="2-2-2-2" />  <!--欢乐玻璃杯-->
+  <item package="com.qqgame.mic" rateId="2-2-2-2" />  <!--英雄杀-->
+  <item package="com.quduoduo.city.nearme.gamecenter" rateId="2-2-2-2" />  <!--大众战争-->
+  <item package="com.zsfz.wjjmn3d.nearme.gamecenter" rateId="2-2-2-2" />  <!--挖掘机模拟3D-->
+  <item package="com.hlbyr.nearme.gamecenter" rateId="2-2-2-2" />  <!--欢乐捕鱼人-->
+  <item package="com.wedobest.hdxy.nearme.gamecenter" rateId="2-2-2-2" />  <!--同桌大作战-->
+  <item package="fish.soonyo.nearme.gamecenter" rateId="2-2-2-2" />  <!--满贯捕鱼-->
+  <item package="com.ycoolgame.sqmx.nearme.gamecenter" rateId="2-2-2-2" />  <!--石器冒险-->
+  <item package="com.tomato.joy.hcryy.nearme.gamecenter" rateId="2-2-2-2" />  <!--火柴人越狱2-->
+  <item package="com.zsfz.gdjzmn.nearme.gamecenter" rateId="2-2-2-2" />  <!--工地建造模拟-->
+  <item package="com.tianli.fivechess.nearme.gamecenter" rateId="2-2-2-2" />  <!--五子棋-->
+  <item package="com.mahjong.sichuang" rateId="2-2-2-2" />  <!--熊猫四川麻将-->
+  <item package="com.bairimeng.snake.nearme.gamecenter" rateId="2-2-2-2" />  <!--蛇蛇争霸-->
+  <item package="com.zsfz.ysccc.nearme.gamecenter" rateId="2-2-2-2" />  <!--勇士冲冲冲-->
+  <item package="com.netease.zjz2.nearme.gamecenter" rateId="2-2-2-2" />  <!--终结者2:审判日（电影官方手游）-->
+  <item package="com.GF.PalaceM2_cn_cn.hwy_android_oppo.nearme.gamecenter" rateId="2-2-2-2" />  <!--熹妃传-->
+  <item package="com.csdj.czc3D.nearme.gamecenter" rateId="2-2-2-2" />  <!--烈焰飙车-->
+  <item package="com.tencent.tmgp.NBA" rateId="2-2-2-2" />  <!--最强NBA-->
+  <item package="com.junguang.luckydoll.nearme.gamecenter" rateId="2-2-2-2" />  <!--幸运娃娃机-->
+  <item package="com.mewe.wolf" rateId="2-2-2-2" />  <!--饭局狼人-->
+  <item package="com.shuiguotang.gymc.nearme.gamecenter" rateId="2-2-2-2" />  <!--鬼语迷城-->
+  <item package="com.tencent.tmgp.dpcq" rateId="2-2-2-2" />  <!--斗破苍穹-->
+  <item package="com.duole.paodekuai.nearme.gamecenter" rateId="2-2-2-2" />  <!--多乐跑得快-->
+  <item package="com.jsdw.ppxia.nearme.gamecenter" rateId="2-2-2-2" />  <!--攀爬侠-->
+  <item package="com.yunbu.cakeshop.nearme.gamecenter" rateId="2-2-2-2" />  <!--奇妙蛋糕制作-->
+  <item package="com.blizzard.wtcg.hearthstone" rateId="2-2-2-2" />  <!--炉石传说-->
+  <item package="com.yunbu.barbiemakeup.nearme.gamecenter" rateId="2-2-2-2" />  <!--芭比时尚美妆-->
+  <item package="com.huale.justicearrive.nearme.gamecenter" rateId="2-2-2-2" />  <!--奥特曼正义降临-->
+  <item package="com.joym.xiongdakuaipao2018.nearme.gamecenter" rateId="2-2-2-2" />  <!--熊出没之熊大快跑2018-->
+  <item package="com.happyelements.AndroidAnimal.qq" rateId="2-2-2-2" />  <!--\N-->
+  <item package="com.hxjy.union.keke.nearme.gamecenter" rateId="2-2-2-2" />  <!--火线精英-->
+  <item package="com.zengame.ttmjscb.nearme.gamecenter" rateId="2-2-2-2" />  <!--四川麻将（血战到底）-->
+  <item package="com.jbdfw.nearme.gamecenter" rateId="2-2-2-2" />  <!--金币大富翁-->
+  <item package="com.zsfz.llcj.nearme.gamecenter" rateId="2-2-2-2" />  <!--雷龙出击-->
+  <item package="com.gghz.scq.nearme.gamecenter" rateId="2-2-2-2" />  <!--生存球-->
+  <item package="com.yinhan.skzh.nearme.gamecenter" rateId="2-2-2-2" />  <!--时空召唤-->
+  <item package="com.yunbu.bubbleelfsaga.nearme.gamecenter" rateId="2-2-2-2" />  <!--泡泡精灵传奇-->
+  <item package="com.jsdw.huochaiZZX.nearme.gamecenter" rateId="2-2-2-2" />  <!--在奔跑-->
+  <item package="com.tencent.qqgame.qqhlupwvga" rateId="2-2-2-2" />  <!--欢乐升级-->
+  <item package="com.appicstudio.qingsongduobi.nearme.gamecenter" rateId="2-2-2-2" />  <!--轻松躲避-->
+  <item package="com.zk.cfsc.nearme.gamecenter" rateId="2-2-2-2" />  <!--超凡赛车-->
+  <item package="com.zsfz.tzbdscmn.nearme.gamecenter" rateId="2-2-2-2" />  <!--特种部队生存模拟-->
+  <item package="com.tomato.joy.sjpd.nearme.gamecenter" rateId="2-2-2-2" />  <!--派对大作战-摔跤派对-->
+  <item package="com.yodo1.OPPO_01.SkiSafari" rateId="2-2-2-2" />  <!--滑雪大冒险-->
+  <item package="com.ledo.kof97ol.nearme.gamecenter" rateId="2-2-2-2" />  <!--拳皇97OL-->
+  <item package="com.playrix.township.chukong.nearme.gamecenter" rateId="2-2-2-2" />  <!--梦想城镇-->
+  <item package="com.netease.moba.nearme.gamecenter" rateId="0-0-0-0" disableViewOverride="true" />  <!--决战！平安京-->
+  <item package="com.netease.moba" rateId="0-0-0-0" disableViewOverride="true" />
+  <item package="com.tencent.tmgp.kaopu.jzpaj" rateId="0-0-0-0" disableViewOverride="true" />
+  <item package="com.netease.moba.early" rateId="0-0-0-0" disableViewOverride="true" />
+  <item package="com.youzu.bs" rateId="0-0-0-0" disableViewOverride="true" />
+  <item package="com.youzu.bs.nearme.gamecenter" rateId="0-0-0-0" disableViewOverride="true" />
+  <item package="com.tencent.tmgp.supercell.brawlstars" rateId="0-0-0-0" disableViewOverride="true" />
+  <item package="com.pfu.popstar" rateId="2-2-2-2" />  <!--消消星星乐：最新版-->
+  <item package="com.tencent.tmgp.carrot3" rateId="2-2-2-2" />  <!--保卫萝卜3（重名）-->
+  <item package="com.soulgame.mysuperwings.nearme.gamecenter" rateId="2-2-2-2" />  <!--我的超级飞侠-->
+  <item package="com.outfit7.talkingtomcamp.nearme.gamecenter" rateId="2-2-2-2" />  <!--汤姆猫战营-->
+  <item package="com.qidian.dldl.nearme.gamecenter" rateId="2-2-2-2" />  <!--新斗罗大陆-->
+  <item package="com.mfkj.mnlsc.nearme.gamecenter" rateId="2-2-2-2" />  <!--模拟狼生存-->
+  <item package="com.gbits.atm.nearme.gamecenter" rateId="2-2-2-2" />  <!--问道-->
+  <item package="com.ns.unlimited.speed.nearme.gamecenter" rateId="2-2-2-2" />  <!--功夫疾走-->
+  <item package="com.carrot.carrotfantasy" rateId="2-2-2-2" />  <!--保卫萝卜-->
+  <item package="com.wanmei.zhuxian.nearme.gamecenter" rateId="2-2-2-2" />  <!--诛仙-->
+  <item package="com.tencent.tmgp.jx3m" rateId="2-2-2-2" />  <!--剑网3：指尖江湖-->
+  <item package="com.xingyugame.gt.nearme.gamecenter" rateId="2-2-2-2" />  <!--宫廷秘传-->
+  <item package="com.quduoduo.bussubway.nearme.gamecenter" rateId="2-2-2-2" />  <!--跑酷飞侠快跑-->
+  <item package="com.skymoons.croods.nearme.gamecenter" rateId="2-2-2-2" />  <!--疯狂原始人-->
+  <item package="com.ea.simcitymobile.nearme.gamecenter" rateId="2-2-2-2" />  <!--模拟城市:我是市长-->
+  <item package="com.rzdld.nearme.gamecenter" rateId="2-2-2-2" />  <!--忍者大乱斗-->
+  <item package="com.tianyi.mnkczsjs.game.nearme.gamecenter" rateId="2-2-2-2" />  <!--模拟卡车真实驾驶-->
+  <item package="com.happyelements.AndroidClover.nearme.gamecenter" rateId="2-2-2-2" />  <!--海滨消消乐-->
+  <item package="com.libii.weddingmall.nearme.gamecenter" rateId="2-2-2-2" />  <!--梦幻婚纱店-->
+  <item package="com.hcrzz.nearme.gamecenter" rateId="2-2-2-2" />  <!--火柴人之战-->
+  <item package="net.mobigame.zombietsunami.oppo" rateId="2-2-2-2" />  <!--僵尸尖叫-->
+  <item package="com.tanwan.ltcs.nearme.gamecenter" rateId="2-2-2-2" />  <!--龙腾传世-->
+  <item package="com.greatefunhy.sdgs.nearme.gamecenter" rateId="2-2-2-2" />  <!--商道高手-->
+  <item package="com.next.netcraft.nearme.gamecenter" rateId="2-2-2-2" />  <!--奶块-->
+  <item package="com.joym.armorbear.nearme.gamecenter" rateId="2-2-2-2" />  <!--熊出没之机甲熊大-->
+  <item package="com.netease.wyclx.nearme.gamecenter" rateId="2-2-2-2" />  <!--楚留香-->
+  <item package="com.june.doudizhu.nearme.gamecenter" rateId="2-2-2-2" />  <!--单机斗地主-->
+  <item package="com.PB.palacem4cncn.hwyad.nearme.gamecenter" rateId="2-2-2-2" />  <!--宫廷计手游-->
+  <item package="com.phoneu.goldtoadfish.nearme.gamecenter" rateId="2-2-2-2" />  <!--一起玩捕鱼-->
+  <item package="com.tong.cn.cjyxdz.nearme.gamecenter" rateId="2-2-2-2" />  <!--超级英雄队长-->
+  <item package="com.oppo.goldminer" rateId="2-2-2-2" />  <!--变形机器人英雄-->
+  <item package="com.wb.gqfk.nearme.gamecenter" rateId="2-2-2-2" />  <!--钢琴方块-->
+  <item package="com.cmge.dz.xyermj.nearme.gamecenter" rateId="2-2-2-2" />  <!--欢乐真人麻将-->
+  <item package="com.pkwan.op.nearme.gamecenter" rateId="2-2-2-2" />  <!--航海王：燃烧意志-->
+  <item package="com.whjf.bxjqrzdy.nearme.gamecenter" rateId="2-2-2-2" />  <!--变形机器人总动员-->
+  <item package="com.yunbu.cottoncandyshop.nearme.gamecenter" rateId="2-2-2-2" />  <!--彩虹棉花糖小店-->
+  <item package="com.tencent.nntg.linekong" rateId="2-2-2-2" />  <!--闹闹天宫-->
+  <item package="com.zsfz.bbbwdsjcqll.nearme.gamecenter" rateId="2-2-2-2" />  <!--爸爸把我的手机藏起来了-->
+  <item package="com.tencent.game.VXDGame" rateId="2-2-2-2" />  <!--天天炫斗-->
+  <item package="com.pdragon.new2048.nearme.gamecenter" rateId="2-2-2-2" />  <!--新2048-->
+  <item package="com.supercell.boombeach.nearme.gamecenter" rateId="2-2-2-2" />  <!--海岛奇兵-->
+  <item package="com.jsdw.Zhdzd.nearme.gamecenter" rateId="2-2-2-2" />  <!--最后的子弹-->
+  <item package="com.metek.ultraman.nearme.gamecenter" rateId="2-2-2-2" />  <!--奥特曼系列OL-->
+  <item package="com.huiyao.zhdfx.nearme.gamecenter" rateId="2-2-2-2" />  <!--生化围城-->
+  <item package="com.yunbu.royalwedding.nearme.gamecenter" rateId="2-2-2-2" />  <!--冰雪皇家婚礼-->
+  <item package="com.zhongM.xlcc.nearme.gamecenter" rateId="2-2-2-2" />  <!--消林传说-->
+  <item package="com.tencent.cldts" rateId="2-2-2-2" />  <!--光荣使命-->
+  <item package="com.igame.kbfcd.nearme.gamecenter" rateId="2-2-2-2" />  <!--狂暴飞车-->
+  <item package="com.zywx.sjpd.nearme.gamecenter" rateId="2-2-2-2" />  <!--摔跤派对-->
+  <item package="com.tomato.ditchingwork2.nearme.gamecenter" rateId="2-2-2-2" />  <!--走出办公室2-->
+  <item package="com.g37.brdz.nearme.gamecenter" rateId="2-2-2-2" />  <!--兵人大战-->
+  <item package="com.invictus.impossiball" rateId="2-2-2-2" />  <!--永不言弃!!-->
+  <item package="com.melestudio.babysitter.nearme.gamecenter" rateId="2-2-2-2" />  <!--照顾宝宝过家家-->
+  <item package="com.libii.tutotoons.pandalucare.nearme.gamecenter" rateId="2-2-2-2" />  <!--照顾熊猫宝宝璐璐-->
+  <item package="com.ustwo.monumentvalleyzz" rateId="2-2-2-2" />  <!--纪念碑谷-->
+  <item package="com.zsfz.xzbrwjxx.nearme.gamecenter" rateId="2-2-2-2" />  <!--校长不让我进学校-->
+  <item package="com.JindoBlu.Antistress" rateId="2-2-2-2" />  <!--Antistress-->
+  <item package="com.igame.mszz.nearme.gamecenter" rateId="2-2-2-2" />  <!--猫鼠之战-->
+  <item package="com.yunbu.pool.nearme.gamecenter" rateId="2-2-2-2" />  <!--街机台球大师-->
+  <item package="com.ycoolgame.smcq.nearme.gamecenter" rateId="2-2-2-2" />  <!--神秘传奇-->
+  <item package="cn.ultralisk.gameapp.game23.nearme.gamecenter" rateId="2-2-2-2" />  <!--叶罗丽精灵梦-->
+  <item package="com.xingfei.jsbbz.nearme.gamecenter" rateId="2-2-2-2" />  <!--就是憋不住-->
+  <item package="com.tencent.tmgp.ttmj" rateId="2-2-2-2" />  <!--麻将来了-->
+  <item package="lyzzr.nearme.gamecenter" rateId="2-2-2-2" />  <!--恋与制作人-->
+  <item package="com.tomato.joy.bhqq.nearme.gamecenter" rateId="2-2-2-2" />  <!--保护我-->
+  <item package="com.tencent.feiji" rateId="2-2-2-2" />  <!--全民飞机大战-->
+  <item package="com.caohua.atm.nearme.gamecenter" rateId="2-2-2-2" />  <!--奥特曼英雄归来-->
+  <item package="com.tencent.tmgp.tstl" rateId="2-2-2-2" />  <!--天龙八部-->
+  <item package="com.enjoymisgzj.nearme.gamecenter" rateId="2-2-2-2" />  <!--三国战纪-->
+  <item package="com.hcrjt.nearme.gamecenter" rateId="2-2-2-2" />  <!--火柴人军团-->
+  <item package="com.lz.wcdzz.nearme.gamecenter" rateId="2-2-2-2" />  <!--围城大作战-->
+  <item package="com.lywx.hddts.nearme.gamecenter" rateId="2-2-2-2" />  <!--黑洞大吞噬-->
+  <item package="com.xf.lcby.hede.nearme.gamecenter" rateId="2-2-2-2" />  <!--霸刀战神-->
+  <item package="com.tomatojoy.zjt.nearme.gamecenter" rateId="2-2-2-2" />  <!--指尖陀螺-->
+  <item package="com.wepie.blade.nearme.gamecenter" rateId="2-2-2-2" />  <!--刀剑大作战-->
+  <item package="com.joym.xiongdakuaipao" rateId="2-2-2-2" />  <!--熊出没之熊大快跑-->
+  <item package="ttaby.nearme.gamecenter" rateId="2-2-2-2" />  <!--天天爱捕鱼-->
+  <item package="com.libiitech.princessbeautysalon.nearme.gamecenter" rateId="2-2-2-2" />  <!--甜心公主美容院-->
+  <item package="com.cjml.xysd.nearme.gamecenter" rateId="2-2-2-2" />  <!--超级里奥酷跑-->
+  <item package="com.yinhan.hunter.oppo.nearme.gamecenter" rateId="2-2-2-2" />  <!--时空猎人-->
+  <item package="com.mahjong.danji.nearme.gamecenter" rateId="2-2-2-2" />  <!--单机麻将-->
+  <item package="com.igame.wztt.nearme.gamecenter" rateId="2-2-2-2" />  <!--武者弹跳-->
+  <item package="com.cqwx.yykcmnkcjs.nearme.gamecenter" rateId="2-2-2-2" />  <!--越野卡车：模拟卡车驾驶-->
+  <item package="com.lskl.cnzj.nearme.gamecenter" rateId="2-2-2-2" />  <!--超能战鸡-->
+  <item package="com.mili.dghcr.nearme.gamecenter" rateId="2-2-2-2" />  <!--倒钩火柴人-->
+  <item package="com.kabam.marvelbattle.netease.nesh.nearme.gamecenter" rateId="2-2-2-2" />  <!--漫威：超级争霸战-->
+  <item package="com.tomato.joy.zzr.nearme.gamecenter" rateId="2-2-2-2" />  <!--粘住火柴蜘蛛人-->
+  <item package="com.igame.hlxsg.nearme.gamecenter" rateId="2-2-2-2" />  <!--欢乐消水果-->
+  <item package="com.tencent.raziel" rateId="2-2-2-2" />  <!--拉结尔-->
+  <item package="com.yt.zjsc.nearme.gamecenter" rateId="2-2-2-2" />  <!--终极赛车狂飙-->
+  <item package="com.tomato.ditchingwork.nearme.gamecenter" rateId="2-2-2-2" />  <!--走出办公室-->
+  <item package="com.tencent.fifamobile" rateId="2-2-2-2" />  <!--FIFA足球世界-->
+  <item package="com.lanse.chinachess.nearme.gamecenter" rateId="2-2-2-2" />  <!--中国象棋竞技版-->
+  <item package="com.sofunny.Chicken" rateId="2-2-2-2" />  <!--香肠派对-->
+  <item package="com.hzah.pvzstar.nearme.gamecenter" rateId="2-2-2-2" />  <!--植物大战僵尸全明星-->
+  <item package="com.dtszjkhd.nearme.gamecenter" rateId="2-2-2-2" />  <!--精灵盛典-->
+  <item package="com.zsfz.fywzmxzl2.nearme.gamecenter" rateId="2-2-2-2" />  <!--飞鱼王子冒险之旅-->
+  <item package="com.yaoji.byhlz.nearme.gamecenter" rateId="2-2-2-2" />  <!--捕鱼欢乐炸-->
+  <item package="com.shhxz.zhuzhuxiawulinkupao.nearme.gamecenter" rateId="2-2-2-2" />  <!--猪猪侠之五灵酷跑-->
+  <item package="com.sjxx.zycs.nearme.gamecenter" rateId="2-2-2-2" />  <!--注意车速-->
+  <item package="com.lywx.ytdd.nearme.gamecenter" rateId="2-2-2-2" />  <!--一跳到底-->
+  <item package="com.netease.dhxy.nearme.gamecenter" rateId="2-2-2-2" />  <!--大话西游-->
+  <item package="com.tencent.hlfish" rateId="2-2-2-2" />  <!--腾讯欢乐捕鱼-->
+  <item package="com.tencent.clover" rateId="2-2-2-2" />  <!--雷霆战机-->
+  <item package="com.mf.game.dwdlm.nearme.gamecenter" rateId="2-2-2-2" />  <!--动物大联盟（老虎求生战场）-->
+  <item package="com.tuyoo.doudizhu.maintu.nearme.gamecenter" rateId="2-2-2-2" />  <!--途游斗地主-->
+  <item package="com.ipeaksoft.pitDadGame" rateId="2-2-2-2" />  <!--史上最坑爹的游戏-->
+  <item package="com.tencent.ggame" rateId="2-2-2-2" />  <!--腾讯广东麻将-->
+  <item package="com.racergame.cityracing3d" rateId="2-2-2-2" />  <!--城市飞车-->
+  <item package="com.crisisfire.android.nearme.gamecenter" rateId="2-2-2-2" />  <!--全民枪战2-->
+  <item package="com.tianyi.fkclpkmn.game.nearme.gamecenter" rateId="2-2-2-2" />  <!--疯狂车轮跑酷模拟-->
+  <item package="cn.ultralisk.gameapp.game37.nearme.gamecenter" rateId="2-2-2-2" />  <!--叶罗丽美颜公主-->
+  <item package="com.pepper.bfyfj.nearme.gamecenter" rateId="2-2-2-2" />  <!--八分音符酱-->
+  <item package="com.tongcn.hcrdzz.nearme.gamecenter" rateId="2-2-2-2" />  <!--火柴人大作战-->
+  <item package="com.kuiyi.twdcr.game.nearme.gamecenter" rateId="2-2-2-2" />  <!--逃亡的超人-->
+  <item package="com.chaojitangxian.game.nearme.gamecenter" rateId="2-2-2-2" />  <!--超级探险-->
+  <item package="com.prgame5.fish2.online.nearme.gamecenter" rateId="2-2-2-2" />  <!--街机达人捕鱼-->
+  <item package="com.zsfz.klzsmn3d.nearme.gamecenter" rateId="2-2-2-2" />  <!--恐龙真实模拟3D-->
+  <item package="com.mfkj.mnsdzxc.nearme.gamecenter" rateId="2-2-2-2" />  <!--模拟山地自行车-->
+  <item package="com.huati" rateId="2-2-2-2" />  <!--葫芦侠3楼-->
+  <item package="com.wb.hcrcj.new.nearme.gamecenter" rateId="2-2-2-2" />  <!--暴击火柴人-->
+  <item package="com.noAds.SubwaySimulator" rateId="2-2-2-2" />  <!--城市蜘蛛人英雄冬季版-->
+  <item package="com.playcrab.kos.nearme.gamecenter" rateId="2-2-2-2" />  <!--一拳超人：最强之男-->
+  <item package="com.taiyouxi.jiwushuang.oppo.nearme.gamecenter" rateId="2-2-2-2" />  <!--极无双-->
+  <item package="com.tencent.tmgp.jnbg2" rateId="2-2-2-2" />  <!--纪念碑谷2-->
+  <item package="com.e8game.lpsfq.nearme.gamecenter" rateId="2-2-2-2" />  <!--找到老婆的私房钱-->
+  <item package="com.tencent.shihun.android" rateId="2-2-2-2" />  <!--侍魂-胧月传说-->
+  <item package="com.zsfz.wjjjzmn.nearme.gamecenter" rateId="2-2-2-2" />  <!--挖掘机建造模拟-->
+  <item package="com.ea.android.chs.nbamobile.nearme.gamecenter" rateId="2-2-2-2" />  <!--NBALIVE-->
+  <item package="com.redwoods.qmpy.nearme.gamecenter" rateId="2-2-2-2" />  <!--全民漂移：狂野飙车-->
+  <item package="com.tencent.imprison" rateId="2-2-2-2" />  <!--记忆重构-->
+  <item package="com.zsfz.hscqhlb.nearme.gamecenter" rateId="2-2-2-2" />  <!--海蛇传奇-->
+  <item package="com.lew.game.pianoblock.nearme.gamecenter" rateId="2-2-2-2" />  <!--节奏的钢琴白块-->
+  <item package="com.netease.hzmbqs.nearme.gamecenter" rateId="2-2-2-2" />  <!--绘真·妙笔千山-->
+  <item package="com.carrot.iceworld" rateId="2-2-2-2" />  <!--保卫萝卜2-->
+  <item package="com.sg.bjjs.nearme.gamecenter" rateId="2-2-2-2" />  <!--热血奥特曼（暴击僵尸）-->
+  <item package="com.k7k7.goujihd.nearme.gamecenter" rateId="2-2-2-2" />  <!--多乐够级-->
+  <item package="com.libii.gymnasticsqueen.nearme.gamecenter" rateId="2-2-2-2" />  <!--体操少女-->
+  <item package="com.jiami.landlords.nearme.gamecenter" rateId="2-2-2-2" />  <!--欢乐人人斗地主-->
+  <item package="com.minidip.cftzdj.nearme.gamecenter" rateId="2-2-2-2" />  <!--超凡特战队-->
+  <item package="com.duole.zhuojimjhd.nearme.gamecenter" rateId="2-2-2-2" />  <!--多乐贵阳捉鸡麻将-->
+  <item package="com.mfkj.hhjs.nearme.gamecenter" rateId="2-2-2-2" />  <!--豪华竞速-->
+  <item package="com.ubisoft.rabbidsrunner.nearme.gamecenter" rateId="2-2-2-2" />  <!--疯狂兔子：无敌跑跑-->
+  <item package="com.libii.pethospital.nearme.gamecenter" rateId="2-2-2-2" />  <!--毛绒宠物医院-->
+  <item package="com.joym.armorbear2.nearme.gamecenter" rateId="2-2-2-2" />  <!--熊出没机甲熊大2-->
+  <item package="com.huale.ultraman2.nearme.gamecenter" rateId="2-2-2-2" />  <!--酷跑奥特曼2-->
+  <item package="com.wb.mbdzz.nearme.gamecenter" rateId="2-2-2-2" />  <!--麦比大作战-->
+  <item package="com.cats.idreamsky.nearme.gamecenter" rateId="2-2-2-2" />  <!--喵星大作战-->
+  <item package="com.mf.monsterblast.nearme.gamecenter" rateId="2-2-2-2" />  <!--飞屋消消消-->
+  <item package="com.mfkj.ldzjcq.nearme.gamecenter" rateId="2-2-2-2" />  <!--雷电战机-传奇-->
+  <item package="com.tomatojoy.nkdyx.nearme.gamecenter" rateId="2-2-2-2" />  <!--纽扣的游戏-->
+  <item package="com.libii.lovediary.nearme.gamecenter" rateId="2-2-2-2" />  <!--公主恋爱日记-->
+  <item package="tong.mfgame.bxzj.nearme.gamecenter" rateId="2-2-2-2" />  <!--变形装甲-->
+  <item package="com.yunbu.superdocdor.nearme.gamecenter" rateId="2-2-2-2" />  <!--宝宝超级医生-->
+  <item package="com.ikoalabear.x5online.nearme.gamecenter" rateId="2-2-2-2" />  <!--炫舞浪漫爱-->
+  <item package="com.cmplay.tiles2" rateId="2-2-2-2" />  <!--\N-->
+  <item package="com.racinggames.euro_truck.simulator_driver" rateId="2-2-2-2" />  <!--欧洲卡车模驾驶拟器2018-->
+  <item package="com.mars.fkdqq.nearme.gamecenter" rateId="2-2-2-2" />  <!--疯狂的球球-->
+  <item package="com.yunbu.royalwedding2.nearme.gamecenter" rateId="2-2-2-2" />  <!--冰雪皇家婚礼2-->
+  <item package="com.mas.wawagame.nearme.gamecenter" rateId="2-2-2-2" />  <!--真人斗地主2-->
+  <item package="com.yzxx.pixelwildworld.nearme.gamecenter" rateId="2-2-2-2" />  <!--像素求生战场-->
+  <item package="com.thgame.maze.nearme.gamecenter" rateId="2-2-2-2" />  <!--迷宫解谜-->
+  <item package="com.guandan.nearme.gamecenter" rateId="2-2-2-2" />  <!--掼蛋-->
+  <item package="com.tencent.ft" rateId="2-2-2-2" />  <!--妖精的尾巴：魔导少年-->
+  <item package="com.KingOfTank.nearme.gamecenter" rateId="2-2-2-2" />  <!--坦克前线：帝国OL-->
+  <item package="com.dkm.wmsg.nearme.gamecenter" rateId="2-2-2-2" />  <!--文明曙光-->
+  <item package="com.tencent.kof" rateId="2-2-2-2" />  <!--拳皇命运-->
+  <item package="com.leiben.bridgebuilder.nearme.gamecenter" rateId="2-2-2-2" />  <!--翻滚飞车-->
+  <item package="com.igame.mrzl.nearme.gamecenter" rateId="2-2-2-2" />  <!--明日之恋-->
+  <item package="com.tomato.joy.cqpz.nearme.gamecenter" rateId="2-2-2-2" />  <!--彩球碰撞-->
+  <item package="com.whjf.qmcjzc.nearme.gamecenter" rateId="2-2-2-2" />  <!--全民吃鸡战场-->
+  <item package="np.idreamsky.horizonchase.nearme.gamecenter" rateId="2-2-2-2" />  <!--疾风飞车世界-->
+  <item package="com.tencent.yunmeng" rateId="2-2-2-2" />  <!--云梦四时歌-->
+  <item package="com.zhexinit.haimianbaobaopaoku.nearme.gamecenter" rateId="2-2-2-2" />  <!--海绵宝宝-->
+  <item package="com.joym.bearforward.nearme.gamecenter" rateId="2-2-2-2" />  <!--熊大熊二向前冲-->
+  <item package="com.huochairen.breaking.nearme.gamecenter" rateId="2-2-2-2" />  <!--火柴人必须死-->
+  <item package="com.liuguan.jjsdzj.nearme.gamecenter" rateId="2-2-2-2" />  <!--狙击手大追击-->
+  <item package="com.cmge.lzjx.nearme.gamecenter" rateId="2-2-2-2" />  <!--龙珠觉醒-->
+  <item package="com.shenhaichuidiao.net.nearme.gamecenter" rateId="2-2-2-2" />  <!--深海垂钓-->
+  <item package="ao.qjxsr.nearme.gamecenter" rateId="2-2-2-2" />  <!--像素人前进-->
+  <item package="com.xyjx.hardtime.nearme.gamecenter" rateId="2-2-2-2" />  <!--玄元剑仙-->
+  <item package="com.jd.game.onetfruit.nearme.gamecenter" rateId="2-2-2-2" />  <!--开心水果连连看2-->
+  <item package="com.jianyou.jszzj.nearme.gamecenter" rateId="2-2-2-2" />  <!--僵尸榨汁机-->
+  <item package="com.sg.atmlmzbbcr.nearme.gamecenter" rateId="2-2-2-2" />  <!--奥特曼联盟之百变超人-->
+  <item package="com.joym.runningbear.nearme.gamecenter" rateId="2-2-2-2" />  <!--熊熊乐园奔跑吧熊大-->
+  <item package="com.GF.apcgcncn.hwyad.nearme.gamecenter" rateId="2-2-2-2" />  <!--熹妃Q传-->
+  <item package="com.tomato.joy.zjfc.nearme.gamecenter" rateId="2-2-2-2" />  <!--致命漂移-->
+  <item package="com.e8game.lpsfq2.nearme.gamecenter" rateId="2-2-2-2" />  <!--找到老婆的私房钱2-->
+  <item package="air.com.martian.RoomEscape1.oppo" rateId="2-2-2-2" />  <!--密室逃脱1逃离地牢-->
+  <item package="com.zsfz.cjpk.nearme.gamecenter" rateId="2-2-2-2" />  <!--超级跑酷-->
+  <item package="com.tencent.game.SSGame" rateId="2-2-2-2" />  <!--天天飞车-->
+  <item package="com.tencent.WeFire" rateId="2-2-2-2" />  <!--全民突击-->
+  <item package="com.yunbu.princessmagic.nearme.gamecenter" rateId="2-2-2-2" />  <!--公主魔法美妆-->
+  <item package="com.fingertip.tyt.nearme.gamecenter" rateId="2-2-2-2" />  <!--开心跳一跳-->
+  <item package="com.netease.pes.nearme.gamecenter" rateId="2-2-2-2" />  <!--实况足球-->
+  <item package="com.junhai.tgfml.nearme.gamecenter" rateId="2-2-2-2" />  <!--太古封魔录-->
+  <item package="com.tencent.hyrzol" rateId="2-2-2-2" />  <!--火影忍者：忍者新世代-->
+  <item package="com.yunbu.magicprincess.nearme.gamecenter" rateId="2-2-2-2" />  <!--魔法公主礼仪学院-->
+  <item package="com.mlmhxy.nearme.gamecenter" rateId="2-2-2-2" />  <!--梦幻逍遥-->
+  <item package="com.tomato.joy.ybh.nearme.gamecenter" rateId="2-2-2-2" />  <!--开心玻璃杯-->
+  <item package="com.yodo1.tew.nearme.gamecenter" rateId="2-2-2-2" />  <!--变形金刚:地球之战-->
+  <item package="com.bingougame.tgsw.nearme.gamecenter" rateId="2-2-2-2" />  <!--太古神王-->
+  <item package="com.tyqy.nearme.gamecenter" rateId="2-2-2-2" />  <!--天影奇缘-->
+  <item package="com.zsfz.tss.nearme.gamecenter" rateId="2-2-2-2" />  <!--贪食蛇-->
+  <item package="com.zsfz.dsmtc.nearme.gamecenter" rateId="2-2-2-2" />  <!--登山摩托车-->
+  <item package="com.libii.libbychef.nearme.gamecenter" rateId="2-2-2-2" />  <!--莉比小公主之梦幻餐厅-->
+  <item package="com.ViperGames.StickmanDismount" rateId="2-2-2-2" />  <!--弄死火柴人（StickmanDismounting）-->
+  <item package="com.liuguan.xqs.nearme.gamecenter" rateId="2-2-2-2" />  <!--小枪手-->
+  <item package="com.tencent.tmgp.sskgame" rateId="2-2-2-2" />  <!--圣斗士星矢(腾讯)-->
+  <item package="com.netease.wotb.nearme.gamecenter" rateId="2-2-2-2" />  <!--坦克世界闪击战-->
+  <item package="com.noodlecake.gettingoverit" rateId="2-2-2-2" />  <!--掘地求升-->
+  <item package="com.jiguang.dtszj.nearme.gamecenter" rateId="2-2-2-2" />  <!--永恒纪元：戒-->
+  <item package="com.pujiadev.skipschool3.nearme.gamecenter" rateId="2-2-2-2" />  <!--我要翘课-->
+  <item package="com.jiami.quickmj.nearme.gamecenter" rateId="2-2-2-2" />  <!--欢乐四川麻将3D版-->
+  <item package="com.netease.frxy.nearme.gamecenter" rateId="2-2-2-2" />  <!--非人学园-->
+  <item package="com.yichao.fish.nearme.gamecenter" rateId="2-2-2-2" />  <!--乐金捕鱼-->
+  <item package="com.quduoduo.penrun.nearme.gamecenter" rateId="2-2-2-2" />  <!--奔跑的笔-->
+  <item package="com.jd.game.onetpet.nearme.gamecenter" rateId="2-2-2-2" />  <!--宠物连连消-->
+  <item package="com.zsfz.ppd3.nearme.gamecenter" rateId="2-2-2-2" />  <!--泡泡弹-->
+  <item package="com.libii.puppysalon.nearme.gamecenter" rateId="2-2-2-2" />  <!--莉比小公主之宠物沙龙-->
+  <item package="com.netease.stzb.nearme.gamecenter" rateId="2-2-2-2" />  <!--率土之滨-->
+  <item package="com.jhtc.snake.nearme.gamecenter" rateId="2-2-2-2" />  <!--贪吃蛇大乱斗-->
+  <item package="com.libii.princessnewbaby.nearme.gamecenter" rateId="2-2-2-2" />  <!--公主的新生小宝宝-->
+  <item package="com.supertapx.lovedots.nearme.gamecenter" rateId="2-2-2-2" />  <!--恋爱球球-->
+  <item package="com.zsfz.hcryx.nearme.gamecenter" rateId="2-2-2-2" />  <!--火柴人英雄-->
+  <item package="com.onemore.d2" rateId="2-2-2-2" />  <!--极品狂飙Ⅱ-->
+  <item package="com.jym.fungames.flightpilot.nearme.gamecenter" rateId="2-2-2-2" />  <!--机械飞行师-->
+  <item package="com.zsfz.xnny3dmn.nearme.gamecenter" rateId="2-2-2-2" />  <!--虚拟女友模拟-->
+  <item package="com.XCMTS.BearLimitejection.nearme.gamecenter" rateId="2-2-2-2" />  <!--熊出没之极限弹射-->
+  <item package="com.idreamsky.mygarfield.nearme.gamecenter" rateId="2-2-2-2" />  <!--我的加菲猫-->
+  <item package="com.k7k7.BaoHuang.nearme.gamecenter" rateId="2-2-2-2" />  <!--多乐保皇-->
+  <item package="com.onesyn.syobonaction_online" rateId="2-2-2-2" />  <!--猫里奥-->
+  <item package="com.xplaygame.tuoluo.nearme.gamecenter" rateId="2-2-2-2" />  <!--旋转陀螺多人对战-->
+  <item package="com.hswy.wrddz.nearme.gamecenter" rateId="2-2-2-2" />  <!--万人斗地主-->
+  <item package="com.tencent.tmgp.projectg" rateId="2-2-2-2" />  <!--和平精英体验服-->
+  <item package="com.fengniao.qtdl.nearme.gamecenter" rateId="2-2-2-2" />  <!--抢滩登陆3D-->
+  <item package="com.mili.mnhxdr.nearme.gamecenter" rateId="2-2-2-2" />  <!--模拟大恐龙-->
+  <item package="com.zsfz.klbddhdl.nearme.gamecenter" rateId="2-2-2-2" />  <!--可乐被弟弟喝掉了-->
+  <item package="com.qzyx2.union.keke.nearme.gamecenter" rateId="2-2-2-2" />  <!--英雄枪战-->
+  <item package="com.wifi.popstar.nearme.gamecenter" rateId="2-2-2-2" />  <!--跳一跳加强版-->
+  <item package="com.wb.qqccc.nearme.gamecenter" rateId="2-2-2-2" />  <!--球球冲冲冲-->
+  <item package="com.mfkj.pmdzz.nearme.gamecenter" rateId="2-2-2-2" />  <!--泡面大作战-->
+  <item package="com.tetrisAn.nearme.gamecenter" rateId="2-2-2-2" />  <!--俄罗斯方块-->
+  <item package="com.xcqy.nearme.gamecenter" rateId="2-2-2-2" />  <!--星辰奇缘-->
+  <item package="com.frontline.DesertEscape.nearme.gamecenter" rateId="2-2-2-2" />  <!--沙漠逃生-->
+  <item package="com.k7k7.shengjihd.nearme.gamecenter" rateId="2-2-2-2" />  <!--多乐升级-->
+  <item package="com.joym.armorultraman.nearme.gamecenter" rateId="2-2-2-2" />  <!--机甲奥特曼-->
+  <item package="com.netease.nshhelper.nearme.gamecenter" rateId="2-2-2-2" />  <!--遇见逆水寒-->
+  <item package="com.kuiyi.lysq.game.nearme.gamecenter" rateId="2-2-2-2" />  <!--超级步兵-->
+  <item package="com.lemonjamstudio.drawacar.nearme.gamecenter" rateId="2-2-2-2" />  <!--画个车-->
+  <item package="com.jsh.hcsy.nearme.gamecenter" rateId="2-2-2-2" />  <!--豪车盛宴-->
+  <item package="com.pdragon.weiqi.nearme.gamecenter" rateId="2-2-2-2" />  <!--围棋-->
+  <item package="com.centurysoft.roboking" rateId="2-2-2-2" />  <!--机战王-->
+  <item package="com.nova.Exciting.nearme.gamecenter" rateId="2-2-2-2" />  <!--刺激狂飙-->
+  <item package="com.wingjoy.mylife.nearme.gamecenter" rateId="2-2-2-2" />  <!--第二人生-->
+  <item package="com.mfkj.fkdpd.nearme.gamecenter" rateId="2-2-2-2" />  <!--疯狂的拍打-->
+  <item package="com.tianyi.jxmxtz3d.game.nearme.gamecenter" rateId="2-2-2-2" />  <!--极限冒险挑战3D-->
+  <item package="com.libii.princessroyalhorse.nearme.gamecenter" rateId="2-2-2-2" />  <!--皇家马术俱乐部-->
+  <item package="com.e8game.gtfl.nearme.gamecenter" rateId="2-2-2-2" />  <!--奥特曼钢铁飞龙-->
+  <item package="com.zlongame.yjqy.nearme.gamecenter" rateId="2-2-2-2" />  <!--御剑情缘-->
+  <item package="com.gzbg.syyh.nearme.gamecenter" rateId="2-2-2-2" />  <!--神域永恒-->
+  <item package="com.douapp.bricks" rateId="2-2-2-2" />  <!--砖块破坏者-->
+  <item package="com.igame.hzmmgmx.nearme.gamecenter" rateId="2-2-2-2" />  <!--盒子猫-迷宫冒险-->
+  <item package="com.xxyx.union.keke.nearme.gamecenter" rateId="2-2-2-2" />  <!--小小英雄-->
+  <item package="com.game2048.nearme.gamecenter" rateId="2-2-2-2" />  <!--2048-->
+  <item package="com.boyaa.chinesechess.nearme.gamecenter" rateId="2-2-2-2" />  <!--博雅中国象棋-->
+  <item package="com.sns.yongzhelixianji.nearme.gamecenter" rateId="2-2-2-2" />  <!--勇者历险记-->
+  <item package="com.ocean.nearme.gamecenter" rateId="2-2-2-2" />  <!--木筏求生-->
+  <item package="com.sg.atmfkpk.nearme.gamecenter" rateId="2-2-2-2" />  <!--奥特曼疯狂跑酷-->
+  <item package="com.mfkj.xhacj.nearme.gamecenter" rateId="2-2-2-2" />  <!--小虎爱吃鸡-->
+  <item package="com.dramaton.slime" rateId="2-2-2-2" />  <!--粘液模拟器-->
+  <item package="com.ftwxsc.nearme.gamecenter" rateId="2-2-2-2" />  <!--废土行动-->
+  <item package="com.libii.gloriamakeupsalon.nearme.gamecenter" rateId="2-2-2-2" />  <!--洛娜公主美妆沙龙-->
+  <item package="com.leqi.buyu2.nearme.gamecenter" rateId="2-2-2-2" />  <!--捕鱼比赛-->
+  <item package="com.yunbu.motorider.nearme.gamecenter" rateId="2-2-2-2" />  <!--真实摩托锦标赛-->
+  <item package="com.tencent.tmgp.bydr3dx" rateId="2-2-2-2" />  <!--捕鱼来了-->
+  <item package="cn.ultralisk.gameapp.game16.nearme.gamecenter" rateId="2-2-2-2" />  <!--叶罗丽公主水晶鞋-->
+  <item package="com.shenghe.mfyx.oppo.nearme.gamecenter" rateId="2-2-2-2" />  <!--原始传奇-->
+  <item package="com.tencent.ssss" rateId="2-2-2-2" />  <!--三生三世十里桃花-->
+  <item package="com.tencent.wok" rateId="2-2-2-2" />  <!--万王之王3D-->
+  <item package="com.mfkj.tcscsdzz.nearme.gamecenter" rateId="2-2-2-2" />  <!--经典贪吃蛇-->
+  <item package="com.zongyi.Popstar_HX.nearme.gamecenter" rateId="2-2-2-2" />  <!--消灭星星青春版-->
+  <item package="com.dygame.hyqs.nearme.gamecenter" rateId="2-2-2-2" />  <!--荒岛求生-->
+  <item package="com.morefun.crazyman.nearme.gamecenter" rateId="2-2-2-2" />  <!--疯狂小野人-->
+  <item package="com.melestudio.jigsaw.nearme.gamecenter" rateId="2-2-2-2" />  <!--拼图游戏挑战-->
+  <item package="com.wemomo.game.smbb.nearme.gamecenter" rateId="2-2-2-2" />  <!--数码宝贝:相遇-->
+  <item package="com.gagex.android.Orion.nearme.gamecenter" rateId="2-2-2-2" />  <!--众多回忆的食堂故事-->
+  <item package="com.szgd.GGBondAmazingHero.nearme.gamecenter" rateId="2-2-2-2" />  <!--猪猪侠之百变英雄-->
+  <item package="com.igame.wjfjzc.nearme.gamecenter" rateId="2-2-2-2" />  <!--玩具飞机战场-->
+  <item package="com.qqbk.fnny.nearme.gamecenter" rateId="2-2-2-2" />  <!--球球与白块-->
+  <item package="com.tencent.lycqsh" rateId="2-2-2-2" />  <!--蓝月传奇-->
+  <item package="com.tencent.tmgp.wec" rateId="2-2-2-2" />  <!--乱世王者-->
+  <item package="com.cw.gamebox" rateId="2-2-2-2" />  <!--1号玩家-->
+  <item package="com.MXW.XY3D.nearme.gamecenter" rateId="2-2-2-2" />  <!--鲨鱼模拟猎杀3D-->
+  <item package="com.xishanju.mysy.nearme.gamecenter" rateId="2-2-2-2" />  <!--魔域手游-->
+  <item package="com.MXW.JSKC.nearme.gamecenter" rateId="2-2-2-2" />  <!--极速卡车-->
+  <item package="com.qp.tlj.nearme.gamecenter" rateId="2-2-2-2" />  <!--拖拉机-->
+  <item package="com.libii.tutotoons.kikififibeautysalon.nearme.gamecenter" rateId="2-2-2-2" />  <!--琪琪和菲菲宠物美容院-->
+  <item package="com.Lxd.Bearsfantasyspace.nearme.gamecenter" rateId="2-2-2-2" />  <!--熊出没奇幻空间-->
+  <item package="com.wedobest.piano.nearme.gamecenter" rateId="2-2-2-2" />  <!--白块儿达人-->
+  <item package="com.sjxx.qmfc.nearme.gamecenter" rateId="2-2-2-2" />  <!--3D全民飞车-->
+  <item package="com.jym.vegascrime2.two.nearme.gamecenter" rateId="2-2-2-2" />  <!--拉斯维加斯英雄归来-->
+  <item package="com.zsfz.ayjjs.nearme.gamecenter" rateId="2-2-2-2" />  <!--暗影狙击手-->
+  <item package="com.longyuan.zzq.nearme.gamecenter" rateId="2-2-2-2" />  <!--多多自走棋-->
+  <item package="com.wxhf.erzhanjuji.nearme.gamecenter" rateId="2-2-2-2" />  <!--二战狙击-->
+  <item package="com.shrw.qsq.nearme.gamecenter" rateId="2-2-2-2" />  <!--多兰大陆-->
+  <item package="com.jjh.Fish.nearme.gamecenter" rateId="2-2-2-2" />  <!--集结号捕鱼-->
+  <item package="com.wqhz.hjtg.nearme.gamecenter" rateId="2-2-2-2" />  <!--出击英雄岛-->
+  <item package="com.gzxm.saiche.nearme.gamecenter" rateId="2-2-2-2" />  <!--绝地飞车-->
+  <item package="com.MXW.ZZYX.nearme.gamecenter" rateId="2-2-2-2" />  <!--蜘蛛英雄：惩罚罪恶-->
+  <item package="com.sg.atmpk.oppo" rateId="2-2-2-2" />  <!--酷跑超人-->
+  <item package="com.wali.ak.nearme.gamecenter" rateId="2-2-2-2" />  <!--小米枪战-->
+  <item package="com.happyelements.happyfishandroidcns" rateId="2-2-2-2" />  <!--开心水族箱-->
+  <item package="com.cqwx.hcrjjst.nearme.gamecenter" rateId="2-2-2-2" />  <!--火柴人狙击手3-->
+  <item package="com.HRYX.klls3d.nearme.gamecenter" rateId="2-2-2-2" />  <!--恐龙猎杀3d-->
+  <item package="com.tencent.tmgp.mituan" rateId="2-2-2-2" />  <!--疯狂动物城:筑梦日记-->
+  <item package="com.hzfb.racing8.nearme.gamecenter" rateId="2-2-2-2" />  <!--速度与激情8-->
+  <item package="com.ultralisk.game24.nearme.gamecenter" rateId="2-2-2-2" />  <!--神兽金刚3荣耀之战-->
+  <item package="com.fingersoft.hillclimb.cn.noncmcc" rateId="2-2-2-2" />  <!--登山赛车之天朝历险-->
+  <item package="com.jixiang.game" rateId="2-2-2-2" />  <!--吉祥棋牌-->
+  <item package="com.gzxm.rhythm.nearme.gamecenter" rateId="2-2-2-2" />  <!--钢琴白块节奏-->
+  <item package="com.wb.gzsj2.nearme.gamecenter" rateId="2-2-2-2" />  <!--果汁四溅2-->
+  <item package="com.libii.libbyvampire.nearme.gamecenter" rateId="2-2-2-2" />  <!--莉比公主和精灵贝拉-->
+  <item package="com.yinhan.hunter.tx" rateId="2-2-2-2" />  <!--\N-->
+  <item package="com.shenghe.wzcq.nearme.gamecenter" rateId="2-2-2-2" />  <!--王者传奇-->
+  <item package="com.saturngame.kdjd.nearme.gamecenter" rateId="2-2-2-2" />  <!--口袋决斗-->
+  <item package="com.soonyo.byds.nearme.gamecenter" rateId="2-2-2-2" />  <!--捕鱼大师-->
+  <item package="com.rappidstudios.simulatorbattlearmy" rateId="2-2-2-2" />  <!--军队战争模拟器-->
+  <item package="com.tomato.joy.jdds.nearme.gamecenter" rateId="2-2-2-2" />  <!--掘地登山-->
+  <item package="com.longtugame.rxjh.nearme.gamecenter" rateId="2-2-2-2" />  <!--热血江湖-->
+  <item package="air.FleeingtheComplex" rateId="2-2-2-2" />  <!--火柴人逃离监狱-->
+  <item package="com.libiitech.sweetprincesshairsalon.nearme.gamecenter" rateId="2-2-2-2" />  <!--甜心公主美发屋-->
+  <item package="com.yunbu.cutekitty.nearme.gamecenter" rateId="2-2-2-2" />  <!--我的宠物猫-->
+  <item package="me.hypertext.local.jiong2" rateId="2-2-2-2" />  <!--最囧游戏-->
+  <item package="com.youmeng.rexueaoteman.nearme.gamecenter" rateId="2-2-2-2" />  <!--热血奥特超人跑酷-->
+  <item package="com.zsfz.jsslz.nearme.gamecenter" rateId="2-2-2-2" />  <!--饥鲨狩猎者-->
+  <item package="com.tencent.freestyle" rateId="2-2-2-2" />  <!--街头篮球-->
+  <item package="com.libii.puppystory.nearme.gamecenter" rateId="2-2-2-2" />  <!--我的心动小狗-->
+  <item package="com.moli.minigame.rollball.nearme.gamecenter" rateId="2-2-2-2" />  <!--滚动大作战-->
+  <item package="com.lywl.xbxxz.nearme.gamecenter" rateId="2-2-2-2" />  <!--想不想修真-->
+  <item package="com.joypac.dagen.nearme.gamecenter" rateId="2-2-2-2" />  <!--抱紧大根-->
+  <item package="com.igame.mmxbl.nearme.gamecenter" rateId="2-2-2-2" />  <!--萌萌小笨龙-->
+  <item package="com.tencent.Qfarm" rateId="2-2-2-2" />  <!--全民农场-->
+  <item package="com.huoshe.klblb.nearme.gamecenter" rateId="2-2-2-2" />  <!--快乐玻璃杯-->
+  <item package="io.voodoo.paper2" rateId="2-2-2-2" />  <!--纸片大作战2-->
+  <item package="com.blockycars.online.wf.nearme.gamecenter" rateId="2-2-2-2" />  <!--像素车-->
+  <item package="com.gamecoolsoft.daysnipe03" rateId="2-2-2-2" />  <!--天天狙击-->
+  <item package="com.wb.hjqg.nearme.gamecenter" rateId="2-2-2-2" />  <!--黄金切割-->
+  <item package="com.yunbu.fashionmakeup.nearme.gamecenter" rateId="2-2-2-2" />  <!--时尚美妆达人-->
+  <item package="com.mingya.highwayracer.nearme.gamecenter" rateId="2-2-2-2" />  <!--真实汽车锦标赛-->
+  <item package="com.yifeng.samecolor.nearme.gamecenter" rateId="2-2-2-2" />  <!--跳一跳大师-->
+  <item package="com.libii.babycare.nearme.gamecenter" rateId="2-2-2-2" />  <!--公主宝宝照顾-->
+  <item package="com.sy.lhxz.nearme.gamecenter" rateId="2-2-2-2" />  <!--精灵契约-->
+  <item package="com.yifeng.elsfko.nearme.gamecenter" rateId="2-2-2-2" />  <!--欢乐俄罗斯方块-->
+  <item package="com.cmcm.killshotbravo.nearme.gamecenter" rateId="2-2-2-2" />  <!--狙神荣耀-->
+  <item package="org.xiaoFeng.AboutYouself" rateId="2-2-2-2" />  <!--你了解自己吗-->
+  <item package="com.xcdh.jumponejump.nearme.gamecenter" rateId="2-2-2-2" />  <!--疯狂跳一跳-->
+  <item package="com.yunbu.candyprincess.nearme.gamecenter" rateId="2-2-2-2" />  <!--彩虹糖果公主-->
+  <item package="com.pdragon.tcs.nearme.gamecenter" rateId="2-2-2-2" />  <!--贪吃蛇-->
+  <item package="com.tianyi.xsmxsj.game.nearme.gamecenter" rateId="2-2-2-2" />  <!--像素冒险世界-->
+  <item package="com.igame.jsfczjkb.nearme.gamecenter" rateId="2-2-2-2" />  <!--急速飞车终极狂飙-->
+  <item package="com.mfkj.mndb.nearme.gamecenter" rateId="2-2-2-2" />  <!--模拟大巴-->
+  <item package="com.tencent.tmgp.jxqy" rateId="2-2-2-2" />  <!--新剑侠情缘-->
+  <item package="com.wb.tkdzz.nearme.gamecenter" rateId="2-2-2-2" />  <!--坦克进化大作战-->
+  <item package="com.uc108.mobile.gamecenter" rateId="2-2-2-2" />  <!--同城游-->
+  <item package="com.igame.sqdzz.nearme.gamecenter" rateId="2-2-2-2" />  <!--神枪大作战-->
+  <item package="com.soulgame.garfield.nearme.gamecenter" rateId="2-2-2-2" />  <!--加菲猫酷跑-->
+  <item package="com.gameloft.android.ANMP.GloftDLCN.nearme.gamecenter" rateId="2-2-2-2" />  <!--萌龙大乱斗-->
+  <item package="com.yunbu.princessmakeupshow.nearme.gamecenter" rateId="2-2-2-2" />  <!--魔法公主美妆秀-->
+  <item package="com.netease.lx12.nearme.gamecenter" rateId="2-2-2-2" />  <!--流星蝴蝶剑-->
+  <item package="com.libii.perfectbeachday.nearme.gamecenter" rateId="2-2-2-2" />  <!--莉比小公主的完美沙滩之旅-->
+  <item package="zo.wz.xingd.nearme.gamecenter" rateId="2-2-2-2" />  <!--火线王者求生-->
+  <item package="cn.jj.hall" rateId="2-2-2-2" />  <!--JJ比赛-->
+  <item package="com.zyxd.mycm.nearme.gamecenter" rateId="2-2-2-2" />  <!--萌妖出没-->
+  <item package="com.MXW.GTZCYY.nearme.gamecenter" rateId="2-2-2-2" />  <!--钢铁战场英雄-->
+  <item package="com.joym.xiongchumo2.keke" rateId="2-2-2-2" />  <!--熊出没2-->
+  <item package="com.asdk.pokemontcg.nearme.gamecenter" rateId="2-2-2-2" />  <!--口袋对决-->
+  <item package="com.zsfz.czczsmn.nearme.gamecenter" rateId="2-2-2-2" />  <!--出租车真实模拟-->
+  <item package="com.libii.gymnasticssalon.nearme.gamecenter" rateId="2-2-2-2" />  <!--体操沙龙-->
+  <item package="com.zsfz.xfcjymn.qm3dsc.nearme.gamecenter" rateId="2-2-2-2" />  <!--3D全民赛车-->
+  <item package="com.joym.bearsadventure.keke" rateId="2-2-2-2" />  <!--熊出没大冒险-->
+  <item package="com.ycoolgame.riseofsteel.nearme.gamecenter" rateId="2-2-2-2" />  <!--钢铁英雄-->
+  <item package="com.gameloft.android.ANMP.GloftA9HM" rateId="2-2-2-2" />  <!--狂野飙车9-->
+  <item package="com.ddy.cjwpscs.nearme.gamecenter" rateId="2-2-2-2" />  <!--超级王牌赛车手-->
+  <item package="com.hq.Ultramancszzdd.nearme.gamecenter" rateId="2-2-2-2" />  <!--奥特曼传说之战（重名）-->
+  <item package="me.ht.local.hot" rateId="2-2-2-2" />  <!--最囧游戏2-->
+  <item package="com.jycx.klqsz.nearme.gamecenter" rateId="2-2-2-2" />  <!--恐龙求生战-->
+  <item package="com.yunbu.archeryelite.nearme.gamecenter" rateId="2-2-2-2" />  <!--最强神射手-->
+  <item package="cn.ultralisk.game20.nearme.gamecenter" rateId="2-2-2-2" />  <!--巨神战击队3-->
+  <item package="com.xianlai.mahjonghainan" rateId="2-2-2-2" />  <!--琼崖海南麻将-->
+  <item package="com.snsgz.apk.nearme.gamecenter" rateId="2-2-2-2" />  <!--少年三国志-->
+  <item package="com.haoxin.ultramanyxcs.nearme.gamecenter" rateId="2-2-2-2" />  <!--奥特曼英雄传说-->
+  <item package="com.fengguo.wpjz.nearme.gamecenter" rateId="2-2-2-2" />  <!--王牌机战-->
+  <item package="com.dingogames.tastyblue" rateId="2-2-2-2" />  <!--美味深蓝-->
+  <item package="com.kingnet.gundam.nearme.gamecenter" rateId="2-2-2-2" />  <!--敢达争锋对决-->
+  <item package="air.jp.ne.hap.mom" rateId="2-2-2-2" />  <!--妈妈把我的游戏藏起来了2-->
+  <item package="com.pdragon.junqi.nearme.gamecenter" rateId="2-2-2-2" />  <!--军棋-->
+  <item package="com.dodjoy.qhzs.nearme.gamecenter" rateId="2-2-2-2" />  <!--枪神对决-->
+  <item package="com.patastudio.crazycooking.nearme.gamecenter" rateId="2-2-2-2" />  <!--天天爱烹饪-->
+  <item package="com.pixadventure.nearme.gamecenter" rateId="2-2-2-2" />  <!--荒野生存大冒险-->
+  <item package="com.netmarble.ffightgm" rateId="2-2-2-2" />  <!--未来之战-->
+  <item package="com.heimai666.ninja.nearme.gamecenter" rateId="2-2-2-2" />  <!--刃心-->
+  <item package="com.yzyfs.net.nearme.gamecenter" rateId="2-2-2-2" />  <!--御封神-->
+  <item package="com.gamelar.larva.nearme.gamecenter" rateId="2-2-2-2" />  <!--爆笑虫子大冒险-->
+  <item package="com.libii.libbydessert.nearme.gamecenter" rateId="2-2-2-2" />  <!--莉比小公主梦幻甜品店-->
+  <item package="com.dodreams.driveahead" rateId="2-2-2-2" />  <!--撞头赛车-->
+  <item package="com.jg.dtszj.nearme.gamecenter" rateId="2-2-2-2" />  <!--大天使之剑H5-->
+  <item package="com.lc.jongthree.nearme.gamecenter" rateId="2-2-2-2" />  <!--创造大明星-->
+  <item package="com.tencent.tmgp.mt4" rateId="2-2-2-2" />  <!--我叫MT4-->
+  <item package="com.igame.lhzs.nearme.gamecenter" rateId="2-2-2-2" />  <!--烈火战神-->
+  <item package="com.mingya.shark.nearme.gamecenter" rateId="2-2-2-2" />  <!--真实模拟鲨鱼捕食-->
+  <item package="com.jedigames.p16s.nearme.gamecenter" rateId="2-2-2-2" />  <!--银河战舰-->
+  <item package="org.tinghood.TpsForMobile.nearme.gamecenter" rateId="2-2-2-2" />  <!--台球帝国-->
+  <item package="com.njtd.zswqmnq.nearme.gamecenter" rateId="2-2-2-2" />  <!--让武器飞-->
+  <item package="com.myappz.firegirlWaterboy" rateId="2-2-2-2" />  <!--森林冰火人-->
+  <item package="it.rortos.airfighterspro" rateId="2-2-2-2" />  <!--模拟空战（AirFightersPro）-->
+  <item package="com.qipai007.Black7.nearme.gamecenter" rateId="2-2-2-2" />  <!--升级-->
+  <item package="com.nzyz.qmqzsj.nearme.gamecenter" rateId="2-2-2-2" />  <!--全民枪战射击-->
+  <item package="com.igame.kbzj.nearme.gamecenter" rateId="2-2-2-2" />  <!--狂暴战机-->
+  <item package="com.outfit7.tomsjetski.nearme.gamecenter" rateId="2-2-2-2" />  <!--动物快跑-->
+  <item package="com.wedobest.cyxxx.nearme.gamecenter" rateId="2-2-2-2" />  <!--成语消消消-->
+  <item package="com.yunbu.starlovestory.nearme.gamecenter" rateId="2-2-2-2" />  <!--莉莎的梦幻之旅-->
+  <item package="com.gameloft.android.ANMP.GloftA8HM" rateId="2-2-2-2" />  <!--\N-->
+  <item package="com.tencent.jian" rateId="2-2-2-2" />  <!--见-->
+  <item package="com.tongcn.bxdzz.nearme.gamecenter" rateId="2-2-2-2" />  <!--变形大作战-->
+  <item package="com.fingertip.feixingqi.nearme.gamecenter" rateId="2-2-2-2" />  <!--飞行棋大作战-->
+  <item package="com.mingya.crazytruck.nearme.gamecenter" rateId="2-2-2-2" />  <!--真实货车模拟：模拟卡车-->
+  <item package="com.leon.qyby.nearme.gamecenter" rateId="2-2-2-2" />  <!--趣游捕鱼-->
+  <item package="com.zsfz.bbbwszjll.nearme.gamecenter" rateId="2-2-2-2" />  <!--爸爸把我锁在家里了-->
+  <item package="com.igame.jqmx.nearme.gamecenter" rateId="2-2-2-2" />  <!--激情冒险-->
+  <item package="com.ztgame.fir.nearme.gamecenter" rateId="2-2-2-2" />  <!--征途2-->
+  <item package="ttby.zlkj.nearme.gamecenter" rateId="2-2-2-2" />  <!--天天捕鱼电玩版-->
+  <item package="com.joym.xiongchumo4.nearme.gamecenter" rateId="2-2-2-2" />  <!--熊出没4丛林冒险-->
+  <item package="com.zcjoy.hlsrddz.android.nearme.gamecenter" rateId="2-2-2-2" />  <!--欢乐四人斗地主-->
+  <item package="com.huoshe.qqtyt.nearme.gamecenter" rateId="2-2-2-2" />  <!--球球跳一跳-->
+  <item package="com.hsfish.oppo.nearme.gamecenter" rateId="2-2-2-2" />  <!--火山捕鱼-->
+  <item package="com.playflame.oilhunt2" rateId="2-2-2-2" />  <!--OilHunt2-->
+  <item package="com.ddianle.lovedance.nearme.gamecenter" rateId="2-2-2-2" />  <!--恋舞OL-->
+  <item package="com.kaopu.lhjx.nearme.gamecenter" rateId="2-2-2-2" />  <!--龙之怒吼-->
+  <item package="com.miquwan.sgzz.nearme.gamecenter" rateId="2-2-2-2" />  <!--三国战争-->
+  <item package="com.zsfz.bxjqfl3d.mfgame.nearme.gamecenter" rateId="2-2-2-2" />  <!--暴走雷龙战机-->
+  <item package="com.cdbabyjoy.pinyin" rateId="2-2-2-2" />  <!--儿童宝宝学拼音-->
+  <item package="com.ShenY.DDiZHU.nearme.gamecenter" rateId="2-2-2-2" />  <!--斗地主经典版-->
+  <item package="com.sngx.nearme.gamecenter" rateId="2-2-2-2" />  <!--少年歌行-->
+  <item package="com.joym.armorbear2018.nearme.gamecenter" rateId="2-2-2-2" />  <!--熊出没森林勇士-->
+  <item package="com.libii.halloweenboutique.nearme.gamecenter" rateId="2-2-2-2" />  <!--万圣节时装店-->
+  <item package="com.apowo.picatown.nearme.gamecenter" rateId="2-2-2-2" />  <!--皮卡堂3D-->
+  <item package="com.wedobest.zjscs.nearme.gamecenter" rateId="2-2-2-2" />  <!--指尖神车手-->
+  <item package="com.martian.hxjxgs.nearme.gamecenter" rateId="2-2-2-2" />  <!--滑翔极限高手-->
+  <item package="com.shiyue.sszg.nearme.gamecenter" rateId="2-2-2-2" />  <!--闪烁之光-->
+  <item package="com.liuguan.yddcs.nearme.gamecenter" rateId="2-2-2-2" />  <!--拥堵的城市-->
+  <item package="com.xt.mntcs.nearme.gamecenter" rateId="2-2-2-2" />  <!--恐龙狙击狩猎-->
+  <item package="com.wyd.hero.yqlfc.cb1.nearme.gamecenter" rateId="2-2-2-2" />  <!--一起来飞车-->
+  <item package="com.nova.redwolf.nearme.gamecenter" rateId="2-2-2-2" />  <!--火线荣耀-->
+  <item package="top.minnows.jiong3" rateId="2-2-2-2" />  <!--最囧游戏3-->
+  <item package="com.igame.mntljnc.nearme.gamecenter" rateId="2-2-2-2" />  <!--模拟拖拉机农场-->
+  <item package="com.gangqindaren.nearme.gamecenter" rateId="2-2-2-2" />  <!--白块儿钢琴达人-->
+  <item package="com.droidhang.ad.nearme.gamecenter" rateId="2-2-2-2" />  <!--放置奇兵-->
+  <item package="com.quantum.jwqy.nearme.gamecenter" rateId="2-2-2-2" />  <!--风云七剑-->
+  <item package="com.kdjh.leisunet.net.nearme.gamecenter" rateId="2-2-2-2" />  <!--口袋进化-->
+  <item package="com.sx.hlxj.nearme.gamecenter" rateId="2-2-2-2" />  <!--幻灵仙境-->
+  <item package="com.ty.fishing.nearme.gamecenter" rateId="2-2-2-2" />  <!--享越疯狂钓鱼-->
+  <item package="com.tencent.tako.muses" rateId="2-2-2-2" />  <!--云裳羽衣-->
+  <item package="com.games.hc.acing.nearme.gamecenter" rateId="2-2-2-2" />  <!--火柴人联盟2-->
+  <item package="com.melestudio.ColoringBook.nearme.gamecenter" rateId="2-2-2-2" />  <!--儿童画画-->
+  <item package="com.quduoduo.pixeldot.nearme.gamecenter" rateId="2-2-2-2" />  <!--画画数字填色-->
+  <item package="com.ycgame.smsy.nearme.gamecenter" rateId="2-2-2-2" />  <!--蜀门-->
+  <item package="com.invictus.giveitup2.oppo" rateId="2-2-2-2" />  <!--永不言弃2-->
+  <item package="com.tianyi.qljzmn.game.nearme.gamecenter" rateId="2-2-2-2" />  <!--桥梁建造模拟-->
+  <item package="com.xiaoji.emulator" rateId="2-2-2-2" />  <!--小鸡模拟器-->
+  <item package="com.igame.cstkdz.nearme.gamecenter" rateId="2-2-2-2" />  <!--超神坦克大战-->
+  <item package="mykp.nyt.nearme.gamecenter" rateId="2-2-2-2" />  <!--妈呀快跑-->
+  <item package="com.tencent.qqgame.qqfive" rateId="2-2-2-2" />  <!--欢乐五子棋-->
+  <item package="city.truck.race3d" rateId="2-2-2-2" />  <!--3D火车驾驶员-->
+  <item package="com.igame.klsl.nearme.gamecenter" rateId="2-2-2-2" />  <!--恐龙狩猎-->
+  <item package="com.tiandou.gameddsk.nearme.gamecenter" rateId="2-2-2-2" />  <!--模拟山羊-->
+  <item package="com.martian.RoomEscape17.nearme.gamecenter" rateId="2-2-2-2" />  <!--密室逃脱17守护公寓-->
+  <item package="com.xigua.xmws.nearme.gamecenter" rateId="2-2-2-2" />  <!--剑与契约-->
+  <item package="com.bear.UnLuckBear.nearme.gamecenter" rateId="2-2-2-2" />  <!--倒霉熊奇幻大冒险-->
+  <item package="com.tencent.tmgp.TCrossSGJQ" rateId="2-2-2-2" />  <!--腾讯天天军棋-->
+  <item package="com.feelingtouch.zf4.nearme.gamecenter" rateId="2-2-2-2" />  <!--僵尸前线4-->
+  <item package="com.yunbu.coloringcreative2.nearme.gamecenter" rateId="2-2-2-2" />  <!--神奇像素画-->
+  <item package="com.ripostegames.ctbz.nearme.gamecenter" rateId="2-2-2-2" />  <!--寸土必争-->
+  <item package="com.pwrd.wlwz.nearme.gamecenter" rateId="2-2-2-2" />  <!--武林外传-->
+  <item package="com.yunbu.restauranttycoon.nearme.gamecenter" rateId="2-2-2-2" />  <!--美食城大亨-->
+  <item package="com.lxd.xcmzcldzw.nearme.gamecenter" rateId="2-2-2-2" />  <!--熊出没之丛林大战2-->
+  <item package="com.zsfz.ncmn3d.nearme.gamecenter" rateId="2-2-2-2" />  <!--农场模拟3D-->
+  <item package="com.RoosterGames.TruckDriver2Multiplayer.t" rateId="2-2-2-2" />  <!--旋转轮胎-->
+  <item package="com.yyzy.nearme.gamecenter" rateId="2-2-2-2" />  <!--月圆之夜-->
+  <item package="com.halfbrick.fruitninja" rateId="2-2-2-2" />  <!--水果忍者-->
+  <item package="com.saturngame.pm2.nearme.gamecenter" rateId="2-2-2-2" />  <!--口袋日月-->
+  <item package="com.tnyoo.z.nearme.gamecenter" rateId="2-2-2-2" />  <!--黎明之路-->
+  <item package="air.com.tencent.qqfarmios" rateId="2-2-2-2" />  <!--QQ农场-->
+  <item package="com.wsy.wansuiye.nearme.gamecenter" rateId="2-2-2-2" />  <!--叫我万岁爷-->
+  <item package="com.wedobest.shudu.nearme.gamecenter" rateId="2-2-2-2" />  <!--数独-->
+  <item package="com.njyk.laoshumoni.nearme.gamecenter" rateId="2-2-2-2" />  <!--真实老鼠模拟-->
+  <item package="com.libii.mermaidparty" rateId="2-2-2-2" />  <!--美人鱼派对海底历险记-->
+  <item package="com.leyo.cjfx.nearme.gamecenter" rateId="2-2-2-2" />  <!--超级飞侠环球大冒险-->
+  <item package="com.zplay.beatracer.nearme.gamecenter" rateId="2-2-2-2" />  <!--电音超跑-->
+  <item package="com.netease.h48.nearme.gamecenter" rateId="2-2-2-2" />  <!--神都夜行录-->
+  <item package="com.tencent.tmgp.ttwq" rateId="2-2-2-2" />  <!--腾讯围棋-->
+  <item package="com.jumpw.mobile.nearme.gamecenter" rateId="2-2-2-2" />  <!--300大作战-->
+  <item package="com.redwords.hcrxs.nearme.gamecenter" rateId="2-2-2-2" />  <!--火柴人先生：刺激吃鸡-->
+  <item package="com.sg.ultramanheros.nearme.gamecenter" rateId="2-2-2-2" />  <!--奥特曼超人大战小怪兽-->
+  <item package="com.crazyant.tinyfatter.nearme.gamecenter" rateId="2-2-2-2" />  <!--你胖你先吃-->
+  <item package="com.wq.PixelBumperCar.nearme.gamecenter" rateId="2-2-2-2" />  <!--像素碰碰车-->
+  <item package="com.outfit7.mytalkingtomfree" rateId="2-2-2-2" />  <!--我的汤姆猫（宠物养成游戏）-->
+  <item package="com.liuguan.qhjj.nearme.gamecenter" rateId="2-2-2-2" />  <!--枪魂狙击-->
+  <item package="com.igame.fcry.nearme.gamecenter" rateId="2-2-2-2" />  <!--飞车荣耀-->
+  <item package="com.tomato.joy.xqdzz.nearme.gamecenter" rateId="2-2-2-2" />  <!--雪球大作战-->
+  <item package="com.idreamsky.terraria.nearme.gamecenter" rateId="2-2-2-2" />  <!--泰拉瑞亚-->
+  <item package="com.youmeng.rexueaotechaorengedou.nearme.gamecenter" rateId="2-2-2-2" />  <!--热血奥特超人格斗-->
+  <item package="cn.lemongrassmedia.loveworld.nearme.gamecenter" rateId="2-2-2-2" />  <!--恋世界-->
+  <item package="com.igame.nldbp.nearme.gamecenter" rateId="2-2-2-2" />  <!--脑力大比拼-->
+  <item package="com.seyeonsoft.pastel" rateId="2-2-2-2" />  <!--粉彩女孩-->
+  <item package="com.huoshe.wdccc.nearme.gamecenter" rateId="2-2-2-2" />  <!--无敌冲冲冲-->
+  <item package="com.outfit7.mytalkingangelafree" rateId="2-2-2-2" />  <!--我的安吉拉-->
+  <item package="com.pape.nuannew.nearme.gamecenter" rateId="2-2-2-2" />  <!--暖暖环游世界-->
+  <item package="com.BoonieBearsEntangledWorldsTWO.nearme.gamecenter" rateId="2-2-2-2" />  <!--熊出没奇幻空间2-->
+  <item package="com.wedobest.HD1010.nearme.gamecenter" rateId="2-2-2-2" />  <!--罗斯方块-->
+  <item package="com.mfgame.qmfc.nearme.gamecenter" rateId="2-2-2-2" />  <!--全民极品飞车2-->
+  <item package="com.tencent.tmgp.rxcq" rateId="2-2-2-2" />  <!--热血传奇-->
+  <item package="com.jd.game.babyline.nearme.gamecenter" rateId="2-2-2-2" />  <!--宝宝爱连线-->
+  <item package="com.mfkj.djkysc.nearme.gamecenter" rateId="2-2-2-2" />  <!--单机狂野赛车-->
+  <item package="com.pdragon.HD1010" rateId="2-2-2-2" />  <!--方块消除小游戏-->
+  <item package="com.pdragon.new2048" rateId="2-2-2-2" />  <!--新2048-->
+  <item package="wb.gc.xmxx.zxb" rateId="2-2-2-2" />  <!--消灭糖果-->
+  <item package="com.happygod.fireman" rateId="2-2-2-2" />  <!--火柴人大乱斗-->
+  <item package="com.tiancan.trucksform.nearme.gamecenter" rateId="2-2-2-2" />  <!--3D变形卡车-->
+  <item package="com.sj3975.rxcs.nearme.gamecenter" rateId="2-2-2-2" />  <!--热血传说-->
+  <item package="com.liuguan.cjmmmn.nearme.gamecenter" rateId="2-2-2-2" />  <!--超级妈妈模拟-->
+  <item package="com.whmd.ppcdmx.nearme.gamecenter" rateId="2-2-2-2" />  <!--碰碰车大冒险-->
+  <item package="com.catfun.happydmm.nearme.gamecenter" rateId="2-2-2-2" />  <!--开心躲猫猫-->
+  <item package="zxby.nearme.gamecenter" rateId="2-2-2-2" />  <!--指心捕鱼-->
+  <item package="com.tianyi.qjdhy.game.nearme.gamecenter" rateId="2-2-2-2" />  <!--秋季大荒原-->
+  <item package="com.wb.gttq.nearme.gamecenter" rateId="2-2-2-2" />  <!--高台跳球-->
+  <item package="com.taiyouxi.pk.oppo.nearme.gamecenter" rateId="2-2-2-2" />  <!--王牌御史-->
+  <item package="com.zsfz.yrttt2.nearme.gamecenter" rateId="2-2-2-2" />  <!--野人跳跳跳-->
+  <item package="com.zmxyol.union.keke.nearme.gamecenter" rateId="2-2-2-2" />  <!--造梦西游OL-->
+  <item package="com.quduoduo.nearme.gamecenter" rateId="2-2-2-2" />  <!--黑洞大作战：洞洞大乱斗-->
+  <item package="com.zq.kltoys.town.nearme.gamecenter" rateId="2-2-2-2" />  <!--快乐酷跑-->
+  <item package="com.joym.bearfarm.nearme.gamecenter" rateId="2-2-2-2" />  <!--熊出没之熊大农场-->
+  <item package="com.zsfz.ygcsdmn.nearme.gamecenter" rateId="2-2-2-2" />  <!--油罐车山地模拟-->
+  <item package="com.hgqn.xcmfkds.oppo" rateId="2-2-2-2" />  <!--熊出没之疯狂弹射-->
+  <item package="com.eyu.piano" rateId="2-2-2-2" />  <!--DreamPiano-->
+  <item package="com.mfkj.ryfc.nearme.gamecenter" rateId="2-2-2-2" />  <!--荣耀飞车-->
+  <item package="com.bomwan.nearme.gamecenter" rateId="2-2-2-2" />  <!--魔天记3D-->
+  <item package="com.tencent.tmgp.dragonnest" rateId="2-2-2-2" />  <!--龙之谷-->
+  <item package="com.netease.my" rateId="2-2-2-2" />  <!--\N-->
+  <item package="com.xzuson.game.homeburger.nearme.gamecenter" rateId="2-2-2-2" />  <!--有家汉堡包-->
+  <item package="com.nidong.cmswat.nearme.gamecenter" rateId="2-2-2-2" />  <!--正义枪战-->
+  <item package="cn.ultralisk.gameapp.game12.nearme.gamecenter" rateId="2-2-2-2" />  <!--巴啦啦魔法美妆2-->
+  <item package="com.weile.game" rateId="2-2-2-2" />  <!--\N-->
+  <item package="com.teayelp.whereareyou" rateId="2-2-2-2" />  <!--找你妹2015-->
+  <item package="com.cjfx.xqc.nearme.gamecenter" rateId="2-2-2-2" />  <!--超级飞侠向前冲-->
+  <item package="com.njtd.hcmnq.nearme.gamecenter" rateId="2-2-2-2" />  <!--火箭飞车-->
+  <item package="aiwan.DanceLine.nearme.gamecenter" rateId="2-2-2-2" />  <!--猎龙消消大作战-->
+  <item package="com.XXX.XCMZCLWZ.eagme.nearme.gamecenter" rateId="2-2-2-2" />  <!--熊出没之丛林王者-->
+  <item package="com.nnmyll.game.nearme.gamecenter" rateId="2-2-2-2" />  <!--魔域神曲：魔域来了-->
+  <item package="com.tencent.modoomarble" rateId="2-2-2-2" />  <!--天天富翁-->
+  <item package="com.yunbu.lovemonogatari.nearme.gamecenter" rateId="2-2-2-2" />  <!--心动美妆物语-->
+  <item package="com.gameloft.android.ANMP.GloftGGHM" rateId="2-2-2-2" />  <!--Gangstar4-->
+  <item package="tong.mgames.shcy.nearme.gamecenter" rateId="2-2-2-2" />  <!--深海大鱼吃小鱼-->
+  <item package="com.netease.ms3.nearme.gamecenter" rateId="2-2-2-2" />  <!--迷室3-->
+  <item package="cn.ultralisk.balala4" rateId="2-2-2-2" />  <!--巴啦啦魔法变身2-->
+  <item package="com.tianyi.kbgs.game.nearme.gamecenter" rateId="2-2-2-2" />  <!--恐怖故事-->
+  <item package="com.idreamsky.carcrash.nearme.gamecenter" rateId="2-2-2-2" />  <!--欢乐赛车大战-->
+  <item package="com.mfp.jelly.yingyongbao" rateId="2-2-2-2" />  <!--\N-->
+  <item package="com.lhyy.childrentaciturnly" rateId="2-2-2-2" />  <!--儿童宝宝蘑菇钉游戏-->
+  <item package="com.easymobi.plagueinc.oppo" rateId="2-2-2-2" />  <!--瘟疫公司-->
+  <item package="com.majiang.scmj3.nearme.gamecenter" rateId="2-2-2-2" />  <!--四川麻将-换三张-->
+  <item package="com.jsdw.zzxdongjiB.nearme.gamecenter" rateId="2-2-2-2" />  <!--火柴蜘蛛侠冬季版-->
+  <item package="com.qbankilltext.hualu.nearme.gamecenter" rateId="2-2-2-2" />  <!--谁是卧底-->
+  <item package="com.MXW.JJJT3D.nearme.gamecenter" rateId="2-2-2-2" />  <!--机甲军团：机器人时代3D-->
+  <item package="com.pspd.igame.nearme.gamecenter" rateId="2-2-2-2" />  <!--喷射派对-->
+  <item package="com.yunbu.magicprincess2.nearme.gamecenter" rateId="2-2-2-2" />  <!--魔法公主礼仪学院2-->
+  <item package="com.whjf.byfjmnjs.nearme.gamecenter" rateId="2-2-2-2" />  <!--波音飞机模拟驾驶-->
+  <item package="com.men.swfgame.scrawl" rateId="2-2-2-2" />  <!--儿童涂颜色游戏-->
+  <item package="com.lew.game.ballparkour.nearme.gamecenter" rateId="2-2-2-2" />  <!--球球跑酷-->
+  <item package="com.lg.xhlxd.nearme.gamecenter" rateId="2-2-2-2" />  <!--新葫芦兄弟-->
+  <item package="com.sg.atmdztcs.nearme.gamecenter" rateId="2-2-2-2" />  <!--奥特曼大战贪吃蛇-->
+  <item package="bf.sgs.hdexp" rateId="2-2-2-2" />  <!--\N-->
+  <item package="com.tinybuildgames.helloneighbor" rateId="2-2-2-2" />  <!--你好邻居-->
+  <item package="com.ltby.nearme.gamecenter" rateId="2-2-2-2" />  <!--雷霆霸业-->
+  <item package="com.kaixinhuoguodian.nearme.gamecenter" rateId="2-2-2-2" />  <!--开心火锅店-->
+  <item package="com.supercell.clashofclans.uc" rateId="2-2-2-2" />  <!--部落冲突-->
+  <item package="com.quanmai.pmp.nearme.gamecenter" rateId="2-2-2-2" />  <!--口袋新世代-->
+  <item package="com.ycoolgame.bubg.nearme.gamecenter" rateId="2-2-2-2" />  <!--绝密飞行-->
+  <item package="com.cy.lnkp.nearme.gamecenter" rateId="2-2-2-2" />  <!--露娜快跑-->
+  <item package="com.tomatojoy.fktl.nearme.gamecenter" rateId="2-2-2-2" />  <!--疯狂投篮-->
+  <item package="com.zsfz.wjjzsmn.nearme.gamecenter" rateId="2-2-2-2" />  <!--挖掘机真实模拟-->
+  <item package="com.yiru.yxsrs.zygame" rateId="2-2-2-2" />  <!--一小时人生-->
+  <item package="com.pokercity.ddz.nearme.gamecenter" rateId="2-2-2-2" />  <!--波克斗地主-->
+  <item package="com.minidip.mrwj.nearme.gamecenter" rateId="2-2-2-2" />  <!--末日危机-->
+  <item package="com.yunbu.flowergirl.nearme.gamecenter" rateId="2-2-2-2" />  <!--花花姑娘之美妆奇缘-->
+  <item package="com.snxyj.apk.nearme.gamecenter" rateId="2-2-2-2" />  <!--少年西游记-->
+  <item package="kiss.game.princess.kissing119731" rateId="2-2-2-2" />  <!--公主接吻-->
+  <item package="com.mediocre.grannysmith.nearme.gamecenter" rateId="2-2-2-2" />  <!--跑酷老奶奶-->
+  <item package="com.mfkj.tgqj.nearme.gamecenter" rateId="2-2-2-2" />  <!--糖果奇迹-->
+  <item package="com.cqwx.mmbwdyxcqll.nearme.gamecenter" rateId="2-2-2-2" />  <!--妈妈把我的游戏藏起来了-->
+  <item package="com.chumeng.zeus.nearme.gamecenter" rateId="2-2-2-2" />  <!--掌机小精灵-->
+  <item package="mobi.shoumeng.ttbc3d" rateId="2-2-2-2" />  <!--3D天天飙车-超爽赛车-->
+  <item package="com.wb.shqq.nearme.gamecenter" rateId="2-2-2-2" />  <!--守护球球-->
+  <item package="com.puppetsgame.miracing.nearme.gamecenter" rateId="2-2-2-2" />  <!--小米赛车-->
+  <item package="com.sanjiu.cqss2.nearme.gamecenter" rateId="2-2-2-2" />  <!--传奇盛世2-->
+  <item package="com.fg.cat.nearme.gamecenter" rateId="2-2-2-2" />  <!--喵星变形军团-->
+  <item package="com.shijun.android.dwtd.nearme.gamecenter" rateId="2-2-2-2" />  <!--蠢蠢的死法-->
+  <item package="com.igame.zfz.nearme.gamecenter" rateId="2-2-2-2" />  <!--征服者-->
+  <item package="com.hzsf.hcrjjsxd.game.nearme.gamecenter" rateId="2-2-2-2" />  <!--火柴人狙击手行动-->
+  <item package="com.kpzz.nearme.gamecenter" rateId="2-2-2-2" />  <!--卡片战争-->
+  <item package="com.jym.kyfc.nearme.gamecenter" rateId="2-2-2-2" />  <!--我的狂野飞车-->
+  <item package="com.skiddy.nearme.gamecenter" rateId="2-2-2-2" />  <!--全民疯狂漂移-->
+  <item package="com.redwoods.hcrcjpd.nearme.gamecenter" rateId="2-2-2-2" />  <!--火柴人吃鸡派对-->
+  <item package="com.libii.CandyCakeShop.nearme.gamecenter" rateId="2-2-2-2" />  <!--糖糖蛋糕店-->
+  <item package="com.tencent.tmgp.gods" rateId="2-2-2-2" />  <!--全民超神-->
+  <item package="com.yunbu.badmintonleague.nearme.gamecenter" rateId="2-2-2-2" />  <!--羽毛球高高手-->
+  <item package="com.miniclip.bowmasters" rateId="2-2-2-2" />  <!--弓箭手们-->
+  <item package="com.shandagames.shelter.nearme.gamecenter" rateId="2-2-2-2" />  <!--辐射：避难所Online-->
+  <item package="com.libii.candydesserthouse.nearme.gamecenter" rateId="2-2-2-2" />  <!--糖糖甜品屋-->
+  <item package="com.cwxjlfk.nearme.gamecenter" rateId="2-2-2-2" />  <!--宠物小精灵复刻-->
+  <item package="com.wb.qwcq.nearme.gamecenter" rateId="2-2-2-2" />  <!--趣味彩球-->
+  <item package="com.pdragon.doushouqi.nearme.gamecenter" rateId="2-2-2-2" />  <!--斗兽棋-->
+  <item package="com.wedobest.feixingqi.nearme.gamecenter" rateId="2-2-2-2" />  <!--飞行棋-->
+  <item package="com.martian.RoomEscape8.nearme.gamecenter" rateId="2-2-2-2" />  <!--密室逃脱8红色豪宅-->
+  <item package="com.chn.snowballio.nearme.gamecenter" rateId="2-2-2-2" />  <!--雪地大作战-->
+  <item package="com.xhlw.hardtime.nearme.gamecenter" rateId="2-2-2-2" />  <!--新葫芦娃-->
+  <item package="air.com.martian.RoomEscape2.oppo" rateId="2-2-2-2" />  <!--密室逃脱古堡迷城2-->
+  <item package="com.zsfz.ljfdzz.nearme.gamecenter" rateId="2-2-2-2" />  <!--龙卷风大作战-->
+  <item package="com.tencent.tmgp.coslegend" rateId="2-2-2-2" />  <!--\N-->
+  <item package="com.csdj.motojsmn.nearme.gamecenter" rateId="2-2-2-2" />  <!--城市摩托车驾驶-->
+  <item package="com.wb.wmch.nearme.gamecenter" rateId="2-2-2-2" />  <!--完美重合-->
+  <item package="com.pdragon.aa.nearme.gamecenter" rateId="2-2-2-2" />  <!--见缝插针-->
+  <item package="so.wz.qius.nearme.gamecenter" rateId="2-2-2-2" />  <!--火线突击之热血反恐-->
+  <item package="com.ttx5.nearme.gamecenter" rateId="2-2-2-2" />  <!--天天炫舞-->
+  <item package="zzyxzc.cjzzx.nearme.gamecenter" rateId="2-2-2-2" />  <!--蜘蛛英雄战场-->
+  <item package="com.igame.hllbnc.nearme.gamecenter" rateId="2-2-2-2" />  <!--欢乐萝卜农场-->
+  <item package="com.sg.bjxgs.nearme.gamecenter" rateId="2-2-2-2" />  <!--奥特曼超人-->
+  <item package="com.shouxin.hwby.nearme.gamecenter" rateId="2-2-2-2" />  <!--海王捕鱼-->
+  <item package="com.tencent.everadventure" rateId="2-2-2-2" />  <!--无尽远征-->
+  <item package="com.joym.armorbloodwar.nearme.gamecenter" rateId="2-2-2-2" />  <!--铠甲勇士热血战神-->
+  <item package="com.funcity.carsbattletwo" rateId="2-2-2-2" />  <!--求生之王-->
+  <item package="wdmn.sjqig.nearme.gamecenter" rateId="2-2-2-2" />  <!--我的迷你世界-->
+  <item package="com.zcsc.nearme.gamecenter" rateId="2-2-2-2" />  <!--吃鸡战场生存-->
+  <item package="com.igames.qmlcbs.nearme.gamecenter" rateId="2-2-2-2" />  <!--全民列车比赛-->
+  <item package="com.libii.libbyunicorn.nearme.gamecenter" rateId="2-2-2-2" />  <!--莉比小公主梦幻独角兽-->
+  <item package="com.longlangyx.hcrzzsj.nearme.gamecenter" rateId="2-2-2-2" />  <!--火柴人战争：世界-->
+  <item package="com.dc01.nearme.gamecenter" rateId="2-2-2-2" />  <!--九州飞凰录-->
+  <item package="com.whmd.lkfy.nearme.gamecenter" rateId="2-2-2-2" />  <!--猎空风云-->
+  <item package="com.wb.gddsj.nearme.gamecenter" rateId="2-2-2-2" />  <!--滚动的世界-->
+  <item package="com.duole.paohuzihd.nearme.gamecenter" rateId="2-2-2-2" />  <!--多乐跑胡子-->
+  <item package="com.mycomp.cwjd.nearme.gamecenter" rateId="2-2-2-2" />  <!--宠物基地-->
+  <item package="com.zwyx.tkzm.nearme.gamecenter" rateId="2-2-2-2" />  <!--天空之门-->
+  <item package="com.zwtx.hjatcr.nearme.gamecenter" rateId="2-2-2-2" />  <!--合金奥特超人-->
+  <item package="com.whmd.jcsdtw.nearme.gamecenter" rateId="2-2-2-2" />  <!--巨齿鲨大逃亡-->
+  <item package="com.liuguan.xdfc.nearme.gamecenter" rateId="2-2-2-2" />  <!--炫动飞车-->
+  <item package="com.mfkj.xxdfm.nearme.gamecenter" rateId="2-2-2-2" />  <!--小熊的蜂蜜-->
+  <item package="com.galasports.basketball.nearme.gamecenter" rateId="2-2-2-2" />  <!--NBA篮球大师：最强王者-->
+  <item package="com.wb.lxgs.nearme.gamecenter" rateId="2-2-2-2" />  <!--连线高手-->
+  <item package="org.islq.move2048" rateId="2-2-2-2" />  <!--天天2048-->
+  <item package="com.zsfz.hcrxdyx.nearme.gamecenter" rateId="2-2-2-2" />  <!--火柴人侠盗英雄-->
+  <item package="com.MXW.SCSCCZC.nearme.gamecenter" rateId="2-2-2-2" />  <!--赛车赛车-->
+  <item package="com.yunbu.differences.nearme.gamecenter" rateId="2-2-2-2" />  <!--找茬高高手-->
+  <item package="com.libii.libbycarnival.nearme.gamecenter" rateId="2-2-2-2" />  <!--莉比小公主狂欢嘉年华-->
+  <item package="com.xinyi.mori.nearme.gamecenter" rateId="2-2-2-2" />  <!--末日机甲风暴之霹雳对战-->
+  <item package="com.zsfz.czczsmn.mfgame.nearme.gamecenter" rateId="2-2-2-2" />  <!--极品飙车-->
+  <item package="com.zhuzhuxia.kuaipao.nearme.gamecenter" rateId="2-2-2-2" />  <!--猪猪侠快跑-->
+  <item package="zombie.survival.craft.z" rateId="2-2-2-2" />  <!--地球末日生存-->
+  <item package="com.qyj.net.nearme.gamecenter" rateId="2-2-2-2" />  <!--青云诀-->
+  <item package="com.igame.cjfff.nearme.gamecenter" rateId="2-2-2-2" />  <!--超级翻翻翻-->
+  <item package="com.bf.HuoPinShuangKou.nearme.gamecenter" rateId="2-2-2-2" />  <!--火拼双扣-->
+  <item package="pl.idreams.pottery.oppo" rateId="2-2-2-2" />  <!--一起玩陶艺-->
+  <item package="gjssjdzz.gjssj.nearme.gamecenter" rateId="2-2-2-2" />  <!--弓箭手射箭大作战-->
+  <item package="com.tencent.tmgp.wesix" rateId="2-2-2-2" />  <!--消除者联盟-->
+  <item package="com.wedobest.llk.nearme.gamecenter" rateId="2-2-2-2" />  <!--连连看-->
+  <item package="com.libii.furrypetsalon.nearme.gamecenter" rateId="2-2-2-2" />  <!--毛绒宠物美容院-->
+  <item package="com.libii.winterparty.nearme.gamecenter" rateId="2-2-2-2" />  <!--莉比小公主之冰雪派对-->
+  <item package="com.youmeng.aotekuaipao.nearme.gamecenter" rateId="2-2-2-2" />  <!--热血奥特超人快跑-->
+  <item package="com.zsfz.gjc3dmn.nearme.gamecenter" rateId="2-2-2-2" />  <!--公交车3D模拟-->
+  <item package="com.kunpo.travelstring.jrtt" rateId="2-2-2-2" />  <!--旅行串串-->
+  <item package="com.mars.ssjjqlsj.nearme.gamecenter" rateId="2-2-2-2" />  <!--神兽金刚青龙射击-->
+  <item package="com.saiyun.qpbylwb.nearme.gamecenter" rateId="2-2-2-2" />  <!--捕鱼欢乐颂-->
+  <item package="com.wepie.snake" rateId="2-2-2-2" />  <!--\N-->
+  <item package="com.kunqi.dywz.nearme.gamecenter" rateId="2-2-2-2" />  <!--钓鱼王者-->
+  <item package="com.feamber.racing4.oppo" rateId="2-2-2-2" />  <!--猪猪侠百变飞车-->
+  <item package="com.vectorunit.redcmgeplaycn" rateId="2-2-2-2" />  <!--激流快艇2-->
+  <item package="com.jd.game.fruitsmasher.nearme.gamecenter" rateId="2-2-2-2" />  <!--水果消除-->
+  <item package="com.tencent.tapenjoy.actx" rateId="2-2-2-2" />  <!--魂武者-->
+  <item package="com.tomato.joy.hxdzjl.nearme.gamecenter" rateId="2-2-2-2" />  <!--红心大战接龙-->
+  <item package="com.yr.yxsrs.nearme.gamecenter" rateId="2-2-2-2" />  <!--希望之村-->
+  <item package="com.netease.ma71.nearme.gamecenter" rateId="2-2-2-2" />  <!--边境之旅-->
+  <item package="com.tencent.tmgp.ddtank" rateId="2-2-2-2" />  <!--弹弹堂-->
+  <item package="com.ggyx.hcrxzdg.nearme.gamecenter" rateId="2-2-2-2" />  <!--火柴人勋章帝国-->
+  <item package="com.huoshe.cjpkx.nearme.gamecenter" rateId="2-2-2-2" />  <!--超级跑酷侠-->
+  <item package="com.mytx.hcgtrqz.nearme.gamecenter" rateId="2-2-2-2" />  <!--火柴钢铁人枪战3D-->
+  <item package="com.tongcn.ymmbpb.nearme.gamecenter" rateId="2-2-2-2" />  <!--羊咩咩奔跑吧-->
+  <item package="com.quantum.ahjx.nearme.gamecenter" rateId="2-2-2-2" />  <!--暗黑觉醒-->
+  <item package="com.fingertip.saolei.nearme.gamecenter" rateId="2-2-2-2" />  <!--扫雷世界-->
+  <item package="com.fhxj.hardtime.nearme.gamecenter" rateId="2-2-2-2" />  <!--凤凰心计-->
+  <item package="com.joygame.fish2.nearme.gamecenter" rateId="2-2-2-2" />  <!--金手指捕鱼-->
+  <item package="com.djinnworks.StickmanBasketball.oppo" rateId="2-2-2-2" />  <!--火柴人篮球-->
+  <item package="com.zhangdong.dolls.nearme.gamecenter" rateId="2-2-2-2" />  <!--欢乐娃娃机-->
+  <item package="com.joypac.kaihi3.nearme.gamecenter" rateId="2-2-2-2" />  <!--神回避3-->
+  <item package="com.mfkj.shtyt.nearme.gamecenter" rateId="2-2-2-2" />  <!--深海探一探-->
+  <item package="com.yunbu.mermaidprincess.nearme.gamecenter" rateId="2-2-2-2" />  <!--人鱼公主美妆秀-->
+  <item package="com.mfkj.cltg.nearme.gamecenter" rateId="2-2-2-2" />  <!--初恋糖果-->
+  <item package="com.forgame.mmxd.nearme.gamecenter" rateId="2-2-2-2" />  <!--美美小店-->
+  <item package="com.igame.ozkc.nearme.gamecenter" rateId="2-2-2-2" />  <!--欧洲卡车-->
+  <item package="com.hlys.hcrgd.nearme.gamecenter" rateId="2-2-2-2" />  <!--火柴人格斗-->
+  <item package="com.mfkj.jsqs.nearme.gamecenter" rateId="2-2-2-2" />  <!--急速轻松躲避-->
+  <item package="com.dingogames.tastyplanet1lite" rateId="2-2-2-2" />  <!--美味星球-->
+  <item package="com.mars.bx.nearme.gamecenter" rateId="2-2-2-2" />  <!--神兽金刚3变形-->
+  <item package="org.cocos2d.jdqs2.nearme.gamecenter" rateId="2-2-2-2" />  <!--和王老汉一起攻克难关-->
+  <item package="com.jiayi.mxcq.nearme.gamecenter" rateId="2-2-2-2" />  <!--冒险传奇-->
+  <item package="com.zsfz.bxjqs3d.nearme.gamecenter" rateId="2-2-2-2" />  <!--变形机器鲨3D-->
+  <item package="com.xxhy.pokemon.nearme.gamecenter" rateId="2-2-2-2" />  <!--魔王乱入-->
+  <item package="com.zsfz.sxslj.nearme.gamecenter" rateId="2-2-2-2" />  <!--水下狩猎季-->
+  <item package="com.zulong.nine.nearme.gamecenter" rateId="2-2-2-2" />  <!--九州天空城3D-->
+  <item package="com.miragine.MiragineWar.nearme.gamecenter" rateId="2-2-2-2" />  <!--米拉奇战记-->
+  <item package="com.t2ksports.nba2k15android" rateId="2-2-2-2" />  <!--NBA2K15直装版-->
+  <item package="com.stickman.Stickman.nearme.gamecenter" rateId="2-2-2-2" />  <!--怒怼火柴人-->
+  <item package="com.yunbu.girlmagicmakeup.nearme.gamecenter" rateId="2-2-2-2" />  <!--美少女魔法美妆-->
+  <item package="com.martian.RoomEscape13.nearme.gamecenter" rateId="2-2-2-2" />  <!--密室逃脱13秘密任务-->
+  <item package="com.tencent.tmgp.dragonball" rateId="2-2-2-2" />  <!--龙珠激斗（七龙珠正版手游）-->
+  <item package="com.libii.candytoystore.nearme.gamecenter" rateId="2-2-2-2" />  <!--糖糖玩具店-->
+  <item package="com.dlmqfqt.net.nearme.gamecenter" rateId="2-2-2-2" />  <!--麻雀飞青天-->
+  <item package="com.libii.candymakeup.nearme.gamecenter" rateId="2-2-2-2" />  <!--糖果美妆派对-->
+  <item package="com.jg.cqjy.nearme.gamecenter" rateId="2-2-2-2" />  <!--斩月屠龙-->
+  <item package="com.yh.nxzsj.nearme.gamecenter" rateId="2-2-2-2" />  <!--虐心直升机-->
+  <item package="com.melestudio.PenRun.nearme.gamecenter" rateId="2-2-2-2" />  <!--奔跑吧铅笔-->
+  <item package="com.tencent.tmgp.ylm" rateId="2-2-2-2" />  <!--御龙在天-->
+  <item package="com.yh.zjdzz.nearme.gamecenter" rateId="2-2-2-2" />  <!--空中蹦蹦跳-->
+  <item package="com.mars.ssjghyjg.nearme.gamecenter" rateId="2-2-2-2" />  <!--神兽金刚3幻影金刚-->
+  <item package="com.liuguan.TMSXHC.nearme.gamecenter.nearme.gamecenter" rateId="2-2-2-2" />  <!--赛车向前冲-->
+  <item package="net.crimoon.pm.nearme.gamecenter" rateId="2-2-2-2" />  <!--热血精灵王-->
+  <item package="com.melestudio.PixelArtClassic.nearme.gamecenter" rateId="2-2-2-2" />  <!--数字填色像素涂色-->
+  <item package="mzgz.bxqy.nearme.gamecenter" rateId="2-2-2-2" />  <!--云想衣裳-->
+  <item package="com.rxsjfx.union.keke.nearme.gamecenter" rateId="2-2-2-2" />  <!--热血神剑-->
+  <item package="com.zsfz.jbxpg3.nearme.gamecenter" rateId="2-2-2-2" />  <!--击爆小苹果-->
+  <item package="air.com.oranginalplan.weaphonesvol2" rateId="2-2-2-2" />  <!--真实武器模拟2（weaphones）-->
+  <item package="com.yunbu.schoolrockstar.nearme.gamecenter" rateId="2-2-2-2" />  <!--高中乐队明星-->
+  <item package="cn.ultralisk.game39.nearme.gamecenter" rateId="2-2-2-2" />  <!--魔幻陀螺3刺激对战-->
+  <item package="com.jy.mj.hzmj.nearme.gamecenter" rateId="2-2-2-2" />  <!--来打红中麻将-->
+  <item package="com.k7game.app.shuangkou.nearme.gamecenter" rateId="2-2-2-2" />  <!--双扣-->
+  <item package="com.brdj.hyzl.nearme.gamecenter" rateId="2-2-2-2" />  <!--回忆之旅-->
+  <item package="com.syxx.mfzz.nearme.gamecenter" rateId="2-2-2-2" />  <!--魔法蜘蛛（重名）-->
+  <item package="com.qrgame.xscczc.nearme.gamecenter" rateId="2-2-2-2" />  <!--像素赛车战场-->
+  <item package="com.yqsby.nearme.gamecenter" rateId="2-2-2-2" />  <!--摇钱树捕鱼-->
+  <item package="com.zqhs.glcjjs.nearme.gamecenter" rateId="2-2-2-2" />  <!--公路超级竞赛-->
+  <item package="com.cqwx.dsbc.nearme.gamecenter" rateId="2-2-2-2" />  <!--登山飙车-->
+  <item package="com.xt.tytjdb.nearme.gamecenter" rateId="2-2-2-2" />  <!--跳一跳口袋版-->
+  <item package="com.thankcreate.NormalAdventure" rateId="2-2-2-2" />  <!--正常的大冒险-->
+  <item package="com.tapblaze.pizzabusiness" rateId="2-2-2-2" />  <!--美味的披萨-->
+  <item package="com.ball3d.union.keke.nearme.gamecenter" rateId="2-2-2-2" />  <!--翻滚球球-->
+  <item package="com.huoshe.cjwxg.nearme.gamecenter" rateId="2-2-2-2" />  <!--超级外星狗-->
+  <item package="com.libii.promqueen" rateId="2-2-2-2" />  <!--校园舞会之浪漫约会夜-->
+  <item package="com.snailgames.mydinosaur.nearme.gamecenter" rateId="2-2-2-2" />  <!--我的恐龙-->
+  <item package="com.mars.twddy.nearme.gamecenter" rateId="2-2-2-2" />  <!--跳舞的电音-->
+  <item package="com.yw.jykl.nearme.gamecenter" rateId="2-2-2-2" />  <!--救援恐龙-->
+  <item package="com.diyibo.snmj.nearme.gamecenter" rateId="2-2-2-2" />  <!--少年名将-->
+  <item package="com.eyesthegame.eyes" rateId="2-2-2-2" />  <!--恐怖之眼-->
+  <item package="com.netease.avgqv.nearme.gamecenter" rateId="2-2-2-2" />  <!--失忆偶像出道中-->
+  <item package="com.leyo.mxsg.nearme.gamecenter" rateId="2-2-2-2" />  <!--梦想三国之勇往直击-->
+  <item package="com.shandagames.falloutshelter.nearme.gamecenter" rateId="2-2-2-2" />  <!--辐射避难所-->
+  <item package="com.zsfz.bxjqfl3d.nearme.gamecenter" rateId="2-2-2-2" />  <!--变形机器飞龙3D-->
+  <item package="com.walle.roadextreme.nearme.gamecenter" rateId="2-2-2-2" />  <!--公路极速-->
+  <item package="com.zsfz.xfc3dmn.nearme.gamecenter" rateId="2-2-2-2" />  <!--消防车3D模拟-->
+  <item package="com.mfkj.ldzjjh.nearme.gamecenter" rateId="2-2-2-2" />  <!--雷电战机-进化-->
+  <item package="com.lywx.tdqq.nearme.gamecenter" rateId="2-2-2-2" />  <!--跳动的球球-->
+  <item package="com.maichi.mcdzz.nearme.gamecenter" rateId="2-2-2-2" />  <!--萌宠大作战-->
+  <item package="com.mf.igame.hjqst.nearme.gamecenter" rateId="2-2-2-2" />  <!--幻姬骑士团-->
+  <item package="com.daqu.qmbfmt.OPPO.nearme.gamecenter" rateId="2-2-2-2" />  <!--全民暴风摩托-->
+  <item package="aj.dedg.gredfss.nearme.gamecenter" rateId="2-2-2-2" />  <!--棍子英雄联盟-->
+  <item package="com.szgd.GGBondrunning.nearme.gamecenter" rateId="2-2-2-2" />  <!--猪猪侠向前冲-->
+  <item package="com.rzmlb.nearme.gamecenter" rateId="2-2-2-2" />  <!--忍者大乱斗高爆版-->
+  <item package="com.zongyi.colorelax.nearme.gamecenter" rateId="2-2-2-2" />  <!--涂色大师-->
+  <item package="com.youguo.blocks.nearme.gamecenter" rateId="2-2-2-2" />  <!--被尘封的故事-->
+  <item package="com.zsfz.jsyx.nearme.gamecenter" rateId="2-2-2-2" />  <!--僵尸游戏-->
+  <item package="cn.ultralisk.gameapp.game09.nearme.gamecenter" rateId="2-2-2-2" />  <!--巴啦啦魔法变身3-->
+  <item package="com.GreatLiu.TeachingFeeling" rateId="2-2-2-2" />  <!--与奴隶的生活汉化版-->
+  <item package="com.nekki.shadowfight3" rateId="2-2-2-2" />  <!--ShadowFight3-->
+  <item package="com.pdragon.tshy.nearme.gamecenter" rateId="2-2-2-2" />  <!--涂色花园-->
+  <item package="com.zsfz.zwnzjsw3.nearme.gamecenter" rateId="2-2-2-2" />  <!--植物怒战僵尸王-->
+  <item package="com.kamitu.drawsth.standalone.free.android" rateId="2-2-2-2" />  <!--疯狂猜成语-->
+  <item package="com.tencent.tmgp.tcg" rateId="2-2-2-2" />  <!--贪吃小怪物-->
+  <item package="com.igame.yhsc.nearme.gamecenter" rateId="2-2-2-2" />  <!--银河赛车-->
+  <item package="com.gzyr.ksdzz.nearme.gamecenter" rateId="2-2-2-2" />  <!--考试大作战-->
+  <item package="com.jd.game.piperoll.nearme.gamecenter" rateId="2-2-2-2" />  <!--宝宝开心接水管-->
+  <item package="com.heitao.yhdzz.nearme.gamecenter" rateId="2-2-2-2" />  <!--约战:精灵再临-->
+  <item package="com.zsfz.ncmn3d.mfgame.nearme.gamecenter" rateId="2-2-2-2" />  <!--我消你蔬菜-->
+  <item package="com.cqwx.hcrss.nearme.gamecenter" rateId="2-2-2-2" />  <!--火柴人射手-->
+  <item package="com.huoshe.hsdmx.nearme.gamecenter" rateId="2-2-2-2" />  <!--皇室大冒险-->
+  <item package="com.fazbro.army.nearme.gamecenter" rateId="2-2-2-2" />  <!--反恐突击队：模拟武装运输-->
+  <item package="com.tencent.zqry2018" rateId="2-2-2-2" />  <!--全民冠军足球-->
+  <item package="com.wedobest.puzzlebubble.nearme.gamecenter" rateId="2-2-2-2" />  <!--泡泡龙消消乐-->
+  <item package="com.taome.jjr.nearme.gamecenter" rateId="2-2-2-2" />  <!--一直奔向月-->
+  <item package="com.yzy.hlqqwxcj.OPPO.nearme.gamecenter" rateId="2-2-2-2" />  <!--欢乐球球无限冲击-->
+  <item package="com.mingya.hillclimbracing.nearme.gamecenter" rateId="2-2-2-2" />  <!--真实山地越野：4X4拉力赛-->
+  <item package="com.slbhrycslsm.efun.nearme.gamecenter" rateId="2-2-2-2" />  <!--冰火人勇闯森林神庙-->
+  <item package="com.leyo.gbtg.nearme.gamecenter" rateId="2-2-2-2" />  <!--果宝特攻4热血机甲王-->
+  <item package="com.tencent.tmgp.cysgj" rateId="2-2-2-2" />  <!--成语小秀才-->
+  <item package="com.wuyaogamer.zhuzhuxiack.nearme.gamecenter" rateId="2-2-2-2" />  <!--猪猪侠机甲王-->
+  <item package="com.mfgame.qll.nearme.gamecenter" rateId="2-2-2-2" />  <!--墙来了-->
+  <item package="com.zsfz.ppdr.nearme.gamecenter" rateId="2-2-2-2" />  <!--跑跑达人-->
+  <item package="com.mfkj.xhc.nearme.gamecenter" rateId="2-2-2-2" />  <!--小火车:开始比赛-->
+  <item package="com.bjjy.mfzz.nearme.gamecenter" rateId="2-2-2-2" />  <!--魔法蜘蛛-->
+  <item package="com.mf.igame.fhzcj.nearme.gamecenter" rateId="2-2-2-2" />  <!--凤凰座出击-->
+  <item package="com.wali.xmcs.nearme.gamecenter" rateId="2-2-2-2" />  <!--小米超神-->
+  <item package="com.idreamsky.mekorama.nearme.gamecenter" rateId="2-2-2-2" />  <!--机械迷宫-->
+  <item package="com.fourddz.nearme.gamecenter" rateId="2-2-2-2" />  <!--四人斗地主-->
+  <item package="com.hugenstar.jjjt.nearme.gamecenter" rateId="2-2-2-2" />  <!--机甲军团-->
+  <item package="xjyll.yypk.nearme.gamecenter" rateId="2-2-2-2" />  <!--叶罗丽跑酷天团-->
+  <item package="com.herotower.jrtt" rateId="2-2-2-2" />  <!--火枪英雄-->
+  <item package="cn.ultralisk.gameapp.game17.nearme.gamecenter" rateId="2-2-2-2" />  <!--叶罗丽美甲梦-->
+  <item package="com.baile.fish.nearme.gamecenter" rateId="2-2-2-2" />  <!--百乐捕鱼-->
+  <item package="com.libii.christmashairsalon.nearme.gamecenter" rateId="2-2-2-2" />  <!--圣诞美发屋-->
+  <item package="com.jsys.nearme.gamecenter" rateId="2-2-2-2" />  <!--金鲨银鲨-->
+  <item package="com.tencent.tmgp.kof98" rateId="2-2-2-2" />  <!--拳皇98终极之战-OL-->
+  <item package="com.whjf.bbprs.nearme.gamecenter" rateId="2-2-2-2" />  <!--宝宝烹饪师-->
+  <item package="com.tencent.tmgp.bh3" rateId="2-2-2-2" />  <!--\N-->
+  <item package="com.zplay.ClashTank.nearme.gamecenter" rateId="2-2-2-2" />  <!--王牌大作战-->
+  <item package="com.zazz.wandou.nearme.gamecenter" rateId="2-2-2-2" />  <!--豌豆大作战-->
+  <item package="com.regexsoft.cruiseshipsimulator.nearme.gamecenter" rateId="2-2-2-2" />  <!--3D游轮驾驶模拟器-->
+  <item package="com.tomato.joy.cjdyx.nearme.gamecenter" rateId="2-2-2-2" />  <!--吃鸡大英雄-->
+  <item package="com.libii.talentedpetsshow" rateId="2-2-2-2" />  <!--天才宠物秀-->
+  <item package="com.tencent.tmgp.ffom" rateId="2-2-2-2" />  <!--自由幻想-->
+  <item package="com.hysjdxb.nearme.gamecenter" rateId="2-2-2-2" />  <!--海洋世界大寻宝-->
+  <item package="com.ythk.bxjg.nearme.gamecenter" rateId="2-2-2-2" />  <!--变形机器金刚-->
+  <item package="com.martian.RoomEscape15.nearme.gamecenter" rateId="2-2-2-2" />  <!--密室逃脱15神秘宫殿-->
+  <item package="com.xlcw.hxct.mgdd.nearme.gamecenter" rateId="2-2-2-2" />  <!--火线冲突-->
+  <item package="com.migame.kxddz.nearme.gamecenter" rateId="2-2-2-2" />  <!--开心斗地主-->
+  <item package="com.FourFire.InfiniteSoul" rateId="2-2-2-2" />  <!--无尽之魂-->
+  <item package="com.xf.lywz.nearme.gamecenter" rateId="2-2-2-2" />  <!--烈焰武尊-->
+  <item package="com.jym.zszsj.nearme.gamecenter" rateId="2-2-2-2" />  <!--真实直升机-->
+  <item package="com.yuhong.jbkb.nearme.gamecenter" rateId="2-2-2-2" />  <!--劲爆狂飙-->
+  <item package="com.joym.armorhero3.nearme.gamecenter" rateId="2-2-2-2" />  <!--铠甲勇士战神联盟-->
+  <item package="org.cocos2dx.zmxy.nearme.gamecenter" rateId="2-2-2-2" />  <!--造梦西游4-->
+  <item package="com.xm4399.hdczjh2.nearme.gamecenter" rateId="2-2-2-2" />  <!--皇帝成长计划2-->
+  <item package="com.tuyoo.fish.oppo.bydzz.nearme.gamecenter" rateId="2-2-2-2" />  <!--捕鱼大作战-->
+  <item package="com.qzyx.union.keke.nearme.gamecenter" rateId="2-2-2-2" />  <!--枪战英雄-->
+  <item package="com.njtd.catsimulator.nearme.gamecenter" rateId="2-2-2-2" />  <!--模拟猫咪-->
+  <item package="com.melestudio.CrazyPixelArt.nearme.gamecenter" rateId="2-2-2-2" />  <!--像素画画-->
+  <item package="com.whmd.qmsjlm.nearme.gamecenter" rateId="2-2-2-2" />  <!--全民射击联盟-->
+  <item package="com.zzonegame.aresvirus.nearme.gamecenter" rateId="2-2-2-2" />  <!--阿瑞斯病毒-->
+  <item package="com.leyo.cjfx3.nearme.gamecenter" rateId="2-2-2-2" />  <!--超级飞侠4缤纷乐园-->
+  <item package="com.thinkygame.android.tank.hot1.oppo.nearme.gamecenter" rateId="2-2-2-2" />  <!--坦克雄心-->
+  <item package="com.shandagames.mygj.nearme.gamecenter" rateId="2-2-2-2" />  <!--命运歌姬-->
+  <item package="com.libii.fashionmall.nearme.gamecenter" rateId="2-2-2-2" />  <!--时尚购物商场-->
+  <item package="com.lingmeng.oneline.nearme.gamecenter" rateId="2-2-2-2" />  <!--解谜一笔画-->
+  <item package="main.opalyer" rateId="2-2-2-2" />  <!--橙光游戏-->
+  <item package="com.bxfr.union.keke.nearme.gamecenter" rateId="2-2-2-2" />  <!--御剑修仙-->
+  <item package="com.orange.org_player_new_alone748794.nearme.gamecenter" rateId="2-2-2-2" />  <!--我做夫人那些年-->
+  <item package="com.tencent.tmgp.mhzxsy" rateId="2-2-2-2" />  <!--梦幻诛仙-->
+  <item package="com.netease.ma59.nearme.gamecenter" rateId="2-2-2-2" />  <!--劲舞时代-->
+  <item package="catobyte.superbunnyman" rateId="2-2-2-2" />  <!--超级兔子人-->
+  <item package="com.mykdb.nearme.gamecenter" rateId="2-2-2-2" />  <!--魔域口袋版-->
+  <item package="com.yzxx.zdxsjjzc.nearme.gamecenter" rateId="2-2-2-2" />  <!--子弹先生狙击战场-->
+  <item package="com.zsfz.bxjqk.nearme.gamecenter" rateId="2-2-2-2" />  <!--变形机器鲲-->
+  <item package="com.yunbu.magicgarden.nearme.gamecenter" rateId="2-2-2-2" />  <!--花花姑娘之魔法花园-->
+  <item package="com.ximigame.pengyouju" rateId="2-2-2-2" />  <!--朋友局-->
+  <item package="com.q1.YZSY.android.nearme.gamecenter" rateId="2-2-2-2" />  <!--远征手游-->
+  <item package="com.igame.cjzzr.nearme.gamecenter" rateId="2-2-2-2" />  <!--超级蜘蛛人-->
+  <item package="com.nnsdk.nnlczg.nearme.gamecenter" rateId="2-2-2-2" />  <!--龙城战歌-->
+  <item package="com.whmd.klsp.nearme.gamecenter" rateId="2-2-2-2" />  <!--快乐赛跑-->
+  <item package="com.tcg.leon" rateId="2-2-2-2" />  <!--危鸡之夜-->
+  <item package="com.tencent.tmgp.tmsk.qj2" rateId="2-2-2-2" />  <!--奇迹：觉醒-->
+  <item package="com.martian.dm100.nearme.gamecenter" rateId="2-2-2-2" />  <!--100道神秘的门-->
+  <item package="com.libii.cheffrance.nearme.gamecenter" rateId="2-2-2-2" />  <!--美食兄妹之法国餐厅-->
+  <item package="com.libii.princessvacation.nearme.gamecenter" rateId="2-2-2-2" />  <!--莉比小公主的假期之环游世界-->
+  <item package="it.uniud.hcilab.prepareforimpact" rateId="2-2-2-2" />  <!--PrepareforImpact-->
+  <item package="com.realcreator.human" rateId="2-2-2-2" />  <!--人类一败涂地-->
+  <item package="com.yymoon.LunaCNY" rateId="2-2-2-2" />  <!--干物少女-->
+  <item package="com.Lxd.DargonWarriorRace.nearme.gamecenter" rateId="2-2-2-2" />  <!--超级飞侠之荒野大冒险-->
+  <item package="com.youping.libi" rateId="2-2-2-2" />  <!--莉比公主时尚美甲-->
+  <item package="com.martian.sgjjl.nearme.gamecenter" rateId="2-2-2-2" />  <!--水管接接乐-->
+  <item package="com.ipeaksoft.keng16.nearme.gamecenter" rateId="2-2-2-2" />  <!--史上最坑爹的游戏16-->
+  <item package="com.tomato.joy.mycs.nearme.gamecenter" rateId="2-2-2-2" />  <!--魅影车手-->
+  <item package="com.tzy.jssc.nearme.gamecenter" rateId="2-2-2-2" />  <!--急速赛车-->
+  <item package="com.popcap.pvzthird" rateId="2-2-2-2" />  <!--\N-->
+  <item package="fly.sesgagames.mostafa_dragons2" rateId="2-2-2-2" />  <!--mostafafightdragon-->
+  <item package="cn.flytalk.shudu" rateId="2-2-2-2" />  <!--全民数独-->
+  <item package="com.nekki.shadowfight" rateId="2-2-2-2" />  <!--ShadowFight2-->
+  <item package="com.zsfz.sxslj3.nearme.gamecenter" rateId="2-2-2-2" />  <!--水下狩猎季-->
+  <item package="com.pld.shikongfeiche.nearme.gamecenter" rateId="2-2-2-2" />  <!--失控飞车-->
+  <item package="com.hxyt.jpkyfc.OPPO.nearme.gamecenter" rateId="2-2-2-2" />  <!--狂野极品飞车-->
+  <item package="com.yunbu.restauranttycoon.cake.nearme.gamecenter" rateId="2-2-2-2" />  <!--梦想蛋糕屋-->
+  <item package="com.libii.candyhotel.nearme.gamecenter" rateId="2-2-2-2" />  <!--糖糖假日-海滨酒店-->
+  <item package="com.rcflightsim.cvplane2" rateId="2-2-2-2" />  <!--模拟遥控飞机-->
+  <item package="com.yinhu.sdk.shcb.nearme.gamecenter" rateId="2-2-2-2" />  <!--守护大作战-->
+  <item package="com.E8game.findcat2.nearme.gamecenter" rateId="2-2-2-2" />  <!--天天躲猫猫2-->
+  <item package="com.yifeng.battlesnake.nearme.gamecenter" rateId="2-2-2-2" />  <!--贪吃蛇蛇争霸-->
+  <item package="xbh.ghbxtx.nearme.gamecenter" rateId="2-2-2-2" />  <!--变形战车-突袭-->
+  <item package="com.lsdj.Qqdazhan.nearme.gamecenter" rateId="2-2-2-2" />  <!--球球大战-->
+  <item package="com.quduoduo.babysitter.nearme.gamecenter" rateId="2-2-2-2" />  <!--照顾宝宝-->
+  <item package="com.melestudio.PonyPetSalon.nearme.gamecenter" rateId="2-2-2-2" />  <!--独角兽宝莉-->
+  <item package="com.miniclip.angerofstick2.nearme.gamecenter" rateId="2-2-2-2" />  <!--火柴人突击格斗-->
+  <item package="com.mlfhsbz.nearme.gamecenter" rateId="2-2-2-2" />  <!--烽火十八州-->
+  <item package="com.zfkzk.yhlm.nearme.gamecenter" rateId="2-2-2-2" />  <!--飓风空战队-->
+  <item package="com.ttbn.ximao.opl.nearme.gamecenter" rateId="2-2-2-2" />  <!--天天捕鸟-->
+  <item package="com.martian.RoomEscape21.nearme.gamecenter" rateId="2-2-2-2" />  <!--密室逃脱21遗落梦境-->
+  <item package="com.igame.ljfdld.nearme.gamecenter" rateId="2-2-2-2" />  <!--龙卷风大乱斗-->
+  <item package="com.mingya.truckmaster.nearme.gamecenter" rateId="2-2-2-2" />  <!--模拟卡车大师-->
+  <item package="com.joym.armorhero.oppo" rateId="2-2-2-2" />  <!--铠甲勇士之英雄传说-->
+  <item package="com.martian.RoomEscape24.nearme.gamecenter" rateId="2-2-2-2" />  <!--密室逃脱24末日危机-->
+  <item package="com.jd.game.jewelscrush.nearme.gamecenter" rateId="2-2-2-2" />  <!--宝石消灭-->
+  <item package="com.baitian.szx.ywq.nearme.gamecenter" rateId="2-2-2-2" />  <!--螺旋圆舞曲-->
+  <item package="com.shouxin.hbqq.nearme.gamecenter" rateId="2-2-2-2" />  <!--火爆球球-->
+  <item package="com.sxiaoao.moto3dOnline" rateId="2-2-2-2" />  <!--3D摩托飞车-->
+  <item package="com.qrgame.bxcr.nearme.gamecenter" rateId="2-2-2-2" />  <!--变形超人-->
+  <item package="com.duoyi.m2csm.nearme.gamecenter" rateId="2-2-2-2" />  <!--传送门骑士-->
+  <item package="com.tencent.tmgp.mff" rateId="2-2-2-2" />  <!--漫威:未来之战-->
+  <item package="com.tuyoo.gomoku.nearme.gamecenter" rateId="2-2-2-2" />  <!--途游五子棋-->
+  <item package="cn.ultralisk.game29.nearme.gamecenter" rateId="2-2-2-2" />  <!--爆兽猎人之龙魂觉醒-->
+  <item package="com.fhgc.cq.nearme.gamecenter" rateId="2-2-2-2" />  <!--烽火攻城-->
+  <item package="cn.ultralisk.gameapp.game31.nearme.gamecenter" rateId="2-2-2-2" />  <!--小花仙守护天使-->
+  <item package="com.jd.game.candyfrenzy.nearme.gamecenter" rateId="2-2-2-2" />  <!--糖果天天消-->
+  <item package="com.cbzj.nearme.gamecenter" rateId="2-2-2-2" />  <!--潮爆战纪-->
+  <item package="com.candyrufusgames.survivalcrafttrial" rateId="2-2-2-2" />  <!--孤岛求生-->
+  <item package="com.cqwx.hcrzb.nearme.gamecenter" rateId="2-2-2-2" />  <!--火柴人争霸-->
+  <item package="com.tencent.tmgp.p2y9y.yujianxy.nearme.gamecenter" rateId="2-2-2-2" />  <!--御剑仙缘-->
+  <item package="com.lqs.kaisi.bill.nearme.gamecenter" rateId="2-2-2-2" />  <!--2D桌球单机游戏-->
+  <item package="com.ss.android.article.video" rateId="2-2-2-2" />  <!--西瓜视频-->
+  <item package="com.duowan.kiwi" rateId="2-2-2-2" />  <!--虎牙直播-->
+  <item package="air.tv.douyu.android" rateId="2-2-2-2" />  <!--斗鱼直播-->
+  <item package="com.duowan.mobile" rateId="2-2-2-2" />  <!--YY-->
+  <item package="com.youku.phone" rateId="2-2-2-2" />  <!--优酷视频-->
+  <item package="com.achievo.vipshop" rateId="2-2-2-2" />  <!--唯品会-->
+
+<!--Start High rate(120/90) oversea's app-->
+  <item package="com.google.android.keep" rateId="1-1-2-0" />
+  <item package="com.whatsapp" rateId="1-1-2-0" />
+  <item package="com.facebook.katana" rateId="1-1-2-0" />     <!--facebook-->
+  <item package="com.instagram.android" rateId="1-1-2-0" />   <!--instagram-->
+  <item package="com.snapchat.android" rateId="1-1-2-0" />    <!--snapchat-->
+  <item package="com.facebook.orca" rateId="1-1-2-0" />       <!--facebook.orca-->
+  <item package="com.eterno" rateId="1-1-2-0" />              <!--Dailyhunt-->
+  <item package="com.cardfeed.video_public" rateId="1-1-2-0" />  <!--public-->
+  <item package="in.AajTak.headlines" rateId="1-1-2-0" />         <!--Aaj Tak-->
+  <item package="com.twitter.android" rateId="1-1-2-0" />         <!--twitter-->
+  <item package="com.andromo.dev84484.app262272" rateId="1-1-2-0" />  <!--twitter-->
+  <item package="com.amazon.kindle" rateId="1-1-2-0" />                <!--kindle-->
+  <item package="com.newanybooks" rateId="1-1-2-0" />                    <!-- AnyBooks-->
+  <item package="com.google.android.apps.books" rateId="1-1-2-0" />      <!-- Google Play Books-->
+  <item package="com.pratilipi.mobile.android" rateId="1-1-2-0" />
+  <item package="com.area120.studybuddy.sagaflutter" rateId="1-1-2-0" />
+  <item package="club.fromfactory" rateId="1-1-2-0" />
+  <item package="com.flipkart.android" rateId="1-1-2-0" />
+  <item package="in.amazon.mShop.android.shopping" rateId="1-1-2-0" />
+  <item package="net.one97.paytm" rateId="1-1-2-0" />
+  <item package="com.olx.southasia" rateId="1-1-2-0" />
+  <item package="com.waze" rateId="1-1-2-0" />
+  <item package="com.sygic.aura" rateId="1-1-2-0" />
+  <item package="com.olacabs.customer" rateId="1-1-2-0" />
+  <item package="cz.aponia.bor3" rateId="1-1-2-0" />
+  <item package="ru.yandex.taxi" rateId="1-1-2-0" />
+  <item package="com.ksmobile.cb" rateId="1-1-2-0" />
+  <item package="com.UCMobile.intl" rateId="1-1-2-0" disableViewOverride="true" />
+  <item package="mark.via.gp" rateId="1-1-2-0" />
+  <item package="com.jakarta.baca.lite" rateId="1-1-2-0" />
+  <item package="id.co.babe" rateId="1-1-2-0" />
+  <item package="com.uc.iflow" rateId="1-1-2-0" />
+  <item package="com.google.android.apps.magazines" rateId="1-1-2-0" />
+  <item package="wp.wattpad" rateId="1-1-2-0" />
+  <item package="com.lovenovel.read" rateId="1-1-2-0" />
+  <item package="com.xiaoshuo.webread" rateId="1-1-2-0" />
+  <item package="com.aynovel.idxs" rateId="1-1-2-0" />
+  <item package="com.shopee.id" rateId="1-1-2-0" />
+  <item package="com.tokopedia.sellerapp" rateId="1-1-2-0" />
+  <item package="com.lazada.android" rateId="1-1-2-0" />
+  <item package="com.bukalapak.android" rateId="1-1-2-0" />
+  <item package="io.silvrr.installment" rateId="1-1-2-0" />
+  <item package="sinet.startup.inDriver" rateId="1-1-2-0" />
+  <item package="com.eztech.gps.maps" rateId="1-1-2-0" />
+  <item package="com.gpsroutefinder.gps.route.finder.map.navigation.directions.driving.location" rateId="1-1-2-0" />
+  <item package="com.entertaininglogixapps.gps.navigation.direction.find.route.map.guide" rateId="1-1-2-0" />
+  <item package="com.google.earth" rateId="1-1-2-0" />
+  <item package="com.grabtaxi.passenger" rateId="1-1-2-0" />
+  <item package="com.bankmandiri.mandirionline" rateId="1-1-2-0" />
+  <item package="io.wifimap.wifimap" rateId="1-1-2-0" />
+  <item package="com.android.incallui" rateId="2-2-2-0" />
+  <item package="com.google.android.googlequicksearchbox" rateId="1-1-2-0" />
+  <item package="com.truecaller" rateId="1-1-2-0" />
+  <item package="com.android.vending" rateId="1-1-2-0" />
+  <item package="com.google.android.packageinstaller" rateId="1-1-2-0" />
+  <item package="com.android.calculator2" rateId="1-1-2-0" />
+  <item package="com.android.server.telecom" rateId="1-1-2-0" />
+  <item package="com.google.android.gms" rateId="1-1-2-0" />
+  <item package="com.nemo.vidmate" rateId="1-1-2-0" />
+  <item package="com.google.android.gm" rateId="1-1-2-0" />
+  <item package="app.buzz.share" rateId="1-1-2-0" />
+  <item package="com.google.android.apps.docs" rateId="1-1-2-0" />
+  <item package="com.google.android.calendar" rateId="1-1-2-0" />
+  <item package="com.facebook.lite" rateId="1-1-2-0" />
+  <item package="in.startv.hotstar" rateId="1-1-2-0" />
+  <item package="com.google.android.apps.maps" rateId="1-1-2-0" />
+  <item package="com.lenovo.anyshare.gps" rateId="1-1-2-0" />
+  <item package="com.google.android.apps.nbu.paisa.user" rateId="1-1-2-0" />
+  <item package="com.android.quicksearchbox" rateId="1-1-2-0" />
+  <item package="com.phonepe.app" rateId="1-1-2-0" />
+  <item package="com.jio.myjio" rateId="1-1-2-0" />
+  <item package="com.oppo.ota" rateId="1-1-2-0" />
+  <item package="in.mohalla.sharechat" rateId="1-1-2-0" />
+  <item package="com.imo.android.imoim" rateId="1-1-2-0" />
+  <item package="com.jio.media.jiobeats" rateId="1-1-2-0" />
+  <item package="com.whatsapp.w4b" rateId="1-1-2-0" />
+  <item package="com.nearme.browser" rateId="1-1-2-0" />
+  <item package="cn.xender" rateId="1-1-2-0" />
+  <item package="com.whereismytrain.android" rateId="1-1-2-0" />
+  <item package="com.coloros.calculator" rateId="1-1-2-0" />
+  <item package="com.coloros.photoeffects" rateId="1-1-2-0" />
+  <item package="com.bsbportal.music" rateId="1-1-2-0" />
+  <item package="org.telegram.messenger" rateId="1-1-2-0" />
+  <item package="com.cricbuzz.android" rateId="1-1-2-0" />
+  <item package="com.gaana" rateId="1-1-2-0" />
+  <item package="com.coloros.assistantscreen" rateId="1-1-2-0" />
+  <item package="com.miniclip.carrom" rateId="1-1-2-0" />
+  <item package="com.google.android.inputmethod.latin" rateId="1-1-2-0" />
+  <item package="com.whatsapp:999" rateId="1-1-2-0" />
+  <item package="com.domobile.applock" rateId="1-1-2-0" />
+  <item package="com.myairtelapp" rateId="1-1-2-0" />
+  <item package="com.google.android.apps.tachyon" rateId="1-1-2-0" />
+  <item package="com.yy.hiyo" rateId="1-1-2-0" />
+  <item package="com.zhiliaoapp.musically.go" rateId="1-1-2-0" />
+  <item package="com.facebook.mlite" rateId="1-1-2-0" />
+  <item package="com.tv.v18.viola" rateId="1-1-2-0" />
+  <item package="com.threestar.gallery" rateId="1-1-2-0" />
+  <item package="com.til.timesnews" rateId="1-1-2-0" />
+  <item package="com.google.android.apps.translate" rateId="1-1-2-0" />
+  <item package="com.android.bluetooth" rateId="1-1-2-0" />
+  <item package="com.emoji.keyboard.touchpal" rateId="1-1-2-0" />
+  <item package="com.coloros.musiclink" rateId="1-1-2-0" />
+  <item package="com.sonyliv" rateId="1-1-2-0" />
+  <item package="com.intsig.camscanner" rateId="1-1-2-0" />
+  <item package="com.google.android.play.games" rateId="1-1-2-0" />
+  <item package="com.application.zomato" rateId="1-1-2-0" />
+  <item package="in.swiggy.android" rateId="1-1-2-0" />
+  <item package="com.myntra.android" rateId="1-1-2-0" />
+  <item package="com.ludashi.dualspace" rateId="1-1-2-0" />
+  <item package="com.uc.browser.en" rateId="1-1-2-0" />
+  <item package="com.uc.vmlite" rateId="1-1-2-0" />
+  <item package="com.daemon.shelper" rateId="1-1-2-0" />
+  <item package="photography.blackgallery.android" rateId="1-1-2-0" />
+  <item package="cris.org.in.prs.ima" rateId="1-1-2-0" />
+  <item package="com.ss.android.ugc.boomlite" rateId="1-1-2-0" />
+  <item package="com.snapdeal.main" rateId="1-1-2-0" />
+  <item package="com.outfit7.mytalkingtom2" rateId="1-1-2-0" />
+  <item package="com.snaptube.premium" rateId="1-1-2-0" />
+  <item package="com.roposo.android" rateId="1-1-2-0" />
+  <item package="com.water.balls" rateId="1-1-2-0" />
+  <item package="com.lbe.parallel.intl" rateId="1-1-2-0" />
+  <item package="com.csam.icici.bank.imobile" rateId="1-1-2-0" />
+  <item package="com.app.dream11Pro" rateId="1-1-2-0" />
+  <item package="com.youdao.hindict" rateId="1-1-2-0" />
+  <item package="com.netqin.ps" rateId="1-1-2-0" />
+  <item package="com.pinterest" rateId="1-1-2-0" />
+  <item package="com.adobe.reader" rateId="1-1-2-0" />
+  <item package="com.bt.bms" rateId="1-1-2-0" />
+  <item package="com.sbi.lotusintouch" rateId="1-1-2-0" />
+  <item package="com.android.email" rateId="1-1-2-0" />
+  <item package="com.oppo.operationManual" rateId="1-1-2-0" />
+  <item package="com.realmestore.app" rateId="1-1-2-0" />
+  <item package="com.ubercab" rateId="1-1-2-0" />
+  <item package="com.gbwhatsapp" rateId="1-1-2-0" />
+  <item package="com.mobikwik_new.bajajfinserv" rateId="1-1-2-0" />
+  <item package="com.axis.mobile" rateId="1-1-2-0" />
+  <item package="com.android.fmradio" rateId="1-1-2-0" />
+  <item package="tv.accedo.airtel.wynk" rateId="1-1-2-0" />
+  <item package="com.realmecomm.app" rateId="1-1-2-0" />
+  <item package="com.lbe.parallel.intl.arm64" rateId="1-1-2-0" />
+  <item package="com.cyberlink.youperfect" rateId="1-1-2-0" />
+  <item package="com.clusterdev.malayalamkeyboard" rateId="1-1-2-0" />
+  <item package="com.mobond.mindicator" rateId="1-1-2-0" />
+  <item package="in.org.npci.upiapp" rateId="1-1-2-0" />
+  <item package="com.mobile.indiapp" rateId="1-1-2-0" />
+  <item package="com.android.packageinstaller" rateId="1-1-2-0" />
+  <item package="com.sbi.SBIFreedomPlus" rateId="1-1-2-0" />
+  <item package="com.caf.fmradio" rateId="1-1-2-0" />
+  <item package="com.coloros.ocrscanner" rateId="1-1-2-0" />
+  <item package="com.downlood.sav.whmedia" rateId="1-1-2-0" />
+  <item package="com.msf.kbank.mobile" rateId="1-1-2-0" />
+  <item package="com.spotify.music" rateId="1-1-2-0" />
+  <item package="com.appstar.callrecorder" rateId="1-1-2-0" />
+  <item package="com.qidian.Int.reader" rateId="1-1-2-0" />
+  <item package="com.mediatek.omacp" rateId="1-1-2-0" />
+  <item package="com.netflix.mediaclient" rateId="1-1-2-0" />
+  <item package="com.slippy.linerusher" rateId="1-1-2-0" />
+  <item package="com.coloros.activation" rateId="1-1-2-0" />
+  <item package="com.kwai.global.video.social.kwaigo" rateId="1-1-2-0" />
+  <item package="com.imo.android.imoimbeta" rateId="1-1-2-0" />
+  <item package="com.appsomniacs.da2" rateId="1-1-2-0" /> <!--Mini Militia - Doodle Army 2-->
+  <item package="com.yy.biu" rateId="1-1-2-0" />
+  <item package="com.jio.media.ondemand" rateId="1-1-2-0" />
+  <item package="com.eyecon.global" rateId="1-1-2-0" />
+  <item package="com.microsoft.office.outlook" rateId="1-1-2-0" />
+  <item package="com.coloros.newsimdetect" rateId="1-1-2-0" />
+  <item package="com.activision.callofduty.shooter" rateId="1-1-2-0" />
+  <item package="com.loan.cash.credit.easy.dhan.quick.udhaar.lend.game.jaldi.pais" rateId="1-1-2-0" />
+  <item package="com.bingo.livetalk" rateId="1-1-2-0" />
+  <item package="com.starmakerinteractive.starmaker" rateId="1-1-2-0" />
+  <item package="com.nemo.starhalo" rateId="1-1-2-0" />
+  <item package="com.coloros.fingerprint" rateId="1-1-2-0" />
+  <item package="in.okcredit.merchant" rateId="1-1-2-0" />
+  <item package="com.hike.chat.stickers" rateId="1-1-2-0" />
+  <item package="com.ril.rposcentral" rateId="1-1-2-0" />
+  <item package="com.doodle.turboracing3d" rateId="1-1-2-0" />
+  <item package="sun.way2sms.hyd.com" rateId="1-1-2-0" />
+  <item package="free.vpn.unblock.proxy.turbovpn" rateId="1-1-2-0" />
+  <item package="com.fogg.photovideomaker" rateId="1-1-2-0" />
+  <item package="com.airtel.agilelabs.retailerapp" rateId="1-1-2-0" />
+  <item package="com.match3blaster.DropStackBallFall" rateId="1-1-2-0" />
+  <item package="com.oyo.consumer" rateId="1-1-2-0" />
+  <item package="com.yahoo.mobile.client.android.mail" rateId="1-1-2-0" />
+  <item package="com.android.vpndialogs" rateId="1-1-2-0" />
+  <item package="com.awt.kalnirnay" rateId="1-1-2-0" />
+  <item package="com.snapwork.hdfc" rateId="1-1-2-0" />
+  <item package="com.google.android.apps.wellbeing" rateId="1-1-2-0" />
+  <item package="com.mventus.selfcare.activity" rateId="1-1-2-0" />
+  <item package="com.colors.forgotpasswordexp" rateId="1-1-2-0" />
+  <item package="com.android.printspooler" rateId="1-1-2-0" />
+  <item package="com.musicplayer.player.mp3player.white" rateId="1-1-2-0" />
+  <item package="com.linkedin.android" rateId="1-1-2-0" />
+  <item package="com.divum.MoneyControl" rateId="1-1-2-0" />
+  <item package="com.makemytrip" rateId="1-1-2-0" />
+  <item package="com.ubercab.eats" rateId="1-1-2-0" />
+  <item package="com.peake.hindicalender" rateId="1-1-2-0" />
+  <item package="in.co.bankofbaroda.mpassbook" rateId="1-1-2-0" />
+  <item package="com.fmwhatsapp" rateId="1-1-2-0" />
+  <item package="com.coloros.bootreg" rateId="1-1-2-0" />
+  <item package="net.zedge.android" rateId="1-1-2-0" />
+  <item package="com.bankofbaroda.mconnect" rateId="1-1-2-0" />
+  <item package="com.microsoft.office.word" rateId="1-1-2-0" />
+  <item package="com.rocket.tools.clean.antivirus.master" rateId="1-1-2-0" />
+  <item package="com.knockdown.bottle.game" rateId="1-1-2-0" />
+  <item package="naukriApp.appModules.login" rateId="1-1-2-0" />
+  <item package="io.voodoo.crowdcity" rateId="1-1-2-0" />
+  <item package="com.nic.mparivahan" rateId="1-1-2-0" />
+  <item package="com.goibibo" rateId="1-1-2-0" />
+  <item package="com.yowhatsapp" rateId="1-1-2-0" />
+  <item package="com.leo.appmaster" rateId="1-1-2-0" />
+  <item package="com.shopping.limeroad" rateId="1-1-2-0" />
+  <item package="com.ideacellular.myidea" rateId="1-1-2-0" />
+  <item package="com.meesho.supply" rateId="1-1-2-0" />
+  <item package="com.vaibhavkalpe.android.khatabook" rateId="1-1-2-0" />
+  <item package="com.google.android.apps.inputmethod.hindi" rateId="1-1-2-0" />
+  <item package="com.paytm.business" rateId="1-1-2-0" />
+  <item package="com.vpn.basiccalculator" rateId="1-1-2-0" />
+  <item package="com.google.android.apps.nbu.files" rateId="1-1-2-0" />
+  <item package="com.ge.capital.konysbiapp" rateId="1-1-2-0" />
+  <item package="devian.tubemate.v3" rateId="1-1-2-0" />
+  <item package="com.winit.starnews.hin" rateId="1-1-2-0" />
+  <item package="game.bubble.shooter.dragon.pop" rateId="1-1-2-0" />
+  <item package="com.fsn.nykaa" rateId="1-1-2-0" />
+  <item package="com.ryzmedia.tatasky" rateId="1-1-2-0" />
+  <item package="com.atomic.apps.ringtone.cutter" rateId="1-1-2-0" />
+  <item package="com.silevel.mountainclimbstunt" rateId="1-1-2-0" />
+  <item package="in.cricketexchange.app.cricketexchange" rateId="1-1-2-0" />
+  <item package="com.blacklightsw.ludo" rateId="1-1-2-0" />
+  <item package="com.emoji.keyboard.touchpal.oppo" rateId="1-1-2-0" />
+  <item package="com.rapido.passenger" rateId="1-1-2-0" />
+  <item package="calc.gallery.lock" rateId="1-1-2-0" />
+  <item package="vault.gallery.lock" rateId="1-1-2-0" />
+  <item package="im.thebot.messenger" rateId="1-1-2-0" />
+  <item package="com.hyperspeed.rocket.applock.free" rateId="1-1-2-0" />
+  <item package="com.teslacoilsw.launcher" rateId="1-1-2-0" />
+  <item package="shooter.two.purple" rateId="1-1-2-0" />
+  <item package="com.igoldtech.streetchaser" rateId="1-1-2-0" />
+  <item package="sg.bigo.ludolegend" rateId="1-1-2-0" />
+<!--on India oversea's app-->
+  <item package="jp.naver.line.android" rateId="1-1-2-0" />
+  <item package="com.zing.zalo" rateId="1-1-2-0" />
+  <item package="com.zing.mp3" rateId="1-1-2-0" />
+  <item package="com.gojek.app" rateId="1-1-2-0" />
+  <item package="com.tencent.ibg.joox" rateId="1-1-2-0" />
+  <item package="com.telkomsel.telkomselcm" rateId="1-1-2-0" />
+  <item package="com.bca" rateId="1-1-2-0" />
+  <item package="com.michatapp.im" rateId="1-1-2-0" />
+  <item package="com.kasikorn.retail.mbanking.wap" rateId="1-1-2-0" />
+  <item package="com.garena.game.kgvn" rateId="1-1-2-0" />
+  <item package="com.shopee.ph" rateId="1-1-2-0" />
+  <item package="com.xb.topnews" rateId="1-1-2-0" />
+  <item package="com.google.android.music" rateId="1-1-2-0" />
+  <item package="com.halo.wifikey.wifilocating" rateId="1-1-2-0" />
+  <item package="com.epi" rateId="1-1-2-0" />
+  <item package="com.scb.phone" rateId="1-1-2-0" />
+  <item package="com.naver.linewebtoon" rateId="1-1-2-0" />
+  <item package="com.tokopedia.tkpd" rateId="1-1-2-0" />
+  <item package="com.garena.game.kgth" rateId="1-1-2-0" />
+  <item package="com.shopee.th" rateId="1-1-2-0" />
+  <item package="com.shopee.my" rateId="1-1-2-0" />
+  <item package="com.andi.alquran.id" rateId="1-1-2-0" />
+  <item package="com.traveloka.android" rateId="1-1-2-0" />
+  <item package="ovo.id" rateId="1-1-2-0" />
+  <item package="ktbcs.netbank" rateId="1-1-2-0" />
+  <item package="com.linkit.bimatri" rateId="1-1-2-0" />
+  <item package="com.shopee.vn" rateId="1-1-2-0" />
+  <item package="com.pure.indosat.care" rateId="1-1-2-0" />
+  <item package="com.grabtaxi.driver2" rateId="1-1-2-0" />
+  <item package="com.tencent.wesing" rateId="1-1-2-0" />
+  <item package="my.com.maxis.hotlink.production" rateId="1-1-2-0" />
+  <item package="id.dana" rateId="1-1-2-0" />
+  <item package="com.merriamwebster" rateId="1-1-2-0" />
+  <item package="com.bitsmedia.android.muslimpro" rateId="1-1-2-0" />
+  <item package="bri.delivery.brimobile" rateId="1-1-2-0" />
+  <item package="com.msd.JTClient" rateId="1-1-2-0" />
+  <item package="com.shopee.tw" rateId="1-1-2-0" />
+  <item package="th.co.truemoney.wallet" rateId="1-1-2-0" />
+  <item package="com.zhangyue.read" rateId="1-1-2-0" />
+  <item package="iflix.play" rateId="1-1-2-0" />
+  <item package="com.bbl.mobilebanking" rateId="1-1-2-0" />
+  <item package="gogolook.callgogolook2" rateId="1-1-2-0" />
+  <item package="com.app.tokobagus.betterb" rateId="1-1-2-0" />
+  <item package="com.neptune.domino" rateId="1-1-2-0" />
+  <item package="com.vng.pubgmobile" rateId="1-1-2-0" />
+  <item package="src.com.bni" rateId="1-1-2-0" />
+  <item package="com.mobilife.gsb.mymo" rateId="1-1-2-0" />
+  <item package="my.com.maybank2u.m2umobile" rateId="1-1-2-0" />
+  <item package="com.smartfren" rateId="1-1-2-0" />
+  <item package="com.noxgroup.app.cleaner" rateId="1-1-2-0" />
+  <item package="com.murad.waktusolat" rateId="1-1-2-0" />
+  <item package="com.globe.gcash.android" rateId="1-1-2-0" />
+  <item package="com.ea.game.pvzfree_row" rateId="1-1-2-0" />
+  <item package="com.jb.emoji.gokeyboard" rateId="1-1-2-0" />
+  <item package="panda.keyboard.emoji.theme" rateId="1-1-2-0" />
+  <item package="app.zenly.locator" rateId="1-1-2-0" />
+  <item package="com.gojek.driver.bike" rateId="1-1-2-0" />
+  <item package="com.global.foodpanda.android" rateId="1-1-2-0" />
+  <item package="ht.nct" rateId="1-1-2-0" />
+  <item package="mobi.mangatoon.comics.aphone" rateId="1-1-2-0" />
+  <item package="asuk.com.android.app" rateId="1-1-2-0" />
+  <item package="com.viettel.mocha.app" rateId="1-1-2-0" />
+  <item package="com.vova.android" rateId="1-1-2-0" />
+  <item package="com.dridev.kamusku" rateId="1-1-2-0" />
+  <item package="com.peoplefun.wordcross" rateId="1-1-2-0" />
+  <item package="sg.cocofun" rateId="1-1-2-0" />
+  <item package="com.digi.portal.mobdev.android" rateId="1-1-2-0" />
+  <item package="id.tix.android" rateId="1-1-2-0" />
+  <item package="gsn.game.zingplaynew1" rateId="1-1-2-0" />
+  <item package="com.amanotes.beathopper" rateId="1-1-2-0" />
+  <item package="com.vnpay.Agribank3g" rateId="1-1-2-0" />
+  <item package="free.vpn.unblock.proxy.vpnmaster" rateId="1-1-2-0" />
+  <item package="mbinc12.mb32" rateId="1-1-2-0" />
+  <item package="com.mservice.momotransfer" rateId="1-1-2-0" />
+  <item package="com.cloudmosa.puffinFree" rateId="1-1-2-0" />
+  <item package="com.forshared.files" rateId="1-1-2-0" />
+  <item package="org.detikcom.rss" rateId="1-1-2-0" />
+  <item package="com.ais.mimo.eservice" rateId="1-1-2-0" />
+  <item package="com.tongitsgo.play" rateId="1-1-2-0" />
+  <item package="com.udicorn.proxybrowser.unblockwebsites" rateId="1-1-2-0" />
+  <item package="com.vng.inputmethod.labankey" rateId="1-1-2-0" />
+  <item package="gsn.game.zingplaynew" rateId="1-1-2-0" />
+  <item package="com.shopback.app" rateId="1-1-2-0" />
+  <item package="com.celcom.mycelcom" rateId="1-1-2-0" />
+  <item package="com.vidio.android" rateId="1-1-2-0" />
+  <item package="com.playmini.miniworld" rateId="1-1-2-0" />
+  <item package="id.drakor.plus" rateId="1-1-2-0" />
+  <item package="com.tdcm.trueidapp" rateId="1-1-2-0" />
+  <item package="com.game.fallingpuzzle" rateId="1-1-2-0" />
+  <item package="com.ovelin.guitartuna" rateId="1-1-2-0" />
+  <item package="com.badoo.mobile" rateId="1-1-2-0" />
+  <item package="com.telkom.mwallet" rateId="1-1-2-0" />
+  <item package="com.viu.phone" rateId="1-1-2-0" />
+  <item package="com.apps.MyXL" rateId="1-1-2-0" />
+  <item package="com.sendo" rateId="1-1-2-0" />
+  <item package="com.axis.net" rateId="1-1-2-0" />
+  <item package="com.canva.editor" rateId="1-1-2-0" />
+  <item package="com.TMBTOUCH.PRODUCTION" rateId="1-1-2-0" />
+  <item package="com.alfamart.alfagift" rateId="1-1-2-0" />
+  <item package="com.mudah.my" rateId="1-1-2-0" />
+  <item package="com.bpjstku" rateId="1-1-2-0" />
+  <item package="com.dictionary.tl" rateId="1-1-2-0" />
+  <item package="com.benqu.wuta" rateId="1-1-2-0" />
+  <item package="app.dupavideo.wishes" rateId="1-1-2-0" />
+  <item package="com.bluesoft.clonappmessenger" rateId="1-1-2-0" />
+  <item package="blibli.mobile.commerce" rateId="1-1-2-0" />
+  <item package="com.garena.gaslite" rateId="1-1-2-0" />
+  <item package="com.maxgames.stickwarlegacy" rateId="1-1-2-0" />
+  <item package="com.meluapp.tekatekisilangpintar" rateId="1-1-2-0" />
+  <item package="com.muslim.android" rateId="1-1-2-0" />
+  <item package="com.ookbee.joyapp.android" rateId="1-1-2-0" />
+  <item package="com.telkomsel.roli" rateId="1-1-2-0" />
+  <item package="com.dummy.poker" rateId="1-1-2-0" />
+  <item package="com.tiket.gits" rateId="1-1-2-0" />
+  <item package="com.twincorp.bancaonline" rateId="1-1-2-0" />
+  <item package="com.baohay24h.app" rateId="1-1-2-0" />
+  <item package="com.fugo.wow" rateId="1-1-2-0" />
+  <item package="com.vttm.vietteldiscovery" rateId="1-1-2-0" />
+  <item package="com.jamendoandoutly.mainpakage" rateId="1-1-2-0" />
+  <item package="com.cimbmalaysia" rateId="1-1-2-0" />
+  <item package="com.goviet.app" rateId="1-1-2-0" />
+  <item package="vn.tiki.app.tikiandroid" rateId="1-1-2-0" />
+  <item package="com.mlive.mliveapp" rateId="1-1-2-0" />
+  <item package="com.vmb.lichvannien.new2018" rateId="1-1-2-0" />
+  <item package="com.philseven.loyalty" rateId="1-1-2-0" />
+  <item package="com.jakarta.baca" rateId="1-1-2-0" />
+  <item package="com.moreshare.chord.guitar.full.offline" rateId="1-1-2-0" />
+  <item package="com.coccoc.trinhduyet" rateId="1-1-2-0" />
+  <item package="com.amanotes.pamadancingroad" rateId="1-1-2-0" />
+  <item package="gsn.game.zingplaytala" rateId="1-1-2-0" />
+  <item package="com.spacegame.homedesign" rateId="1-1-2-0" />
+  <item package="com.kreditpintar" rateId="1-1-2-0" />
+  <item package="com.habby.archero" rateId="1-1-2-0" />
+  <item package="com.finaccel.android" rateId="1-1-2-0" />
+  <item package="sg.omi" rateId="1-1-2-0" />
+  <item package="com.PlayMax.playergames" rateId="1-1-2-0" />
+  <item package="lds.cinema21" rateId="1-1-2-0" />
+  <item package="com.gojek.resto" rateId="1-1-2-0" />
+  <item package="com.microblink.photomath" rateId="1-1-2-0" />
+  <item package="org.iggymedia.periodtracker" rateId="1-1-2-0" />
+  <item package="com.fastacash.tcb" rateId="1-1-2-0" />
+  <item package="com.ea.game.pvz2_row" rateId="1-1-2-0" />
+  <item package="com.zingplay.tongits" rateId="1-1-2-0" />
+  <item package="br.com.rodrigokolb.realdrum" rateId="1-1-2-0" />
+  <item package="com.VCB" rateId="1-1-2-0" />
+  <item package="com.bandoy.tongitsXtreme" rateId="1-1-2-0" />
+  <item package="vn.vtv.vtvgo" rateId="1-1-2-0" />
+  <item package="com.truelife.mobile.android.trueiservice" rateId="1-1-2-0" />
+  <item package="com.tickledmedia.ParentTown" rateId="1-1-2-0" />
+  <item package="com.Neurononfire.SupremeDuelist" rateId="1-1-2-0" />
+  <item package="org.sabda.alkitab" rateId="1-1-2-0" />
+  <item package="com.biglime.cookingmadness" rateId="1-1-2-0" />
+  <item package="jd.cdyjy.overseas.market.indonesia" rateId="1-1-2-0" />
+  <item package="com.michatapp.im.lite" rateId="1-1-2-0" />
+  <item package="org.scr888.scr888" rateId="1-1-2-0" />
+  <item package="yuku.alkitab" rateId="1-1-2-0" />
+  <item package="com.garena.game.kgtw" rateId="1-1-2-0" />
+  <item package="instake.repost.instagramphotodownloader.instagramvideodownloader" rateId="1-1-2-0" />
+  <item package="th.co.crie.tron2.android" rateId="1-1-2-0" />
+  <item package="com.psiphon3.subscription" rateId="1-1-2-0" />
+  <item package="com.paymaya" rateId="1-1-2-0" />
+  <item package="com.fplay.activity" rateId="1-1-2-0" />
+  <item package="com.kwai.mercury" rateId="1-1-2-0" />
+  <item package="tv.hooq.android" rateId="1-1-2-0" />
+  <item package="com.vietinbank.ipay" rateId="1-1-2-0" />
+  <item package="com.forshared" rateId="1-1-2-0" />
+  <item package="air.com.lunime.gachalife" rateId="1-1-2-0" />
+  <item package="com.cooyostudio.marble.blast" rateId="1-1-2-0" />
+  <item package="com.kai.kaiticketing" rateId="1-1-2-0" />
+  <item package="com.vn.dic.e.v.ui" rateId="1-1-2-0" />
+  <item package="org.hola" rateId="1-1-2-0" />
+  <item package="com.codetribelabs.TongitsWars" rateId="1-1-2-0" />
+  <item package="com.icarusgame.onetklasik" rateId="1-1-2-0" />
+  <item package="com.omesti.myumobile" rateId="1-1-2-0" />
+  <item package="com.zalora.android" rateId="1-1-2-0" />
+  <item package="vn.weplay.lichvannien" rateId="1-1-2-0" />
+  <item package="com.dayakomputer.Kalender" rateId="1-1-2-0" />
+  <item package="com.wildspike.wormszone" rateId="1-1-2-0" />
+  <item package="com.tencent.godgame" rateId="1-1-2-0" />
+  <item package="com.linkdeskstudio.popcat" rateId="1-1-2-0" />
+  <item package="com.akapps.statussaver" rateId="1-1-2-0" />
+  <item package="com.martinvillar.android.quranindonesia" rateId="1-1-2-0" />
+  <item package="pikachu.classic.onet.connect.pikachu2019" rateId="1-1-2-0" />
+  <item package="app.bpjs.mobile" rateId="1-1-2-0" />
+  <item package="com.linecorp.LGBB2" rateId="1-1-2-0" />
+  <item package="com.ction.playergames" rateId="1-1-2-0" />
+  <item package="com.emagssob.tienlen" rateId="1-1-2-0" />
+  <item package="com.vnpay.bidv" rateId="1-1-2-0" />
+  <item package="com.facebook.pages.app" rateId="1-1-2-0" />
+  <item package="com.picmax.wemoji" rateId="1-1-2-0" />
+  <item package="com.mind.quiz.brain.out" rateId="1-1-2-0" />
+  <item package="com.angkas.passenger" rateId="1-1-2-0" />
+  <item package="com.agoda.mobile.consumer" rateId="1-1-2-0" />
+  <item package="com.avcrbt.funimate" rateId="1-1-2-0" />
+  <item package="com.shinycore.picsaypro" rateId="1-1-2-0" />
+  <item package="com.sparkslab.dcardreader" rateId="1-1-2-0" />
+<!--End high rate oversea's app-->
+
+<!--start 60hz black app-->
+  <item package="com.mxtech.videoplayer.ad" rateId="2-2-2-2" /><!--MX Player-->
+  <item package="com.lazygeniouz.saveit" rateId="2-2-2-2" />
+  <item package="org.videolan.vlc" rateId="2-2-2-2" />
+  <item package=" com.zhiliaoapp.musically" rateId="2-2-2-2" /> <!--TikTok-->
+  <item package="com.dev.hd.live.channel" rateId="2-2-2-2" /> <!--外国电视(HD Tv Live)-->
+  <item package="com.google.android.apps.photos" rateId="2-2-2-2" />  <!--Google Photos-->
+  <item package="com.sec.android.gallery3d" rateId="2-2-2-2" />  <!--Samsung Gallery-->
+  <item package="com.motorola.camera" rateId="2-2-2-2" />  <!--Motorola Camera-->
+  <item package="com.motorola.cameraone" rateId="2-2-2-2" />  <!--Moto Camera-->
+  <item package="com.perfectcam.photoeditor" rateId="2-2-2-2" />  <!--YouCam Perfect - Best Selfie Camera & Photo Editor-->
+  <item package="com.alensw.PicFolder" rateId="2-2-2-2" />  <!--QuickPic - Photo Gallery with Google Drive Support-->
+  <item package="com.sonyericsson.album" rateId="2-2-2-2" />  <!--Album-->
+  <item package="com.niksoftware.snapseed" rateId="2-2-2-2" />  <!--Snapseed-->
+  <item package="com.linecorp.b612.android" rateId="2-2-2-2" />  <!--B612 - Beauty & Filter Camera-->
+  <item package="com.commsource.beautyplus" rateId="2-2-2-2" />  <!--BeautyPlus - Easy Photo Editor & Selfie Camera-->
+  <item package="com.google.android.GoogleCamera" rateId="2-2-2-2" />  <!--Google Camera-->
+  <item package="com.venticake.retrica" rateId="2-2-2-2" />  <!--Retrica-->
+  <item package="com.oneplus.gallery" rateId="2-2-2-2" />  <!--OnePlus Gallery-->
+  <item package="com.camerasideas.instashot" rateId="2-2-2-2" />  <!--Video Editor & Video Maker - InShot-->
+  <item package="com.cam001.selfie" rateId="2-2-2-2" />  <!--Sweet Selfie Camera:Beauty cam,photo&selfie editor-->
+  <item package="com.asus.gallery" rateId="2-2-2-2" />  <!--ASUS Gallery-->
+  <item package="com.mobsnake.verticalgallery" rateId="2-2-2-2" />  <!--Vertical Gallery-->
+  <item package="makeupworld.selfiecamera.makeup.youcam.beautycamera.photoeditor.makeupcamera" rateId="2-2-2-2" />  <!--YouCam Makeup-Magic Selfie Cam & Virtual Makeovers-->
+  <item package="com.roidapp.photogrid" rateId="2-2-2-2" />  <!--PhotoGrid: Video & Pic Collage Maker, Photo Editor-->
+  <item package="com.asus.camera" rateId="2-2-2-2" />  <!--ASUS PixelMaster Camera-->
+  <item package="com.joeware.android.gpulumera" rateId="2-2-2-2" />  <!--Candy Camera - selfie, beauty camera, photo editor-->
+  <item package="vsin.t16_funny_photo" rateId="2-2-2-2" />  <!--Photo Lab Picture Editor: face effects, art frames-->
+  <item package="com.atomicadd.fotos" rateId="2-2-2-2" />  <!--A+ Gallery - Photos & Videos-->
+  <item package="com.cyngn.gallerynext" rateId="2-2-2-2" />  <!--Cyanogen Gallery-->
+  <item package="com.adobe.lrmobile" rateId="2-2-2-2" />  <!--Adobe Lightroom - Photo Editor & Pro Camera-->
+  <item package="com.pixlr.express" rateId="2-2-2-2" />  <!--Pixlr – Free Photo Editor-->
+  <item package="com.adobe.psmobile" rateId="2-2-2-2" />  <!--Adobe Photoshop Express:Photo Editor Collage Maker-->
+  <item package="com.cyberlink.photodirector" rateId="2-2-2-2" />  <!--PhotoDirector Photo Editor App, Picture Editor Pro-->
+  <item package="com.jimmy.photobackup" rateId="2-2-2-2" />  <!--abPhoto (photo backup)-->
+  <item package="net.sourceforge.opencamera" rateId="2-2-2-2" />  <!--Open Camera-->
+  <item package="com.lyrebirdstudio.montagenscolagem" rateId="2-2-2-2" />  <!--Photo Editor Collage Maker Pro: Filters & Stickers-->
+  <item package="com.htc.camera2" rateId="2-2-2-2" />  <!--HTC Camera　-->
+  <item package="com.instagram.boomerang" rateId="2-2-2-2" />  <!--Boomerang from Instagram-->
+  <item package="io.yoba.storysaverforinsta" rateId="2-2-2-2" />  <!--Story Saver App — Stories & Highlights Downloader-->
+  <item package="com.PinkbirdStudio.SelfieCam_InstaBeauty" rateId="2-2-2-2" />  <!--InstaBeauty -Makeup Selfie Cam-->
+  <item package="com.iudesk.android.photo.editor" rateId="2-2-2-2" />  <!--Photo Editor-->
+  <item package="com.makeup.plus.youcam.camera" rateId="2-2-2-2" />  <!--MakeupPlus - Your Own Virtual Makeup Artist-->
+  <item package="com.BeautifulPictureFramesmmhd" rateId="2-2-2-2" />  <!--Piktures - Beautiful Gallery-->
+  <item package="com.kii.safe" rateId="2-2-2-2" />  <!--Keepsafe Photo Vault: Hide Private Photos & Videos-->
+  <item package="photocollage.photoeditor.collagemaker" rateId="2-2-2-2" />  <!--Collage Maker - Photo Editor & Photo Collage-->
+  <item package="com.imaginstudio.imagetools.pixellab" rateId="2-2-2-2" />  <!--PixelLab - Text on pictures-->
+  <item package="com.ufotosoft.justshot" rateId="2-2-2-2" />  <!--Sweet Face Camera - live filter, Selfie face app-->
+  <item package="com.instagram.layout" rateId="2-2-2-2" />  <!--Layout from Instagram: Collage-->
+  <item package="kr.co.ladybugs.fourto" rateId="2-2-2-2" />  <!--FOTO Gallery-->
+  <item package="jp.co.canon.ic.cameraconnect" rateId="2-2-2-2" />  <!--Canon Camera Connect-->
+  <item package="com.google.android.apps.photos.scanner" rateId="2-2-2-2" />  <!--PhotoScan by Google Photos-->
+  <item package="com.handycloset.android.eraser" rateId="2-2-2-2" />  <!--Background Eraser-->
+  <item package="com.magix.camera_mx" rateId="2-2-2-2" />  <!--Camera MX - Photo & Video Camera-->
+  <item package="com.vsco.cam" rateId="2-2-2-2" />  <!--VSCO-->
+  <item package="io.faceapp" rateId="2-2-2-2" />  <!--FaceApp-->
+  <item package="kr.co.manhole.hujicam" rateId="2-2-2-2" />  <!--Huji Cam-->
+  <item package="com.google.android.apps.photosgo" rateId="2-2-2-2" />  <!--Gallery Go by Google Photos-->
+  <item package="photo.editor.photoeditor.photoeditorpro" rateId="2-2-2-2" />  <!--Photo Editor Pro-->
+  <item package="com.newbiz.mvmaster" rateId="2-2-2-2" />  <!--MV Master - Video Status Maker-->
+  <item package="nocrop.photoeditor.squarepic" rateId="2-2-2-2" />  <!--Square Pic - No Crop Photo Editor for Instagram-->
+  <item package="com.lightricks.pixaloop" rateId="2-2-2-2" />  <!--Enlight Pixaloop - Photo Animator-->
+  <item package="com.xprodev.cutcam" rateId="2-2-2-2" />  <!--Cut Cut - CutOut & Photo Background Editor-->
+  <item package="com.motorola.MotGallery2" rateId="2-2-2-2" />  <!--Motorola Gallery-->
+  <item package="com.utorrent.client" rateId="2-2-2-2" />  <!--µTorrent®- Torrent Downloader-->
+  <item package="com.google.android.videos" rateId="2-2-2-2" />  <!--Google Play Movies & TV-->
+  <item package="com.mxtech.videoplayer.pro" rateId="2-2-2-2" />  <!--MX Player Pro-->
+  <item package="com.radio.fmradio" rateId="2-2-2-2" />  <!--FM Radio-->
+  <item package="com.thinkyeah.galleryvault" rateId="2-2-2-2" />  <!--Gallery Vault - Hide Pictures And Videos-->
+  <item package="com.hideitpro" rateId="2-2-2-2" />  <!--Hide Photos, Video and App Lock - Hide it Pro-->
+  <item package="com.quvideo.xiaoying" rateId="2-2-2-2" />  <!--VivaVideo - Video Editor & Video Maker-->
+  <item package="com.google.android.apps.youtube.mango" rateId="2-2-2-2" />  <!--YouTube Go-->
+  <item package="com.delphicoder.flud" rateId="2-2-2-2" />  <!--Flud - Torrent Downloader-->
+  <item package="com.leo.privatezone" rateId="2-2-2-2" />  <!--Private Zone - AppLock, Video & Photo Vault-->
+  <item package="video.like" rateId="2-2-2-2" />  <!--Likee - Formerly LIKE Video-->
+  <item package="com.mxtech.videoplayer.beta" rateId="2-2-2-2" />  <!--MX Player Beta-->
+  <item package="com.bittorrent.client" rateId="2-2-2-2" />  <!--BitTorrent®- Torrent Downloads-->
+  <item package="video.player.videoplayer" rateId="2-2-2-2" />  <!--Video Player All Format - XPlayer-->
+  <item package="com.nexstreaming.app.kinemasterfree" rateId="2-2-2-2" />  <!--KineMaster - Video Editor-->
+  <item package="com.htc.video" rateId="2-2-2-2" />  <!--HTC Service—Video Player-->
+  <item package="com.samsung.android.videolist" rateId="2-2-2-2" />  <!--Samsung Video Library-->
+  <item package="com.tdo.showbox" rateId="2-2-2-2" />  <!--ShowBox-->
+  <item package="org.videolan.vlc.betav7neon" rateId="2-2-2-2" />  <!--VLC for Android beta-->
+  <item package="com.popularapp.videodownloaderforinstagram" rateId="2-2-2-2" />  <!--Video Downloader - for Instagram Repost App-->
+  <item package="com.google.android.apps.youtube.creator" rateId="2-2-2-2" />  <!--YouTube Studio-->
+  <item package="com.uc.vmate" rateId="2-2-2-2" />  <!--VMate-->
+  <item package="com.naing.mp3converter" rateId="2-2-2-2" />  <!--Video to MP3 Converter-->
+  <item package="com.xvideostudio.videoeditor" rateId="2-2-2-2" />  <!--VideoShow Video Editor, Video Maker, Photo Editor-->
+  <item package="secret.hide.calculator" rateId="2-2-2-2" />  <!--Private Photo, Video Locker-->
+  <item package="com.huawei.himovie" rateId="2-2-2-2" />  <!--HUAWEI Video Player-->
+  <item package="all.video.downloader.allvideodownloader" rateId="2-2-2-2" />  <!--All downloader 2019-->
+  <item package="com.mcu.iVMS" rateId="2-2-2-2" />  <!--iVMS-4500-->
+  <item package="net.seesaa.sweet_baked_pie.AB_repeater" rateId="2-2-2-2" />  <!--abVideo-->
+  <item package="com.stupeflix.replay" rateId="2-2-2-2" />  <!--Quik – Free Video Editor for photos, clips, music-->
+  <item package="com.cyberlink.powerdirector.DRA140225_01" rateId="2-2-2-2" />  <!--PowerDirector - Video Editor App, Best Video Maker-->
+  <item package="com.funcamerastudio.videomaker" rateId="2-2-2-2" />  <!--Video Maker of Photos with Music & Video Editor-->
+  <item package="com.hecorat.screenrecorder.free" rateId="2-2-2-2" />  <!--AZ Screen Recorder - No Root-->
+  <item package="com.sony.tvsideview.phone" rateId="2-2-2-2" />  <!--Video & TV SideView : Remote-->
+  <item package="com.hikvision.hikconnect" rateId="2-2-2-2" />  <!--Hik-Connect-->
+  <item package="com.wondershare.filmorago" rateId="2-2-2-2" />  <!--FilmoraGo - Free Video Editor-->
+  <item package="co.we.torrent" rateId="2-2-2-2" />  <!--WeTorrent - Torrent Downloader-->
+  <item package="com.camerasideas.trimmer" rateId="2-2-2-2" />  <!--YouCut - Video Editor & Video Maker, No Watermark-->
+  <item package="com.rahul.videoderbeta" rateId="2-2-2-2" />  <!--Video Downloader-->
+  <item package="com.ss.android.ugc.trill" rateId="2-2-2-2" />  <!--TikTok-->
+  <item package="free.video.downloader.freevideodownloader" rateId="2-2-2-2" />  <!--Free Video Downloader-->
+  <item package="com.vid007.videobuddy" rateId="2-2-2-2" />  <!--VideoBuddy — Fast Downloader, Video Detector-->
+  <item package="com.ss.android.ugc.trill.go" rateId="2-2-2-2" />  <!--TikTok Lite-->
+  <item package="mobi.charmer.myscreenrecorder" rateId="2-2-2-2" />  <!--Screen Recorder V Recorder - Audio, Video Editor-->
+  <item package="com.opex.makemyvideostatus" rateId="2-2-2-2" />  <!--Lyrical.ly - Lyrical Video Status Maker-->
+  <item package="video.like.lite" rateId="2-2-2-2" />  <!--Likee Lite - Formerly LIKE Lite Video-->
+  <item package="com.vidmix.app" rateId="2-2-2-2" />  <!--VidMix-->
+  <item package="com.google.android.youtube" rateId="2-2-2-2" />  <!--YouTube-->
+  <item package="com.king.candycrushsaga" rateId="2-2-2-2" />  <!--Candy Crush Saga-->
+  <item package="com.ludo.king" rateId="2-2-2-2" />  <!--Ludo King™-->
+  <item package="com.supercell.clashofclans" rateId="2-2-2-2" />  <!--Clash of Clans-->
+  <item package="com.miniclip.eightballpool" rateId="2-2-2-2" />  <!--8 Ball Pool-->
+  <item package="com.word.puzzle.game.connect" rateId="2-2-2-2" />  <!--Word Link-->
+  <item package="com.king.candycrushsodasaga" rateId="2-2-2-2" />  <!--Candy Crush Soda Saga-->
+  <item package="com.dts.freefireth" rateId="2-2-2-2" />  <!--Garena Free Fire - Anniversary-->
+  <item package="com.showtimeapp" rateId="2-2-2-2" />  <!--Loco - Play Free Games, Cricket and Win!-->
+  <item package="com.ansangha.drdriving" rateId="2-2-2-2" />  <!--Dr. Driving-->
+  <item package="com.fortune.sim.game.cash" rateId="2-2-2-2" />  <!--Hello Stars-->
+  <item package="com.supercell.clashroyale" rateId="2-2-2-2" />  <!--Clash Royale-->
+  <item package="com.riseup.game" rateId="2-2-2-2" />  <!--Rise Up-->
+  <item package="com.nextwave.wcc2" rateId="2-2-2-2" />  <!--World Cricket Championship 2 - WCC2-->
+  <item package="io.teslatech.callbreak" rateId="2-2-2-2" />  <!--Callbreak Multiplayer-->
+  <item package="com.octro.teenpatti" rateId="2-2-2-2" />  <!--Teen Patti by Octro-->
+  <item package="com.jetstartgames.chess" rateId="2-2-2-2" />  <!--Chess-->
+  <item package="com.fingersoft.hillclimb" rateId="2-2-2-2" />  <!--Hill Climb Racing-->
+  <item package="com.wordgame.puzzle.board.en" rateId="2-2-2-2" />  <!--Word Cross-->
+  <item package="com.moonactive.coinmaster" rateId="2-2-2-2" />  <!--Coin Master-->
+  <item package="com.imangi.templerun" rateId="2-2-2-2" />  <!--Temple Run-->
+  <item package="com.game5mobile.lineandwater" rateId="2-2-2-2" />  <!--Happy Glass-->
+  <item package="com.fungames.sniper3d" rateId="2-2-2-2" />  <!--Sniper 3D Gun Shooter: Free Elite Shooting Games-->
+  <item package="com.ludo.master.hippo" rateId="2-2-2-2" />  <!--Ludo Master - New Ludo Game 2019 For Free-->
+  <item package="uk.co.aifactory.chessfree" rateId="2-2-2-2" />  <!--Chess Free-->
+  <item package="com.h8games.helixjump" rateId="2-2-2-2" />  <!--Helix Jump-->
+  <item package="com.teenpatti.hd.gold" rateId="2-2-2-2" />  <!--Teen Patti Gold - With Poker & Rummy-->
+  <item package="com.outfit7.talkingtom" rateId="2-2-2-2" />  <!--Talking Tom Cat-->
+  <item package="com.firsttouchgames.dls3" rateId="2-2-2-2" />  <!--Dream League Soccer-->
+  <item package="com.ea.gp.fifamobile" rateId="2-2-2-2" />  <!--FIFA Soccer-->
+  <item package="bubbleshooter.orig" rateId="2-2-2-2" />  <!--Bubble Shooter-->
+  <item package="com.skgames.trafficrider" rateId="2-2-2-2" />  <!--Traffic Rider-->
+  <item package="com.firsttouchgames.story" rateId="2-2-2-2" />  <!--Score! Hero-->
+  <item package="com.igg.android.lordsmobile" rateId="2-2-2-2" />  <!--Lords Mobile: Battle of the Empires - Strategy RPG-->
+  <item package="com.bitmango.rolltheballunrollme" rateId="2-2-2-2" />  <!--Roll the Ball® - slide puzzle-->
+  <item package="com.supertapx.lovedots" rateId="2-2-2-2" />  <!--Love Balls-->
+  <item package="com.rovio.angrybirdsrio" rateId="2-2-2-2" />  <!--Angry Birds Rio-->
+  <item package="com.differencetenderwhite.skirt" rateId="2-2-2-2" />  <!--Block Puzzle Jewel-->
+  <item package="com.BuddyMattEnt.ChainReaction" rateId="2-2-2-2" />  <!--Chain Reaction-->
+  <item package="com.bigduckgames.flow" rateId="2-2-2-2" />  <!--Flow Free-->
+  <item package="com.nautilus.RealCricket3D" rateId="2-2-2-2" />  <!--Real Cricket™ 19-->
+  <item package="com.ansangha.drjb" rateId="2-2-2-2" />  <!--Dr. Driving 2-->
+  <item package="jp.konami.pesam" rateId="2-2-2-2" />  <!--PES 2019 PRO EVOLUTION SOCCER-->
+  <item package="com.happyadda.jalebi" rateId="2-2-2-2" />  <!--Jalebi - A Desi Adda With Ludo Snakes & Ladders-->
+  <item package="com.games24x7.ultimaterummy.playstore" rateId="2-2-2-2" />  <!--Ultimate RummyCircle - Play Rummy-->
+  <item package="com.brainbaazi" rateId="2-2-2-2" />  <!--Live Quiz Games App, Trivia & Gaming App for Money-->
+  <item package="com.outfit7.talkingtomgoldrun" rateId="2-2-2-2" />  <!--Talking Tom Gold Run-->
+  <item package="com.noodlecake.altosodyssey" rateId="2-2-2-2" />  <!--Alto's Odyssey-->
+  <item package="com.ea.games.r3_na" rateId="2-2-2-2" />  <!--Real Racing  3-->
+  <item package="com.aim.racing" rateId="2-2-2-2" />  <!--Extreme Car Driving Simulator-->
+  <item package="com.bentostudio.ballsvsblocks" rateId="2-2-2-2" />  <!--Snake VS Block-->
+  <item package="com.droidhen.game.racingmoto" rateId="2-2-2-2" />  <!--Racing Moto-->
+  <item package="com.bitmango.go.wordcookies" rateId="2-2-2-2" />  <!--Word Cookies!®-->
+  <item package="com.dvloper.granny" rateId="2-2-2-2" />  <!--Granny-->
+  <item package="com.episodeinteractive.android.catalog" rateId="2-2-2-2" />  <!--Episode - Choose Your Story-->
+  <item package="com.playrix.township" rateId="2-2-2-2" />  <!--Township-->
+  <item package="com.playgendary.kickthebuddy" rateId="2-2-2-2" />  <!--Kick the Buddy-->
+  <item package="com.gta.real.gangster.crime" rateId="2-2-2-2" />  <!--Real Gangster Crime-->
+  <item package="com.ketchapp.knifehit" rateId="2-2-2-2" />  <!--Knife Hit-->
+  <item package="badminton.king.sportsgame.smash" rateId="2-2-2-2" />  <!--Badminton League-->
+  <item package="com.miniclip.archery" rateId="2-2-2-2" />  <!--Archery King-->
+  <item package="com.king.candycrushjellysaga" rateId="2-2-2-2" />  <!--Candy Crush Jelly Saga-->
+  <item package="com.tencent.iglite" rateId="2-2-2-2" />  <!--PUBG MOBILE LITE-->
+  <item package="com.ffgames.racingincar2" rateId="2-2-2-2" />  <!--Racing in Car 2-->
+  <item package="com.nianticlabs.pokemongo" rateId="2-2-2-2" />  <!--Pokémon GO-->
+  <item package="io.voodoo.holeio" rateId="2-2-2-2" />  <!--Hole.io-->
+  <item package="com.mediocre.smashhit" rateId="2-2-2-2" />  <!--Smash Hit-->
+  <item package="com.king.farmheroessaga" rateId="2-2-2-2" />  <!--Farm Heroes Saga-->
+  <item package="com.fingersoft.hcr2" rateId="2-2-2-2" />  <!--Hill Climb Racing 2-->
+  <item package="com.supercell.hayday" rateId="2-2-2-2" />  <!--Hay Day-->
+  <item package="com.brokenreality.planemerger.android" rateId="2-2-2-2" />  <!--Merge Plane - Click & Idle Tycoon-->
+  <item package="com.herocraft.game.free.gibbets3" rateId="2-2-2-2" />  <!--Gibbets: Bow Master-->
+  <item package="com.billiards.city.pool.nation.club" rateId="2-2-2-2" />  <!--Pooking - Billiards City-->
+  <item package="com.halfbrick.fruitninjafree" rateId="2-2-2-2" />  <!--Fruit Ninja®-->
+  <item package="com.octro.rummy" rateId="2-2-2-2" />  <!--Indian Rummy (13 & 21 Cards) by Octro-->
+  <item package="slither.io" rateId="2-2-2-2" />  <!--slither.io-->
+  <item package="com.rovio.angrybirds" rateId="2-2-2-2" />  <!--Angry Birds Classic-->
+  <item package="com.chess" rateId="2-2-2-2" />  <!--Chess · Play & Learn-->
+  <item package="com.quizup.core" rateId="2-2-2-2" />  <!--QuizUp-->
+  <item package="com.skgames.trafficracer" rateId="2-2-2-2" />  <!--Traffic Racer-->
+  <item package="com.fungames.flightpilot" rateId="2-2-2-2" />  <!--Flight Pilot Simulator 3D Free-->
+  <item package="com.gameloft.android.ANMP.GloftNOHM" rateId="2-2-2-2" />  <!--N.O.V.A. Legacy-->
+  <item package="com.generagames.resistance" rateId="2-2-2-2" />  <!--Cover Fire: Shooting Games PRO-->
+  <item package="com.mobile.legends" rateId="2-2-2-2" />  <!--Mobile Legends: Bang Bang-->
+  <item package="com.miniclip.footballstrike" rateId="2-2-2-2" />  <!--Football Strike - Multiplayer Soccer-->
+  <item package="com.rioo.runnersubway" rateId="2-2-2-2" />  <!--Subway Princess Runner-->
+  <item package="wood.puzzle.game.blockpuzzle" rateId="2-2-2-2" />  <!--Wood Block Puzzle-->
+  <item package="com.picsart.studio" rateId="2-2-2-2" />  <!--PicsArt Photo Editor: Pic, Video & Collage Maker-->
+  <item package="vStudio.Android.Camera360" rateId="2-2-2-2" />  <!--Camera360: Selfie Photo Editor with Funny Sticker-->
+  <item package="com.shinycore.picsayfree" rateId="2-2-2-2" />  <!--PicSay Pro - Photo Editor-->
+  <item package="com.campmobile.snow" rateId="2-2-2-2" />  <!--SNOW-->
+  <item package="com.touchbyte.photosync" rateId="2-2-2-2" />  <!--abPhoto (photo backup)-->
+  <item package="camera360.lite.beauty.selfie.camera" rateId="2-2-2-2" />  <!--Camera360 Lite - Selfie Camera-->
+  <item package="com.moonlab.unfold" rateId="2-2-2-2" />  <!--Unfold — Create Stories-->
+  <item package="dstudio.tool.instasave" rateId="2-2-2-2" />  <!--QuickSave for Instagram - Downloader and Repost-->
+  <item package="com.cyworld.camera" rateId="2-2-2-2" />  <!--Cymera Camera - Collage, Selfie Camera, Pic Editor-->
+  <item package="com.ginnypix.kujicam" rateId="2-2-2-2" />  <!--Kuji Cam-->
+  <item package="com.youthhr.phonto" rateId="2-2-2-2" />  <!--Phonto - Text on Photos-->
+  <item package="com.linecorp.foodcam.android" rateId="2-2-2-2" />  <!--Foodie - Camera for life-->
+  <item package="com.mt.mtxx.mtxx" rateId="2-2-2-2" />  <!--Meitu – Beauty Cam, Easy Photo Editor-->
+  <item package="org.adesanyaaa.appmoviecreator" rateId="2-2-2-2" />  <!--Movie Creator-->
+  <item package="jp.naver.linecamera.android" rateId="2-2-2-2" />  <!--LINE Camera - Photo editor-->
+  <item package="com.flavionet.android.camera.lite" rateId="2-2-2-2" />  <!--Camera FV-5 Lite-->
+  <item package="com.sony.playmemories.mobile" rateId="2-2-2-2" />  <!--Imaging Edge Mobile-->
+  <item package="com.sonymobile.androidapp.cameraaddon.areffect" rateId="2-2-2-2" />  <!--AR effect-->
+  <item package="com.fujifilm_dsc.app.remoteshooter" rateId="2-2-2-2" />  <!--FUJIFILM Camera Remote-->
+  <item package="sweet.selfie.lite" rateId="2-2-2-2" />  <!--Sweet Selfie Camera:Beauty cam,photo&selfie editor-->
+  <item package="com.xiaomi.xy.sportscamera" rateId="2-2-2-2" />  <!--YI Action - YI Action Camera-->
+  <item package="com.sonymobile.android.addoncamera.styleportrait" rateId="2-2-2-2" />  <!--Style portrait-->
+  <item package="com.snowcorp.soda.android" rateId="2-2-2-2" />  <!--SODA - Natural Beauty Camera-->
+  <item package="com.meepo.instasave" rateId="2-2-2-2" />  <!--InstaSave - Instagram photo and video downloader-->
+  <item package="com.flayvr.flayvr" rateId="2-2-2-2" />  <!--Gallery-->
+  <item package="com.ffffstudio.kojicam" rateId="2-2-2-2" />  <!--1998 Cam - Vintage Camera-->
+  <item package="com.hefe.pro.editor" rateId="2-2-2-2" />  <!--Photo Editor Pro-->
+  <item package="com.gorgeous.liteinternational" rateId="2-2-2-2" />  <!--Ulike - Define your selfie in trendy style-->
+  <item package="com.simplemobiletools.gallery" rateId="2-2-2-2" />  <!--Simple Gallery Pro: Photo Manager & Editor-->
+  <item package="instagramstory.maker.unfold" rateId="2-2-2-2" />  <!--StoryChic:IG Story Art Maker,Instagramstory editor-->
+  <item package="com.ryzenrise.storyart" rateId="2-2-2-2" />  <!--StoryArt - Insta story editor for Instagram-->
+  <item package="com.photogrid.lite" rateId="2-2-2-2" />  <!--PhotoGrid Lite: Photo Collage Maker & Photo Editor-->
+  <item package="com.hodanny.instagrid" rateId="2-2-2-2" />  <!--9square for Instagram-->
+  <item package="com.camera.one.s10.camera" rateId="2-2-2-2" />  <!--One S10 Camera - Galaxy S10 camera style-->
+  <item package="instagram.story.art.collage" rateId="2-2-2-2" />  <!--Mojito - Story Art Maker, Instagram story editor-->
+  <item package="com.fueled.afterlight" rateId="2-2-2-2" />  <!--Afterlight-->
+  <item package="com.jeyluta.timestampcamerafree" rateId="2-2-2-2" />  <!--Timestamp Camera Free-->
+  <item package="com.handycloset.android.stickers" rateId="2-2-2-2" />  <!--Personal Stickers-->
+  <item package="com.gilangfaisal.thestream" rateId="2-2-2-2" />  <!--Vidio - Nonton Video, TV & Live Streaming Gratis-->
+  <item package="com.rocks.music.videoplayer" rateId="2-2-2-2" />  <!--Video Player All Format - XPlayer-->
+  <item package="com.music.video.player.hdxo" rateId="2-2-2-2" />  <!--SHビデオプレーヤー-->
+  <item package="com.besthdvideo.editor.cutter.converter.pstr" rateId="2-2-2-2" />  <!--VivaVideo PRO Video Editor HD-->
+  <item package="com.znstudio.instadownload" rateId="2-2-2-2" />  <!--Downloader for Instagram: Photo & Video Saver-->
+  <item package="facebookvideodownloader.videodownloaderforfacebook" rateId="2-2-2-2" />  <!--Video Downloader for Facebook Video Downloader-->
+  <item package="com.ants360.yicamera" rateId="2-2-2-2" />  <!--YI Home-->
+  <item package="com.kmplayer" rateId="2-2-2-2" />  <!--Video Player HD All formats & codecs - kmplayer-->
+  <item package="com.yoosee" rateId="2-2-2-2" />  <!--Yoosee-->
+  <item package="com.gretech.gomplayerko" rateId="2-2-2-2" />  <!--GOM Player-->
+  <item package="com.nbs.useetv" rateId="2-2-2-2" />  <!--UseeTV GO - Watch Live TV and On Demand TV/Video-->
+  <item package="storysaverforinstagram.storydownloader.instastorysaver" rateId="2-2-2-2" />  <!--Story Saver for Instagram - Story Downloader-->
+  <item package="com.mobivio.android.cutecut" rateId="2-2-2-2" />  <!--Cute CUT - Video Editor & Movie Maker-->
+  <item package="com.soludens.movieview" rateId="2-2-2-2" />  <!--Soul Movie-->
+  <item package="com.media.digital" rateId="2-2-2-2" />  <!--TV Indonesia - Semua Saluran TV Online Indonesia-->
+  <item package="com.tencent.qqlivei18n" rateId="2-2-2-2" />  <!--WeTV - Dramas, Films & More-->
+  <item package="com.playtube.videotube.tubevideo" rateId="2-2-2-2" />  <!--Play Tube & Video Tube-->
+  <item package="com.downloadvideo.freevideodownloader.downloadall" rateId="2-2-2-2" />  <!--Free Video Downloader-->
+  <item package="videocutter.mp3cutter.videotomp3converter.powertrimmer" rateId="2-2-2-2" />  <!--Video to MP3 Converter - mp3 cutter and merger-->
+  <item package="videoeditor.videorecorder.screenrecorder" rateId="2-2-2-2" />  <!--Screen Recorder & Video Recorder - XRecorder-->
+  <item package="com.player.zaltv" rateId="2-2-2-2" />  <!--ZalTV Player-->
+  <item package="com.television.burma" rateId="2-2-2-2" />  <!--Burma TV-->
+  <item package="com.tencent.ig" rateId="2-2-2-2" />  <!--PUBG MOBILE-->
+  <item package="com.garena.game.kgid" rateId="2-2-2-2" />  <!--Garena AOV - Arena of Valor: Action MOBA-->
+  <item package="vha.cds" rateId="2-2-2-2" />  <!--Candy Crush Saga-->
+  <item package="me.pou.app" rateId="2-2-2-2" />  <!--Pou-->
+  <item package="com.firsttouchgames.dlsa" rateId="2-2-2-2" />  <!--Dream League Soccer-->
+  <item package="com.shy.badminton.simulator.game.swipe.court.smash.pass.field.stage.cue" rateId="2-2-2-2" />  <!--Badminton League-->
+  <item package="com.rtsoft.growtopia" rateId="2-2-2-2" />  <!--Growtopia-->
+  <item package="org.ppsspp.ppsspp" rateId="2-2-2-2" />  <!--PPSSPP - PSP emulator-->
+  <item package="com.gue.pesanyar" rateId="2-2-2-2" />  <!--PES 2019 PRO EVOLUTION SOCCER-->
+  <item package="net.mobigame.zombietsunami" rateId="2-2-2-2" />  <!--Zombie Tsunami-->
+  <item package="com.ea.watchface.pvzzombie" rateId="2-2-2-2" />  <!--Plants vs. Zombies FREE-->
+  <item package="com.linecorp.LGGRTHN" rateId="2-2-2-2" />  <!--LINE Let's Get Rich-->
+  <item package="com.maleo.bussimulatorid" rateId="2-2-2-2" />  <!--Bus Simulator Indonesia-->
+  <item package="joykeratif.tts" rateId="2-2-2-2" />  <!--Teka-teki Silang TTS Update Terbaru Februari 2019-->
+  <item package="com.DoniAndroid.TTSTekaTekiSilangOffline2019" rateId="2-2-2-2" />  <!--Teka Teki Silang - TTS 2018-->
+  <item package="com.playrix.homescapes" rateId="2-2-2-2" />  <!--Homescapes-->
+  <item package="com.ea.game.simcitymobile_row" rateId="2-2-2-2" />  <!--SimCity BuildIt-->
+  <item package="com.epsxe.ePSXe" rateId="2-2-2-2" />  <!--ePSXe for Android-->
+  <item package="com.touchtao.soccerkinggoogle" rateId="2-2-2-2" />  <!--World Soccer League-->
+  <item package="com.bunbogames.racingxtreme" rateId="2-2-2-2" />  <!--Asphalt 9: Legends - 2019's Action Car Racing Game-->
+  <item package="com.roblox.client" rateId="2-2-2-2" />  <!--Roblox-->
+  <item package="com.paragisoft.gaple" rateId="2-2-2-2" />  <!--Gaple-->
+  <item package="com.tebakgambar" rateId="2-2-2-2" />  <!--Tebak Gambar-->
+  <item package="com.jellyblast.cmcm" rateId="2-2-2-2" />  <!--Jellipop Match: Open your dream shop！-->
+  <item package="pawapp.games.onetdeluxe" rateId="2-2-2-2" />  <!--Onet Deluxe-->
+  <item package="com.gamegou.football" rateId="2-2-2-2" />  <!--Top Eleven 2019 -  Be a soccer manager-->
+  <item package="com.miHoYo.bh3oversea" rateId="2-2-2-2" />  <!--Honkai Impact 3-->
+  <item package="com.MangoSoft.Susun" rateId="2-2-2-2" />  <!--Mango Capsa Susun-->
+  <item package="com.vectorunit.purple.googleplay" rateId="2-2-2-2" />  <!--Beach Buggy Racing-->
+  <item package="com.netease.idv.googleplay" rateId="2-2-2-2" />  <!--Identity V-->
+  <item package="com.constructmonkey.rr3guide" rateId="2-2-2-2" />  <!--Real Racing  3-->
+  <item package="com.mobirix.fishinghook" rateId="2-2-2-2" />  <!--Fishing Hook-->
+  <item package="agame.onet.classic" rateId="2-2-2-2" />  <!--Onet Classic-->
+  <item package="jpark.AOS5" rateId="2-2-2-2" />  <!--Anger of stick 5 : zombie-->
+  <item package="com.ForgeGames.SpecialForcesGroup2" rateId="2-2-2-2" />  <!--Special Forces Group 2-->
+  <item package="com.asobimo.toramonline" rateId="2-2-2-2" />  <!--RPG Toram Online-->
+  <item package="com.netmarble.mherosgb" rateId="2-2-2-2" />  <!--MARVEL Future Fight-->
+  <item package="balls.arcademaker.bricks.breaker.brounce.ballz" rateId="2-2-2-2" />  <!--Balls Bricks Breaker-->
+  <item package="com.cooking.mama.kitchen.dinner" rateId="2-2-2-2" />  <!--Cooking Mama: Let's cook!-->
+  <item package="com.YoStarEN.AzurLane" rateId="2-2-2-2" />  <!--Azur Lane-->
+  <item package="com.netmarble.sknightsgb" rateId="2-2-2-2" />  <!--Seven Knights-->
+  <item package="com.fgol.HungrySharkEvolution" rateId="2-2-2-2" />  <!--Hungry Shark Evolution-->
+  <item package="com.chillingo.robberybobfree.android.row" rateId="2-2-2-2" />  <!--Robbery Bob-->
+  <item package="com.youmusic.magictiles" rateId="2-2-2-2" />  <!--Magic Tiles 3-->
+  <item package="com.ea.gp.nbamobile" rateId="2-2-2-2" />  <!--NBA LIVE Mobile Basketball-->
+  <item package="com.shootinggames.sniper3d.assassin" rateId="2-2-2-2" />  <!--Sniper 3D Gun Shooter: Free Elite Shooting Games-->
+  <item package="com.bubadu.bubbu" rateId="2-2-2-2" />  <!--Bubbu – My Virtual Pet-->
+  <item package="com.forthblue.pool" rateId="2-2-2-2" />  <!--Pool Billiards Pro-->
+  <item package="com.gta.grandtheftauto.sanandreas.codes" rateId="2-2-2-2" />  <!--Grand Theft Auto: San Andreas-->
+  <item package="com.ChillyRoom.DungeonShooter" rateId="2-2-2-2" />  <!--Soul Knight-->
+  <item package="com.fungames.blockcraft" rateId="2-2-2-2" />  <!--Block Craft 3D: Building Simulator Games For Free-->
+  <item package="com.pixonic.wwr" rateId="2-2-2-2" />  <!--War Robots-->
+  <item package="com.kit.durangoguides" rateId="2-2-2-2" />  <!--Durango: Wild Lands-->
+  <item package="jp.konami.duellinks" rateId="2-2-2-2" />  <!--Yu-Gi-Oh! Duel Links-->
+  <item package="com.nordcurrent.canteenhd" rateId="2-2-2-2" />  <!--Cooking Fever-->
+  <item package="com.sweetmatch3gamesmania.fruitsbomb" rateId="2-2-2-2" />  <!--Fruits Bomb-->
+  <item package="com.wikia.singlewikia.fategrandorder" rateId="2-2-2-2" />  <!--Fate/Grand Order (English)-->
+  <item package="jp.konami.pesclubmanager" rateId="2-2-2-2" />  <!--PES CLUB MANAGER-->
+  <item package="com.rovio.baba" rateId="2-2-2-2" />  <!--Angry Birds 2-->
+  <item package="com.unionpay" rateId="2-2-2-2" />  <!--银联-->
+  <item package="com.amazon.avod.thirdpartyclient" rateId="2-2-2-2" />  <!--亚马逊-->
+  <item package="com.smile.gifmaker" rateId="2-2-2-2" />  <!-- 467206 快手 -->
+  <item package="com.tencent.mobileqq" rateId="2-1-2-0" disableViewOverride="true" />  <!-- 467206,390181 QQ -->
+  <item package="com.baidu.searchbox" rateId="2-2-2-2" />  <!-- 467206 百度 -->
+  <item package="com.kugou.android" rateId="2-2-2-2" />  <!-- 467206 酷狗音乐 -->
+<!-- override surfaceview,textureview,app run on user select rate-->
+  <item package="com.tencent.tmgp.speedmobile" rateId="0-0-0-0" disableViewOverride="true" tplist="true" />  <!--QQ飞车-->
+  <item package="com.tencent.tmgp.pubgmhd" rateId="0-0-0-0" />  <!--和平精英-->
+  <item package="com.tencent.tmgp.sgame" rateId="0-0-0-0" tplist="true" disableViewOverride="true"/>  <!--王者荣耀-->
+  <item package="com.tencent.tmgp.KiHan" rateId="0-0-0-0" disableViewOverride="true" tplist="true" />  <!--火影忍者体验服-->
+  <item package="com.tencent.KiHan" rateId="0-0-0-0" disableViewOverride="true" tplist="true" />  <!--火影忍者-->
+  <item package="com.netease.koh.nearme.gamecenter" rateId="0-0-0-0" disableViewOverride="true" tplist="true" />  <!--猎手之王-->
+  <item package="com.tencent.tmgp.eyou.lszw" rateId="0-0-0-0" disableViewOverride="true" tplist="true" />  <!--猎手之王-->
+  <item package="com.netease.yokaikoya.nearme.gamecenter" rateId="0-0-0-0" disableViewOverride="true" tplist="true" />  <!--阴阳师妖怪屋-->
+  <item package="com.tencent.tmgp.eyou.ygwu" rateId="0-0-0-0" disableViewOverride="true" tplist="true" />  <!--阴阳师妖怪屋-->
+  <item package="com.miHoYo.Yuanshen" rateId="0-0-0-0" disableViewOverride="true" tplist="true" />  <!--原神-->
+  <item package="com.pwrd.xsmdl.laohu" rateId="0-0-0-0" disableViewOverride="true" tplist="true" />  <!--新神魔大陆-->
+  <item package="com.tencent.tmgp.xsmdl" rateId="0-0-0-0" disableViewOverride="true" tplist="true" />  <!--新神魔大陆-->
+  <item package="com.tencent.LEGOCUBE" rateId="2-2-2-2" disableViewOverride="true" tplist="true" />  <!--乐高无限-->
+  <item package="com.tencent.af" rateId="0-0-0-0" disableViewOverride="true" tplist="true" />  <!--王牌战士-->
+  <item package="com.miHoYo.enterprise.NGHSoD" rateId="0-0-0-0" disableViewOverride="true" /> <!--崩坏3 官网版-->
+  <item package="com.miHoYo.bh3.nearme.gamecenter" rateId="0-0-0-0" disableViewOverride="true" tplist="true" />  <!--崩坏3-->
+  <item package="com.tencent.tmgp.bh3" rateId="0-0-0-0" disableViewOverride="true" /> <!--崩坏3 应用宝版 -->
+  <item package="com.netease.koh" rateId="0-0-0-0" disableViewOverride="true" /> <!--猎手之王-->
+  <item package="com.netease.yokaikoya" rateId="0-0-0-0" disableViewOverride="true" /> <!--阴阳师 妖怪屋-->
+  <item package="com.pwrd.smdl" rateId="0-0-0-0" disableViewOverride="true" />  <!--神魔大陆-->
+  <item package="com.pwrd.xsmdl" rateId="0-0-0-0" disableViewOverride="true" /> <!--神魔大陆-->
+  <item package="com.xsmdl.nearme.gamecenter" rateId="0-0-0-0" disableViewOverride="true" /> <!--神魔大陆-->
+  <item package="com.tencent.YiRen" rateId="0-0-0-0" disableViewOverride="true" /> <!--一人之下-->
+  <item package="com.pwrd.xxajh.laohu" rateId="0-0-0-0" disableViewOverride="true" /> <!--新笑傲江湖 官网-->
+  <item package="com.pwrd.xxajh.nearme.gamecenter" rateId="0-0-0-0" disableViewOverride="true" />  <!--新笑傲江湖 -->
+  <item package="com.tencent.tmgp.xxajh" rateId="0-0-0-0" disableViewOverride="true" /> <!--新笑傲江湖 应用宝版-->
+  <item package="com.netease.lztg.nearme.gamecenter" rateId="0-0-0-0" disableViewOverride="true" />  <!--量子特工 商店版 -->
+  <item package="com.netease.lztg" rateId="0-0-0-0" disableViewOverride="true" />  <!--量子特工 官网版 -->
+  <item package="com.tencent.tmgp.yongyong.lztg" rateId="0-0-0-0" disableViewOverride="true" />  <!--量子特工 应用宝版 -->
+  <item package="com.tencent.tmgp.cf" rateId="0-0-0-0" disableViewOverride="true" tplist="true" />  <!--穿越火线 -->
+  <item package="com.netease.blqx" rateId="2-2-2-2" disableViewOverride="true" />  <!--堡垒前线 官网版 -->
+  <item package="com.netease.blqx.nearme.gamecenter" rateId="2-2-2-2" disableViewOverride="true" />  <!--堡垒前线 -->
+  <item package="com.tencent.tmgp.eyou.blqx" rateId="2-2-2-2" disableViewOverride="true" />  <!--堡垒前线 -->
+  <item package="com.yingxiong.dftk.yx" rateId="0-0-0-0" disableViewOverride="true" />  <!--巅峰坦克 官网-->
+  <item package="com.yingxiong.dftk.nearme.gamecenter" rateId="0-0-0-0" disableViewOverride="true" />  <!--巅峰坦克-->
+  <item package="com.tencent.tmgp.dftkzjzg" rateId="0-0-0-0" disableViewOverride="true" />  <!--巅峰坦克 应用宝版-->
+  <item package="com.superevilmegacorp.game" rateId="0-0-0-0" disableViewOverride="true" />  <!--虚荣(Vainglory) 官网 -->
+  <item package="com.superevilmegacorp.game.nearme.gamecenter" rateId="0-0-0-0" disableViewOverride="true" />  <!--虚荣(Vainglory)-->
+  <item package="com.Lilith.Abi.nearme.gamecenter" rateId="0-0-0-0" disableViewOverride="true" />  <!--艾彼-->
+  <item package="com.tencent.tmgp.lilithgame.abi" rateId="0-0-0-0" disableViewOverride="true" />  <!--艾彼 应用宝版 -->
+  <item package="com.kiloo.subwaysurf" rateId="0-0-0-0" disableViewOverride="true" />  <!--地铁跑酷-->
+  <item package="com.yunbu.rehtona.nearme.gamecenter" rateId="0-0-0-0" disableViewOverride="true" />  <!--幻境双生 -->
+  <item package="com.denachina.g13002010.denacn" rateId="0-0-0-0" disableViewOverride="true" /> <!--灌篮高手 官网 -->
+  <item package="com.denachina.g13002010.nearme.gamecenter" rateId="0-0-0-0" disableViewOverride="true" />  <!--灌篮高手 商店 -->
+  <item package="com.tencent.tmgp.g13002010" rateId="0-0-0-0" disableViewOverride="true" />  <!--灌篮高手 应用宝版 -->
+  <item package="com.hsh.cqyzs.nearme.gamecenter" rateId="0-0-0-0" disableViewOverride="true" />  <!--斗罗大陆 商店-->
+  <item package="com.tencent.tmgp.dldlwyly" rateId="0-0-0-0" disableViewOverride="true" /> <!--斗罗大陆 应用宝版-->
+  <item package="com.volvapps.ef5.x.nearme.gamecenter" rateId="0-0-0-0" disableViewOverride="true" />  <!--空战争锋-->
+  <item package="com.tencent.tmgp.ef5" rateId="0-0-0-0" disableViewOverride="true" /> <!--空战争锋 应用宝版-->
+  <item package="com.palmpi.hcollege.feiyu" rateId="0-0-0-0" disableViewOverride="true" /> <!--魂器学院 官网-->
+  <item package="com.palmpi.hcollege.nearme.gamecenter" rateId="0-0-0-0" disableViewOverride="true" />  <!--魂器学院 商店-->
+  <item package="com.tencent.tmgp.hqxy" rateId="0-0-0-0" disableViewOverride="true" /> <!--魂器学院 应用宝-->
+  <item package="com.ztgame.bob" rateId="0-0-0-0" disableViewOverride="true" />  <!--球球大作战-->
+  <item package="com.netease.x19" rateId="0-0-0-0" disableViewOverride="true" /> <!--我的世界 官网-->
+  <item package="com.netease.mc.nearme.gamecenter" rateId="0-0-0-0" disableViewOverride="true" />  <!--我的世界 商店-->
+  <item package="com.tencent.tmgp.wdsj666" rateId="0-0-0-0" disableViewOverride="true" /> <!--我的世界 应用宝-->
+  <item package="com.longyuan.sdorica.nearme.gamecenter" rateId="0-0-0-0" disableViewOverride="true" />  <!--万象物语-->
+  <item package="com.wepie.snake.nearme.gamecenter" rateId="0-0-0-0" disableViewOverride="true" />  <!--贪吃蛇大作战 -->
+  <item package="com.wepie.snake.tencent" rateId="0-0-0-0" disableViewOverride="true" /> <!--贪吃蛇大作战 应用宝版-->
+  <item package="com.netease.wptqz" rateId="0-0-0-0" disableViewOverride="true" />  <!-- 机动都市阿尔法 -->
+  <item package="com.tencent.mm" rateId="1-1-2-0"  disableViewOverride="true" />  <!-- bugid: 2895068,2896023-->
+  <item package="com.tencent.mm" activity="com.tencent.mm/.plugin.recordvideo.activity.MMRecordUI" rateId="2-2-2-2" />  <!--微信中拍摄场景-->
+  <item package="com.tencent.mm" activity="com.tencent.mm/.ui.chatting.gallery.ImageGalleryUI" rateId="0-0-0-0" />  <!--微信聊天界面播放小视频-->
+  <item package="com.tencent.mm" activity="com.tencent.mm/.plugin.appbrand.ui.AppBrandUI1" rateId="2-2-2-2"  />  <!--微信小程序-->
+  <item package="com.tencent.mm" activity="com.tencent.mm/.plugin.appbrand.ui.AppBrandUI2" rateId="2-2-2-2"  />  <!--微信小程序-->
+  <item package="com.tencent.mm" activity="com.tencent.mm/.plugin.sns.ui.SnsOnlineVideoActivity" rateId="2-2-2-2"  />  <!--微信朋友圈播放视频-->
+  <item package="com.tencent.mm" activity="com.tencent.mm/.plugin.scanner.ui.BaseScanUI" rateId="2-2-2-2"  />  <!--微信扫一扫页面-->
+  <item package="com.tencent.mm" activity="com.tencent.mm/.plugin.voip.ui.VideoActivity" rateId="2-2-2-2"  />
+  <item package="com.android.chrome" rateId="0-0-0-0" disableViewOverride="true" />  <!--Chrome浏览器-->
+  <item package="org.mozilla.firefox" rateId="0-0-0-0"  disableViewOverride="true" />  <!--火狐浏览器-->
+  <item package="com.opera.browser" rateId="0-0-0-0"  disableViewOverride="true" />  <!--opera浏览器-->
+  <item package="com.coloros.gallery3d" rateId="1-1-2-0"  disableViewOverride="true" />  <!--相册 BugID 2882523 -->
+  <item package="com.baidu.tieba" rateId="0-0-0-0"  disableViewOverride="true" />  <!--百度贴吧-->
+  <item package="com.coloros.weather2" activity="com.coloros.weather2/com.coloros.weather.main.view.WeatherMainActivity" rateId="1-1-2-0"  disableViewOverride="true" />  <!-- 天气 BugID 2889194 -->
+  <item package="com.taobao.idlefish" activity="com.taobao.idlefish/com.idlefish.flutterbridge.flutterboost.IdleFishFlutterActivity" rateId="0-0-0-0"  disableViewOverride="true" />  <!-- 闲鱼 BugID 2950544 -->
+  <item package="com.sina.weibo" activity="com.sina.weibo/com.sina.weibo.MainTabActivity" rateId="1-1-2-0"  disableViewOverride="true" />  <!-- 微博态 BugID 2966267 -->
+  <item package="com.sina.weibo" activity="com.sina.weibo/.MainTabActivity" rateId="1-1-2-0"  disableViewOverride="true" />  <!-- 微博态 BugID 2966267 -->
+<!--video app preferredRefreshRate =120hz, done 120hz  -->
+  <item package="com.example.myapplication" rateId="1-1-2-0" appreqfirst="true" /> <!--test-->
+  <item package="com.tencent.qqlive" rateId="2-2-2-2" appreqfirst="true" />   <!--腾讯视频-->
+  <item package="com.qiyi.video" rateId="2-2-2-2" />  <!--爱奇艺-->
+  <item package="com.iqiyi.i18n" rateId="2-2-2-2" />  <!--爱奇艺国际版-->
+<!-- 录屏降低帧率到 60hz -->
+  <record package="com.heytap.cast" />  <!--投屏时候保持系统帧率在60hz-->
+  <defaultRateMode dstRateId="1" /> <!--  -->
+</refresh_rate_config>
+

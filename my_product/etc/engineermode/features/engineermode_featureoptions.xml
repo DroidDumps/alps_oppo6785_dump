@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<features>
+    <!-- BSP feature -->
+    <feature name="com.oppo.eng.otg.support" />
+    <feature name="com.oppo.eng.sdcard.support" />
+    <feature name="com.oppo.eng.type.c.support" />
+    <feature name="com.oppo.eng.pd.charger.support" />
+    <feature name="com.oppo.eng.vooc.charger.support" />
+    <feature name="com.oppo.eng.smallboard.detect.support" />
+    <feature name="com.oppo.eng.a.smallboard.detect.support" />
+    <feature name="com.oppo.eng.gyroscope.sensor.support" />
+    <feature name="com.oppo.eng.magnetic.sensor.support" />
+    <feature name="com.oppo.eng.gravity.sensor.calibrate.support" />
+    <feature name="com.oppo.eng.proximity.sensor.calibrate.support" />
+    <feature name="com.oppo.eng.light.sensor.calibrate.support" />
+    <feature name="com.oppo.eng.screen.light.sensor.support" />
+    <feature name="com.oppo.eng.proximity.distance.calibration.support" />
+    <feature name="com.oppo.eng.sensor.selftest.support" />
+    <feature name="com.oppo.eng.stepcounter.sensor.support" />
+    <feature name="com.oppo.eng.ship.mode.support" />
+    <feature name="com.oppo.eng.battery.flag.support" />
+    <feature name="com.oppo.eng.drm.widevine.support" />
+
+
+    <!-- Network feature -->
+    <feature name="com.oppo.eng.sim.hot.swap.support" />
+    <feature name="com.oppo.eng.network.air.interface.detect.support" />
+    <!-- Multimedia feature -->
+    <feature name="com.oppo.eng.smart.pa.calibrate.support" />
+
+    <!-- Connectivity feature -->
+
+    <!-- Android feature -->
+    <feature name="com.oppo.eng.devices.cali.status.check.support" />
+    <feature name="com.oppo.eng.exp.version" />
+    <!-- for Aging V1.3 -->
+    <feature name="com.oppo.eng.production.line.aging.new.support" />
+    <feature name="com.oppo.eng.navigation.bar.support" />
+    <feature name="com.oppo.eng.standlone.userdata.support" />
+    <feature name="com.oppo.eng.mtk.atm.mode.support" />
+
+    <!-- for vooc 30w -->
+    <feature name="com.oppo.eng.vooc.charge.current.range" value="(-6500,-2500)"/>
+    <feature name="com.oppo.eng.vooc.charge.current.slow.range" value="(-6500,-1400)"/>
+</features>

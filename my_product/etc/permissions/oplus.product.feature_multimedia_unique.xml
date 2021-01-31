@@ -1,0 +1,25 @@
+<oplus-config>
+    <!-- HanGaojun@MULTIMEDIA.DISPLAY.SERVICE, 2020/06/19, Add for display feature start -->
+    <!-- oplus-feature name="oplus.software.display.dcbacklight_support" / -->
+    <oplus-feature name="oplus.software.display.screen_gloablehbm_support" />
+    <!-- oplus-feature name="oplus.software.display.aod_support" / -->
+    <oplus-feature name="oplus.software.display.multibits_dimming_support" />
+    <!-- oplus-feature name="oplus.software.display.aod_prevent_burn_support" / -->
+    <oplus-feature name="oplus.software.display.screen_heteromorphism" />
+    <oplus-feature name="oplus.software.display.autobrightctl_animation_support" />
+    <!-- oplus-feature name="oplus.software.display.autolight_psensor_notsupport" / -->
+    <!-- oplus-feature name="oplus.software.fingeprint_optical_enabled" / -->
+    <oplus-feature name="oplus.software.side_fingerprint" />
+    <oplus-feature name="oplus.software.display.refreshrate_default_smart" />
+    <oplus-feature name="oplus.software.display.dynamic_fps_switch" />
+    <oplus-feature name="oplus.software.display.multi_device_decrease_refresh_rate" />
+    <oplus-feature name="oplus.software.display.screen_defaultsmartmode" />
+    <!-- HanGaojun@MULTIMEDIA.DISPLAY.SERVICE, 2020/06/19, Add for display feature end -->
+    <!-- Meilong.Zhang@MULTIMEDIA.AUDIOserver.FEATURE, 2020/10/30 , Add for DUALHEADPHONE start-->
+    <oplus-feature name="oplus.software.audio.dualheadphone"/>
+    <oplus-feature name="oplus.software.audio.dualheadphone.lite"/>
+    <!-- Meilong.Zhang@MULTIMEDIA.AUDIOserver.FEATURE, 2020/10/30 , Add for DUALHEADPHONE end-->
+    <!-- Meilong.Zhang@MULTIMEDIA.AUDIOSERVER.EFFECT, 2020/11/28, Add bluetooth dirac. start -->
+    <oplus-feature name="oplus.software.audio.dirac.a2dp.support"/>
+    <!-- Meilong.Zhang@MULTIMEDIA.AUDIOSERVER.EFFECT, 2020/11/28, Add bluetooth dirac. end -->
+</oplus-config>

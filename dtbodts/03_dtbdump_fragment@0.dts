@@ -1,0 +1,2939 @@
+/dts-v1/;
+
+/ {
+
+	__fixups__ {
+		accdet = "/fragment@11:target:0";
+		auxadc = "/fragment@31/__overlay__:io-channels:0\0/fragment@31/__overlay__:io-channels:8\0/fragment@31/__overlay__:io-channels:16\0/fragment@31/__overlay__:io-channels:24\0/fragment@38:target:0\0/fragment@39/__overlay__:io-channels:0";
+		camera_af_hw_node = "/fragment@6:target:0";
+		charger = "/fragment@31:target:0";
+		chosen = "/fragment@1:target:0";
+		consys = "/fragment@22:target:0";
+		dispsys_config = "/fragment@9:target:0";
+		dsi0 = "/fragment@10:target:0";
+		dsi_te = "/fragment@59:target:0";
+		fpc_interrupt = "/fragment@24:target:0";
+		goodix_fp = "/fragment@26:target:0\0/fragment@61:target:0";
+		gpio = "/fragment@52:target:0";
+		gpio_usage_mapping = "/fragment@51:target:0";
+		i2c0 = "/fragment@41:target:0";
+		i2c1 = "/fragment@42:target:0";
+		i2c2 = "/fragment@3:target:0\0/fragment@43:target:0";
+		i2c3 = "/fragment@14:target:0\0/fragment@44:target:0";
+		i2c4 = "/fragment@45:target:0";
+		i2c5 = "/fragment@46:target:0";
+		i2c6 = "/fragment@13:target:0\0/fragment@47:target:0";
+		i2c7 = "/fragment@32:target:0\0/fragment@48:target:0";
+		i2c8 = "/fragment@49:target:0";
+		i2c9 = "/fragment@50:target:0";
+		irq_nfc = "/fragment@55:target:0";
+		kd_camera_hw1 = "/fragment@37:target:0\0/fragment@67:target:0";
+		keypad = "/fragment@19:target:0\0/fragment@69:target:0";
+		main_pmic = "/fragment@63:target:0";
+		md1_sim1_hot_plug_eint = "/fragment@64:target:0";
+		md1_sim2_hot_plug_eint = "/fragment@65:target:0";
+		md_auxadc = "/fragment@39:target:0";
+		mrdump_ext_rst = "/fragment@53:target:0";
+		msdc1_ins = "/fragment@57:target:0";
+		mt6360_ldo = "/fragment@7:target:0";
+		mt6360_pmic = "/fragment@16:target:0";
+		mt6360_pmu = "/fragment@15:target:0";
+		mt6360_typec = "/fragment@17:target:0";
+		mt_pmic_vcamio_ldo_reg = "/fragment@6/__overlay__:vcamaf-supply:0\0/fragment@37/__overlay__:cam0_vcamio-supply:0\0/fragment@37/__overlay__:cam1_vcamio-supply:0\0/fragment@37/__overlay__:cam2_vcamio-supply:0\0/fragment@37/__overlay__:cam3_vcamio-supply:0\0/fragment@37/__overlay__:cam4_vcamio-supply:0\0/fragment@66:target:0\0/fragment@67/__overlay__:vcamio-supply:0\0/fragment@67/__overlay__:vcamio_sub-supply:0\0/fragment@67/__overlay__:vcamio_main2-supply:0\0/fragment@67/__overlay__:vcamaf-supply:0\0/fragment@67/__overlay__:vcamaf_main2-supply:0";
+		mt_pmic_vfp_ldo_reg = "/fragment@27/__overlay__/fingerprint@0:vfp-supply:0";
+		mtkfb = "/fragment@8:target:0";
+		odm = "/fragment@4:target:0\0/fragment@30:target:0";
+		oplus_fp_common = "/fragment@29:target:0";
+		pio = "/fragment@2/__overlay__/novatek@0:reset-gpio:0\0/fragment@2/__overlay__/novatek@0:interrupt-parent:0\0/fragment@2/__overlay__/novatek@0:irq-gpio:0\0/fragment@4/__overlay__/kpd_volume_up:interrupt-parent:0\0/fragment@4/__overlay__/kpd_volume_down:interrupt-parent:0\0/fragment@5:target:0\0/fragment@10/__overlay__/panel@0:pm-enable-gpios:0\0/fragment@10/__overlay__/panel@0:reset-gpios:0\0/fragment@10/__overlay__/panel@0:bias-gpios:0\0/fragment@10/__overlay__/panel@0:bias-gpios:12\0/fragment@13/__overlay__/aw87339@58:reset-gpio:0\0/fragment@14/__overlay__/nfc_nxp@28:nxp,pn544-irq:0\0/fragment@14/__overlay__/nfc_nxp@28:nxp,pn544-ven:0\0/fragment@14/__overlay__/nfc_nxp@28:nxp,pn544-fw-dwnld:0\0/fragment@14/__overlay__/nfc_nxp@28:interrupt-parent:0\0/fragment@15/__overlay__:mt6360,intr_gpio:0\0/fragment@17/__overlay__:mt6360pd,intr_gpio:0\0/fragment@18:target:0\0/fragment@19/__overlay__:keypad,volume-up:0\0/fragment@19/__overlay__:keypad,volume-down:0\0/fragment@20:target:0\0/fragment@21:target:0\0/fragment@23:target:0\0/fragment@24/__overlay__:fpc,irq-gpio:0\0/fragment@24/__overlay__:fpc,reset-gpio:0\0/fragment@24/__overlay__:fpc,vdd-en:0\0/fragment@24/__overlay__:fpc,gpio_cs:0\0/fragment@24/__overlay__:pw_en_gpio:0\0/fragment@25:target:0\0/fragment@26/__overlay__:interrupt-parent:0\0/fragment@26/__overlay__:goodix,gpio_irq:0\0/fragment@26/__overlay__:goodix,gpio_reset:0\0/fragment@27/__overlay__/fingerprint@0:fpc,pw_en:0\0/fragment@28:target:0\0/fragment@29/__overlay__:oplus,fp_gpio_0:0\0/fragment@31/__overlay__:qcom,chargerid_switch-gpio:0\0/fragment@31/__overlay__:qcom,ship-gpio:0\0/fragment@31/__overlay__:qcom,dischg-gpio:0\0/fragment@31/__overlay__:qcom,chgvin:0\0/fragment@32/__overlay__/mp2650-charger@5c:qcom,mps_otg_en-gpio:0\0/fragment@32/__overlay__/stm8s_fastcg@26:qcom,charging_switch1-gpio:0\0/fragment@32/__overlay__/stm8s_fastcg@26:qcom,charging_reset-gpio:0\0/fragment@32/__overlay__/stm8s_fastcg@26:qcom,charging_clock-gpio:0\0/fragment@32/__overlay__/stm8s_fastcg@26:qcom,charging_data-gpio:0\0/fragment@32/__overlay__/rk826_fastcg@0a:qcom,charging_switch1-gpio:0\0/fragment@32/__overlay__/rk826_fastcg@0a:qcom,charging_reset-gpio:0\0/fragment@32/__overlay__/rk826_fastcg@0a:qcom,charging_clock-gpio:0\0/fragment@32/__overlay__/rk826_fastcg@0a:qcom,charging_data-gpio:0\0/fragment@33:target:0\0/fragment@34:target:0\0/fragment@35:target:0\0/fragment@36:target:0\0/fragment@51/__overlay__:GPIO_FDD_BAND_SUPPORT_DETECT_4TH_PIN:0\0/fragment@51/__overlay__:GPIO_FDD_BAND_SUPPORT_DETECT_3RD_PIN:0\0/fragment@51/__overlay__:GPIO_FDD_BAND_SUPPORT_DETECT_1ST_PIN:0\0/fragment@51/__overlay__:GPIO_FDD_BAND_SUPPORT_DETECT_2ND_PIN:0\0/fragment@51/__overlay__:GPIO_SIM1_SIO:0\0/fragment@51/__overlay__:GPIO_SIM1_SRST:0\0/fragment@51/__overlay__:GPIO_SIM1_SCLK:0\0/fragment@51/__overlay__:GPIO_SIM2_SCLK:0\0/fragment@51/__overlay__:GPIO_SIM2_SRST:0\0/fragment@51/__overlay__:GPIO_SIM2_SIO:0\0/fragment@51/__overlay__:GPIO_SIM1_HOT_PLUG:0\0/fragment@51/__overlay__:GPIO_SIM2_HOT_PLUG:0\0/fragment@53/__overlay__:interrupt-parent:0\0/fragment@53/__overlay__:deb-gpios:0\0/fragment@54/__overlay__:interrupt-parent:0\0/fragment@55/__overlay__:interrupt-parent:0\0/fragment@56/__overlay__:interrupt-parent:0\0/fragment@57/__overlay__:interrupt-parent:0\0/fragment@58/__overlay__:interrupt-parent:0\0/fragment@59/__overlay__:interrupt-parent:0\0/fragment@60/__overlay__:interrupt-parent:0\0/fragment@61/__overlay__:interrupt-parent:0\0/fragment@62/__overlay__:interrupt-parent:0\0/fragment@62/__overlay__:deb-gpios:0\0/fragment@63/__overlay__:interrupt-parent:0";
+		pmic_clock_buffer_ctrl = "/fragment@40:target:0";
+		reserved_memory = "/fragment@0:target:0";
+		smart_pa = "/fragment@60:target:0";
+		snd_audio_dsp = "/fragment@12:target:0";
+		spi0 = "/fragment@27:target:0";
+		spi3 = "/fragment@2:target:0";
+		subpmic_pmu_eint = "/fragment@58:target:0";
+		swtp = "/fragment@62:target:0";
+		tcpc_pd = "/fragment@56:target:0";
+		touch = "/fragment@54:target:0\0/fragment@68:target:0";
+	};
+
+	__local_fixups__ {
+
+		fragment@10 {
+
+			__overlay__ {
+
+				panel@0 {
+
+					port {
+
+						endpoint {
+							remote-endpoint = <0x00>;
+						};
+					};
+				};
+
+				ports {
+
+					port {
+
+						endpoint {
+							remote-endpoint = <0x00>;
+						};
+					};
+				};
+			};
+		};
+
+		fragment@19 {
+
+			__overlay__ {
+				pinctrl-0 = <0x00>;
+				pinctrl-1 = <0x00>;
+			};
+		};
+
+		fragment@22 {
+
+			__overlay__ {
+				pinctrl-0 = <0x00>;
+				pinctrl-1 = <0x00>;
+				pinctrl-2 = <0x00>;
+				pinctrl-3 = <0x00>;
+			};
+		};
+
+		fragment@24 {
+
+			__overlay__ {
+				pinctrl-0 = <0x00 0x04 0x08>;
+				pinctrl-1 = <0x00>;
+			};
+		};
+
+		fragment@26 {
+
+			__overlay__ {
+				pinctrl-0 = <0x00>;
+				pinctrl-1 = <0x00>;
+				pinctrl-2 = <0x00>;
+			};
+		};
+
+		fragment@29 {
+
+			__overlay__ {
+				pinctrl-0 = <0x00>;
+				pinctrl-1 = <0x00>;
+				pinctrl-2 = <0x00>;
+			};
+		};
+
+		fragment@31 {
+
+			__overlay__ {
+				pinctrl-0 = <0x00>;
+				pinctrl-1 = <0x00>;
+				pinctrl-2 = <0x00>;
+				pinctrl-3 = <0x00>;
+				pinctrl-4 = <0x00>;
+				pinctrl-5 = <0x00>;
+				pinctrl-6 = <0x00>;
+				pinctrl-7 = <0x00>;
+			};
+		};
+
+		fragment@32 {
+
+			__overlay__ {
+
+				mp2650-charger@5c {
+					pinctrl-0 = <0x00>;
+					pinctrl-1 = <0x00>;
+					pinctrl-2 = <0x00>;
+				};
+
+				rk826_fastcg@0a {
+					pinctrl-0 = <0x00>;
+					pinctrl-1 = <0x00>;
+					pinctrl-10 = <0x00>;
+					pinctrl-11 = <0x00>;
+					pinctrl-2 = <0x00>;
+					pinctrl-3 = <0x00>;
+					pinctrl-4 = <0x00>;
+					pinctrl-5 = <0x00>;
+					pinctrl-6 = <0x00>;
+					pinctrl-7 = <0x00>;
+					pinctrl-8 = <0x00>;
+					pinctrl-9 = <0x00>;
+				};
+
+				stm8s_fastcg@26 {
+					pinctrl-0 = <0x00>;
+					pinctrl-1 = <0x00>;
+					pinctrl-10 = <0x00>;
+					pinctrl-11 = <0x00>;
+					pinctrl-2 = <0x00>;
+					pinctrl-3 = <0x00>;
+					pinctrl-4 = <0x00>;
+					pinctrl-5 = <0x00>;
+					pinctrl-6 = <0x00>;
+					pinctrl-7 = <0x00>;
+					pinctrl-8 = <0x00>;
+					pinctrl-9 = <0x00>;
+				};
+			};
+		};
+
+		fragment@37 {
+
+			__overlay__ {
+				pinctrl-0 = <0x00>;
+				pinctrl-1 = <0x00>;
+				pinctrl-10 = <0x00>;
+				pinctrl-11 = <0x00>;
+				pinctrl-12 = <0x00>;
+				pinctrl-13 = <0x00>;
+				pinctrl-14 = <0x00>;
+				pinctrl-15 = <0x00>;
+				pinctrl-16 = <0x00>;
+				pinctrl-17 = <0x00>;
+				pinctrl-18 = <0x00>;
+				pinctrl-19 = <0x00>;
+				pinctrl-2 = <0x00>;
+				pinctrl-20 = <0x00>;
+				pinctrl-21 = <0x00>;
+				pinctrl-22 = <0x00>;
+				pinctrl-23 = <0x00>;
+				pinctrl-24 = <0x00>;
+				pinctrl-25 = <0x00>;
+				pinctrl-26 = <0x00>;
+				pinctrl-27 = <0x00>;
+				pinctrl-28 = <0x00>;
+				pinctrl-29 = <0x00>;
+				pinctrl-3 = <0x00>;
+				pinctrl-30 = <0x00>;
+				pinctrl-31 = <0x00>;
+				pinctrl-32 = <0x00>;
+				pinctrl-33 = <0x00>;
+				pinctrl-34 = <0x00>;
+				pinctrl-35 = <0x00>;
+				pinctrl-36 = <0x00>;
+				pinctrl-37 = <0x00>;
+				pinctrl-38 = <0x00>;
+				pinctrl-39 = <0x00>;
+				pinctrl-4 = <0x00>;
+				pinctrl-5 = <0x00>;
+				pinctrl-6 = <0x00>;
+				pinctrl-7 = <0x00>;
+				pinctrl-8 = <0x00>;
+				pinctrl-9 = <0x00>;
+			};
+		};
+
+		fragment@4 {
+
+			__overlay__ {
+
+				usb_c_pinctrl {
+					pinctrl-0 = <0x00>;
+					pinctrl-1 = <0x00>;
+					pinctrl-10 = <0x00>;
+					pinctrl-11 = <0x00>;
+					pinctrl-12 = <0x00>;
+					pinctrl-2 = <0x00>;
+					pinctrl-3 = <0x00>;
+					pinctrl-4 = <0x00>;
+					pinctrl-5 = <0x00>;
+					pinctrl-6 = <0x00>;
+					pinctrl-7 = <0x00>;
+					pinctrl-8 = <0x00>;
+					pinctrl-9 = <0x00>;
+				};
+			};
+		};
+
+		fragment@68 {
+
+			__overlay__ {
+				vtouch-supply = <0x00>;
+			};
+		};
+
+		fragment@8 {
+
+			__overlay__ {
+				pinctrl-0 = <0x00>;
+				pinctrl-1 = <0x00>;
+				pinctrl-2 = <0x00>;
+				pinctrl-3 = <0x00>;
+				pinctrl-4 = <0x00>;
+				pinctrl-5 = <0x00>;
+				pinctrl-6 = <0x00>;
+			};
+		};
+
+		fragment@9 {
+
+			__overlay__ {
+				pinctrl-0 = <0x00>;
+				pinctrl-1 = <0x00>;
+				pinctrl-2 = <0x00>;
+			};
+		};
+	};
+
+	__symbols__ {
+		alsps_arch = "/fragment@4/__overlay__/alsps_arch";
+		camera0_mclk_2ma = "/fragment@36/__overlay__/camera0_mclk_2ma@gpio117";
+		camera0_mclk_4ma = "/fragment@36/__overlay__/camera0_mclk_4ma@gpio117";
+		camera0_mclk_6ma = "/fragment@36/__overlay__/camera0_mclk_6ma@gpio117";
+		camera0_mclk_8ma = "/fragment@36/__overlay__/camera0_mclk_8ma@gpio117";
+		camera0_mclk_off = "/fragment@36/__overlay__/camera0_mclk_gpio_mode@gpio117";
+		camera0_rst_high = "/fragment@36/__overlay__/camera0_rst_output_high@gpio119";
+		camera0_rst_low = "/fragment@36/__overlay__/camera0_rst_output_low@gpio119";
+		camera0_vcamd_off = "/fragment@36/__overlay__/camera0_vcamd_output_low@gpio123";
+		camera0_vcamd_on = "/fragment@36/__overlay__/camera0_vcamd_output_high@gpio123";
+		camera1_mclk_2ma = "/fragment@36/__overlay__/camera1_mclk_2ma@gpio196";
+		camera1_mclk_4ma = "/fragment@36/__overlay__/camera1_mclk_4ma@gpio196";
+		camera1_mclk_6ma = "/fragment@36/__overlay__/camera1_mclk_6ma@gpio196";
+		camera1_mclk_8ma = "/fragment@36/__overlay__/camera1_mclk_8ma@gpio196";
+		camera1_mclk_off = "/fragment@36/__overlay__/camera1_mclk_gpio_mode@gpio196";
+		camera1_rst_high = "/fragment@36/__overlay__/camera1_rst_output_high@gpio124";
+		camera1_rst_low = "/fragment@36/__overlay__/camera1_rst_output_low@gpio124";
+		camera2_mclk_2ma = "/fragment@36/__overlay__/camera2_mclk_2ma@gpio120";
+		camera2_mclk_4ma = "/fragment@36/__overlay__/camera2_mclk_4ma@gpio120";
+		camera2_mclk_6ma = "/fragment@36/__overlay__/camera2_mclk_6ma@gpio120";
+		camera2_mclk_8ma = "/fragment@36/__overlay__/camera2_mclk_8ma@gpio120";
+		camera2_mclk_off = "/fragment@36/__overlay__/camera2_mclk_gpio_mode@gpio120";
+		camera2_rst_high = "/fragment@36/__overlay__/camera2_rst_output_high@gpio197";
+		camera2_rst_low = "/fragment@36/__overlay__/camera2_rst_output_low@gpio197";
+		camera3_mclk_2ma = "/fragment@36/__overlay__/camera3_mclk_2ma@gpio121";
+		camera3_mclk_4ma = "/fragment@36/__overlay__/camera3_mclk_4ma@gpio121";
+		camera3_mclk_6ma = "/fragment@36/__overlay__/camera3_mclk_6ma@gpio121";
+		camera3_mclk_8ma = "/fragment@36/__overlay__/camera3_mclk_8ma@gpio121";
+		camera3_mclk_off = "/fragment@36/__overlay__/camera3_mclk_gpio_mode@gpio121";
+		camera3_pnd_high = "/fragment@36/__overlay__/camera3_pnd_output_high@gpio125";
+		camera3_pnd_low = "/fragment@36/__overlay__/camera3_pnd_output_low@gpio125";
+		camera4_mclk_2ma = "/fragment@36/__overlay__/camera4_mclk_2ma@gpio116";
+		camera4_mclk_4ma = "/fragment@36/__overlay__/camera4_mclk_4ma@gpio116";
+		camera4_mclk_6ma = "/fragment@36/__overlay__/camera4_mclk_6ma@gpio116";
+		camera4_mclk_8ma = "/fragment@36/__overlay__/camera4_mclk_8ma@gpio116";
+		camera4_mclk_off = "/fragment@36/__overlay__/camera4_mclk_gpio_mode@gpio116";
+		camera4_pnd_high = "/fragment@36/__overlay__/camera4_pnd_output_high@gpio118";
+		camera4_pnd_low = "/fragment@36/__overlay__/camera4_pnd_output_low@gpio118";
+		camera_main_af_mtk = "/fragment@43/__overlay__/camera_main_af@0c";
+		camera_main_eeprom_mtk = "/fragment@43/__overlay__/camera_main_eeprom@50";
+		camera_main_mtk = "/fragment@43/__overlay__/camera_main@1a";
+		camera_main_two_af_mtk = "/fragment@45/__overlay__/camera_main_two_af@0c";
+		camera_main_two_eeprom_mtk = "/fragment@45/__overlay__/camera_main_two_eeprom@50";
+		camera_main_two_mtk = "/fragment@45/__overlay__/camera_main_two@10";
+		camera_mipi_switch_high = "/fragment@36/__overlay__/camera_mipi_switch_high@gpio72";
+		camera_mipi_switch_low = "/fragment@36/__overlay__/camera_mipi_switch_low@gpio72";
+		camera_pins_default = "/fragment@36/__overlay__/camdefault";
+		camera_sub_eeprom_mtk = "/fragment@45/__overlay__/camera_sub_eeprom@52";
+		camera_sub_mtk = "/fragment@45/__overlay__/camera_sub@2d";
+		ccu_sensor_i2c_2_hw_mtk = "/fragment@43/__overlay__/ccu_sensor_i2c_2_hw@33";
+		ccu_sensor_i2c_4_hw_mtk = "/fragment@45/__overlay__/ccu_sensor_i2c_4_hw@36";
+		ccu_sensor_i2c_7_hw_mtk = "/fragment@48/__overlay__/ccu_sensor_i2c_7_hw@43";
+		charger_pins_eint_output0 = "/fragment@33/__overlay__/charger_gpio_as_output_low";
+		charger_pins_eint_output1 = "/fragment@33/__overlay__/charger_gpio_as_output_high";
+		charging_clock_active = "/fragment@34/__overlay__/charging_clock_active";
+		charging_clock_sleep = "/fragment@34/__overlay__/charging_clock_sleep";
+		charging_data_active = "/fragment@34/__overlay__/charging_data_active";
+		charging_data_sleep = "/fragment@34/__overlay__/charging_data_sleep";
+		charging_disable_gpio = "/fragment@33/__overlay__/dischg_enable";
+		charging_enable_gpio = "/fragment@33/__overlay__/dischg_disable";
+		charging_reset_active = "/fragment@34/__overlay__/charging_reset_active";
+		charging_reset_sleep = "/fragment@34/__overlay__/charging_reset_sleep";
+		charging_switch1_active = "/fragment@34/__overlay__/charging_switch1_active";
+		charging_switch1_sleep = "/fragment@34/__overlay__/charging_switch1_sleep";
+		chgvin_disable = "/fragment@33/__overlay__/chgvin_disable";
+		chgvin_enable = "/fragment@33/__overlay__/chgvin_enable";
+		consys_pins_default = "/fragment@21/__overlay__/consys_default";
+		dsi_out = "/fragment@10/__overlay__/ports/port/endpoint";
+		fpc_irq_default = "/fragment@23/__overlay__/fpc_irq_default";
+		fpc_pwr_default = "/fragment@23/__overlay__/fpc_pwr_default";
+		fpc_reset_default = "/fragment@23/__overlay__/fpc_reset_default";
+		goodix_irq_no_pull = "/fragment@25/__overlay__/goodix_irq_no_pull";
+		goodix_irq_out_low = "/fragment@25/__overlay__/goodix_irq_out_low";
+		goodix_reset_default = "/fragment@25/__overlay__/goodix_reset_default";
+		gpio_fpc_cs_func = "/fragment@23/__overlay__/gpio_fpc_cs_func";
+		gpio_id0_default = "/fragment@28/__overlay__/gpio_id0_default";
+		gpio_id0_pull_down = "/fragment@28/__overlay__/gpio_id0_pull_down";
+		gpio_id0_pull_up = "/fragment@28/__overlay__/gpio_id0_pull_up";
+		gpio_redriver_c1_high = "/fragment@18/__overlay__/c1_high";
+		gpio_redriver_c1_hiz = "/fragment@18/__overlay__/c1_highz";
+		gpio_redriver_c1_init = "/fragment@18/__overlay__/c1_init";
+		gpio_redriver_c1_low = "/fragment@18/__overlay__/c1_low";
+		gpio_redriver_c2_high = "/fragment@18/__overlay__/c2_high";
+		gpio_redriver_c2_hiz = "/fragment@18/__overlay__/c2_highz";
+		gpio_redriver_c2_init = "/fragment@18/__overlay__/c2_init";
+		gpio_redriver_c2_low = "/fragment@18/__overlay__/c2_low";
+		gpio_u3_switch_disable = "/fragment@18/__overlay__/u3_sw_dis";
+		gpio_u3_switch_enable = "/fragment@18/__overlay__/u3_sw_en";
+		gpio_u3_switch_sel1 = "/fragment@18/__overlay__/u3_sw_sel1";
+		gpio_u3_switch_sel2 = "/fragment@18/__overlay__/u3_sw_sel2";
+		gpslna_pins_init = "/fragment@21/__overlay__/gpslna@0";
+		gpslna_pins_oh = "/fragment@21/__overlay__/gpslna@1";
+		gpslna_pins_ol = "/fragment@21/__overlay__/gpslna@2";
+		gsensor_1 = "/fragment@4/__overlay__/gsensor_1";
+		gsensor_2 = "/fragment@4/__overlay__/gsensor_2";
+		i2c_lcd_bias_mtk = "/fragment@47/__overlay__/i2c_lcd_bias@73";
+		kpd_volume_down = "/fragment@4/__overlay__/kpd_volume_down";
+		kpd_volume_up = "/fragment@4/__overlay__/kpd_volume_up";
+		led0 = "/fragment@4/__overlay__/led@0";
+		led1 = "/fragment@4/__overlay__/led@1";
+		led2 = "/fragment@4/__overlay__/led@2";
+		led3 = "/fragment@4/__overlay__/led@3";
+		led4 = "/fragment@4/__overlay__/led@4";
+		led5 = "/fragment@4/__overlay__/led@5";
+		led6 = "/fragment@4/__overlay__/led@6";
+		light_1 = "/fragment@4/__overlay__/light_1";
+		lux_aod = "/fragment@4/__overlay__/lux_aod";
+		mps_otg_en_active = "/fragment@35/__overlay__/mps_otg_en_active";
+		mps_otg_en_default = "/fragment@35/__overlay__/mps_otg_en_default";
+		mps_otg_en_sleep = "/fragment@35/__overlay__/mps_otg_en_sleep";
+		msensor_1 = "/fragment@4/__overlay__/msensor_1";
+		msensor_2 = "/fragment@4/__overlay__/msensor_2";
+		mt_pmic_vtp_ldo_reg = "/fragment@7/__overlay__/ldo2";
+		mtkfb_pins_lcd_bias_enn0 = "/fragment@5/__overlay__/lcd_bias_enn0_gpio";
+		mtkfb_pins_lcd_bias_enn1 = "/fragment@5/__overlay__/lcd_bias_enn1_gpio";
+		mtkfb_pins_lcd_bias_enp0 = "/fragment@5/__overlay__/lcd_bias_enp0_gpio";
+		mtkfb_pins_lcd_bias_enp1 = "/fragment@5/__overlay__/lcd_bias_enp1_gpio";
+		mtkfb_pins_lcm_dsi_te = "/fragment@5/__overlay__/lcm_dsi_te";
+		mtkfb_pins_lcm_rst_out0_gpio = "/fragment@5/__overlay__/lcm_rst_out0_gpio";
+		mtkfb_pins_lcm_rst_out1_gpio = "/fragment@5/__overlay__/lcm_rst_out1_gpio";
+		nfc_chipset = "/fragment@4/__overlay__/nfc_chipset";
+		nfc_mtk = "/fragment@44/__overlay__/nfc@08";
+		oplus_devinfo = "/fragment@4/__overlay__/oplus_devinfo";
+		oplus_project = "/fragment@4/__overlay__/oplus_project";
+		oppo_fp = "/fragment@27/__overlay__/fingerprint@0";
+		panel_in = "/fragment@10/__overlay__/panel@0/port/endpoint";
+		pick_up = "/fragment@4/__overlay__/pick_up";
+		proximity_1 = "/fragment@4/__overlay__/proximity_1";
+		ship_active_gpio = "/fragment@33/__overlay__/ship_active";
+		ship_sleep_gpio = "/fragment@33/__overlay__/ship_sleep";
+		subpmic_ldo_mtk = "/fragment@46/__overlay__/subpmic_ldo@64";
+		subpmic_mtk = "/fragment@46/__overlay__/subpmic@34";
+		subpmic_pmic_mtk = "/fragment@46/__overlay__/subpmic_pmic@1a";
+		usb_c_pinctrl = "/fragment@4/__overlay__/usb_c_pinctrl";
+		usb_default = "/fragment@18/__overlay__/usb_default";
+		usb_type_c_mtk = "/fragment@46/__overlay__/usb_type_c@4e";
+		vibrator0 = "/fragment@4/__overlay__/vibrator@0";
+		volume_down_gpio_eint = "/fragment@20/__overlay__/volume_down@0";
+		volume_up_gpio_eint = "/fragment@20/__overlay__/volume_up@0";
+		vooc_ap_data = "/fragment@30/__overlay__/vooc_ap_data";
+		vooc_ap_data_new_function = "/fragment@30/__overlay__/vooc_ap_data_new_function";
+		vproc_buck_mtk = "/fragment@50/__overlay__/vproc_buck@6b";
+	};
+
+	fragment@0 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+		};
+	};
+
+	fragment@1 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			atag,videolfb-fb_base_h = <0x00>;
+			atag,videolfb-fb_base_l = "~`P";
+			atag,videolfb-fps = <0x1770>;
+			atag,videolfb-islcm_inited = <0x00>;
+			atag,videolfb-islcmfound = <0x01>;
+			atag,videolfb-lcmname = "nt35595_fhd_dsi_cmd_truly_nt50358_drv";
+			atag,videolfb-vramSize = <0x1be0000>;
+		};
+	};
+
+	fragment@10 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			#address-cells = <0x01>;
+			#size-cells = <0x00>;
+			status = "okay";
+
+			panel@0 {
+				bias-gpios = <0xffffffff 0x1c 0x00 0xffffffff 0x1d 0x00>;
+				compatible = "truly,td4330,vdo";
+				pinctrl-names = "default";
+				pm-enable-gpios = <0xffffffff 0x29 0x00>;
+				reg = <0x00>;
+				reset-gpios = <0xffffffff 0x2a 0x00>;
+
+				port {
+
+					endpoint {
+						phandle = <0x16>;
+						remote-endpoint = <0x15>;
+					};
+				};
+			};
+
+			ports {
+
+				port {
+
+					endpoint {
+						phandle = <0x15>;
+						remote-endpoint = <0x16>;
+					};
+				};
+			};
+		};
+	};
+
+	fragment@11 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			accdet-mic-mode = <0x02>;
+			accdet-mic-vol = <0x08>;
+			accdet-plugout-debounce = <0x01>;
+			eint_use_ext_res = <0x00>;
+			headset-four-key-threshold = <0x00 0x3a 0x79 0xc0 0x190>;
+			headset-mode-setting = <0x500 0x500 0x01 0x1f0 0x800 0x800 0x20 0x44 0x04 0x01 0x05 0x03 0x03 0x05 0x0e>;
+			headset-three-key-threshold = <0x00 0x50 0xdc 0x190>;
+			headset-three-key-threshold-CDD = <0x00 0x79 0xc0 0x258>;
+			status = "okay";
+		};
+	};
+
+	fragment@12 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			mtk_dsp_a2dp = <0x00 0xffffffff 0xffffffff 0xffffffff 0x40000>;
+			mtk_dsp_call_final = <0x05 0x00 0x0f 0x13 0x18000>;
+			mtk_dsp_capture1 = <0x00 0xffffffff 0x0c 0x12 0x20000>;
+			mtk_dsp_capture_raw = <0x00 0xffffffff 0xffffffff 0xffffffff 0x20000>;
+			mtk_dsp_dataprovider = <0x00 0xffffffff 0x0f 0xffffffff 0x30000>;
+			mtk_dsp_deep = <0x00 0x03 0xffffffff 0xffffffff 0x30000>;
+			mtk_dsp_fast = <0x00 0xffffffff 0xffffffff 0xffffffff 0x5000>;
+			mtk_dsp_ktv = <0x00 0x08 0x11 0xffffffff 0x10000>;
+			mtk_dsp_mem_afe = <0x01 0x40000>;
+			mtk_dsp_music = <0x00 0xffffffff 0xffffffff 0xffffffff 0x00>;
+			mtk_dsp_offload = <0x00 0x06 0xffffffff 0xffffffff 0x400000>;
+			mtk_dsp_playback = <0x01 0x04 0x0f 0x13 0x30000>;
+			mtk_dsp_primary = <0x00 0x00 0xffffffff 0xffffffff 0x30000>;
+			mtk_dsp_ver = <0x00>;
+			mtk_dsp_voip = <0x00 0x01 0xffffffff 0xffffffff 0x30000>;
+			swdsp_smartpa_process_enable = <0x05>;
+		};
+	};
+
+	fragment@13 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+
+			aw87339@58 {
+				compatible = "awinic,aw87339_pa";
+				reg = <0x58>;
+				reset-gpio = <0xffffffff 0x18 0x00>;
+				status = "okay";
+			};
+
+			aw87359@59 {
+				compatible = "awinic,aw87359_pa";
+				reg = <0x59>;
+				status = "okay";
+			};
+		};
+	};
+
+	fragment@14 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			status = "okay";
+
+			nfc_nxp@28 {
+				compatible = "nxp,pn544";
+				interrupt-parent = <0xffffffff>;
+				nxp,pn544-fw-dwnld = <0xffffffff 0x06 0x00>;
+				nxp,pn544-irq = <0xffffffff 0x05 0x00>;
+				nxp,pn544-ven = <0xffffffff 0x7f 0x00>;
+				reg = <0x28>;
+			};
+		};
+	};
+
+	fragment@15 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			mt6360,intr_gpio = <0xffffffff 0x10 0x00>;
+			mt6360,intr_gpio_num = <0x10>;
+		};
+	};
+
+	fragment@16 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			pwr_off_seq = <0x6000204>;
+		};
+	};
+
+	fragment@17 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			mt6360pd,intr_gpio = <0xffffffff 0x07 0x00>;
+			mt6360pd,intr_gpio_num = <0x07>;
+		};
+	};
+
+	fragment@18 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+
+			c1_high {
+				phandle = <0x05>;
+
+				pins_cmd_dat {
+					output-high;
+					pinmux = <0x2800>;
+					slew-rate = <0x01>;
+				};
+			};
+
+			c1_highz {
+				phandle = <0x04>;
+
+				pins_cmd_dat {
+					bias-disable;
+					pinmux = <0x2800>;
+					slew-rate = <0x00>;
+				};
+			};
+
+			c1_init {
+				phandle = <0x02>;
+
+				pins_cmd_dat {
+					output-low;
+					pinmux = <0x2800>;
+					slew-rate = <0x01>;
+				};
+			};
+
+			c1_low {
+				phandle = <0x03>;
+
+				pins_cmd_dat {
+					output-low;
+					pinmux = <0x2800>;
+					slew-rate = <0x01>;
+				};
+			};
+
+			c2_high {
+				phandle = <0x09>;
+
+				pins_cmd_dat {
+					output-high;
+					pinmux = <0x1e00>;
+					slew-rate = <0x01>;
+				};
+			};
+
+			c2_highz {
+				phandle = <0x08>;
+
+				pins_cmd_dat {
+					bias-disable;
+					pinmux = <0x1e00>;
+					slew-rate = <0x00>;
+				};
+			};
+
+			c2_init {
+				phandle = <0x06>;
+
+				pins_cmd_dat {
+					output-low;
+					pinmux = <0x1e00>;
+					slew-rate = <0x01>;
+				};
+			};
+
+			c2_low {
+				phandle = <0x07>;
+
+				pins_cmd_dat {
+					output-low;
+					pinmux = <0x1e00>;
+					slew-rate = <0x01>;
+				};
+			};
+
+			u3_sw_dis {
+				phandle = <0x0d>;
+			};
+
+			u3_sw_en {
+				phandle = <0x0c>;
+			};
+
+			u3_sw_sel1 {
+				phandle = <0x0a>;
+
+				pins_cmd_dat {
+					output-low;
+					pinmux = <0x2000>;
+					slew-rate = <0x01>;
+				};
+			};
+
+			u3_sw_sel2 {
+				phandle = <0x0b>;
+
+				pins_cmd_dat {
+					output-high;
+					pinmux = <0x2000>;
+					slew-rate = <0x01>;
+				};
+			};
+
+			usb_default {
+				phandle = <0x01>;
+			};
+		};
+	};
+
+	fragment@19 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			keypad,volume-down = <0xffffffff 0x3c 0x00>;
+			keypad,volume-up = <0xffffffff 0x3b 0x00>;
+			pinctrl-0 = <0x17>;
+			pinctrl-1 = <0x18>;
+			pinctrl-names = "volume_up_as_int\0volume_down_as_int";
+			status = "okay";
+		};
+	};
+
+	fragment@2 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+
+			novatek@0 {
+				black_gesture_support;
+				black_gesture_test_support;
+				charger_pump_support;
+				chip-name = "NT36672C_NF";
+				compatible = "novatek,nf_nt36672c";
+				drlimit_remove_support;
+				esd_handle_support;
+				fw_edge_limit_support;
+				fw_update_app_support;
+				fw_update_in_probe_with_headfile;
+				game_switch_support;
+				headset_pump_support;
+				incell_screen;
+				interrupt-parent = <0xffffffff>;
+				interrupts = <0x00 0x02 0x00 0x00>;
+				irq-gpio = <0xffffffff 0x01 0x00>;
+				lcd_trigger_load_tp_fw_support;
+				noflash_support;
+				platform_support_project = <0x4ccd 0x4cce 0x4ccf 0x4cd1 0x4cd3 0x4cd4>;
+				platform_support_project_commandline = "nt36672c\0nt36672c\0nt36672c\0nt36672c\0nt36672c\0nt36672c";
+				platform_support_project_dir = <0x4ccd 0x4ccd 0x4ccd 0x4ccd 0x4ccd 0x4ccd>;
+				pressure_report_support;
+				reg = <0x00>;
+				reset-gpio = <0xffffffff 0x02 0x00>;
+				smart_gesture_support;
+				spi-max-frequency = <0xe4e1c0>;
+				spi_fast_read_support;
+				status = "ok";
+				touchpanel,button-type = <0x04>;
+				touchpanel,display-coords = <0x438 0x960>;
+				touchpanel,max-num-support = <0x0a>;
+				touchpanel,panel-coords = <0x438 0x960>;
+				touchpanel,touchmajor-limit = <0x00 0x36>;
+				touchpanel,tx-rx-num = <0x10 0x24>;
+			};
+		};
+	};
+
+	fragment@20 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+
+			volume_down@0 {
+				phandle = <0x18>;
+
+				pins_cmd_dat {
+					bias-pull-up = <0x01>;
+					input-enable;
+					pinmux = <0x3c00>;
+					slew-rate = <0x00>;
+				};
+			};
+
+			volume_up@0 {
+				phandle = <0x17>;
+
+				pins_cmd_dat {
+					bias-pull-up = <0x00>;
+					input-enable;
+					pinmux = <0x3b00>;
+					slew-rate = <0x00>;
+				};
+			};
+		};
+	};
+
+	fragment@21 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+
+			consys_default {
+				phandle = <0x19>;
+			};
+
+			gpslna@0 {
+				phandle = <0x1a>;
+
+				pins_cmd_dat {
+					bias-disable;
+					output-low;
+					pinmux = <0x9b00>;
+					slew-rate = <0x01>;
+				};
+			};
+
+			gpslna@1 {
+				phandle = <0x1b>;
+
+				pins_cmd_dat {
+					output-high;
+					pinmux = <0x9b00>;
+					slew-rate = <0x01>;
+				};
+			};
+
+			gpslna@2 {
+				phandle = <0x1c>;
+
+				pins_cmd_dat {
+					output-low;
+					pinmux = <0x9b00>;
+					slew-rate = <0x01>;
+				};
+			};
+		};
+	};
+
+	fragment@22 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			pinctrl-0 = <0x19>;
+			pinctrl-1 = <0x1a>;
+			pinctrl-2 = <0x1b>;
+			pinctrl-3 = <0x1c>;
+			pinctrl-names = "default\0gps_lna_state_init\0gps_lna_state_oh\0gps_lna_state_ol";
+			status = "okay";
+		};
+	};
+
+	fragment@23 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+
+			fpc_irq_default {
+				phandle = <0x1e>;
+
+				pins_cmd_dat {
+					bias-pull-up;
+					input;
+					pinmux = <0x4b00>;
+				};
+			};
+
+			fpc_pwr_default {
+				phandle = <0x1f>;
+
+				pins_cmd_dat {
+					bias-disable;
+					output-low;
+					pinmux = <0x9300>;
+				};
+			};
+
+			fpc_reset_default {
+				phandle = <0x1d>;
+
+				pins_cmd_dat {
+					output-low;
+					pinmux = <0x6900>;
+				};
+			};
+
+			gpio_fpc_cs_func {
+				phandle = <0x20>;
+
+				pins_cmd_dat {
+					drive-strength = <0x03>;
+					pinmux = <0x1300>;
+				};
+			};
+		};
+	};
+
+	fragment@24 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			fpc,gpio_cs = <0xffffffff 0x13 0x00>;
+			fpc,irq-gpio = <0xffffffff 0x4b 0x00>;
+			fpc,reset-gpio = <0xffffffff 0x69 0x00>;
+			fpc,vdd-en = <0xffffffff 0x93 0x00>;
+			pinctrl-0 = <0x1d 0x1e 0x1f>;
+			pinctrl-1 = <0x20>;
+			pinctrl-names = "default\0fpc_cs_func";
+			pw_en_gpio = <0xffffffff 0x93 0x00>;
+			status = "okay";
+
+			power_source_1 {
+				delay-time = <0x00>;
+				power-mode = <0x02>;
+				power-name = "pw_en_gpio";
+				poweron-level = <0x00>;
+			};
+		};
+	};
+
+	fragment@25 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+
+			goodix_irq_no_pull {
+				phandle = <0x23>;
+
+				pins_cmd_dat {
+					bias-disable;
+					pinmux = <0x4b00>;
+				};
+			};
+
+			goodix_irq_out_low {
+				phandle = <0x22>;
+
+				pins_cmd_dat {
+					input;
+					output-low;
+					pinmux = <0x4b00>;
+				};
+			};
+
+			goodix_reset_default {
+				phandle = <0x21>;
+
+				pins_cmd_dat {
+					output-low;
+					pinmux = <0x6900>;
+				};
+			};
+		};
+	};
+
+	fragment@26 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			gf,cs_gpio_disable = <0x01>;
+			goodix,gpio_irq = <0xffffffff 0x4b 0x00>;
+			goodix,gpio_reset = <0xffffffff 0x69 0x00>;
+			interrupt-parent = <0xffffffff>;
+			interrupts = <0x4b 0x00>;
+			pinctrl-0 = <0x21>;
+			pinctrl-1 = <0x22>;
+			pinctrl-2 = <0x23>;
+			pinctrl-names = "goodix_reset_default\0goodix_irq_out_low\0goodix_irq_no_pull";
+			spi-max-frequency = <0x7a1200>;
+			status = "okay";
+		};
+	};
+
+	fragment@27 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			#address-cells = <0x01>;
+			#size-cells = <0x00>;
+			status = "okay";
+
+			fingerprint@0 {
+				compatible = "oppo,oppo_fp";
+				fpc,pw_en = <0xffffffff 0x93 0x00>;
+				phandle = <0x7a>;
+				power-num = <0x01>;
+				reg = <0x00>;
+				spi-id = <0x00>;
+				spi-irq = <0x4b>;
+				spi-max-frequency = <0x7a1200>;
+				spi-reg = <0xa7ffd0>;
+				status = "okay";
+				vfp-config = <0x2dc6c0 0x2dc6c0 0x249f0>;
+				vfp-supply = <0xffffffff>;
+
+				power_source_1 {
+					delay-time = <0x00>;
+					power-config = "vfp-config";
+					power-mode = <0x01>;
+					power-name = "vfp";
+				};
+			};
+		};
+	};
+
+	fragment@28 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+
+			gpio_id0_default {
+				phandle = <0x24>;
+
+				pins_cmd_dat {
+					bias-pull-up;
+					pinmux = <0x6a00>;
+				};
+			};
+
+			gpio_id0_pull_down {
+				phandle = <0x26>;
+
+				pins_cmd_dat {
+					bias-pull-down;
+					input;
+					pinmux = <0x6a00>;
+				};
+			};
+
+			gpio_id0_pull_up {
+				phandle = <0x25>;
+
+				pins_cmd_dat {
+					bias-pull-up;
+					pinmux = <0x6a00>;
+				};
+			};
+		};
+	};
+
+	fragment@29 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			compatible = "oplus,fp_common";
+			oplus,fp_gpio_0 = <0xffffffff 0x6a 0x00>;
+			oplus,fp_gpio_num = <0x01>;
+			pinctrl-0 = <0x24>;
+			pinctrl-1 = <0x25>;
+			pinctrl-2 = <0x26>;
+			pinctrl-names = "default\0gpio_id0_pull_up\0gpio_id0_pull_down";
+
+			fpc_1541 {
+				chip-name = "F_1541";
+				eng-menu = "-1,-1";
+				oplus,fp-id = <0x00>;
+				vendor-chip = <0x11>;
+			};
+
+			goodix_3626 {
+				chip-name = "G_3626";
+				eng-menu = "-1,-1";
+				oplus,fp-id = <0x01>;
+				vendor-chip = <0x10>;
+			};
+		};
+	};
+
+	fragment@3 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			clock-frequency = <0x61a80>;
+
+			mtk-usb@60 {
+				compatible = "mediatek,mtk-usb";
+				reg = <0x60>;
+				status = "okay";
+			};
+		};
+	};
+
+	fragment@30 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+
+			vooc_ap_data {
+				compatible = "mediatek, VOOC_AP_DATA-eint";
+				interrupts = <0x43 0x02 0x43 0x00>;
+				phandle = <0x7b>;
+			};
+
+			vooc_ap_data_new_function {
+				compatible = "mediatek, VOOC_EINT_NEW_FUNCTION";
+				phandle = <0x7c>;
+			};
+		};
+	};
+
+	fragment@31 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			io-channel-names = "thermistor-ch2_usb_ntc_l\0thermistor-ch3_usb_ntc_r\0thermistor-ch4_charger_ntc\0thermistor-ch5_flashlight_ntc";
+			io-channels = <0xffffffff 0x02 0xffffffff 0x03 0xffffffff 0x04 0xffffffff 0x05>;
+			pinctrl-0 = <0x27>;
+			pinctrl-1 = <0x28>;
+			pinctrl-2 = <0x29>;
+			pinctrl-3 = <0x2a>;
+			pinctrl-4 = <0x2b>;
+			pinctrl-5 = <0x2c>;
+			pinctrl-6 = <0x2d>;
+			pinctrl-7 = <0x2e>;
+			pinctrl-names = "charger_gpio_as_output_low\0charger_gpio_as_output_high\0ship_sleep\0ship_active\0dischg_disable\0dischg_enable\0chgvin_enable\0chgvin_disable";
+			qcom,batt_capacity_mah = <0x1388>;
+			qcom,charger_current_vooc_ma_normal = <0x708>;
+			qcom,charger_hv_thr = <0x16a8>;
+			qcom,charger_lv_thr = <0xd48>;
+			qcom,chargerid_support;
+			qcom,chargerid_switch-gpio = <0xffffffff 0xc3 0x00>;
+			qcom,check_batt_full_by_sw;
+			qcom,chg_ctrl_by_calling;
+			qcom,chg_ctrl_by_camera;
+			qcom,chg_ctrl_by_lcd;
+			qcom,chg_ctrl_by_vooc;
+			qcom,chgvin = <0xffffffff 0x7f 0x00>;
+			qcom,cold_bat_decidegc = <0x14>;
+			qcom,cold_vfloat_over_sw_limit = <0xf8c>;
+			qcom,cold_vfloat_sw_limit = <0xf5a>;
+			qcom,cool_bat_decidegc = <0x32>;
+			qcom,cool_vfloat_over_sw_limit = <0x1158>;
+			qcom,cool_vfloat_sw_limit = <0x1121>;
+			qcom,default_iterm_ma = <0x12c>;
+			qcom,default_little_cool_vfloat_over_sw_limit = <0x115d>;
+			qcom,default_little_cool_vfloat_sw_limit = <0x1121>;
+			qcom,default_normal_vfloat_over_sw_limit = <0x1158>;
+			qcom,default_normal_vfloat_sw_limit = <0x1121>;
+			qcom,default_temp_little_cool_fastchg_current_ma = <0x44c>;
+			qcom,default_temp_little_cool_vfloat_mv = <0x1153>;
+			qcom,default_temp_normal_fastchg_current_ma = <0x898>;
+			qcom,default_temp_normal_vfloat_mv = <0x1153>;
+			qcom,dischg-gpio = <0xffffffff 0x0d 0x00>;
+			qcom,dual_ffc;
+			qcom,external_gauge;
+			qcom,ff1_exit_step_ma = <0x1e8>;
+			qcom,ff1_normal_fastchg_ma = <0x5dc>;
+			qcom,ff1_warm_exit_step_ma = <0x1a2>;
+			qcom,ff1_warm_fastchg_ma = <0x5dc>;
+			qcom,ffc2_exit_step_ma = <0xb4>;
+			qcom,ffc2_normal_fastchg_ma = <0x4b0>;
+			qcom,ffc2_normal_vfloat_over_sw_limit = <0x1194>;
+			qcom,ffc2_normal_vfloat_sw_limit = <0x115d>;
+			qcom,ffc2_temp_high_decidegc = <0x190>;
+			qcom,ffc2_temp_low_decidegc = <0x78>;
+			qcom,ffc2_temp_normal_vfloat_mv = <0x1194>;
+			qcom,ffc2_temp_warm_decidegc = <0x15e>;
+			qcom,ffc2_temp_warm_vfloat_mv = <0x1194>;
+			qcom,ffc2_warm_exit_step_ma = <0xaa>;
+			qcom,ffc2_warm_fastchg_ma = <0x546>;
+			qcom,ffc2_warm_vfloat_over_sw_limit = <0x1194>;
+			qcom,ffc2_warm_vfloat_sw_limit = <0x1158>;
+			qcom,ffc_normal_vfloat_over_sw_limit = <0x1194>;
+			qcom,ffc_normal_vfloat_sw_limit = <0x117b>;
+			qcom,ffc_support;
+			qcom,ffc_temp_normal_vfloat_mv = <0x1194>;
+			qcom,ffc_temp_warm_vfloat_mv = <0x1194>;
+			qcom,ffc_warm_vfloat_over_sw_limit = <0x1194>;
+			qcom,ffc_warm_vfloat_sw_limit = <0x1162>;
+			qcom,hot_bat_decidegc = <0x212>;
+			qcom,input_current_calling_ma = <0x5dc>;
+			qcom,input_current_camera_ma = <0x4b0>;
+			qcom,input_current_cdp_ma = <0x5dc>;
+			qcom,input_current_charger_ma = <0x898>;
+			qcom,input_current_led_ma = <0x4b0>;
+			qcom,input_current_led_ma_forcmcc = <0x1f4>;
+			qcom,input_current_led_ma_high = <0x4b0>;
+			qcom,input_current_led_ma_limit_high = <0x4b0>;
+			qcom,input_current_led_ma_normal = <0x7d0>;
+			qcom,input_current_led_ma_warm = <0x5dc>;
+			qcom,input_current_usb_ma = <0x1f4>;
+			qcom,input_current_vooc_led_ma_high = <0x4b0>;
+			qcom,input_current_vooc_led_ma_normal = <0xe10>;
+			qcom,input_current_vooc_led_ma_warm = <0x708>;
+			qcom,input_current_vooc_ma_high = <0x898>;
+			qcom,input_current_vooc_ma_normal = <0xe10>;
+			qcom,input_current_vooc_ma_warm = <0xc80>;
+			qcom,iterm_disabled = <0x00>;
+			qcom,iterm_ma = <0x12c>;
+			qcom,led_high_bat_decidegc = <0x1b8>;
+			qcom,led_limit_high_bat_decidegc = <0x172>;
+			qcom,led_warm_bat_decidegc = <0x15e>;
+			qcom,little_cold_bat_decidegc = <0x00>;
+			qcom,little_cold_vfloat_over_sw_limit = <0x1158>;
+			qcom,little_cold_vfloat_sw_limit = <0x1121>;
+			qcom,little_cool_bat_decidegc = <0x78>;
+			qcom,little_cool_vfloat_over_sw_limit = <0x1158>;
+			qcom,little_cool_vfloat_sw_limit = <0x1121>;
+			qcom,max_chg_time_sec = <0x10720>;
+			qcom,new_ui_warning_support;
+			qcom,non_normal_vterm_hw_inc = <0x0a>;
+			qcom,non_standard_fastchg_current_ma = <0x200>;
+			qcom,non_standard_vfloat_mv = <0xf8c>;
+			qcom,non_standard_vfloat_over_sw_limit = <0xf8c>;
+			qcom,non_standard_vfloat_sw_limit = <0xf5a>;
+			qcom,normal_bat_decidegc = <0xa0>;
+			qcom,normal_vfloat_over_sw_limit = <0x1158>;
+			qcom,normal_vfloat_sw_limit = <0x1121>;
+			qcom,normal_vterm_hw_inc = <0x96>;
+			qcom,overtemp_bat_decidegc = <0x15e>;
+			qcom,pd_input_current_charger_ma = <0xce4>;
+			qcom,pd_temp_cool_fastchg_current_ma_high = <0x7d0>;
+			qcom,pd_temp_cool_fastchg_current_ma_low = <0x5dc>;
+			qcom,pd_temp_little_cold_fastchg_current_ma_high = <0x708>;
+			qcom,pd_temp_little_cold_fastchg_current_ma_low = <0x5dc>;
+			qcom,pd_temp_little_cool_fastchg_current_ma = <0x7d0>;
+			qcom,pd_temp_normal_fastchg_current_ma = <0xce4>;
+			qcom,pd_temp_warm_fastchg_current_ma = <0x258>;
+			qcom,qc_input_current_charger_ma = <0x7d0>;
+			qcom,qc_temp_cool_fastchg_current_ma_high = <0x7d0>;
+			qcom,qc_temp_cool_fastchg_current_ma_low = <0x5dc>;
+			qcom,qc_temp_little_cold_fastchg_current_ma_high = <0x708>;
+			qcom,qc_temp_little_cold_fastchg_current_ma_low = <0x5dc>;
+			qcom,qc_temp_little_cool_fastchg_current_ma = <0x7d0>;
+			qcom,qc_temp_normal_fastchg_current_ma = <0x7d0>;
+			qcom,qc_temp_warm_fastchg_current_ma = <0x258>;
+			qcom,recharge-mv = <0x73>;
+			qcom,removed_bat_decidegc = <0xbe>;
+			qcom,ship-gpio = <0xffffffff 0x1a 0x00>;
+			qcom,short_c_bat_cv_mv = <0x10ea>;
+			qcom,short_c_bat_fastchg_current_ma = <0x200>;
+			qcom,short_c_bat_vfloat_mv = <0xed8>;
+			qcom,short_c_bat_vfloat_sw_limit = <0xea6>;
+			qcom,sw_vfloat_over_protect_enable;
+			qcom,temp_cold_fastchg_current_ma = <0x168>;
+			qcom,temp_cold_vfloat_mv = <0xf8c>;
+			qcom,temp_cool_fastchg_current_ma_high = <0x898>;
+			qcom,temp_cool_fastchg_current_ma_low = <0x7d0>;
+			qcom,temp_cool_vfloat_mv = <0x1153>;
+			qcom,temp_little_cold_fastchg_current_ma = <0x4b0>;
+			qcom,temp_little_cold_fastchg_current_ma_high = <0x898>;
+			qcom,temp_little_cold_fastchg_current_ma_low = <0x578>;
+			qcom,temp_little_cold_vfloat_mv = <0x1153>;
+			qcom,temp_little_cool_fastchg_current_ma = <0x898>;
+			qcom,temp_little_cool_vfloat_mv = <0x1153>;
+			qcom,temp_normal_fastchg_current_ma = <0x898>;
+			qcom,temp_normal_vfloat_mv = <0x1153>;
+			qcom,temp_warm_fastchg_current_ma = <0x5dc>;
+			qcom,temp_warm_fastchg_current_ma_led_on = <0xfa>;
+			qcom,temp_warm_vfloat_mv = <0x1036>;
+			qcom,usbtemp_batttemp_gap = <0x12>;
+			qcom,vbatt_full_thr = <0x1130>;
+			qcom,vbatt_hv_thr = <0x11c6>;
+			qcom,vbatt_num = <0x01>;
+			qcom,vbatt_pdqc_to_5v_thr = <0x1004>;
+			qcom,vbatt_pdqc_to_9v_thr = <0xfa0>;
+			qcom,vbatt_power_off = <0xce4>;
+			qcom,vbatt_soc_1 = <0xd52>;
+			qcom,vfloat_step_mv = <0x10>;
+			qcom,vooc_project = <0x01>;
+			qcom,vooc_temp_bat_hot_decidegc = <0x1b8>;
+			qcom,vooc_temp_bat_normal_decidegc = <0x15e>;
+			qcom,vooc_temp_bat_warm_decidegc = <0x172>;
+			qcom,warm_bat_decidegc = <0x1c2>;
+			qcom,warm_vfloat_over_sw_limit = <0x1022>;
+			qcom,warm_vfloat_sw_limit = <0xff0>;
+			recharge_after_full;
+		};
+	};
+
+	fragment@32 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			clock-frequency = <0x186a0>;
+			status = "okay";
+
+			bq27541-battery@55 {
+				compatible = "oplus,bq27541-battery";
+				qcom,modify-soc-smooth;
+				reg = <0x55 0x00>;
+				status = "okay";
+			};
+
+			da9313-divider@68 {
+				compatible = "oplus,da9313-divider";
+				reg = <0x68 0x00>;
+				status = "okay";
+			};
+
+			mp2650-charger@5c {
+				compatible = "oplus,mp2650-charger";
+				pinctrl-0 = <0x2f>;
+				pinctrl-1 = <0x30>;
+				pinctrl-2 = <0x31>;
+				pinctrl-names = "mps_otg_en_active\0mps_otg_en_sleep\0mps_otg_en_default";
+				qcom,mps_otg_en-gpio = <0xffffffff 0x97 0x00>;
+				reg = <0x5c 0x00>;
+				status = "okay";
+			};
+
+			rk826_fastcg@0a {
+				compatible = "oplus,rk826-fastcg";
+				pinctrl-0 = <0x32>;
+				pinctrl-1 = <0x33>;
+				pinctrl-10 = <0x38>;
+				pinctrl-11 = <0x39>;
+				pinctrl-2 = <0x32>;
+				pinctrl-3 = <0x33>;
+				pinctrl-4 = <0x32>;
+				pinctrl-5 = <0x33>;
+				pinctrl-6 = <0x34>;
+				pinctrl-7 = <0x35>;
+				pinctrl-8 = <0x36>;
+				pinctrl-9 = <0x37>;
+				pinctrl-names = "switch1_act_switch2_act\0switch1_sleep_switch2_sleep\0switch1_act_switch3_act\0switch1_sleep_switch3_sleep\0switch1_act_switch2_sleep\0switch1_sleep_switch2_act\0clock_active\0clock_sleep\0data_active\0data_sleep\0reset_active\0reset_sleep";
+				qcom,charging_clock-gpio = <0xffffffff 0x44 0x00>;
+				qcom,charging_data-gpio = <0xffffffff 0x43 0x00>;
+				qcom,charging_reset-gpio = <0xffffffff 0x0e 0x00>;
+				qcom,charging_switch1-gpio = <0xffffffff 0x22 0x00>;
+				qcom,oplus_batt_4400mv;
+				qcom,support_vooc_by_normal_charger_path;
+				qcom,vooc-cool-temp = <0x78>;
+				qcom,vooc-fw-type = <0x20>;
+				qcom,vooc-high-soc = <0x5a>;
+				qcom,vooc-high-temp = <0x1b8>;
+				qcom,vooc-little-cool-temp = <0xa0>;
+				qcom,vooc-little-cool-to-normal-temp = <0xb4>;
+				qcom,vooc-low-soc = <0x01>;
+				qcom,vooc-low-temp = <0x32>;
+				qcom,vooc-normal-to-little-cool-current = <0x05>;
+				qcom,vooc_batt_over_high_temp = <0x1b8>;
+				qcom,vooc_batt_over_low_temp = <0x2d>;
+				qcom,vooc_current_lvl = <0x3e8 0x5dc 0x7d0 0x9c4 0xbb8 0xdac 0xfa0 0x1194 0x1388 0x157c 0x1770 0x1964 0x1b58 0x1d4c 0x1f40 0x2134 0x2328 0x251c 0x2710 0x2904 0x2af8 0x2cec 0x2ee0 0x30d4>;
+				qcom,vooc_multistep_adjust_current_support;
+				qcom,vooc_multistep_initial_batt_temp = <0x136>;
+				qcom,vooc_over_high_or_low_current = <0x00>;
+				qcom,vooc_strategy1_batt_high_temp0 = <0x1a9>;
+				qcom,vooc_strategy1_batt_high_temp1 = <0x1ae>;
+				qcom,vooc_strategy1_batt_high_temp2 = <0x1b3>;
+				qcom,vooc_strategy1_batt_low_temp0 = <0x190>;
+				qcom,vooc_strategy1_batt_low_temp1 = <0x19f>;
+				qcom,vooc_strategy1_batt_low_temp2 = <0x1a4>;
+				qcom,vooc_strategy1_high_current0 = <0x04>;
+				qcom,vooc_strategy1_high_current1 = <0x03>;
+				qcom,vooc_strategy1_high_current2 = <0x02>;
+				qcom,vooc_strategy1_low_current0 = <0x04>;
+				qcom,vooc_strategy1_low_current1 = <0x04>;
+				qcom,vooc_strategy1_low_current2 = <0x03>;
+				qcom,vooc_strategy2_batt_up_down_temp2 = <0x17c>;
+				qcom,vooc_strategy2_batt_up_down_temp4 = <0x190>;
+				qcom,vooc_strategy2_batt_up_temp1 = <0x177>;
+				qcom,vooc_strategy2_batt_up_temp3 = <0x186>;
+				qcom,vooc_strategy2_batt_up_temp5 = <0x19a>;
+				qcom,vooc_strategy2_batt_up_temp6 = <0x19f>;
+				qcom,vooc_strategy2_high0_current = <0x05>;
+				qcom,vooc_strategy2_high1_current = <0x04>;
+				qcom,vooc_strategy2_high2_current = <0x03>;
+				qcom,vooc_strategy2_high3_current = <0x02>;
+				qcom,vooc_strategy_normal_current = <0x06>;
+				reg = <0x0a 0x00>;
+				status = "okay";
+			};
+
+			stm8s_fastcg@26 {
+				compatible = "oplus,stm8s-fastcg";
+				pinctrl-0 = <0x32>;
+				pinctrl-1 = <0x33>;
+				pinctrl-10 = <0x38>;
+				pinctrl-11 = <0x39>;
+				pinctrl-2 = <0x32>;
+				pinctrl-3 = <0x33>;
+				pinctrl-4 = <0x32>;
+				pinctrl-5 = <0x33>;
+				pinctrl-6 = <0x34>;
+				pinctrl-7 = <0x35>;
+				pinctrl-8 = <0x36>;
+				pinctrl-9 = <0x37>;
+				pinctrl-names = "switch1_act_switch2_act\0switch1_sleep_switch2_sleep\0switch1_act_switch3_act\0switch1_sleep_switch3_sleep\0switch1_act_switch2_sleep\0switch1_sleep_switch2_act\0clock_active\0clock_sleep\0data_active\0data_sleep\0reset_active\0reset_sleep";
+				qcom,charging_clock-gpio = <0xffffffff 0x44 0x00>;
+				qcom,charging_data-gpio = <0xffffffff 0x43 0x00>;
+				qcom,charging_reset-gpio = <0xffffffff 0x0e 0x00>;
+				qcom,charging_switch1-gpio = <0xffffffff 0x22 0x00>;
+				qcom,oplus_batt_4400mv;
+				qcom,vooc-fw-type = <0x07>;
+				qcom,vooc-high-soc = <0x5a>;
+				qcom,vooc-high-temp = <0x1ae>;
+				qcom,vooc-low-soc = <0x01>;
+				qcom,vooc-low-temp = <0x32>;
+				qcom,vooc_batt_over_high_temp = <0x1b8>;
+				qcom,vooc_batt_over_low_temp = <0x32>;
+				qcom,vooc_fw_update_newmethod;
+				qcom,vooc_multistep_adjust_current_support;
+				qcom,vooc_multistep_initial_batt_temp = <0x3e8>;
+				qcom,vooc_over_high_or_low_current = <0x00>;
+				qcom,vooc_strategy1_batt_high_temp0 = <0x19a>;
+				qcom,vooc_strategy1_batt_high_temp1 = <0x1a9>;
+				qcom,vooc_strategy1_batt_high_temp2 = <0x1b3>;
+				qcom,vooc_strategy1_batt_low_temp0 = <0x190>;
+				qcom,vooc_strategy1_batt_low_temp1 = <0x19a>;
+				qcom,vooc_strategy1_batt_low_temp2 = <0x1a4>;
+				qcom,vooc_strategy1_high_current0 = <0x04>;
+				qcom,vooc_strategy1_high_current1 = <0x03>;
+				qcom,vooc_strategy1_high_current2 = <0x02>;
+				qcom,vooc_strategy1_low_current0 = <0x06>;
+				qcom,vooc_strategy1_low_current1 = <0x05>;
+				qcom,vooc_strategy1_low_current2 = <0x03>;
+				qcom,vooc_strategy2_batt_up_down_temp2 = <0x17c>;
+				qcom,vooc_strategy2_batt_up_down_temp4 = <0x18b>;
+				qcom,vooc_strategy2_batt_up_temp1 = <0x172>;
+				qcom,vooc_strategy2_batt_up_temp3 = <0x186>;
+				qcom,vooc_strategy2_batt_up_temp5 = <0x190>;
+				qcom,vooc_strategy2_batt_up_temp6 = <0x19f>;
+				qcom,vooc_strategy2_high0_current = <0x06>;
+				qcom,vooc_strategy2_high1_current = <0x06>;
+				qcom,vooc_strategy2_high2_current = <0x06>;
+				qcom,vooc_strategy2_high3_current = <0x06>;
+				qcom,vooc_strategy_normal_current = <0x0d>;
+				reg = <0x26 0x00>;
+				status = "okay";
+			};
+		};
+	};
+
+	fragment@33 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+
+			charger_gpio_as_output_high {
+				phandle = <0x28>;
+
+				pins_cmd_dat {
+					output-high;
+					pinmux = <0xc300>;
+					slew-rate = <0x01>;
+				};
+			};
+
+			charger_gpio_as_output_low {
+				phandle = <0x27>;
+
+				pins_cmd_dat {
+					output-low;
+					pinmux = <0xc300>;
+					slew-rate = <0x01>;
+				};
+			};
+
+			chgvin_disable {
+				phandle = <0x2e>;
+
+				pins_cmd_dat {
+					bias-pull-down = <0x00>;
+					output-high;
+					pinmux = <0x7f00>;
+					slew-rate = <0x01>;
+				};
+			};
+
+			chgvin_enable {
+				phandle = <0x2d>;
+
+				pins_cmd_dat {
+					bias-pull-up = <0x00>;
+					output-low;
+					pinmux = <0x7f00>;
+					slew-rate = <0x01>;
+				};
+			};
+
+			dischg_disable {
+				phandle = <0x2b>;
+
+				pins_cmd_dat {
+					output-low;
+					pinmux = <0xd00>;
+					slew-rate = <0x01>;
+				};
+			};
+
+			dischg_enable {
+				phandle = <0x2c>;
+
+				pins_cmd_dat {
+					output-high;
+					pinmux = <0xd00>;
+					slew-rate = <0x01>;
+				};
+			};
+
+			ship_active {
+				phandle = <0x2a>;
+
+				pins_cmd_dat {
+					output-high;
+					pinmux = <0x1a00>;
+					slew-rate = <0x01>;
+				};
+			};
+
+			ship_sleep {
+				phandle = <0x29>;
+
+				pins_cmd_dat {
+					output-low;
+					pinmux = <0x1a00>;
+					slew-rate = <0x01>;
+				};
+			};
+		};
+	};
+
+	fragment@34 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+
+			charging_clock_active {
+				phandle = <0x34>;
+
+				pins_cmd_dat {
+					bias-pull-up = <0x00>;
+					pinmux = <0x4400>;
+					slew-rate = <0x00>;
+				};
+			};
+
+			charging_clock_sleep {
+				phandle = <0x35>;
+
+				pins_cmd_dat {
+					bias-pull-down = <0x00>;
+					pinmux = <0x4400>;
+					slew-rate = <0x00>;
+				};
+			};
+
+			charging_data_active {
+				phandle = <0x36>;
+
+				pins_cmd_dat {
+					bias-pull-up = <0x00>;
+					pinmux = <0x4300>;
+					slew-rate = <0x00>;
+				};
+			};
+
+			charging_data_sleep {
+				phandle = <0x37>;
+
+				pins_cmd_dat {
+					bias-pull-down = <0x00>;
+					pinmux = <0x4300>;
+					slew-rate = <0x00>;
+				};
+			};
+
+			charging_reset_active {
+				phandle = <0x38>;
+
+				pins_cmd_dat {
+					output-high;
+					pinmux = <0xe00>;
+					slew-rate = <0x01>;
+				};
+			};
+
+			charging_reset_sleep {
+				phandle = <0x39>;
+
+				pins_cmd_dat {
+					output-low;
+					pinmux = <0xe00>;
+					slew-rate = <0x01>;
+				};
+			};
+
+			charging_switch1_active {
+				phandle = <0x32>;
+
+				pins_cmd_dat {
+					output-high;
+					pinmux = <0x2200>;
+					slew-rate = <0x01>;
+				};
+			};
+
+			charging_switch1_sleep {
+				phandle = <0x33>;
+
+				pins_cmd_dat {
+					output-low;
+					pinmux = <0x2200>;
+					slew-rate = <0x01>;
+				};
+			};
+		};
+	};
+
+	fragment@35 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+
+			mps_otg_en_active {
+				phandle = <0x2f>;
+
+				pins_cmd_dat {
+					output-high;
+					pinmux = <0x9700>;
+					slew-rate = <0x01>;
+				};
+			};
+
+			mps_otg_en_default {
+				phandle = <0x31>;
+
+				pins_cmd_dat {
+					output-low;
+					pinmux = <0x9700>;
+					slew-rate = <0x01>;
+				};
+			};
+
+			mps_otg_en_sleep {
+				phandle = <0x30>;
+
+				pins_cmd_dat {
+					output-low;
+					pinmux = <0x9700>;
+					slew-rate = <0x01>;
+				};
+			};
+		};
+	};
+
+	fragment@36 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+
+			camdefault {
+				phandle = <0x3a>;
+			};
+
+			camera0_mclk_2ma@gpio117 {
+				phandle = <0x48>;
+
+				pins_cmd_dat {
+					drive-strength = <0x00>;
+					pinmux = <0x7501>;
+				};
+			};
+
+			camera0_mclk_4ma@gpio117 {
+				phandle = <0x49>;
+
+				pins_cmd_dat {
+					drive-strength = <0x01>;
+					pinmux = <0x7501>;
+				};
+			};
+
+			camera0_mclk_6ma@gpio117 {
+				phandle = <0x4a>;
+
+				pins_cmd_dat {
+					drive-strength = <0x02>;
+					pinmux = <0x7501>;
+				};
+			};
+
+			camera0_mclk_8ma@gpio117 {
+				phandle = <0x4b>;
+
+				pins_cmd_dat {
+					drive-strength = <0x03>;
+					pinmux = <0x7501>;
+				};
+			};
+
+			camera0_mclk_gpio_mode@gpio117 {
+				phandle = <0x47>;
+
+				pins_cmd_dat {
+					drive-strength = <0x01>;
+					pinmux = <0x7500>;
+				};
+			};
+
+			camera0_rst_output_high@gpio119 {
+				phandle = <0x3c>;
+
+				pins_cmd_dat {
+					output-high;
+					pinmux = <0x7700>;
+				};
+			};
+
+			camera0_rst_output_low@gpio119 {
+				phandle = <0x3b>;
+
+				pins_cmd_dat {
+					output-low;
+					pinmux = <0x7700>;
+				};
+			};
+
+			camera0_vcamd_output_high@gpio123 {
+				phandle = <0x3e>;
+
+				pins_cmd_dat0 {
+					output-high;
+					pinmux = <0x7300>;
+				};
+
+				pins_cmd_dat1 {
+					output-high;
+					pinmux = <0x7b00>;
+				};
+			};
+
+			camera0_vcamd_output_low@gpio123 {
+				phandle = <0x3d>;
+
+				pins_cmd_dat0 {
+					output-low;
+					pinmux = <0x7300>;
+				};
+
+				pins_cmd_dat1 {
+					output-low;
+					pinmux = <0x7b00>;
+				};
+			};
+
+			camera1_mclk_2ma@gpio196 {
+				phandle = <0x4d>;
+
+				pins_cmd_dat {
+					drive-strength = <0x00>;
+					pinmux = <0xc401>;
+				};
+			};
+
+			camera1_mclk_4ma@gpio196 {
+				phandle = <0x4e>;
+
+				pins_cmd_dat {
+					drive-strength = <0x01>;
+					pinmux = <0xc401>;
+				};
+			};
+
+			camera1_mclk_6ma@gpio196 {
+				phandle = <0x4f>;
+
+				pins_cmd_dat {
+					drive-strength = <0x02>;
+					pinmux = <0xc401>;
+				};
+			};
+
+			camera1_mclk_8ma@gpio196 {
+				phandle = <0x50>;
+
+				pins_cmd_dat {
+					drive-strength = <0x03>;
+					pinmux = <0xc401>;
+				};
+			};
+
+			camera1_mclk_gpio_mode@gpio196 {
+				phandle = <0x4c>;
+
+				pins_cmd_dat {
+					drive-strength = <0x01>;
+					pinmux = <0xc400>;
+				};
+			};
+
+			camera1_rst_output_high@gpio124 {
+				phandle = <0x40>;
+
+				pins_cmd_dat {
+					output-high;
+					pinmux = <0x7c00>;
+				};
+			};
+
+			camera1_rst_output_low@gpio124 {
+				phandle = <0x3f>;
+
+				pins_cmd_dat {
+					output-low;
+					pinmux = <0x7c00>;
+				};
+			};
+
+			camera2_mclk_2ma@gpio120 {
+				phandle = <0x52>;
+
+				pins_cmd_dat {
+					drive-strength = <0x00>;
+					pinmux = <0x7801>;
+				};
+			};
+
+			camera2_mclk_4ma@gpio120 {
+				phandle = <0x53>;
+
+				pins_cmd_dat {
+					drive-strength = <0x01>;
+					pinmux = <0x7801>;
+				};
+			};
+
+			camera2_mclk_6ma@gpio120 {
+				phandle = <0x54>;
+
+				pins_cmd_dat {
+					drive-strength = <0x02>;
+					pinmux = <0x7801>;
+				};
+			};
+
+			camera2_mclk_8ma@gpio120 {
+				phandle = <0x55>;
+
+				pins_cmd_dat {
+					drive-strength = <0x03>;
+					pinmux = <0x7801>;
+				};
+			};
+
+			camera2_mclk_gpio_mode@gpio120 {
+				phandle = <0x51>;
+
+				pins_cmd_dat {
+					drive-strength = <0x01>;
+					pinmux = <0x7800>;
+				};
+			};
+
+			camera2_rst_output_high@gpio197 {
+				phandle = <0x42>;
+
+				pins_cmd_dat {
+					output-high;
+					pinmux = <0xc500>;
+				};
+			};
+
+			camera2_rst_output_low@gpio197 {
+				phandle = <0x41>;
+
+				pins_cmd_dat {
+					output-low;
+					pinmux = <0xc500>;
+				};
+			};
+
+			camera3_mclk_2ma@gpio121 {
+				phandle = <0x57>;
+
+				pins_cmd_dat {
+					drive-strength = <0x00>;
+					pinmux = <0x7901>;
+				};
+			};
+
+			camera3_mclk_4ma@gpio121 {
+				phandle = <0x58>;
+
+				pins_cmd_dat {
+					drive-strength = <0x01>;
+					pinmux = <0x7901>;
+				};
+			};
+
+			camera3_mclk_6ma@gpio121 {
+				phandle = <0x59>;
+
+				pins_cmd_dat {
+					drive-strength = <0x02>;
+					pinmux = <0x7901>;
+				};
+			};
+
+			camera3_mclk_8ma@gpio121 {
+				phandle = <0x5a>;
+
+				pins_cmd_dat {
+					drive-strength = <0x03>;
+					pinmux = <0x7901>;
+				};
+			};
+
+			camera3_mclk_gpio_mode@gpio121 {
+				phandle = <0x56>;
+
+				pins_cmd_dat {
+					drive-strength = <0x01>;
+					pinmux = <0x7900>;
+				};
+			};
+
+			camera3_pnd_output_high@gpio125 {
+				phandle = <0x44>;
+
+				pins_cmd_dat {
+					output-high;
+					pinmux = <0x7d00>;
+				};
+			};
+
+			camera3_pnd_output_low@gpio125 {
+				phandle = <0x43>;
+
+				pins_cmd_dat {
+					output-low;
+					pinmux = <0x7d00>;
+				};
+			};
+
+			camera4_mclk_2ma@gpio116 {
+				phandle = <0x5c>;
+
+				pins_cmd_dat {
+					drive-strength = <0x00>;
+					pinmux = <0x7401>;
+				};
+			};
+
+			camera4_mclk_4ma@gpio116 {
+				phandle = <0x5d>;
+
+				pins_cmd_dat {
+					drive-strength = <0x01>;
+					pinmux = <0x7401>;
+				};
+			};
+
+			camera4_mclk_6ma@gpio116 {
+				phandle = <0x5e>;
+
+				pins_cmd_dat {
+					drive-strength = <0x02>;
+					pinmux = <0x7401>;
+				};
+			};
+
+			camera4_mclk_8ma@gpio116 {
+				phandle = <0x5f>;
+
+				pins_cmd_dat {
+					drive-strength = <0x03>;
+					pinmux = <0x7401>;
+				};
+			};
+
+			camera4_mclk_gpio_mode@gpio116 {
+				phandle = <0x5b>;
+
+				pins_cmd_dat {
+					drive-strength = <0x01>;
+					pinmux = <0x7400>;
+				};
+			};
+
+			camera4_pnd_output_high@gpio118 {
+				phandle = <0x46>;
+
+				pins_cmd_dat {
+					output-high;
+					pinmux = <0x7600>;
+				};
+			};
+
+			camera4_pnd_output_low@gpio118 {
+				phandle = <0x45>;
+
+				pins_cmd_dat {
+					output-low;
+					pinmux = <0x7600>;
+				};
+			};
+
+			camera_mipi_switch_high@gpio72 {
+				phandle = <0x61>;
+
+				pins_cmd_dat {
+					output-high;
+					pinmux = <0x4800>;
+				};
+			};
+
+			camera_mipi_switch_low@gpio72 {
+				phandle = <0x60>;
+
+				pins_cmd_dat {
+					output-low;
+					pinmux = <0x4800>;
+				};
+			};
+		};
+	};
+
+	fragment@37 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			cam0_enable_sensor = "imx682_mipi_raw s5kgm1sp_mipi_raw ov13b10_mipi_raw";
+			cam0_vcamio-supply = <0xffffffff>;
+			cam1_enable_sensor = "imx471_mipi_raw1 s5k4h7_mipi_raw";
+			cam1_vcamio-supply = <0xffffffff>;
+			cam2_enable_sensor = "ov8856_mipi_raw";
+			cam2_vcamio-supply = <0xffffffff>;
+			cam3_enable_sensor = "ov02b10_mipi_raw";
+			cam3_vcamio-supply = <0xffffffff>;
+			cam4_enable_sensor = "ov02b1b_mipi_mono";
+			cam4_vcamio-supply = <0xffffffff>;
+			pinctrl-0 = <0x3a>;
+			pinctrl-1 = <0x3b>;
+			pinctrl-10 = <0x44>;
+			pinctrl-11 = <0x45>;
+			pinctrl-12 = <0x46>;
+			pinctrl-13 = <0x47>;
+			pinctrl-14 = <0x48>;
+			pinctrl-15 = <0x49>;
+			pinctrl-16 = <0x4a>;
+			pinctrl-17 = <0x4b>;
+			pinctrl-18 = <0x4c>;
+			pinctrl-19 = <0x4d>;
+			pinctrl-2 = <0x3c>;
+			pinctrl-20 = <0x4e>;
+			pinctrl-21 = <0x4f>;
+			pinctrl-22 = <0x50>;
+			pinctrl-23 = <0x51>;
+			pinctrl-24 = <0x52>;
+			pinctrl-25 = <0x53>;
+			pinctrl-26 = <0x54>;
+			pinctrl-27 = <0x55>;
+			pinctrl-28 = <0x56>;
+			pinctrl-29 = <0x57>;
+			pinctrl-3 = <0x3d>;
+			pinctrl-30 = <0x58>;
+			pinctrl-31 = <0x59>;
+			pinctrl-32 = <0x5a>;
+			pinctrl-33 = <0x5b>;
+			pinctrl-34 = <0x5c>;
+			pinctrl-35 = <0x5d>;
+			pinctrl-36 = <0x5e>;
+			pinctrl-37 = <0x5f>;
+			pinctrl-38 = <0x60>;
+			pinctrl-39 = <0x61>;
+			pinctrl-4 = <0x3e>;
+			pinctrl-5 = <0x3f>;
+			pinctrl-6 = <0x40>;
+			pinctrl-7 = <0x41>;
+			pinctrl-8 = <0x42>;
+			pinctrl-9 = <0x43>;
+			pinctrl-names = "default\0cam0_rst0\0cam0_rst1\0cam0_ldo_vcamd_0\0cam0_ldo_vcamd_1\0cam1_rst0\0cam1_rst1\0cam2_rst0\0cam2_rst1\0cam3_pnd0\0cam3_pnd1\0cam4_pnd0\0cam4_pnd1\0cam0_mclk_off\0cam0_mclk_2mA\0cam0_mclk_4mA\0cam0_mclk_6mA\0cam0_mclk_8mA\0cam1_mclk_off\0cam1_mclk_2mA\0cam1_mclk_4mA\0cam1_mclk_6mA\0cam1_mclk_8mA\0cam2_mclk_off\0cam2_mclk_2mA\0cam2_mclk_4mA\0cam2_mclk_6mA\0cam2_mclk_8mA\0cam3_mclk_off\0cam3_mclk_2mA\0cam3_mclk_4mA\0cam3_mclk_6mA\0cam3_mclk_8mA\0cam4_mclk_off\0cam4_mclk_2mA\0cam4_mclk_4mA\0cam4_mclk_6mA\0cam4_mclk_8mA\0cam_mipi_switch_sel_0\0cam_mipi_switch_sel_1";
+			status = "okay";
+		};
+	};
+
+	fragment@38 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+
+			adc_channel@ {
+				compatible = "mediatek,adc_channel";
+				mediatek,adc_fdd_rf_params_dynamic_custom_ch = <0x02>;
+				mediatek,temperature0 = <0x00>;
+				mediatek,temperature1 = <0x01>;
+				status = "okay";
+			};
+		};
+	};
+
+	fragment@39 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			io-channels = <0xffffffff 0x02>;
+		};
+	};
+
+	fragment@4 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+
+			alsps_arch {
+				new-arch-supported = <0x01>;
+				phandle = <0x76>;
+				status = "okay";
+			};
+
+			gsensor_1 {
+				config_miso = <0x01>;
+				correct_y_bias = <0x01>;
+				direction = <0x03>;
+				eint_num = <0x0a>;
+				i2c_addr = <0x44>;
+				i2c_num = <0x02>;
+				phandle = <0x6e>;
+				sensor_name = <0x02>;
+				status = "okay";
+				step_count_7_en = <0x01>;
+			};
+
+			gsensor_2 {
+				config_miso = <0x01>;
+				correct_y_bias = <0x01>;
+				direction = <0x00>;
+				eint_num = <0x0a>;
+				i2c_addr = <0x00>;
+				i2c_num = <0x02>;
+				phandle = <0x6f>;
+				sensor_name = <0x04>;
+				status = "okay";
+				step_count_7_en = <0x01>;
+			};
+
+			kpd_volume_down {
+				compatible = "mediatek, VOLUME_DOWN-eint";
+				debounce = <0x7d00>;
+				interrupt-parent = <0xffffffff>;
+				interrupts = <0x3c 0x02 0x3c 0x00>;
+				phandle = <0x6d>;
+				status = "okay";
+			};
+
+			kpd_volume_up {
+				compatible = "mediatek, VOLUME_UP-eint";
+				debounce = <0x7d00>;
+				interrupt-parent = <0xffffffff>;
+				interrupts = <0x3b 0x02 0x3b 0x00>;
+				phandle = <0x6c>;
+				status = "okay";
+			};
+
+			led@0 {
+				compatible = "mediatek,red";
+				data = <0x01>;
+				led_mode = <0x00>;
+				phandle = <0x63>;
+				pwm_config = <0x00 0x00 0x00 0x00 0x00>;
+			};
+
+			led@1 {
+				compatible = "mediatek,green";
+				data = <0x01>;
+				led_mode = <0x00>;
+				phandle = <0x64>;
+				pwm_config = <0x00 0x00 0x00 0x00 0x00>;
+			};
+
+			led@2 {
+				compatible = "mediatek,blue";
+				data = <0x01>;
+				led_mode = <0x00>;
+				phandle = <0x65>;
+				pwm_config = <0x00 0x00 0x00 0x00 0x00>;
+			};
+
+			led@3 {
+				compatible = "mediatek,jogball-backlight";
+				data = <0x01>;
+				led_mode = <0x00>;
+				phandle = <0x66>;
+				pwm_config = <0x00 0x00 0x00 0x00 0x00>;
+			};
+
+			led@4 {
+				compatible = "mediatek,keyboard-backlight";
+				data = <0x01>;
+				led_mode = <0x00>;
+				phandle = <0x67>;
+				pwm_config = <0x00 0x00 0x00 0x00 0x00>;
+			};
+
+			led@5 {
+				compatible = "mediatek,button-backlight";
+				data = <0x01>;
+				led_mode = <0x00>;
+				phandle = <0x68>;
+				pwm_config = <0x00 0x00 0x00 0x00 0x00>;
+			};
+
+			led@6 {
+				compatible = "mediatek,lcd-backlight";
+				data = <0x01>;
+				led_mode = <0x04>;
+				phandle = <0x69>;
+				pwm_config = <0x00 0x01 0x00 0x00 0x00>;
+			};
+
+			light_1 {
+				als_buffer_length = <0x08>;
+				als_ratio = <0xa9>;
+				als_type = <0x01>;
+				device_name = "stk33502";
+				direction = <0x04>;
+				eint_num = <0x0c>;
+				i2c_addr = <0x46>;
+				i2c_num = <0x00>;
+				phandle = <0x73>;
+				sensor_name = <0x07>;
+				status = "okay";
+			};
+
+			lux_aod {
+				phandle = <0x75>;
+				status = "okay";
+				use-proximity = <0x01>;
+			};
+
+			msensor_1 {
+				direction = <0x00>;
+				eint_num = <0x00>;
+				i2c_addr = <0x30>;
+				i2c_num = <0x00>;
+				phandle = <0x70>;
+				sensor_name = <0x02>;
+				status = "okay";
+			};
+
+			msensor_2 {
+				direction = <0x02>;
+				eint_num = <0x00>;
+				i2c_addr = <0x0c>;
+				i2c_num = <0x00>;
+				phandle = <0x71>;
+				sensor_name = <0x04>;
+				status = "okay";
+			};
+
+			nfc_chipset {
+				chipset-19661-102 = "NQ310";
+				compatible = "oppo-nfc-chipset";
+				phandle = <0x79>;
+			};
+
+			oplus_devinfo {
+				compatible = "oppo-devinfo";
+				phandle = <0x78>;
+			};
+
+			oplus_project {
+				compatible = "oppo,oplus_project";
+				phandle = <0x77>;
+			};
+
+			pick_up {
+				phandle = <0x74>;
+				status = "okay";
+				use-proximity = <0x01>;
+			};
+
+			proximity_1 {
+				anti_shake_delta = <0x46>;
+				cal_offset_margin = <0xbb8>;
+				cali_jitter_limit = <0x14>;
+				direction = <0x04>;
+				dirty_high_step = <0x190>;
+				dirty_low_step = <0x12c>;
+				dynamic_cali_max = <0x7d0>;
+				eint_num = <0x0c>;
+				force_cali_limit = <0x7d0>;
+				high_limit = <0x41a>;
+				high_step = <0x190>;
+				i2c_addr = <0x46>;
+				i2c_num = <0x00>;
+				low_limit = <0x28a>;
+				low_step = <0x12c>;
+				offset_max = <0xea60>;
+				offset_range_max = <0xfffe>;
+				offset_range_min = <0x00>;
+				phandle = <0x72>;
+				ps_adjust_max = <0x73a>;
+				ps_adjust_min = <0x00>;
+				ps_dirty_limit = <0x708>;
+				ps_ir_limit = <0x7d0>;
+				raw2offset_radio = <0x3e8>;
+				sampling_count = <0x05>;
+				sensor_name = <0x07>;
+				status = "okay";
+				step_div = <0x7d0>;
+				step_max = <0x190>;
+				step_min = <0x64>;
+			};
+
+			usb_c_pinctrl {
+				compatible = "mediatek,usb_c_pinctrl";
+				phandle = <0x6b>;
+				pinctrl-0 = <0x01>;
+				pinctrl-1 = <0x02>;
+				pinctrl-10 = <0x0b>;
+				pinctrl-11 = <0x0c>;
+				pinctrl-12 = <0x0d>;
+				pinctrl-2 = <0x03>;
+				pinctrl-3 = <0x04>;
+				pinctrl-4 = <0x05>;
+				pinctrl-5 = <0x06>;
+				pinctrl-6 = <0x07>;
+				pinctrl-7 = <0x08>;
+				pinctrl-8 = <0x09>;
+				pinctrl-9 = <0x0a>;
+				pinctrl-names = "usb_default\0redrv_c1_init\0redrv_c1_low\0redrv_c1_hiz\0redrv_c1_high\0redrv_c2_init\0redrv_c2_low\0redrv_c2_hiz\0redrv_c2_high\0switch_sel1\0switch_sel2\0switch_enable\0switch_disable";
+				status = "okay";
+
+				usb_switch-data {
+					c1_pin_num = <0x1f>;
+					c1_pin_val = <0x02>;
+					c2_pin_num = <0x1e>;
+					c2_pin_val = <0x01>;
+					en_pin_num = <0x00>;
+					en_pin_val = <0x00>;
+					sel_pin_num = <0x20>;
+					sel_pin_val = <0x01>;
+				};
+			};
+
+			vibrator@0 {
+				compatible = "mediatek,vibrator";
+				phandle = <0x6a>;
+				vib_limit = <0x00>;
+				vib_timer = <0x1e>;
+				vib_vol = <0x0b>;
+			};
+		};
+	};
+
+	fragment@40 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			mediatek,clkbuf-config = <0x02 0x01 0x01 0x02 0x00 0x00 0x01>;
+			mediatek,clkbuf-controls-for-desense = <0x00 0x04 0x00 0x03 0x00 0x00 0x00>;
+			mediatek,clkbuf-output-impedance = <0x04 0x04 0x04 0x04 0x00 0x00 0x04>;
+			mediatek,clkbuf-quantity = <0x07>;
+			status = "okay";
+		};
+	};
+
+	fragment@41 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			#address-cells = <0x01>;
+			#size-cells = <0x00>;
+			clock-frequency = <0x61a80>;
+			mediatek,use-open-drain;
+		};
+	};
+
+	fragment@42 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			#address-cells = <0x01>;
+			#size-cells = <0x00>;
+			clock-frequency = <0x61a80>;
+			mediatek,use-open-drain;
+		};
+	};
+
+	fragment@43 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			#address-cells = <0x01>;
+			#size-cells = <0x00>;
+			clock-frequency = <0x61a80>;
+			mediatek,use-open-drain;
+
+			camera_main@1a {
+				compatible = "mediatek,camera_main";
+				phandle = <0x7d>;
+				reg = <0x1a>;
+				status = "okay";
+			};
+
+			camera_main_af@0c {
+				compatible = "mediatek,camera_main_af";
+				phandle = <0x7e>;
+				reg = <0x0c>;
+				status = "okay";
+			};
+
+			camera_main_eeprom@50 {
+				compatible = "mediatek,camera_main_eeprom";
+				phandle = <0x7f>;
+				reg = <0x50>;
+				status = "okay";
+			};
+
+			ccu_sensor_i2c_2_hw@33 {
+				compatible = "mediatek,ccu_sensor_i2c_2_hw";
+				phandle = <0x80>;
+				reg = <0x33>;
+				status = "okay";
+			};
+		};
+	};
+
+	fragment@44 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			#address-cells = <0x01>;
+			#size-cells = <0x00>;
+			clock-frequency = <0x61a80>;
+			mediatek,use-open-drain;
+
+			nfc@08 {
+				compatible = "mediatek,nfc";
+				phandle = <0x81>;
+				reg = <0x08>;
+				status = "okay";
+			};
+		};
+	};
+
+	fragment@45 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			#address-cells = <0x01>;
+			#size-cells = <0x00>;
+			clock-frequency = <0x61a80>;
+			mediatek,use-open-drain;
+
+			camera_main_two@10 {
+				compatible = "mediatek,camera_main_two";
+				phandle = <0x84>;
+				reg = <0x10>;
+				status = "okay";
+			};
+
+			camera_main_two_af@0c {
+				compatible = "mediatek,camera_main_two_af";
+				phandle = <0x85>;
+				reg = <0x0c>;
+				status = "okay";
+			};
+
+			camera_main_two_eeprom@50 {
+				compatible = "mediatek,camera_main_two_eeprom";
+				phandle = <0x86>;
+				reg = <0x50>;
+				status = "okay";
+			};
+
+			camera_sub@2d {
+				compatible = "mediatek,camera_sub";
+				phandle = <0x82>;
+				reg = <0x2d>;
+				status = "okay";
+			};
+
+			camera_sub_eeprom@52 {
+				compatible = "mediatek,camera_sub_eeprom";
+				phandle = <0x83>;
+				reg = <0x52>;
+				status = "okay";
+			};
+
+			ccu_sensor_i2c_4_hw@36 {
+				compatible = "mediatek,ccu_sensor_i2c_4_hw";
+				phandle = <0x87>;
+				reg = <0x36>;
+				status = "okay";
+			};
+		};
+	};
+
+	fragment@46 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			#address-cells = <0x01>;
+			#size-cells = <0x00>;
+			clock-frequency = <0x33e140>;
+			mediatek,use-push-pull;
+
+			subpmic@34 {
+				compatible = "mediatek,subpmic";
+				phandle = <0x88>;
+				reg = <0x34>;
+				status = "okay";
+			};
+
+			subpmic_ldo@64 {
+				compatible = "mediatek,subpmic_ldo";
+				phandle = <0x8b>;
+				reg = <0x64>;
+				status = "okay";
+			};
+
+			subpmic_pmic@1a {
+				compatible = "mediatek,subpmic_pmic";
+				phandle = <0x8a>;
+				reg = <0x1a>;
+				status = "okay";
+			};
+
+			usb_type_c@4e {
+				compatible = "mediatek,usb_type_c";
+				phandle = <0x89>;
+				reg = <0x4e>;
+				status = "okay";
+			};
+		};
+	};
+
+	fragment@47 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			#address-cells = <0x01>;
+			#size-cells = <0x00>;
+			clock-frequency = <0x61a80>;
+			mediatek,use-open-drain;
+
+			i2c_lcd_bias@73 {
+				compatible = "mediatek,i2c_lcd_bias";
+				phandle = <0x8c>;
+				reg = <0x73>;
+				status = "okay";
+			};
+		};
+	};
+
+	fragment@48 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			#address-cells = <0x01>;
+			#size-cells = <0x00>;
+			clock-frequency = <0x186a0>;
+			mediatek,use-open-drain;
+
+			ccu_sensor_i2c_7_hw@43 {
+				compatible = "mediatek,ccu_sensor_i2c_7_hw";
+				phandle = <0x8d>;
+				reg = <0x43>;
+				status = "okay";
+			};
+		};
+	};
+
+	fragment@49 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			#address-cells = <0x01>;
+			#size-cells = <0x00>;
+			clock-frequency = <0x61a80>;
+			mediatek,use-open-drain;
+		};
+	};
+
+	fragment@5 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+
+			lcd_bias_enn0_gpio {
+				phandle = <0x11>;
+
+				pins_cmd_dat {
+					output-low;
+					pinmux = <0xca00>;
+					slew-rate = <0x01>;
+				};
+			};
+
+			lcd_bias_enn1_gpio {
+				phandle = <0x10>;
+
+				pins_cmd_dat {
+					output-high;
+					pinmux = <0xca00>;
+					slew-rate = <0x01>;
+				};
+			};
+
+			lcd_bias_enp0_gpio {
+				phandle = <0x0f>;
+
+				pins_cmd_dat {
+					output-low;
+					pinmux = <0x1700>;
+					slew-rate = <0x01>;
+				};
+			};
+
+			lcd_bias_enp1_gpio {
+				phandle = <0x0e>;
+
+				pins_cmd_dat {
+					output-high;
+					pinmux = <0x1700>;
+					slew-rate = <0x01>;
+				};
+			};
+
+			lcm_dsi_te {
+				phandle = <0x14>;
+
+				pins_cmd_dat {
+					pinmux = <0x2b01>;
+				};
+			};
+
+			lcm_rst_out0_gpio {
+				phandle = <0x13>;
+
+				pins_cmd_dat {
+					output-low;
+					pinmux = <0x2c00>;
+					slew-rate = <0x01>;
+				};
+			};
+
+			lcm_rst_out1_gpio {
+				phandle = <0x12>;
+
+				pins_cmd_dat {
+					output-high;
+					pinmux = <0x2c00>;
+					slew-rate = <0x01>;
+				};
+			};
+		};
+	};
+
+	fragment@50 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			#address-cells = <0x01>;
+			#size-cells = <0x00>;
+			clock-frequency = <0x33e140>;
+			mediatek,use-open-drain;
+
+			vproc_buck@6b {
+				compatible = "mediatek,vproc_buck";
+				phandle = <0x8e>;
+				reg = <0x6b>;
+				status = "okay";
+			};
+		};
+	};
+
+	fragment@51 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			GPIO_FDD_BAND_SUPPORT_DETECT_1ST_PIN = <0xffffffff 0x57 0x00>;
+			GPIO_FDD_BAND_SUPPORT_DETECT_2ND_PIN = <0xffffffff 0x58 0x00>;
+			GPIO_FDD_BAND_SUPPORT_DETECT_3RD_PIN = <0xffffffff 0x4a 0x00>;
+			GPIO_FDD_BAND_SUPPORT_DETECT_4TH_PIN = <0xffffffff 0x49 0x00>;
+			GPIO_SIM1_HOT_PLUG = <0xffffffff 0x8c 0x00>;
+			GPIO_SIM1_SCLK = <0xffffffff 0x82 0x00>;
+			GPIO_SIM1_SIO = <0xffffffff 0x80 0x00>;
+			GPIO_SIM1_SRST = <0xffffffff 0x81 0x00>;
+			GPIO_SIM2_HOT_PLUG = <0xffffffff 0x8d 0x00>;
+			GPIO_SIM2_SCLK = <0xffffffff 0x83 0x00>;
+			GPIO_SIM2_SIO = <0xffffffff 0x85 0x00>;
+			GPIO_SIM2_SRST = <0xffffffff 0x84 0x00>;
+		};
+	};
+
+	fragment@52 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			gpio_init_default = <0x00 0x00 0x00 0x00 0x01 0x01 0x01 0x01 0x00 0x00 0x00 0x01 0x01 0x01 0x02 0x00 0x01 0x00 0x00 0x00 0x01 0x03 0x07 0x00 0x00 0x01 0x00 0x01 0x04 0x00 0x00 0x00 0x01 0x00 0x01 0x05 0x00 0x00 0x00 0x00 0x00 0x01 0x06 0x00 0x01 0x00 0x00 0x00 0x01 0x07 0x00 0x00 0x00 0x01 0x01 0x01 0x08 0x00 0x00 0x00 0x01 0x01 0x01 0x09 0x00 0x00 0x00 0x01 0x00 0x01 0x0a 0x00 0x00 0x00 0x01 0x00 0x01 0x0b 0x00 0x00 0x00 0x01 0x01 0x01 0x0c 0x00 0x01 0x00 0x00 0x00 0x00 0x0d 0x00 0x01 0x00 0x00 0x00 0x00 0x0e 0x00 0x01 0x00 0x00 0x00 0x00 0x0f 0x00 0x01 0x00 0x00 0x00 0x00 0x10 0x00 0x00 0x00 0x01 0x01 0x01 0x11 0x01 0x00 0x00 0x00 0x00 0x00 0x12 0x01 0x01 0x00 0x00 0x00 0x00 0x13 0x01 0x01 0x00 0x00 0x00 0x00 0x14 0x01 0x01 0x00 0x00 0x00 0x00 0x15 0x03 0x01 0x00 0x00 0x00 0x00 0x16 0x00 0x01 0x01 0x00 0x00 0x00 0x17 0x00 0x01 0x00 0x00 0x00 0x00 0x18 0x00 0x01 0x00 0x00 0x00 0x00 0x19 0x01 0x00 0x00 0x01 0x00 0x00 0x1a 0x00 0x01 0x00 0x00 0x00 0x00 0x1c 0x01 0x00 0x00 0x01 0x01 0x01 0x1d 0x01 0x00 0x00 0x01 0x01 0x01 0x1e 0x00 0x01 0x00 0x00 0x00 0x00 0x1f 0x00 0x01 0x00 0x00 0x00 0x00 0x20 0x00 0x01 0x00 0x00 0x00 0x00 0x21 0x00 0x00 0x00 0x01 0x00 0x00 0x22 0x00 0x01 0x00 0x00 0x00 0x00 0x23 0x06 0x00 0x00 0x01 0x00 0x00 0x24 0x06 0x00 0x00 0x00 0x00 0x00 0x25 0x06 0x00 0x00 0x01 0x00 0x00 0x26 0x06 0x01 0x00 0x00 0x00 0x00 0x27 0x06 0x00 0x00 0x01 0x00 0x00 0x28 0x06 0x00 0x00 0x01 0x00 0x00 0x29 0x06 0x00 0x00 0x01 0x00 0x00 0x2a 0x01 0x01 0x00 0x00 0x00 0x00 0x2b 0x01 0x00 0x00 0x01 0x00 0x00 0x2c 0x00 0x01 0x00 0x00 0x00 0x00 0x2d 0x01 0x00 0x00 0x01 0x01 0x01 0x2e 0x01 0x00 0x00 0x01 0x01 0x01 0x2f 0x01 0x00 0x00 0x01 0x00 0x00 0x30 0x01 0x01 0x00 0x00 0x00 0x00 0x31 0x01 0x01 0x00 0x00 0x00 0x00 0x32 0x01 0x01 0x00 0x00 0x00 0x00 0x33 0x01 0x00 0x00 0x01 0x01 0x01 0x34 0x01 0x00 0x00 0x01 0x01 0x01 0x35 0x01 0x00 0x00 0x01 0x01 0x00 0x36 0x01 0x01 0x01 0x00 0x00 0x00 0x37 0x01 0x00 0x00 0x01 0x01 0x01 0x38 0x01 0x00 0x00 0x01 0x01 0x01 0x39 0x00 0x00 0x00 0x01 0x00 0x00 0x3a 0x00 0x00 0x00 0x01 0x00 0x00 0x3b 0x01 0x00 0x00 0x01 0x01 0x00 0x3c 0x01 0x00 0x00 0x01 0x01 0x00 0x3d 0x02 0x00 0x00 0x01 0x01 0x01 0x3e 0x02 0x00 0x00 0x01 0x01 0x01 0x3f 0x02 0x00 0x00 0x01 0x00 0x00 0x40 0x02 0x01 0x00 0x00 0x00 0x00 0x41 0x02 0x01 0x00 0x00 0x00 0x00 0x42 0x02 0x01 0x00 0x00 0x00 0x00 0x43 0x00 0x00 0x00 0x00 0x00 0x01 0x44 0x00 0x00 0x00 0x00 0x00 0x01 0x45 0x00 0x00 0x00 0x01 0x01 0x01 0x46 0x01 0x00 0x00 0x01 0x00 0x00 0x47 0x01 0x01 0x00 0x00 0x00 0x01 0x48 0x01 0x00 0x00 0x01 0x00 0x00 0x49 0x00 0x00 0x00 0x00 0x00 0x00 0x4a 0x00 0x00 0x00 0x00 0x00 0x00 0x4b 0x01 0x00 0x00 0x01 0x00 0x00 0x4c 0x01 0x00 0x00 0x01 0x00 0x00 0x4d 0x01 0x00 0x00 0x01 0x00 0x00 0x4e 0x01 0x00 0x00 0x01 0x00 0x00 0x4f 0x01 0x00 0x00 0x01 0x00 0x00 0x50 0x01 0x00 0x00 0x01 0x00 0x00 0x51 0x01 0x00 0x00 0x01 0x00 0x00 0x52 0x01 0x00 0x00 0x01 0x00 0x00 0x53 0x01 0x00 0x00 0x01 0x00 0x00 0x54 0x01 0x00 0x00 0x01 0x00 0x00 0x55 0x01 0x00 0x00 0x01 0x00 0x00 0x56 0x01 0x00 0x00 0x01 0x00 0x00 0x57 0x00 0x00 0x00 0x00 0x00 0x00 0x58 0x00 0x00 0x00 0x00 0x00 0x00 0x59 0x01 0x00 0x00 0x01 0x00 0x00 0x5a 0x01 0x00 0x00 0x01 0x00 0x00 0x5b 0x01 0x00 0x00 0x01 0x00 0x00 0x5c 0x01 0x00 0x00 0x01 0x00 0x00 0x5d 0x01 0x00 0x00 0x01 0x00 0x00 0x5e 0x01 0x00 0x00 0x01 0x00 0x00 0x5f 0x01 0x00 0x00 0x01 0x00 0x00 0x60 0x01 0x00 0x00 0x01 0x00 0x00 0x61 0x01 0x00 0x00 0x01 0x00 0x00 0x62 0x01 0x00 0x00 0x01 0x00 0x00 0x63 0x01 0x00 0x00 0x01 0x00 0x00 0x64 0x01 0x00 0x00 0x01 0x00 0x00 0x65 0x01 0x00 0x00 0x01 0x00 0x00 0x66 0x01 0x00 0x00 0x01 0x00 0x00 0x67 0x01 0x00 0x00 0x01 0x00 0x00 0x68 0x01 0x00 0x00 0x01 0x00 0x00 0x69 0x01 0x00 0x00 0x01 0x00 0x00 0x6a 0x01 0x00 0x00 0x01 0x00 0x00 0x6b 0x01 0x00 0x00 0x01 0x00 0x00 0x6c 0x01 0x00 0x00 0x01 0x00 0x00 0x6d 0x00 0x00 0x00 0x00 0x00 0x00 0x6e 0x01 0x00 0x00 0x01 0x01 0x01 0x6f 0x01 0x00 0x00 0x01 0x01 0x01 0x70 0x01 0x00 0x00 0x01 0x01 0x01 0x71 0x01 0x00 0x00 0x01 0x01 0x01 0x72 0x00 0x01 0x00 0x00 0x00 0x00 0x73 0x00 0x01 0x00 0x00 0x00 0x00 0x74 0x01 0x01 0x00 0x00 0x00 0x00 0x75 0x01 0x01 0x00 0x00 0x00 0x00 0x76 0x00 0x01 0x00 0x00 0x00 0x00 0x77 0x00 0x01 0x00 0x00 0x00 0x00 0x78 0x01 0x01 0x00 0x00 0x00 0x00 0x79 0x01 0x01 0x00 0x00 0x00 0x00 0x7a 0x00 0x01 0x00 0x00 0x00 0x00 0x7b 0x00 0x01 0x00 0x00 0x00 0x00 0x7c 0x00 0x01 0x00 0x00 0x00 0x00 0x7d 0x00 0x01 0x00 0x00 0x00 0x00 0x7e 0x00 0x01 0x00 0x00 0x00 0x00 0x7f 0x00 0x01 0x00 0x00 0x00 0x00 0x80 0x01 0x00 0x00 0x01 0x01 0x01 0x81 0x01 0x01 0x00 0x00 0x00 0x01 0x82 0x01 0x01 0x00 0x00 0x00 0x01 0x83 0x01 0x01 0x00 0x00 0x00 0x01 0x84 0x01 0x01 0x00 0x00 0x00 0x01 0x85 0x01 0x00 0x00 0x01 0x01 0x01 0x86 0x01 0x01 0x00 0x00 0x00 0x01 0x87 0x01 0x00 0x00 0x01 0x01 0x01 0x88 0x01 0x00 0x00 0x01 0x01 0x01 0x89 0x01 0x00 0x00 0x01 0x01 0x01 0x8a 0x01 0x00 0x00 0x01 0x01 0x01 0x8b 0x01 0x00 0x00 0x01 0x01 0x01 0x8c 0x01 0x00 0x00 0x01 0x01 0x01 0x8d 0x01 0x00 0x00 0x01 0x01 0x01 0x8e 0x01 0x01 0x00 0x00 0x00 0x00 0x8f 0x01 0x01 0x00 0x00 0x00 0x01 0x90 0x01 0x01 0x00 0x00 0x00 0x01 0x91 0x01 0x01 0x00 0x00 0x00 0x01 0x92 0x01 0x00 0x00 0x01 0x00 0x01 0x93 0x00 0x00 0x00 0x01 0x00 0x00 0x94 0x00 0x00 0x00 0x01 0x00 0x00 0x95 0x00 0x00 0x00 0x01 0x00 0x00 0x96 0x01 0x01 0x00 0x00 0x00 0x00 0x97 0x01 0x00 0x00 0x01 0x01 0x01 0x98 0x01 0x00 0x00 0x01 0x01 0x01 0x99 0x01 0x01 0x00 0x01 0x01 0x00 0x9a 0x00 0x00 0x00 0x01 0x00 0x00 0x9b 0x00 0x01 0x00 0x00 0x00 0x00 0x9c 0x00 0x01 0x00 0x00 0x00 0x00 0x9d 0x00 0x01 0x00 0x00 0x00 0x00 0x9e 0x00 0x01 0x00 0x00 0x00 0x00 0x9f 0x00 0x01 0x00 0x00 0x00 0x00 0xa0 0x00 0x01 0x00 0x00 0x00 0x00 0xa1 0x00 0x01 0x00 0x00 0x00 0x00 0xa2 0x00 0x01 0x00 0x00 0x00 0x00 0xa3 0x00 0x01 0x00 0x00 0x00 0x00 0xa4 0x00 0x01 0x00 0x00 0x00 0x00 0xa5 0x01 0x01 0x00 0x01 0x01 0x00 0xa6 0x01 0x00 0x00 0x01 0x01 0x00 0xb3 0x01 0x00 0x00 0x01 0x00 0x00 0xb4 0x01 0x00 0x00 0x01 0x00 0x00 0xb5 0x01 0x01 0x00 0x00 0x00 0x00 0xb6 0x01 0x01 0x00 0x00 0x00 0x00 0xb7 0x01 0x01 0x00 0x00 0x00 0x00 0xb8 0x01 0x00 0x00 0x01 0x00 0x00 0xb9 0x01 0x01 0x00 0x00 0x00 0x00 0xba 0x01 0x00 0x00 0x01 0x00 0x00 0xbb 0x01 0x01 0x00 0x00 0x00 0x00 0xbc 0x01 0x00 0x00 0x01 0x00 0x01 0xbd 0x01 0x01 0x00 0x00 0x00 0x01 0xbe 0x01 0x01 0x00 0x00 0x00 0x01 0xbf 0x01 0x01 0x00 0x00 0x00 0x01 0xc0 0x01 0x01 0x00 0x00 0x00 0x01 0xc1 0x01 0x00 0x00 0x01 0x00 0x01 0xc2 0x01 0x00 0x00 0x01 0x00 0x01 0xc3 0x00 0x01 0x00 0x00 0x00 0x00 0xc4 0x01 0x01 0x00 0x00 0x00 0x00 0xc5 0x00 0x01 0x00 0x00 0x00 0x00 0xc6 0x01 0x00 0x00 0x01 0x01 0x01 0xc7 0x01 0x00 0x00 0x01 0x01 0x01 0xc8 0x01 0x00 0x00 0x01 0x01 0x00 0xc9 0x01 0x01 0x00 0x00 0x00 0x00 0xca 0x00 0x01 0x00 0x00 0x00 0x00 0xcb 0x00 0x00 0x00 0x01 0x00 0x00 0xcc 0x00 0x00 0x00 0x01 0x00 0x00 0xcd 0x00 0x00 0x00 0x01 0x00 0x00 0xce 0x00 0x00 0x00 0x01 0x00 0x00 0xcf 0x00 0x00 0x00 0x01 0x00 0x00 0xd0 0x00 0x00 0x00 0x01 0x00 0x00 0xd1 0x00 0x00 0x00 0x01 0x00 0x00 0xd2 0x00 0x00 0x00 0x01 0x00 0x00>;
+		};
+	};
+
+	fragment@53 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			deb-gpios = <0xffffffff 0x00 0x00>;
+			debounce = <0x7d000>;
+			interrupt-parent = <0xffffffff>;
+			interrupts = <0x00 0x08 0x00 0x00>;
+			status = "okay";
+		};
+	};
+
+	fragment@54 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			interrupt-parent = <0xffffffff>;
+			interrupts = <0x01 0x02 0x01 0x00>;
+			status = "okay";
+		};
+	};
+
+	fragment@55 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			interrupt-parent = <0xffffffff>;
+			interrupts = <0x05 0x04 0x05 0x00>;
+			status = "okay";
+		};
+	};
+
+	fragment@56 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			interrupt-parent = <0xffffffff>;
+			interrupts = <0x07 0x02 0x07 0x00>;
+			status = "okay";
+		};
+	};
+
+	fragment@57 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			interrupt-parent = <0xffffffff>;
+			interrupts = <0x08 0x08 0x08 0x00>;
+			status = "okay";
+		};
+	};
+
+	fragment@58 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			interrupt-parent = <0xffffffff>;
+			interrupts = <0x10 0x02 0x10 0x00>;
+			status = "okay";
+		};
+	};
+
+	fragment@59 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			interrupt-parent = <0xffffffff>;
+			interrupts = <0x2b 0x01 0x2b 0x01>;
+			status = "okay";
+		};
+	};
+
+	fragment@6 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			status = "okay";
+			vcamaf-supply = <0xffffffff>;
+		};
+	};
+
+	fragment@60 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			interrupt-parent = <0xffffffff>;
+			interrupts = <0x45 0x08 0x45 0x00>;
+			status = "okay";
+		};
+	};
+
+	fragment@61 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			interrupt-parent = <0xffffffff>;
+			interrupts = <0x4b 0x02 0x4b 0x01>;
+			status = "okay";
+		};
+	};
+
+	fragment@62 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			deb-gpios = <0xffffffff 0x6d 0x00>;
+			debounce = <0x7d000>;
+			interrupt-parent = <0xffffffff>;
+			interrupts = <0x6d 0x04 0x6d 0x00>;
+			status = "okay";
+		};
+	};
+
+	fragment@63 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			interrupt-parent = <0xffffffff>;
+			interrupts = <0xc1 0x04 0xd1 0x00>;
+			status = "okay";
+		};
+	};
+
+	fragment@64 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			compatible = "mediatek,md1_sim1_hot_plug_eint-eint";
+			debounce = <0x00 0xc350>;
+			dedicated = <0x00 0x00>;
+			interrupts = <0x00 0x08>;
+			sockettype = <0x00 0x00>;
+			src_pin = <0x00 0x01>;
+			status = "okay";
+		};
+	};
+
+	fragment@65 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			compatible = "mediatek,md1_sim2_hot_plug_eint-eint";
+			debounce = <0x01 0xc350>;
+			dedicated = <0x01 0x00>;
+			interrupts = <0x01 0x08>;
+			sockettype = <0x01 0x00>;
+			src_pin = <0x01 0x02>;
+			status = "okay";
+		};
+	};
+
+	fragment@66 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			regulator-default-on = <0x01>;
+			regulator-name = "vcamio";
+			status = "okay";
+		};
+	};
+
+	fragment@67 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			status = "okay";
+			vcamaf-supply = <0xffffffff>;
+			vcamaf_main2-supply = <0xffffffff>;
+			vcamio-supply = <0xffffffff>;
+			vcamio_main2-supply = <0xffffffff>;
+			vcamio_sub-supply = <0xffffffff>;
+		};
+	};
+
+	fragment@68 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			status = "okay";
+			vtouch-supply = <0x62>;
+		};
+	};
+
+	fragment@69 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			mediatek,kpd-hw-dl-key0 = <0x11>;
+			mediatek,kpd-hw-dl-key1 = <0x01>;
+			mediatek,kpd-hw-dl-key2 = <0x08>;
+			mediatek,kpd-hw-init-map = <0x00 0x72 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00>;
+			mediatek,kpd-hw-map-num = <0x48>;
+			mediatek,kpd-hw-pwrkey = <0x08>;
+			mediatek,kpd-hw-recovery-key = <0x01>;
+			mediatek,kpd-hw-rstkey = <0x11>;
+			mediatek,kpd-key-debounce = <0x400>;
+			mediatek,kpd-pwkey-gpio-din = <0x00>;
+			mediatek,kpd-pwrkey-eint-gpio = <0x00>;
+			mediatek,kpd-sw-pwrkey = <0x74>;
+			mediatek,kpd-sw-rstkey = <0x73>;
+			mediatek,kpd-use-extend-type = <0x00>;
+			status = "okay";
+		};
+	};
+
+	fragment@7 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+
+			ldo2 {
+				phandle = <0x62>;
+				regulator-always-on;
+				regulator-compatible = "LDO2";
+				regulator-default-on = <0x01>;
+				regulator-max-microvolt = <0x36ee80>;
+				regulator-min-microvolt = <0x124f80>;
+				regulator-name = "vtp";
+				status = "okay";
+			};
+		};
+	};
+
+	fragment@8 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			oplus_display_twelvebits_support;
+			pinctrl-0 = <0x0e>;
+			pinctrl-1 = <0x0f>;
+			pinctrl-2 = <0x10>;
+			pinctrl-3 = <0x11>;
+			pinctrl-4 = <0x12>;
+			pinctrl-5 = <0x13>;
+			pinctrl-6 = <0x14>;
+			pinctrl-names = "lcd_bias_enp1_gpio\0lcd_bias_enp0_gpio\0lcd_bias_enn1_gpio\0lcd_bias_enn0_gpio\0lcm_rst_out1_gpio\0lcm_rst_out0_gpio\0mode_te_te";
+			status = "okay";
+		};
+	};
+
+	fragment@9 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			pinctrl-0 = <0x12>;
+			pinctrl-1 = <0x13>;
+			pinctrl-2 = <0x14>;
+			pinctrl-names = "lcm_rst_out1_gpio\0lcm_rst_out0_gpio\0mode_te_te";
+			status = "okay";
+		};
+	};
+};
