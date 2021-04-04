@@ -1,0 +1,15 @@
+libOpenCL.so
+libnir_neon_driver_ndk.mtk.so
+libcmdl_ndk.mtk.so
+libarmnn_ndk.mtk.so
+libAlgoProcess.so
+libAncHumBokeh.so
+libstblur_api.so
+libAncHumVideoBase.so
+libmtkisp_metadata.so
+vendor.mediatek.hardware.camera.isphal@1.0.so
+libmidasserviceintf.so
+libarcsoft_scbokeh_video.so
+libarcsoft_dualcam_wt_calibration.so
+libarcsoft_dualcam_wt_verification.so
+libcalibverifyW_T.so
