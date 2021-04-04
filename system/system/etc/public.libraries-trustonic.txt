@@ -1,0 +1,5 @@
+libteeservice_client.trustonic.so
+libAPSClient-jni.trustonic.so
+libAncHumBokeh-jni.trustonic.so
+libAncHumanVideo-jni.trustonic.so
+libjnistblur_api.trustonic.so
