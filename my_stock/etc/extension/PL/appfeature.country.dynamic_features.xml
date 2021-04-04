@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<extend_features>
+    <app_feature name="com.android.phone.no_display_record" />
+    <app_feature name="com.android.incallui.no_display_record" />
+    <app_feature name="com.oplus.soundrecorder.no_display_record"/>
+    <app_feature name="com.android.server.telecom.show_cf_toast" />
+    <app_feature name="com.android.phone.simsettings.show_lte_replace_4g" />
+    <app_feature name="com.android.phone.show_lte_replace_4g" />
+    <app_feature name="com.android.mms.sms_input_mode" />
+    <app_feature name="com.android.phone.show_cf_toast" />
+</extend_features>

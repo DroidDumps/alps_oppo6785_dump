@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+    <app_feature name="com.coloros.sau.url" args="String:https://ifsau-eu.coloros.com/post/"/>
+    <app_feature name="com.coloros.sau.downloadByDialog"  args="boolean:true"/>
+    <app_feature name="com.colros.sau.packageChange" args="boolean:true"/>
+    <app_feature name="com.colros.sau.forbidSilent" args="boolean:true"/>
+    <app_feature name="com.colros.sau.showToast" args="boolean:true"/>
+    <app_feature name="com.colros.sau.popUpDialog" args="boolean:true"/>
+    
+    <!-- WangGuorui@ANDROID.UPDATABILITY, 2020/10/30 ,Add for change coloros to oplusos -->
+    <app_feature name="com.oplusos.sau.url" args="String:https://ifsau-eu.coloros.com/post/"/>
+    <app_feature name="com.oplusos.sau.downloadByDialog"  args="boolean:true"/>
+    <app_feature name="com.oplusos.sau.packageChange" args="boolean:true"/>
+    <app_feature name="com.oplusos.sau.forbidSilent" args="boolean:true"/>
+    <app_feature name="com.oplusos.sau.showToast" args="boolean:true"/>
+    <app_feature name="com.oplusos.sau.popUpDialog" args="boolean:true"/>
+    <app_feature name="com.oplusos.sau.print_log" args="boolean:false"/>
+
+</extend_features>

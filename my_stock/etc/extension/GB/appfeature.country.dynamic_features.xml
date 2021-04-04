@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<extend_features>
+    <app_feature name="com.android.incallui.play_busy_tone" />
+    <app_feature name="com.android.server.telecom.show_cf_toast" />
+    <app_feature name="com.android.server.telecom.play_busy_tone" />
+    <app_feature name="com.android.phone.show_cf_toast" />
+</extend_features>

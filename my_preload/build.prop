@@ -1,0 +1,6 @@
+# build porp start
+ro.oplus.image.my_preload.version=0.0.1.202103081654511268556
+ro.oplus.image.my_preload.type=GDPR_20732_Realme
+ro.oplus.image.my_preload.date=2021-03-08 16:56:17
+ro.oplus.image.my_preload.date.utc=1615193777
+ro.oplus.preload.custom=1.0.21_UA

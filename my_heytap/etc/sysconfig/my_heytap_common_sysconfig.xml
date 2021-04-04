@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- These are configurations that must exist on all GMS devices. -->
+<config>
+    <!--#ifdef OPLUS_FEATURE_SPLIT_WHITELIST-->
+    <!-- TangLinggang@ANDROID.PMS,2020/07/01,Add for Oplus R+8 Arch Example,add all sysconfig in here except permission -->
+    <!-- <app-link package="com.oppo.example" /> -->
+    <!-- <allow-in-power-save package="com.oppo.example" /> -->
+    <!-- <allow-in-data-usage-save package="com.oppo.example" /> -->
+    <!-- <hidden-api-whitelisted-app package="com.oppo.example" /> -->
+    <!--#endif OPLUS_FEATURE_SPLIT_WHITELIST-->
+    <!--ZhaoJi.Yang@NW.DATA,2019/11/19,add for allow cu auto register to access hidden api since cu test request -->
+</config>

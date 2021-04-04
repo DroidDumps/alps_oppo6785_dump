@@ -1,0 +1,3 @@
+com.oppo.quicksearchbox:GlobalSearch.apk::false
+com.android.email.partnerprovider:EmailPartnerProvider.apk::false
+com.android.providers.partnerbookmarks:ChromePartnerProvider.apk::false

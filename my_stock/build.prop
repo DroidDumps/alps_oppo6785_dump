@@ -1,0 +1,8 @@
+# build porp start
+ro.oplus.image.my_stock.version=11.2.11.202103101113351284135
+ro.oplus.image.my_stock.type=GDPR_Realme
+ro.oplus.image.my_stock.date=2021-03-10 11:15:48
+ro.oplus.image.my_stock.date.utc=1615346148
+ro.oem.key1=pub
+ro.product.brand.ui=realmeUI
+sys.disable_bootvideo=1

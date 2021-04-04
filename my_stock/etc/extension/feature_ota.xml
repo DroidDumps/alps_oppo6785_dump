@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!--component update url ,default:""-->
+    <app_feature name="com.oppo.ota.component_update_url" args="String:https://component-ota-eu.coloros.com"/>
+    <!--check update url ,default:""-->
+    <app_feature name="com.oppo.ota.url" args="String:https://ifota-eu.coloros.com/post/"/>
+    <!--realme check update url ,default:""-->
+    <app_feature name="com.oppo.ota.realme_url" args="String:https://ifota-eu.realmemobile.com/post/"/>
+    <!--show_appointment_entry ,default:true-->
+    <app_feature name="com.oppo.ota.show_appointment_entry" args="boolean:false"/>
+    <!--cellular_download_choice_type ,default:1-->
+    <app_feature name="com.oppo.ota.cellular_download_choice_type" args="int:1"/>
+    <!--show_version_type ,default:1-->
+    <app_feature name="com.oppo.ota.show_version_type" args="int:2"/>
+    <!--print otaVersion switch ,default:false-->
+    <app_feature name="com.oplus.ota.print_log" args="boolean:false"/>
+	<!-- to distinguish whether the rom is exp -->
+	<app_feature name="com.oplus.ota.is_exp" args="boolean:true"/>
+</extend_features>

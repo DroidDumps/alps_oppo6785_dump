@@ -1,0 +1,3 @@
+name="BookmarkProvider.apk" info_1="609343c51bbce9849561f1d6d36983e7" info_2="7d822fa38ee4143c247579c7cd1775f8" location="app/BookmarkProvider/BookmarkProvider.apk"
+name="ChromePartnerProvider.apk" info_1="737bfa449bcb3eda3736a87d00cca982" info_2="65b55f10bf2d77dc8a5aa58d8d8a18d0" location="app/ChromePartnerProvider/ChromePartnerProvider.apk"
+name="EmailPartnerProvider.apk" info_1="737bfa449bcb3eda3736a87d00cca982" info_2="65b55f10bf2d77dc8a5aa58d8d8a18d0" location="app/EmailPartnerProvider/EmailPartnerProvider.apk"

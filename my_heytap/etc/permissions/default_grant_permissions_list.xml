@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packages>
+    <default-grant-permissions package="com.heytap.market" >
+        <!-- storge -->
+        <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="true"/>
+        <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="true"/>
+        <!-- phone -->
+        <permission name="android.permission.CALL_PHONE"/>
+        <permission name="android.permission.READ_CALL_LOG"/>
+        <permission name="android.permission.WRITE_CALL_LOG"/>
+        <permission name="com.android.voicemail.permission.ADD_VOICEMAIL"/>
+        <permission name="android.permission.USE_SIP"/>
+        <permission name="android.permission.PROCESS_OUTGOING_CALLS"/>
+        <permission name="android.permission.READ_PHONE_STATE"/>
+    </default-grant-permissions>
+
+    <default-grant-permissions package="com.heytap.accessory" >
+        <permission name="android.permission.ACCESS_FINE_LOCATION"/>
+        <permission name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+    </default-grant-permissions>
+</packages>

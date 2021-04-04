@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<extend_features>
+    <app_feature name="com.android.phone.no_display_record" />
+    <app_feature name="com.android.incallui.no_display_record" />
+    <app_feature name="com.oplus.soundrecorder.no_display_record"/>
+    <app_feature name="com.android.incallui.play_busy_tone" />
+    <app_feature name="com.android.server.telecom.play_busy_tone" />
+    <app_feature name="com.android.phone.simsettings.check_location_status_for_vowifi" />
+    <app_feature name="com.android.settings.show_wfc_dialog" />
+</extend_features>

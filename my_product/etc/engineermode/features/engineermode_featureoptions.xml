@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<features>
+    <!-- BSP feature -->
+    <feature name="com.oppo.eng.otg.support" />
+    <feature name="com.oppo.eng.sdcard.support" />
+    <feature name="com.oppo.eng.type.c.support" />
+    <feature name="com.oppo.eng.vooc.charger.support" />
+    <feature name="com.oppo.eng.pd.charger.support" />
+    <feature name="com.oppo.eng.charger.output.current.support" />
+    <feature name="com.oppo.eng.smallboard.detect.support" />
+    <feature name="com.oppo.eng.a.smallboard.detect.support" />
+    <feature name="com.oppo.eng.charger.id.voltage.support" />
+    <feature name="com.oppo.eng.ship.mode.support" />
+    <feature name="com.oppo.eng.drm.widevine.support" />
+
+    <!-- Android feature -->
+    <feature name="com.oppo.eng.vc.thermal.monitor.support" />
+    <feature name="com.oppo.eng.exp.platform" />
+    <feature name="com.oppo.eng.navigation.bar.support" />
+
+    <!-- normal charge -->
+    <feature name="com.oppo.eng.normal.charge.current.slow.range" value="(-2300,-200)" />
+    <feature name="com.oppo.eng.normal.charge.current.range" value="(-2300,-500)" />
+    <feature name="com.oppo.eng.normal.charger.voltage.range" value="[4250,5500]" />
+    <feature name="com.oppo.eng.normal.battery.temperate.range" value="[150,450]"/>
+    <feature name="com.oppo.eng.normal.battery.voltage.range" value="[3500,4550]"/>
+
+    <!-- for vooc 30w -->
+    <feature name="com.oppo.eng.vooc.battery.voltage.range" value="[3500,4550]"/>
+    <feature name="com.oppo.eng.vooc.battery.temperate.range" value="[150,450]"/>
+    <feature name="com.oppo.eng.vooc.charge.current.range" value="(-6500,-2000)"/>
+    <feature name="com.oppo.eng.vooc.charge.current.slow.range" value="(-6500,-1400)"/>
+</features>

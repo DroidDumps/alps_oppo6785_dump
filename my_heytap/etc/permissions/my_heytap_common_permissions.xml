@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- These are configurations that must exist on all GMS devices. -->
+<permissions>
+    <!--#ifdef OPLUS_FEATURE_SPLIT_WHITELIST-->
+    <!-- TangLinggang@ANDROID.PMS,2020/07/01,Add for Oplus R+8 Arch Example,add (not priv)permission in here -->
+    <!-- <permission name="android.permission.example"> -->
+    <!--     <group gid="audio"/> -->
+    <!-- </permission> -->
+    <!--#endif OPLUS_FEATURE_SPLIT_WHITELIST-->
+</permissions>

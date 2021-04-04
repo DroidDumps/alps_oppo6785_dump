@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<extend_features>
+    <app_feature name="com.android.incallui.harass_intercept_off" />
+    <app_feature name="com.android.mms.cellbroadcast_show" />
+    <app_feature name="com.android.contacts.support_ride_mode"/>
+</extend_features>

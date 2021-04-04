@@ -1,0 +1,6 @@
+<oplus-config>
+  <!-- gouwei@realmeUI, 2020/10/29, add for freeze-->
+  <oplus-feature name="oplus.software.forwardly_freeze" />
+  <!-- Qiu.Yu@ANDROID.UIFramework,2020.06.28,Add for uxicon exp. -->
+  <oplus-feature name="oplus.software.uxicon_exp" />
+</oplus-config>

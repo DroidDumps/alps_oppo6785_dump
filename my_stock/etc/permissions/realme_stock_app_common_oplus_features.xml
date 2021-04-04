@@ -1,0 +1,7 @@
+<oplus-config>
+  <!-- mazhiqiang@realmeUI, 2020/10/14, add for feature list optimize -->
+  <oplus-feature name="oplus.software.list_optimize" />
+  <!-- mazhiqiang@realmeUI, 2020/10/14, add for feature super sleep -->
+  <oplus-feature name="oplus.software.super_sleep" />
+  
+</oplus-config>

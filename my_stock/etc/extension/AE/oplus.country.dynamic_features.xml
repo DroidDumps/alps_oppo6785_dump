@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<oplus-config>
+  <oplus-feature name="oplus.software.readonly_test_a" />
+  <oplus-feature name="oplus.software.readonly_test_b" />
+  <unavailable-oplus-feature name="oplus.software.readonly_test_c" />
+</oplus-config>

@@ -1,0 +1,5 @@
+
+<oplus-config>
+  <oplus-feature name="oplus.software.fingeprint_optical_enabled"/>
+  <oplus-feature name="oplus.software.face_nopowerblock"/>
+</oplus-config>

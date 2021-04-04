@@ -1,0 +1,27 @@
+<!-- This file is auto-generated.  DO NOT MODIFY. -->
+<!-- COLOR_EDIT.  add oppo.screen.hovering.support ;remove oppo.narrow.frame -->
+<permissions>
+    <!-- ifdef VENDOR_EDIT -->
+    <!-- Haifeng.zhu@AD.Fingerprint.1952414, 2019/06/20, add for fingerpirnt feature -->
+    <feature name="android.hardware.fingerprint" />
+    <feature name="oppo.back.touch.fingerprint.sensor" />
+    <!--feature name="oppo.hardware.fingerprint.optical.support" /-->
+    <!-- endif VENDOR_EDIT -->
+    <!-- ifdef VENDOR_EDIT -->
+    <!-- Wenfeng.Li@PSW.AD.OppoFeature.CommonSoft.0, 2019/01/29, Add for channel delete with app -->
+    <feature name="oppo.user.delete.channel.support"/>
+    <!-- endif VENDOR_EDIT -->
+    <!-- ifdef VENDOR_EDIT -->
+    <!-- LiTong@ROM.SystemUi.2403096, 2019/10/14, add for curved display, only for curved screen-->
+    <feature name="oppo.common.support.curved.display" />
+    <!-- endif VENDOR_EDIT -->
+    <!-- caobing@Swdp.Shanghai, 2019/02/05, Add for ovs smartmic support on 19065 -->
+    <!-- caobing@Swdp.Shanghai, 2019/03/29, Add for ovs three wakeup words support on 19065-->
+    <feature name="oppo.lcd.first.tp.last.support"/>
+    <!-- ifdef VENDOR_EDIT -->
+    <!-- Qiang.shao@PSW.AD.OppoFeature.0000, 2020/02/14, Add for screen sticking feature -->
+    <feature name="oppo.display.screen.sticking.support" />
+    <!-- endif VENDOR_EDIT -->
+    <!-- Enable Zero Touch Provisioning support. -->
+    <feature name="com.google.android.feature.ZERO_TOUCH" />
+</permissions>

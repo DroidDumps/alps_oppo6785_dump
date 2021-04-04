@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<extend_features>
+    <app_feature name="com.android.contacts.number_recognition" />
+    <app_feature name="com.android.mms.ted_smart_message_support" />
+    <app_feature name="com.android.mms.number_recognition" />
+    <app_feature name="com.oplus.number.recognition.number_recognition" />
+    <app_feature name="com.android.server.telecom.hangup_other_call_before_emergency_call" />
+    <app_feature name="com.android.contacts.number_recognition" />
+    <app_feature name="com.android.contacts.support_ride_mode"/>
+    <app_feature name="com.oplus.blacklistapp.number_recognition" />
+    <app_feature name="com.oplus.wirelesssettings.wifi_show_wfd_menu" />
+    <app_feature name="com.android.incallui.number_recognition" />
+    <app_feature name="com.android.phone.number_recognition" />
+    <app_feature name="com.android.settings.electronic_label"/>
+</extend_features>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <!--Engle.lu@ANDROID.CAMERA.App,2020/06/28,add for allow camera to access hidden api since preview request -->
+    <hidden-api-whitelisted-app package="com.oppo.camera" />
+</config>
